@@ -10,7 +10,7 @@ class Product(JsonSchemaMixin):
   iprcode: int
   cprcode: int
 #   data: CatchAll
-@dataclass_json
-@dataclass
-class ValueUpdate(JsonSchemaMixin):
-  items: List[Product]
+# @dataclass_json
+# @dataclass
+# class ValueUpdate(JsonSchemaMixin):
+#   items: List[Product]
