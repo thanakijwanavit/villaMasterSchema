@@ -1,6 +1,7 @@
 from dataclasses_json import dataclass_json, Undefined, CatchAll
 from dataclasses_jsonschema import JsonSchemaMixin
 from dataclasses import dataclass
+from typing import List
 
 
 @dataclass_json(undefined=Undefined.INCLUDE)
