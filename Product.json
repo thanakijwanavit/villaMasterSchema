@@ -1,34 +1,17 @@
 {
   "type": "object",
   "required": [
-    "items"
+    "iprcode",
+    "cprcode"
   ],
   "properties": {
-    "items": {
-      "type": "array",
-      "items": {
-        "$ref": "#/definitions/Product"
-      }
+    "iprcode": {
+      "type": "integer"
+    },
+    "cprcode": {
+      "type": "integer"
     }
   },
-  "description": "ValueUpdate(items: List[__main__.Product])",
-  "$schema": "http://json-schema.org/draft-06/schema#",
-  "definitions": {
-    "Product": {
-      "type": "object",
-      "required": [
-        "iprcode",
-        "cprcode"
-      ],
-      "properties": {
-        "iprcode": {
-          "type": "integer"
-        },
-        "cprcode": {
-          "type": "integer"
-        }
-      },
-      "description": "Product(iprcode: int, cprcode: int)"
-    }
-  }
+  "description": "Product(iprcode: int, cprcode: int)",
+  "$schema": "http://json-schema.org/draft-06/schema#"
 }
