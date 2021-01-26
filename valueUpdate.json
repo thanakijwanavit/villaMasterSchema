@@ -1,0 +1,34 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "definitions": {
+    "Product": {
+      "description": "Product(iprcode: int, cprcode: int)",
+      "properties": {
+        "cprcode": {
+          "type": "integer"
+        },
+        "iprcode": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "iprcode",
+        "cprcode"
+      ],
+      "type": "object"
+    }
+  },
+  "description": "ValueUpdate(items: List[__main__.Product])",
+  "properties": {
+    "items": {
+      "items": {
+        "$ref": "#/definitions/Product"
+      },
+      "type": "array"
+    }
+  },
+  "required": [
+    "items"
+  ],
+  "type": "object"
+}
