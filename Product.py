@@ -14,3 +14,6 @@ class Product(JsonSchemaMixin):
 @dataclass
 class ValueUpdate(JsonSchemaMixin):
   items: List[Product]
+
+def hello():
+  return 'hello'
