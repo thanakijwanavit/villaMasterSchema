@@ -1,0 +1,7 @@
+{'type': 'object',
+ 'required': ['brcode', 'cprcodes', 'format'],
+ 'properties': {'brcode': {'type': 'integer'},
+  'cprcodes': {'type': 'array', 'items': {'type': 'integer'}},
+  'format': {'type': 'string'}},
+ 'description': 'SingleBranchQuery(brcode: int, cprcodes: List[int], format: str)',
+ '$schema': 'http://json-schema.org/draft-06/schema#'}
