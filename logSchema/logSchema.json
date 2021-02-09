@@ -1,0 +1,32 @@
+{
+  "description": "log_type: hash_key, created_datetime: range_key, log_key,created_date: index",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "properties": {
+    "log_type": {
+      "type": "string"
+    },
+    "created_datetime": {
+      "type": "number"
+    },
+    "log_desc": {
+      "type": "string"
+    },
+    "log_key": {
+      "type": "string"
+    },
+    "req_object": {
+      "type": "object"
+    },
+    "res_object": {
+      "type": "object"
+    },
+    "created_date": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "log_type",
+    "created_datetime"
+  ]
+}
