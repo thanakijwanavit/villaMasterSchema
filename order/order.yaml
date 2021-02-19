@@ -2,6 +2,8 @@ $schema: http://json-schema.org/schema#
 properties:
   basketName:
     type: string
+  basketId:
+    type: string
   branchId:
     type: string
   orderId:
@@ -13,17 +15,15 @@ properties:
       properties:
         quantity:
           type: integer
-        sku:
-          type: string
+        cprcode:
+          type: integer
       required:
       - quantity
-      - sku
+      - cprcode
       type: object
     type: array
 required:
-- basketName
-- branchId
+- basketId
 - orderId
 - ownerId
-- productList
 type: object
