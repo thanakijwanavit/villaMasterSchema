@@ -19,6 +19,8 @@ properties:
           type: integer
         cprcode:
           type: integer
+        settlementPrice:
+          type: number
       required:
       - quantity
       - cprcode
