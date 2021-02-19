@@ -12,6 +12,8 @@ properties:
     type: string
   isPaid:
     type: boolean
+  paymentId:
+    type: integer
   productList:
     items:
       properties:
