@@ -1,0 +1,13 @@
+$schema: http://json-schema.org/schema#
+properties:
+  cprcode:
+    type: integer
+  djsflkdsjflk:
+    type: string
+  iprcode:
+    type: integer
+required:
+- cprcode
+- djsflkdsjflk
+- iprcode
+type: object
