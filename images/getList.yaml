@@ -1,0 +1,14 @@
+$schema: http://json-schema.org/schema#
+properties:
+  products:
+    items:
+      properties:
+        endpoint:
+          type: string
+      required:
+      - endpoint
+      type: object
+    type: array
+required:
+- products
+type: object
