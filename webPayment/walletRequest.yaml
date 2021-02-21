@@ -9,6 +9,6 @@ properties:
 required:
 - mobile
 - memberId
-- ownerId
+- orderId
 type: object
 
