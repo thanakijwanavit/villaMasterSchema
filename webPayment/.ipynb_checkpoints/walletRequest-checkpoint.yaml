@@ -1,0 +1,14 @@
+$schema: http://json-schema.org/schema#
+properties:
+  mobile:
+    type: string
+  memberId:
+    type: string
+  orderId:
+    type: string
+required:
+- mobile
+- memberId
+- ownerId
+type: object
+
