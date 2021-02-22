@@ -1,0 +1,10 @@
+data = {
+    "log_func": "pos-member-setMember",
+    "created_datetime": 1613029519.859296,
+    "log_type": "setMember",
+    "log_key": "001",
+    "log_desc": "set member",
+    "req_object": {"statusCode": 200, "message": "complete successfully", "data": "{}"},
+    "res_object": {"show": "", "otp": "", "Mobile1": "0618276222", "tm_sex": "M", "tm_firstname": "jirawut", "tm_lastname": "chayapong", "tm_birthdate": 17422214400.0, "tm_number": "31/1", "tm_soi": "sukhumvit s33", "tm_road": "sukhumvit rd", "tm_district": "", "tm_limits": "vadhana north", "tm_province": "bangkok", "tm_id_number": "1111111111111", "tm_refbrcode": "1000", "ref_tmrefcode": "", "res_rescode": "", "res_tmrefcode": "", "tm_code": "30010", "tm_refcode": "A00010", "phone": "0618276222", "lastUpdateTime": 1613029518.133865},
+    "created_date": 1613001600
+}
