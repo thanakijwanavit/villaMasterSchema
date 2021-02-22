@@ -1,0 +1,15 @@
+$schema: http://json-schema.org/schema#
+properties:
+  mobile:
+    type: string
+    description: mobile number of customer
+  memberId:
+    type: string
+  orderId:
+    type: string
+required:
+- mobile
+- memberId
+- orderId
+type: object
+
