@@ -1,0 +1,25 @@
+"$schema": "http://json-schema.org/schema#"
+properties:
+    categories:
+        type: array
+        items:
+            type: object
+            properties:
+                name:
+                    type: string
+                items:
+                    type: array
+                    items:
+                        type: object
+                        properties:
+                            name:
+                                type: string
+                            items:
+                                type: array
+                                items:
+                                    type: object
+                                    properties:
+                                        name:
+                                            type: string
+required:
+    - category
