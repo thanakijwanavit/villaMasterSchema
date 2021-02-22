@@ -1,0 +1,38 @@
+{
+    "categories": [
+        {
+            "name":"Drinks",
+            "items": [
+                {
+                    "name": "Hot Beverages",
+                    "items": [
+                        {
+                            "name": "Hot Beverages level 3"
+                        }
+                    ]
+                },
+                {
+                    "name": "Juices",
+                    "items": [
+                        {
+                            "name": "Juices level 3"
+                        }
+                    ]            
+                }
+            ]
+        },
+        {
+            "name": "Bady",
+            "items": [
+                {
+                    "name": "Baby Food and Milk",
+                    "items": [
+                        {
+                            "name": "Baby Food and Milk level 3"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
