@@ -1,9 +1,7 @@
 $schema: http://json-schema.org/schema#
 properties:
-  products:
-    additionalProperties:
-      properties:
+  additionalProperties:
+    items:
       type: string
     type: array
-required: []
 type: object
