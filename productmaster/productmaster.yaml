@@ -169,5 +169,4 @@ required:
 - villa_category_l2_en
 - villa_category_l3_en
 - villa_category_l4_en
-- test
 type: object
