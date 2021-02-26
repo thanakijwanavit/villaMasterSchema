@@ -51,6 +51,6 @@
   'pr_barcode2': 2036679,
   'sort_weight': '0',
   'master_online': 'Y',
-  'SaleMode_unit': 'ITEM',
-  'ba_nprice': '35.00',
+  'salemode_unit': 'ITEM',
+  'ba_nprice': 35.00,
   'sort_villa_sku': 0}
