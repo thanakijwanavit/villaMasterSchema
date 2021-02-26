@@ -145,7 +145,15 @@ properties:
   meta_keywords:
     type: string
   meta_description:
-    type: string  
+    type: string 
+  height:
+    type: number
+  width:
+    type: number
+  depth:
+    type: number
+  weight:
+    type: number  
 required:
 - salemode_unit
 - ba_nprice
