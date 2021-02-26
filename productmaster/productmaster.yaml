@@ -114,37 +114,37 @@ properties:
     type: string
   portion:
     type: string
- stock_qty:
-    type: int
- status:
+  stock_qty:
+    type: integer
+  status:
     type: string
- preorder:
+  preorder:
     type: string
- preorder_fix_date:
-    type: int
- preorder_relative_day:
-    type: int
- preorder_sale_limit:
-    type: int
- search_keyword:
+  preorder_fix_date:
+    type: integer
+  preorder_relative_day:
+    type: integer
+  preorder_sale_limit:
+    type: integer
+  search_keyword:
     type: string
- search_score:
-    type: int
- priority_score:
-    type: int
- new_product_sdate:
-    type: int
- new_product_edate:
-    type: int
- best_seller_sdate:
-    type: int
- best_seller_edate:
-    type: int
- meta_title:
+  search_score:
+    type: integer
+  priority_score:
+    type: integer
+  new_product_sdate:
+    type: integer
+  new_product_edate:
+    type: integer
+  best_seller_sdate:
+    type: integer
+  best_seller_edate:
+    type: integer
+  meta_title:
     type: string
- meta_keywords:
+  meta_keywords:
     type: string
- meta_description:
+  meta_description:
     type: string  
 required:
 - salemode_unit
