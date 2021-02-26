@@ -1,9 +1,9 @@
 $schema: http://json-schema.org/schema#
 properties:
-  SaleMode_unit:
+  salemode_unit:
     type: string
   ba_nprice:
-    type: string
+    type: number
   content_en:
     type: string
   content_th:
@@ -112,57 +112,55 @@ properties:
     type: string
   villa_category_l4_en:
     type: string
+  portion:
+    type: string
+ stock_qty:
+    type: int
+ status:
+    type: string
+ preorder:
+    type: string
+ preorder_fix_date:
+    type: int
+ preorder_relative_day:
+    type: int
+ preorder_sale_limit:
+    type: int
+ search_keyword:
+    type: string
+ search_score:
+    type: int
+ priority_score:
+    type: int
+ new_product_sdate:
+    type: int
+ new_product_edate:
+    type: int
+ best_seller_sdate:
+    type: int
+ best_seller_edate:
+    type: int
+ meta_title:
+    type: string
+ meta_keywords:
+    type: string
+ meta_description:
+    type: string  
 required:
-- SaleMode_unit
+- salemode_unit
 - ba_nprice
-- content_en
-- content_th
 - cprcode
 - hema_brand_en
-- hema_brand_th
 - hema_name_en
-- hema_name_th
 - hema_sizedesc
 - iprcode
 - master_online
 - online_category_l1_en
-- online_category_l1_th
 - online_category_l2_en
-- online_category_l2_th
-- online_category_l3_en
-- online_category_l3_th
-- oprcode
-- ordertype
-- pr_abb
-- pr_active
 - pr_barcode
 - pr_barcode2
-- pr_brand_en
-- pr_brand_th
-- pr_cgcode
-- pr_code
-- pr_country_en
-- pr_country_th
-- pr_dpcode
-- pr_engname
-- pr_filter_en
-- pr_filter_th
-- pr_ggcode
-- pr_keyword_en
-- pr_keyword_th
-- pr_market
-- pr_name
-- pr_name_en
-- pr_name_th
 - pr_online_name_en
-- pr_online_name_th
-- pr_puqty
-- pr_sa_method
-- pr_sucode1
 - pr_suref3
-- prtype
-- psqty
-- pstype
 - sort_villa_sku
 - sort_weight
 - villa_category_l1_en
