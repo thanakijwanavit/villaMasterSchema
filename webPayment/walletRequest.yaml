@@ -7,11 +7,6 @@ properties:
     type: string
   orderId:
     type: string
-  test:
-    type: string
-    enum: 
-      - "red"
-      - "green"
 required:
 - mobile
 - memberId
