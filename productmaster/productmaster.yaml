@@ -56,9 +56,9 @@ properties:
   pstype:
     type: string
     enum:
-    - 1
-    - 2
-    - 3
+    - '1'
+    - '2'
+    - '3'
   pr_country_th:
     type: string
   pr_keyword_th:
