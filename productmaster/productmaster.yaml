@@ -1,159 +1,155 @@
 $schema: http://json-schema.org/schema#
 properties:
-  salemode_unit:
-    type: string
-  ba_nprice:
-    type: number
-  content_en:
-    type: string
-  content_th:
-    type: string
-  cprcode:
-    type: integer
-  hema_brand_en:
-    type: string
-  hema_brand_th:
-    type: string
-  hema_name_en:
-    type: string
-  hema_name_th:
-    type: string
-  hema_sizedesc:
-    type: string
-  iprcode:
-    type: integer
-  master_online:
-    type: string
-  online_category_l1_en:
-    type: string
-  online_category_l1_th:
-    type: string
-  online_category_l2_en:
-    type: string
-  online_category_l2_th:
-    type: string
-  online_category_l3_en:
-    type: string
-  online_category_l3_th:
-    type: string
-  oprcode:
-    type: integer
-  ordertype:
-    type: string
-  pr_abb:
-    type: string
-  pr_active:
-    type: string
-  pr_barcode:
-    type: integer
-  pr_barcode2:
-    type: integer
-  pr_brand_en:
-    type: string
-  pr_brand_th:
-    type: string
-  pr_cgcode:
-    type: string
-  pr_code:
-    type: string
-  pr_country_en:
-    type: string
-  pr_country_th:
-    type: string
-  pr_dpcode:
-    type: string
-  pr_engname:
-    type: string
-  pr_filter_en:
-    type: string
-  pr_filter_th:
-    type: string
-  pr_ggcode:
-    type: string
-  pr_keyword_en:
-    type: string
-  pr_keyword_th:
-    type: string
-  pr_market:
-    type: string
-  pr_name:
-    type: string
-  pr_name_en:
-    type: string
-  pr_name_th:
-    type: string
-  pr_online_name_en:
-    type: string
-  pr_online_name_th:
-    type: string
-  pr_puqty:
-    type: string
-  pr_sa_method:
-    type: string
-  pr_sucode1:
-    type: string
-  pr_suref3:
-    type: string
-  prtype:
-    type: string
-  psqty:
-    type: string
-  pstype:
-    type: string
-  sort_villa_sku:
-    type: integer
-  sort_weight:
-    type: string
-  villa_category_l1_en:
-    type: string
-  villa_category_l2_en:
-    type: string
-  villa_category_l3_en:
-    type: string
-  villa_category_l4_en:
-    type: string
-  portion:
-    type: string
-  stock_qty:
-    type: integer
-  status:
-    type: string
-  preorder:
-    type: string
-  preorder_fix_date:
-    type: integer
-  preorder_relative_day:
-    type: integer
-  preorder_sale_limit:
-    type: integer
-  search_keyword:
-    type: string
-  search_score:
-    type: integer
-  priority_score:
-    type: integer
-  new_product_sdate:
-    type: integer
-  new_product_edate:
-    type: integer
-  best_seller_sdate:
-    type: integer
-  best_seller_edate:
-    type: integer
-  meta_title:
-    type: string
-  meta_keywords:
-    type: string
-  meta_description:
-    type: string 
-  height:
-    type: number
-  width:
-    type: number
-  depth:
-    type: number
-  weight:
-    type: number  
+cprcode:
+ type: integer
+iprcode:
+ type: integer
+psqty:
+ type: integer
+pr_country_en:
+ type: string
+online_category_l1_en:
+ type: string
+online_category_l2_en:
+ type: string
+online_category_l3_en:
+ type: string
+hema_brand_en:
+ type: string
+hema_sizedesc:
+ type: string
+hema_name_en:
+ type: string
+hema_name_th:
+ type: string
+oprcode:
+ type: integer
+ordertype:
+ type: string
+pr_abb:
+ type: string
+pr_active:
+ type: boolean
+pr_cgcode:
+ type: string
+pr_dpcode:
+ type: string
+pr_engname:
+ type: string
+pr_ggcode:
+ type: string
+pr_market:
+ type: string
+pr_name:
+ type: string
+pr_sa_method:
+ type: string
+pr_sucode1:
+ type: string
+pr_suref3:
+ type: string
+prtype:
+ type: string
+ enum:
+ -“I”
+ -“C”
+pstype:
+ type: string
+ enum:
+ -1
+ -2
+ -3
+pr_country_th:
+ type: string
+pr_keyword_th:
+ type: string
+pr_keyword_en:
+ type: string
+pr_filter_th:
+ type: string
+pr_filter_en:
+ type: string
+online_category_l1_th:
+ type: string
+online_category_l2_th:
+ type: string
+online_category_l3_th:
+ type: string
+villa_category_l1_en:
+ type: string
+villa_category_l2_en:
+ type: string
+villa_category_l3_en:
+ type: string
+villa_category_l4_en:
+ type: string
+content_en:
+ type: string
+content_th:
+ type: string
+hema_brand_th:
+ type: string
+pr_brand_en:
+ type: string
+pr_brand_th:
+ type: string
+pr_online_name_en:
+ type: string
+pr_online_name_th:
+ type: string
+pr_name_en:
+ type: string
+pr_name_th:
+ type: string
+sort_weight:
+ type: number
+pr_barcode:
+ type: string
+pr_barcode2:
+ type: string
+master_online:
+ type: boolean
+salemode_unit:
+ type: string
+ba_nprice:
+ type: number
+sort_villa_sku:
+ type: number
+portion:
+ type: string
+warehouse:
+ type: integer
+consign_inv:
+ type: integer
+enabled:
+ type: boolean
+preorder_delivery_type:
+ type: string
+ enum:
+ -“fixed”
+ -“relative”
+preorder_fix_date:
+ type: integer
+preorder_relative_day:
+ type: integer
+product_detail_description:
+ type: string
+meta_title:
+ type: string
+meta_keyword:
+ type: string
+meta_description:
+ type: string
+height:
+ type: number
+width:
+ type: number
+depth:
+ type: number
+weight:
+ type: number
+priority_score:
+ type: number
 required:
 - salemode_unit
 - ba_nprice
