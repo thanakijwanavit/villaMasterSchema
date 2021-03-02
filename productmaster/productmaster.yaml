@@ -51,8 +51,8 @@ pr_suref3:
 prtype:
  type: string
  enum:
- -“I”
- -“C”
+ -I
+ -C
 pstype:
  type: string
  enum:
