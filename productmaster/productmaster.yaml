@@ -50,10 +50,15 @@ pr_suref3:
  type: string
 prtype:
  type: string
- enum: {"I","C"}
+ enum:
+ - i
+ - c
 pstype:
  type: string
- enum: {"1","2","3"}
+ enum:
+ - 1
+ - 2
+ - 3
 pr_country_th:
  type: string
 pr_keyword_th:
@@ -120,7 +125,9 @@ enabled:
  type: boolean
 preorder_delivery_type:
  type: string
- enum: {"fixed","relative"}
+ enum:
+ - fixed
+ - relative
 preorder_fix_date:
  type: integer
 preorder_relative_day:
