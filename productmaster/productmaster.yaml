@@ -51,8 +51,8 @@ properties:
   prtype:
     type: string
     enum:
-    - i
-    - c
+    - I
+    - C
   pstype:
     type: string
     enum:
