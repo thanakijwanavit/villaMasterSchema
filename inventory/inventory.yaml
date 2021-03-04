@@ -4,7 +4,7 @@ properties:
   iprcode:
     type: integer
     description: product code
-  ibrcode:
+  brcode:
     type: integer
     description: branch id
   ib_cf_qty:
@@ -23,6 +23,6 @@ required:
   - onlineflag
 example:
   iprcode: 7
-  ibrcode: 1000
+  brcode: 1000
   ib_cf_qty: 50
   onlineflag: true
