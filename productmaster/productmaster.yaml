@@ -153,7 +153,7 @@ properties:
   avail_store:
     type: array
     items:
-        type: object
+        type: string
 required:
 - salemode_unit
 - ba_nprice
