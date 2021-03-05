@@ -150,6 +150,10 @@ properties:
     type: number
   priority_score:
     type: number
+  avail_store:
+    type: array
+    items:
+        type: object
 required:
 - salemode_unit
 - ba_nprice
