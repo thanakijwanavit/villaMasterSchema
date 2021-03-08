@@ -13,19 +13,24 @@ properties:
     isPaid:
         type: boolean
     paymentId:
-        type: string
+        type: 
+            - string
+            - "null"
     requestTaxInvoice:
         description: "checkbox on checkout page"
         type: boolean
+        default: false
     requestSubstitute:
         description: "checkbox on checkout page"
         type: boolean
+        default: false
     specialComment:
         description: "special comment text field on checkout page"
         type: string
     shippingType:
         description: "DELIVERY or PICKUP"
         type: string
+        enum: ["DELIVERY", "PICKUP"]
     shippingAddress:
         description: "if shippingType is DELIVERY then shippingAddress is customer address, if shippingType is PICKUP then shippingAddress is branch address"
         type: string
