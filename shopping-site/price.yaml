@@ -1,0 +1,14 @@
+$schema: "http://json-schema.org/schema#"
+properties:
+    columns:
+        type: array
+    branch:
+        type: string
+    data:
+        type: array
+        items:
+            type: array
+required:
+    - columns
+    - branch
+    - data

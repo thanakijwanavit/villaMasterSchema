@@ -1,0 +1,32 @@
+{
+    "columns": [
+        "cprcode",
+        "online_category_l1_en",
+        "online_category_l2_en",
+        "brand",
+        "descrpiton",
+        "size",
+        "unit"
+    ],
+    "branch": "1000",
+    "data": [
+        [
+            147829,
+            "Beer Wine & Spirits",
+            "Champagne & Sparkling Wine",
+            "Fresco Sparkling Peach Wine  750ml",
+            "Fresco Sparkling Peach Wine  750ml",
+            "Fresco",
+            "Sparkling Peach Wine"
+        ],
+        [
+            147829,
+            "Beer Wine & Spirits",
+            "Champagne & Sparkling Wine",
+            "Fresco Sparkling Peach Wine  750ml",
+            "Fresco Sparkling Peach Wine  750ml",
+            "Fresco",
+            "Sparkling Peach Wine"
+        ]
+    ]
+}

@@ -1,0 +1,11 @@
+$schema: "http://json-schema.org/schema#"
+properties:
+    endpoint:
+        type: string
+    list:
+        type: array
+        items:
+          type: string
+required:
+    - endpoint
+    - list

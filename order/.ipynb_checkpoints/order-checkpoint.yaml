@@ -1,0 +1,35 @@
+$schema: http://json-schema.org/schema#
+properties:
+  basketName:
+    type: string
+  basketId:
+    type: string
+  branchId:
+    type: string
+  orderId:
+    type: string
+  ownerId:
+    type: string
+  isPaid:
+    type: boolean
+  paymentId:
+    type: integer
+  productList:
+    items:
+      properties:
+        quantity:
+          type: integer
+        cprcode:
+          type: integer
+        settlementPrice:
+          type: number
+      required:
+      - quantity
+      - cprcode
+      type: object
+    type: array
+required:
+- basketId
+- orderId
+- ownerId
+type: object

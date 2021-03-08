@@ -1,0 +1,22 @@
+$schema: http://json-schema.org/schema#
+properties:
+  log_func:
+    type: string
+  created_datetime:
+    type: number
+  created_date:
+    type: integer
+  log_desc:
+    type: string
+  log_key:
+    type: string
+  log_type:
+    type: string
+  req_object:
+    type: object
+  res_object:
+    type: object
+required:
+- log_func
+- created_datetime
+type: object

@@ -1,0 +1,42 @@
+$schema: http://json-schema.org/draft-06/schema#
+definitions:
+  Product:
+    description: 'Product(iprcode: int, cprcode: int, oprcode: Union[int, NoneType],
+      pr_dpcode: Union[str, NoneType], pr_barcode: Union[str, NoneType], pr_barcode2:
+      Union[str, NoneType], pr_sucode1: Union[str, NoneType], pr_suref3: Union[str,
+      NoneType], pr_sa_method: Union[str, NoneType], sellingPrice: Union[int, NoneType])'
+    properties:
+      cprcode:
+        type: integer
+      iprcode:
+        type: integer
+      oprcode:
+        type: integer
+      pr_barcode:
+        type: string
+      pr_barcode2:
+        type: string
+      pr_dpcode:
+        type: string
+      pr_sa_method:
+        type: string
+      pr_sucode1:
+        type: string
+      pr_suref3:
+        type: string
+      sellingPrice:
+        type: integer
+    required:
+    - iprcode
+    - cprcode
+    type: object
+description: 'ValueUpdate(items: List[__main__.Product])'
+properties:
+  items:
+    items:
+      $ref: '#/definitions/Product'
+    type: array
+required:
+- items
+type: object
+

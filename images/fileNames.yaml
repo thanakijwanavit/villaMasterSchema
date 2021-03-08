@@ -1,14 +1,7 @@
 $schema: http://json-schema.org/schema#
 properties:
-  products:
+  additionalProperties:
     items:
-      properties:
-        fileNames:
-          items: {type: string}
-          type: array
-        iprcode: {type: integer}
-      required: [fileNames, iprcode]
-      type: object
+      type: string
     type: array
-required: [products]
 type: object
