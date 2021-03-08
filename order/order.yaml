@@ -37,9 +37,13 @@ properties:
         enum: ["DELIVERY", "PICKUP", null]
     shippingAddress:
         description: "if shippingType is DELIVERY then shippingAddress is customer address, if shippingType is PICKUP then shippingAddress is branch address"
-        type: string
+        type: 
+            - string
+            - "null"
     schedule:
-        type: object
+        type: 
+            - object
+            - "null"
         properties:
             isExpress:
                 type: boolean
@@ -48,9 +52,13 @@ properties:
             data:
                 type: string
     deliveryFee:
-        type: number
+        type:
+            - number
+            - "null"
     couponCode:
-        type: string
+        type: 
+            - string
+            - "null"
     productList:
         items:
             properties:
