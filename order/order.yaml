@@ -34,7 +34,7 @@ properties:
         type: 
             - string
             - "null"
-        enum: ["DELIVERY", "PICKUP"]
+        enum: ["DELIVERY", "PICKUP", null]
     shippingAddress:
         description: "if shippingType is DELIVERY then shippingAddress is customer address, if shippingType is PICKUP then shippingAddress is branch address"
         type: string
