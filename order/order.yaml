@@ -17,7 +17,7 @@ properties:
     requestTaxInvoice:
         description: "checkbox on checkout page"
         type: boolean
-    requestSubtitudes:
+    requestSubstitute:
         description: "checkbox on checkout page"
         type: boolean
     specialComment:
