@@ -26,10 +26,14 @@ properties:
         default: false
     specialComment:
         description: "special comment text field on checkout page"
-        type: string
+        type: 
+            - string
+            - "null"
     shippingType:
         description: "DELIVERY or PICKUP"
-        type: string
+        type: 
+            - string
+            - "null"
         enum: ["DELIVERY", "PICKUP"]
     shippingAddress:
         description: "if shippingType is DELIVERY then shippingAddress is customer address, if shippingType is PICKUP then shippingAddress is branch address"
