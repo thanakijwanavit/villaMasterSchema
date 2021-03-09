@@ -1,35 +1,122 @@
 $schema: http://json-schema.org/schema#
 properties:
-  basketName:
-    type: string
-  basketId:
-    type: string
-  branchId:
-    type: string
-  orderId:
-    type: string
-  ownerId:
-    type: string
-  isPaid:
-    type: boolean
-  paymentId:
-    type: integer
-  productList:
-    items:
-      properties:
-        quantity:
-          type: integer
-        cprcode:
-          type: integer
-        settlementPrice:
-          type: number
-      required:
-      - quantity
-      - cprcode
-      type: object
-    type: array
+    basketName:
+        type: string
+    basketId:
+        type: string
+    branchId:
+        type: string
+    orderId:
+        type: string
+    ownerId:
+        type: string
+    isPaid:
+        type: boolean
+    paymentId:
+        type: 
+            - string
+            - "null"
+    requestTaxInvoice:
+        description: "checkbox on checkout page"
+        type: boolean
+        default: false
+    requestSubstitute:
+        description: "checkbox on checkout page"
+        type: boolean
+        default: false
+    specialComment:
+        description: "special comment text field on checkout page"
+        type: 
+            - string
+            - "null"
+    shippingType:
+        description: "DELIVERY or PICKUP"
+        type: 
+            - string
+            - "null"
+        enum: ["DELIVERY", "PICKUP", null]
+    shippingAddress:
+        description: "if shippingType is DELIVERY then shippingAddress is customer address, if shippingType is PICKUP then shippingAddress is branch address"
+        type: 
+            - string
+            - "null"
+    schedule:
+        type: 
+            - object
+            - "null"
+        properties:
+            isExpress:
+                type: boolean
+            time:
+                type: string
+            data:
+                type: string
+    deliveryFee:
+        type:
+            - number
+            - "null"
+    couponCode:
+        type: 
+            - string
+            - "null"
+    productList:
+        items:
+            properties:
+                quantity:
+                    type: integer
+                cprcode:
+                    type: integer
+                settlementPrice:
+                    type: number
+                remark:
+                    description: "Per product remark"
+                    type: 
+                        - string
+                        - "null"
+                branchName:
+                    type: string
+                billingName:
+                    type: string
+                shippingName:
+                    type: string
+                billingAddress:
+                    type: string
+                billingPhone:
+                    type: string
+                shippingPhone:
+                    type: string  
+                customerName:
+                    type: string
+                customerEmail:
+                    type: string
+                paymentInformation:
+                    type: string
+                shippingDate:
+                    type: number
+                productName:
+                    type: string  
+                status:
+                    type: string
+                Subtotal:
+                    type: number
+                Discount:
+                    type: number
+                rowTotal:
+                    type: number
+                paymentLog:
+                    type: array
+                    items:
+                        type: string
+                GrandTotal:
+                    type: number
+                    
+            required:
+                - quantity
+                - cprcode
+            type: object
+        type: array
 required:
-- basketId
-- orderId
-- ownerId
+    - basketId
+    - orderId
+    - ownerId
 type: object
