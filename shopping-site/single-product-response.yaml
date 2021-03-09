@@ -1,0 +1,32 @@
+$schema: "http://json-schema.org/schema#"
+properties:
+    cprcode:
+        type: integer
+    iprcode:
+        type: integer
+    psqty:
+        type: integer
+    online_category_l1_en:
+        type: string
+    online_category_l2_en:
+        type: string
+    online_category_l3_en:
+        type: string
+    hema_brand_en:
+        type: string
+    hema_sizedesc:
+        type: string
+    hema_name_en:
+        type: string
+    hema_name_th:
+        type: string
+    product_attribute_id:
+        type: integer
+    product_attribute:
+        type: object
+    related_products:
+        type: array
+        items:
+            type: integer
+required:
+    - cprcode
