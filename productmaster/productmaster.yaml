@@ -154,6 +154,14 @@ properties:
     type: array
     items:
         type: string
+  product_attribute_id:
+    type: integer
+  product_attribute:
+    type: object
+  related_products:
+    type: array
+    items:
+        type: int      
 required:
 - salemode_unit
 - ba_nprice
