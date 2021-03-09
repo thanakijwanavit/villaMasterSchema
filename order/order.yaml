@@ -70,7 +70,9 @@ properties:
                     type: number
                 remark:
                     description: "Per product remark"
-                    type: string #
+                    type: 
+                        - string
+                        - "null"
             required:
                 - quantity
                 - cprcode
