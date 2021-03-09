@@ -109,7 +109,6 @@ properties:
                         type: string
                 GrandTotal:
                     type: number
-                    
             required:
                 - quantity
                 - cprcode
