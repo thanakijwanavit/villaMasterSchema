@@ -73,6 +73,42 @@ properties:
                     type: 
                         - string
                         - "null"
+                branchName:
+                    type: string
+                billingName:
+                    type: string
+                shippingName:
+                    type: string
+                billingAddress:
+                    type: string
+                billingPhone:
+                    type: string
+                shippingPhone:
+                    type: string  
+                customerName:
+                    type: string
+                customerEmail:
+                    type: string
+                paymentInformation:
+                    type: string
+                shippingDate:
+                    type: number
+                productName:
+                    type: string  
+                status:
+                    type: string
+                Subtotal:
+                    type: number
+                Discount:
+                    type: number
+                rowTotal:
+                    type: number
+                paymentLog:
+                    type: array
+                    items:
+                        type: string
+                GrandTotal:
+                    type: number
             required:
                 - quantity
                 - cprcode
