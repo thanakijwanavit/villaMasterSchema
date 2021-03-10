@@ -1,0 +1,39 @@
+{
+    "orderId": "w8JmXv7rC3GgHlee",
+    "ownerId": "146149e4-0c7f-4978-aab7-652d78aef48d",
+    "basketId": "146149e4-0c7f-4978-aab7-652d78aef48d",
+    "an error col": "hello",
+    "isPaid": false,
+    "productList": [
+        {
+            "cprcode": 25281,
+            "quantity": 1,
+            "remark": "TEST123456789"
+        },
+        {
+            "cprcode": 188468,
+            "quantity": 1,
+            "remark": null
+        },
+        {
+            "cprcode": 164687,
+            "quantity": 1,
+            "remark": null
+        }
+    ],
+    "branchId": "1000",
+    "specialComment": "TEST BRANCH ID",
+    "requestSubstitute": false,
+    "requestTaxInvoice": true,
+    "couponCode": "TEST001",
+    "shipping": {
+        "shippingType": "DELIVERY",
+        "shippingAddress": "tor intanon \\n168 \\nnon \\ninta495@gmail.com \\n ",
+        "deliveryFee": 95,
+        "schedule": {
+            "isExpress": false,
+            "time": "13:00 - 14:00",
+            "date": "12 Mar"
+        }
+    }
+}

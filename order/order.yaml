@@ -1,4 +1,5 @@
 $schema: http://json-schema.org/schema#
+additionalProperties: false
 properties:
     basketName:
         type: string
@@ -29,36 +30,78 @@ properties:
         type: 
             - string
             - "null"
-    shippingType:
-        description: "DELIVERY or PICKUP"
-        type: 
-            - string
-            - "null"
-        enum: ["DELIVERY", "PICKUP", null]
-    shippingAddress:
-        description: "if shippingType is DELIVERY then shippingAddress is customer address, if shippingType is PICKUP then shippingAddress is branch address"
-        type: 
-            - string
-            - "null"
-    schedule:
-        type: 
-            - object
-            - "null"
-        properties:
-            isExpress:
-                type: boolean
-            time:
-                type: string
-            data:
-                type: string
-    deliveryFee:
-        type:
-            - number
-            - "null"
     couponCode:
         type: 
             - string
             - "null"
+    shipping:
+        type: object
+        properties:
+            schedule:
+                type: 
+                    - object
+                    - "null"
+                properties:
+                    isExpress:
+                        type: boolean
+                    time:
+                        type: string
+                    data:
+                        type: string
+            shippingName:
+                type: string
+            shippingPhone:
+                type: string  
+            shippingDate:
+                type: number
+            shippingType:
+                description: "DELIVERY or PICKUP"
+                type: 
+                    - string
+                    - "null"
+                enum: ["DELIVERY", "PICKUP", null]
+            shippingAddress:
+                description: "if shippingType is DELIVERY then shippingAddress is customer address, if shippingType is PICKUP then shippingAddress is branch address"
+                type: 
+                    - string
+                    - "null"
+            deliveryFee:
+                type:
+                    - number
+                    - "null"
+    payment:
+        type: object
+        description: |
+            "object which should be provided by the payment app"
+        properties:
+            billingName:
+                type: string
+            billingAddress:
+                type: string
+            billingPhone:
+                type: string
+            customerName:
+                type: string
+            customerEmail:
+                type: string
+            productName:
+                type: string  
+            status:
+                type: string
+            subTotal:
+                type: number
+            discount:
+                type: number
+            rawTotal:
+                type: number
+            grandTotal:
+                type: number
+            paymentLog:
+                type: array
+                items:
+                    type: string
+            remark:
+                type: string
     productList:
         items:
             properties:
@@ -73,42 +116,7 @@ properties:
                     type: 
                         - string
                         - "null"
-                branchName:
-                    type: string
-                billingName:
-                    type: string
-                shippingName:
-                    type: string
-                billingAddress:
-                    type: string
-                billingPhone:
-                    type: string
-                shippingPhone:
-                    type: string  
-                customerName:
-                    type: string
-                customerEmail:
-                    type: string
-                paymentInformation:
-                    type: string
-                shippingDate:
-                    type: number
-                productName:
-                    type: string  
-                status:
-                    type: string
-                Subtotal:
-                    type: number
-                Discount:
-                    type: number
-                rowTotal:
-                    type: number
-                paymentLog:
-                    type: array
-                    items:
-                        type: string
-                GrandTotal:
-                    type: number
+                
             required:
                 - quantity
                 - cprcode
