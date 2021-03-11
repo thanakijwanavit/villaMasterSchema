@@ -80,8 +80,6 @@ properties:
                 type: string
             customerEmail:
                 type: string
-            productName:
-                type: string  
             status:
                 type: string
             paymentLog:
@@ -99,6 +97,8 @@ properties:
     productList:
         items:
             properties:
+                productName:
+                    type: string  
                 quantity:
                     type: integer
                 cprcode:
