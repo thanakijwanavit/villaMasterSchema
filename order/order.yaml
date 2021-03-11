@@ -1,4 +1,5 @@
 $schema: http://json-schema.org/schema#
+additionalProperties: false
 properties:
     basketName:
         type: string
@@ -13,35 +14,94 @@ properties:
     isPaid:
         type: boolean
     paymentId:
-        type: integer
+        type: 
+            - string
+            - "null"
     requestTaxInvoice:
         description: "checkbox on checkout page"
         type: boolean
+        default: false
     requestSubstitute:
         description: "checkbox on checkout page"
         type: boolean
+        default: false
     specialComment:
         description: "special comment text field on checkout page"
-        type: string
-    shippingType:
-        description: "DELIVERY or PICKUP"
-        type: string
-    shippingAddress:
-        description: "if shippingType is DELIVERY then shippingAddress is customer address, if shippingType is PICKUP then shippingAddress is branch address"
-        type: string
-    schedule:
+        type: 
+            - string
+            - "null"
+    couponCode:
+        type: 
+            - string
+            - "null"
+    shipping:
         type: object
         properties:
-            isExpress:
-                type: boolean
-            time:
+            schedule:
+                type: 
+                    - object
+                    - "null"
+                properties:
+                    isExpress:
+                        type: boolean
+                    time:
+                        type: string
+                    data:
+                        type: string
+            shippingName:
                 type: string
-            data:
+            shippingPhone:
+                type: string  
+            shippingDate:
+                type: number
+            shippingType:
+                description: "DELIVERY or PICKUP"
+                type: 
+                    - string
+                    - "null"
+                enum: ["DELIVERY", "PICKUP", null]
+            shippingAddress:
+                description: "if shippingType is DELIVERY then shippingAddress is customer address, if shippingType is PICKUP then shippingAddress is branch address"
+                type: 
+                    - string
+                    - "null"
+            deliveryFee:
+                type:
+                    - number
+                    - "null"
+    payment:
+        type: object
+        description: |
+            "object which should be provided by the payment app"
+        properties:
+            billingName:
                 type: string
-    deliveryFee:
-        type: number
-    couponCode:
-        type: string
+            billingAddress:
+                type: string
+            billingPhone:
+                type: string
+            customerName:
+                type: string
+            customerEmail:
+                type: string
+            productName:
+                type: string  
+            status:
+                type: string
+            subTotal:
+                type: number
+            discount:
+                type: number
+            rawTotal:
+                type: number
+            grandTotal:
+                type: number
+            paymentLog:
+                type: array
+                items:
+                    type: string
+            remark:
+                type: string
     productList:
         items:
             properties:
@@ -53,7 +113,10 @@ properties:
                     type: number
                 remark:
                     description: "Per product remark"
-                    type: string #
+                    type: 
+                        - string
+                        - "null"
+                
             required:
                 - quantity
                 - cprcode
