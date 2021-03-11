@@ -65,10 +65,6 @@ properties:
                 type: 
                     - string
                     - "null"
-            deliveryFee:
-                type:
-                    - number
-                    - "null"
     payment:
         type: object
         description: |
@@ -88,20 +84,18 @@ properties:
                 type: string  
             status:
                 type: string
-            subTotal:
-                type: number
-            discount:
-                type: number
-            rawTotal:
-                type: number
-            grandTotal:
-                type: number
             paymentLog:
                 type: array
                 items:
                     type: string
             remark:
                 type: string
+            deliveryFee:
+                type:
+                    - number
+                    - "null"
+            grandTotal:
+                type: number
     productList:
         items:
             properties:
@@ -109,6 +103,10 @@ properties:
                     type: integer
                 cprcode:
                     type: integer
+                originalPrice:
+                    type: number
+                discount:
+                    type: number
                 settlementPrice:
                     type: number
                 remark:
