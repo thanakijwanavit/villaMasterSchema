@@ -4,11 +4,13 @@ properties:
     key:
       type: string
       description: key of the type of id
-      examples: test
+      examples: 
+        - test
     branchId:
       type: string
       description: the branch id 
-      examples: '1000'
+      examples: 
+        - '1000'
     additionalProperties: false
 required:
     - key
