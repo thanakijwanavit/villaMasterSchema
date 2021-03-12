@@ -8,6 +8,5 @@ properties:
         - '1000'
     additionalProperties: false
 required:
-    - key
     - branchId
 type: object
