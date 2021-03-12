@@ -1,11 +1,6 @@
 $schema: http://json-schema.org/schema#
 additionalProperties: false
 properties:
-    key:
-      type: string
-      description: key of the type of id
-      examples: 
-        - test
     branchId:
       type: string
       description: the branch id 
