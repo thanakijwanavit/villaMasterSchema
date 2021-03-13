@@ -1,6 +1,12 @@
 $schema: http://json-schema.org/schema#
 additionalProperties: false
 properties:
+    pickingStatus:
+        type: string
+        enum:
+            - picked
+            - pending
+            - cancelled
     basketName:
         type: string
     basketId:
