@@ -1,6 +1,12 @@
 $schema: http://json-schema.org/schema#
 additionalProperties: false
 properties:
+    pickingStatus:
+        type: string
+        enum:
+            - picked
+            - pending
+            - cancelled
     basketName:
         type: string
     basketId:
@@ -65,10 +71,6 @@ properties:
                 type: 
                     - string
                     - "null"
-            deliveryFee:
-                type:
-                    - number
-                    - "null"
     payment:
         type: object
         description: |
@@ -84,31 +86,33 @@ properties:
                 type: string
             customerEmail:
                 type: string
-            productName:
-                type: string  
             status:
                 type: string
-            subTotal:
-                type: number
-            discount:
-                type: number
-            rawTotal:
-                type: number
-            grandTotal:
-                type: number
             paymentLog:
                 type: array
                 items:
                     type: string
             remark:
                 type: string
+            deliveryFee:
+                type:
+                    - number
+                    - "null"
+            grandTotal:
+                type: number
     productList:
         items:
             properties:
+                productName:
+                    type: string  
                 quantity:
                     type: integer
                 cprcode:
                     type: integer
+                originalPrice:
+                    type: number
+                discount:
+                    type: number
                 settlementPrice:
                     type: number
                 remark:
