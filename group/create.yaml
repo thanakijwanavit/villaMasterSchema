@@ -11,6 +11,10 @@ properties:
           items:
             type: integer
           type: array
+        displayOrder:
+          items:
+            type: integer
+          type: array
         description:
           type: string
         enabled:
@@ -32,6 +36,8 @@ properties:
         subGroup:
           type: string
         user:
+          type: string
+        bannerUrl:
           type: string
       required:
       - cprcode
