@@ -1,0 +1,79 @@
+$id: https://raw.githubusercontent.com/thanakijwanavit/villaMasterSchema/master/coupon/coupon.yaml
+$schema: https://json-schema.org/draft/2020-12/schema
+definitions:
+  Coupon:
+    title: Coupon
+    type: object
+    couponId:
+      type: integer
+      description: id of the coupon
+    couponName:
+      type: string
+      description: name of the coupon 
+    description:
+      type: string
+      description: description of the coupon
+    active:
+      type: boolean
+    couponCode:
+      type: string
+      description: coupon code for customers. can be fixed or auto-generated. not required.
+    usesPerCoupon:
+      type: integer
+    usesPerCustomer:
+      type: integer
+    startDate:
+      type: integer
+    endDate:
+      type: integer
+    conditions:
+      type: object
+      description: query language for conditions that this coupon is eligible for
+    actions:
+      type: object
+      description: query language for the actions applied by this coupon
+      properties:
+        discountType:
+          type: string
+          enum: ["by_fixed", "cart_fixed", "by_percent", "buy_x_get_y_sku", "buy_x_get_y"]
+        discountAmount:
+          type: integer
+        discountQtyStep:
+          type: integer
+          description: how many X bought to apply this discount for buy X get Y (Y can be sku or discount amount)
+        freeShipping:
+          type: boolean
+        conditions:
+          type: object
+    customers:
+      type: array
+      description: list of customerIds or customer group Ids who are eligible for this coupon
+      items:
+        type: integer
+    branches:
+      type: array
+      description: list of branchIds that are eligible for this coupon
+      items:
+        type: string
+    required:
+      - couponId
+      - couponName
+      - active
+      - actions
+
+  UsedCoupons:
+    type: object
+    description: coupons that have been used
+    properties:
+      couponId:
+        type: integer
+      customerId:
+        type: string
+      useTime:
+        type: integer
+      
+
+type: object
+properties:
+  coupon:
+    ref: '#/definitions/Coupon'
