@@ -45,6 +45,9 @@ definitions:
           type: boolean
         conditions:
           type: object
+      required:
+        - discountType
+        - discountAmount
     customers:
       type: array
       description: list of customerIds or customer group Ids who are eligible for this coupon
@@ -71,7 +74,10 @@ definitions:
         type: string
       useTime:
         type: integer
-      
+    required:
+      - couponId
+      - customerId
+      - userTime
 
 type: object
 properties:
