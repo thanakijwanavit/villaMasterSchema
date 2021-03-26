@@ -1,0 +1,12 @@
+Ingest:
+  type: object
+  properties:
+    key:
+      type: string
+    dtype:
+      type: string
+      enum:
+        - feather
+        - json
+  required: 
+    - key

@@ -144,6 +144,7 @@ properties:
                 - cprcode
             type: object
         type: array
+
 required:
     - basketId
     - orderId
