@@ -15,14 +15,33 @@ properties:
         type: string
     orderId:
         type: string
+    orderDate:
+        type: number
     ownerId:
         type: string
     isPaid:
         type: boolean
+        
     paymentId:
         type: 
             - string
             - "null"
+    subTotal:
+        type:
+            - number
+    shippingAmount:
+        type:
+            - number
+    discountAmount:
+        type:
+            - number
+    grandTotal:
+        type:
+            - number
+    totalPaid:
+        type:
+            - number
+    
     requestTaxInvoice:
         description: "checkbox on checkout page"
         type: boolean
@@ -129,9 +148,17 @@ properties:
                     type: integer
                 originalPrice:
                     type: number
-                discount:
+                price:
+                    description: "Price per Unit"
                     type: number
                 settlementPrice:
+                    description: "subTotal = price * quantity"
+                    type: number
+                discount:
+                    description: "discount amount"
+                    type: number
+                rowTotal:
+                    description: "Subtotal - discount"
                     type: number
                 remark:
                     description: "Per product remark"
