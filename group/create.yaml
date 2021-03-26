@@ -1,0 +1,51 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+properties:
+  groups:
+    items:
+      properties:
+        bannerType:
+          type: integer
+        categoryLv1:
+          type: string
+        cprcode:
+          items:
+            type: integer
+          type: array
+        displayOrder:
+          items:
+            type: integer
+          type: array
+        description:
+          type: string
+        enabled:
+          type: integer
+        endDate:
+          type: integer
+        groupId:
+          type: integer
+        groupName:
+          type: string
+        isBanner:
+          type: integer
+        level:
+          type: integer
+        slotIndex:
+          type: integer
+        startDate:
+          type: integer
+        subGroup:
+          type: string
+        user:
+          type: string
+        bannerUrl:
+          type: string
+      required:
+      - cprcode
+      - groupId
+      - groupName
+      - user
+      type: object
+    type: array
+required:
+- groups
+type: object
