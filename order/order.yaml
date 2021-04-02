@@ -165,7 +165,7 @@ properties:
                     type: 
                         - string
                         - "null"
-		isPreOrder: number
+		isPreOrder:
 		    description: "preorder flag is preOrder=1 , is not preOrder = 0 "
 		    type: boolean
 		                    
