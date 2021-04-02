@@ -170,7 +170,7 @@ properties:
                     type: 
                         - boolean
                         - 0            
-        required:
+            required:
                 - quantity
                 - cprcode
             type: object
