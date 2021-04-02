@@ -1,0 +1,28 @@
+$schema: http://json-schema.org/draft-06/schema#
+type: object
+properties:
+  iprcode:
+    type: integer
+    description: product code
+  brcode:
+    type: integer
+    description: branch id
+  ib_cf_qty:
+    type: integer
+    description: quantity counted the previous day
+  new_ib_vs_stock_cv:
+    type: integer
+    description: current quantity
+  onlineflag:
+    type: boolean
+    description: is the product used in online store or not
+required:
+  - iprcode
+  - brcode
+  - new_ib_vs_stock_cv
+  - onlineflag
+example:
+  iprcode: 7
+  brcode: 1000
+  ib_cf_qty: 50
+  onlineflag: true

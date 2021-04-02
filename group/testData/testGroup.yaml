@@ -1,0 +1,11 @@
+groupId: 123
+groupName: 'test'
+enabled: False
+productList:
+  - cprcode: 9
+    rankingScore: 100
+  - cprcode: 17
+    rankingScore: 50
+metadata: 
+  bannerUrl: 'https://google.com'
+  description: 'test'

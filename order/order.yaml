@@ -1,6 +1,12 @@
 $schema: http://json-schema.org/schema#
 additionalProperties: false
 properties:
+    pickingStatus:
+        type: string
+        enum:
+            - picked
+            - pending
+            - cancelled
     basketName:
         type: string
     basketId:
@@ -9,14 +15,33 @@ properties:
         type: string
     orderId:
         type: string
+    orderDate:
+        type: number
     ownerId:
         type: string
     isPaid:
         type: boolean
+        
     paymentId:
         type: 
             - string
             - "null"
+    subTotal:
+        type:
+            - number
+    shippingAmount:
+        type:
+            - number
+    discountAmount:
+        type:
+            - number
+    grandTotal:
+        type:
+            - number
+    totalPaid:
+        type:
+            - number
+    
     requestTaxInvoice:
         description: "checkbox on checkout page"
         type: boolean
@@ -48,10 +73,22 @@ properties:
                         type: string
                     data:
                         type: string
-            shippingName:
+            shippingFirstName:
+                type: string
+            shippingLastName:
+                type: string
+            shippingAddress:
+                type: string
+            shippingSubDistrict:
+                type: string
+            shippingDistrict:
+                type: string
+            shippingProvince:
+                type: string
+            shippingPostcode:
                 type: string
             shippingPhone:
-                type: string  
+                type: string
             shippingDate:
                 type: number
             shippingType:
@@ -60,15 +97,7 @@ properties:
                     - string
                     - "null"
                 enum: ["DELIVERY", "PICKUP", null]
-            shippingAddress:
-                description: "if shippingType is DELIVERY then shippingAddress is customer address, if shippingType is PICKUP then shippingAddress is branch address"
-                type: 
-                    - string
-                    - "null"
-            deliveryFee:
-                type:
-                    - number
-                    - "null"
+
     payment:
         type: object
         description: |
@@ -78,38 +107,60 @@ properties:
                 type: string
             billingAddress:
                 type: string
+            billingSubDistrict:
+                type: string
+            billingDistrict:
+                type: string
+            billingProvince:
+                type: string
+            billingPostcode:
+                type: string
             billingPhone:
                 type: string
-            customerName:
+            customerFirstName:
+                type: string
+            customerLastName:
                 type: string
             customerEmail:
                 type: string
-            productName:
-                type: string  
             status:
                 type: string
-            subTotal:
-                type: number
-            discount:
-                type: number
-            rawTotal:
-                type: number
-            grandTotal:
-                type: number
             paymentLog:
                 type: array
                 items:
                     type: string
             remark:
                 type: string
+            deliveryFee:
+                type:
+                    - number
+                    - "null"
+            grandTotal:
+                type: number
     productList:
         items:
             properties:
+                pickedQty:
+                    type: integer
+                productName:
+                    type: string  
                 quantity:
                     type: integer
                 cprcode:
                     type: integer
+                originalPrice:
+                    type: number
+                price:
+                    description: "Price per Unit"
+                    type: number
                 settlementPrice:
+                    description: "subTotal = price * quantity"
+                    type: number
+                discount:
+                    description: "discount amount"
+                    type: number
+                rowTotal:
+                    description: "Subtotal - discount"
                     type: number
                 remark:
                     description: "Per product remark"
@@ -122,6 +173,7 @@ properties:
                 - cprcode
             type: object
         type: array
+
 required:
     - basketId
     - orderId
