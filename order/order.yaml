@@ -169,8 +169,8 @@ properties:
 		    description: "preorder flag is preOrder=1 , is not preOrder = 0 "
 		    type: 
 			- boolean
-		        - 0            
-            required:
+			- 0            
+		required:
                 - quantity
                 - cprcode
             type: object
