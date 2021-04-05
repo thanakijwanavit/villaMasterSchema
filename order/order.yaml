@@ -62,17 +62,28 @@ properties:
     shipping:
         type: object
         properties:
-            schedule:
-                type: 
-                    - object
-                    - "null"
-                properties:
-                    isExpress:
-                        type: boolean
-                    time:
-                        type: string
-                    data:
-                        type: string
+            scheduleList:
+                items:
+                    type: 
+                        - object
+                        - "null"
+                    properties:
+                        scheduleId:
+                            description: "match between product and schedule group"
+                            type: number
+                        mode:
+                            description: ""
+                            type: 
+                                - string
+                            enum: ["REGULAR", "EXPRESS", "PREORDER_RELATIVE", "PREORDER_FIXED"]
+                        dateTime:
+                            description: "ISO 8601 date and time string format YYYY-MM-DDThh:mm:ss.sssZ. compatible with AWSDateTime"
+                            type: string
+                        deliveryFee:
+                            description: "Per schedule delivery fee, example: regular delivery fee is 95 baht, preorder large product cost 150 baht."
+                            type:
+                                - number
+                                - "null"
             shippingFirstName:
                 type: string
             shippingLastName:
@@ -171,7 +182,10 @@ properties:
                     description: "preorder flag is preOrder=1 , is not preOrder = 0 "
                     type: 
                         - boolean
-                        - 0            
+                        - 0
+                scheduleId:
+                    description: "match between product and schedule group"
+                    type: number        
             required:
                 - quantity
                 - cprcode
