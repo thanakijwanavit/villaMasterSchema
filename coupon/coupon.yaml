@@ -90,7 +90,7 @@ properties:
       - no_code
   couponCode:
     type: string
-    description: coupon code for customers. can be fixed or auto-generated. not required.
+    description: coupon code for customers if couponCodeType is fixed.
   usesPerCoupon:
     type: integer
     description: total number of times this coupon can be used (by same and different customers)
@@ -135,12 +135,6 @@ properties:
     description: list of branchIds that are eligible for this coupon
     items:
       type: string
-anyOf:
-  - properties:
-      couponCodeType:
-        const: fixed
-    required:
-      - couponCode
 
 
   
