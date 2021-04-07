@@ -95,10 +95,7 @@ properties:
   endDate:
     type: integer
   conditions:
-    type: array
-    description: query language for conditions that this coupon is eligible for
-    items:
-      $ref: '#/definitions/Condition'
+    $ref: '#/definitions/Condition'
   actions:
     type: object
     description: query language for the actions applied by this coupon
@@ -107,7 +104,7 @@ properties:
         type: string
         enum: ["by_fixed", "cart_fixed", "by_percent", "buy_x_get_y_sku", "buy_x_get_y"]
       discountAmount:
-        type: integer
+        type: number
       discountQtyStep:
         type: integer
         description: how many X bought to apply this discount for buy X get Y (Y can be sku or discount amount)
