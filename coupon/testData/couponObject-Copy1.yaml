@@ -5,7 +5,8 @@
 couponId: 1249
 couponName: LINE@ - HELLO100
 couponDescription: coupon given after Line@ sign up
-active: True
+active: true
+couponCodeType: fixed
 couponCode: HELLO100
 usesPerCoupon: 3000
 usesPerCustomer: 1
@@ -19,28 +20,28 @@ conditions:
   is_value_processed: null
   aggregator: all
   conditions:
-    conditionType: Product/Subselect 
-    attribute: base_row_total
-    operator: >=
-    value: 1000
-    is_value_processed: null
-    aggregator: all
-    conditions:
-      - conditionType: Product
-        attribute: promotion_matching
-        operator: !=
-        value: OFFTAKE
-        is_value_processed: false
-      - conditionType: Product
-        attribute: promotion_matching
-        operator: !{}
-        value: Get
-        is_value_processed: false
-      - conditionType: Product
-        attribute: category_ids
-        operator: !=
-        value: "112762"
-        is_value_processed: false        
+    - conditionType: Product/Subselect 
+      attribute: base_row_total
+      operator: >=
+      value: 1000
+      is_value_processed: null
+      aggregator: all
+      conditions:
+        - conditionType: Product
+          attribute: promotion_matching
+          operator: !=
+          value: OFFTAKE
+          is_value_processed: false
+        - conditionType: Product
+          attribute: promotion_matching
+          operator: !{}
+          value: Get
+          is_value_processed: false
+        - conditionType: Product
+          attribute: category_ids
+          operator: !=
+          value: 112762
+          is_value_processed: false        
 actions:
   discountType: cart_fixed
   discountAmount: 100
@@ -61,7 +62,7 @@ actions:
       - conditionType: Product
         attribute: category_ids
         operator: !=
-        value: "112762"
+        value: 112762
         is_value_processed: false      
 customers:
   - 123
