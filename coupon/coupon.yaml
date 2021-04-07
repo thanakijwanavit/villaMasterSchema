@@ -128,6 +128,3 @@ properties:
     description: list of branchIds that are eligible for this coupon
     items:
       type: string
-    
-
-  
