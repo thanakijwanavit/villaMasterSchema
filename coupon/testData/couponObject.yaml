@@ -1,0 +1,67 @@
+couponId: 1249
+couponName: LINE@ - HELLO100
+couponDescription: coupon given after Line@ sign up
+active: True
+couponCode: HELLO100
+usesPerCoupon: 3000
+usesPerCustomer: 1
+startDate: 1617753600
+endDate: 1649289600
+conditions:
+  bannerUrl: www.hotmail.com
+  description: abc
+  endDate: 1616698169
+  imageUrl:
+  - www.abc.com
+  - www.cnn.com
+  slotIndex: 2
+  startDate: 1616598169
+parentGroupList:
+- 1
+- 2
+- 3
+productList:
+- cprcode: 225407
+  rankingScore: 0
+- cprcode: 9
+  rankingScore: 0
+subGroupList:
+- 13
+- 14
+- 15
+
+
+
+    conditions:
+      type: object
+      description: query language for conditions that this coupon is eligible for
+    actions:
+      type: object
+      description: query language for the actions applied by this coupon
+      properties:
+        discountType:
+          type: string
+          enum: ["by_fixed", "cart_fixed", "by_percent", "buy_x_get_y_sku", "buy_x_get_y"]
+        discountAmount:
+          type: integer
+        discountQtyStep:
+          type: integer
+          description: how many X bought to apply this discount for buy X get Y (Y can be sku or discount amount)
+        freeShipping:
+          type: boolean
+        conditions:
+          type: object
+      required:
+        - discountType
+        - discountAmount
+    customers:
+      type: array
+      description: list of customerIds or customer group Ids who are eligible for this coupon
+      items:
+        type: integer
+    branches:
+      type: array
+      description: list of branchIds that are eligible for this coupon
+      items:
+        type: string
+
