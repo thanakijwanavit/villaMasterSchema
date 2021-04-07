@@ -6,7 +6,7 @@ couponId: 1055
 couponName: New Customer - Free delivery (Shopped over 3,500 THB)
 couponDescription: free shipping for new customer who shops over 3,500 THB
 active: true
-couponCodeType: no_coupon
+couponCodeType: no_code
 usesPerCustomer: 1
 startDate: 1617753600
 endDate: 1649289600
