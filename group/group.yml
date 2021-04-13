@@ -25,6 +25,12 @@ definitions:
         items:
           type: string
           format: uri
+      bannerType:
+        type: string
+      categorylv1Id:
+        type: integer
+      categorylv1Name:
+        type: string
       description:
         type: string
       startDate:
