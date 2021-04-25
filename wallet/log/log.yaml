@@ -30,5 +30,7 @@ properties:
       - villa-wallet-digio-functions
   request:
     type: object
+    additionalProperties: true
   response:
     type: object
+    additionalProperties: true
