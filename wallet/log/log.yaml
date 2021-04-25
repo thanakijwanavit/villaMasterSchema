@@ -1,0 +1,29 @@
+i$id: https://raw.githubusercontent.com/thanakijwanavit/villaMasterSchema/master/wallet/log/log.yaml
+$schema: https://json-schema.org/draft/2020-12/schema
+definitions:
+
+properties:
+  timestamp:
+    type: integer
+    description: unix time stamp of the log
+    examples:
+      - 1619336607.964934
+  datestamp:
+    type: integer
+    description: unix date of the log
+    examples:
+      - 1619308800.0
+  functionName:
+    type: string
+    description: name of the function that records the log
+    examples:
+      - getBalance
+  appName:
+    type: string
+    description: name of the app that calls the log
+    examples:
+      - villa-wallet-digio-functions
+  request:
+    type: object
+  response:
+    type: object
