@@ -1,0 +1,56 @@
+# Condition description
+# If total amount equals or greater than 1000 for a subselection of items in cart matching all of these conditions:
+# promotion matching is not OFFTAKE, does not contain Get, category is not 112672
+
+couponId: 983
+couponName: 5J ham - online exclusive 10 pack On Top 20%
+couponDescription: 20% discount for 5J ham if buy 10 packs
+active: true
+couponCodeType: auto_generated
+usesPerCoupon: 500
+startDate: 1617753600
+endDate: 1649289600
+conditions:
+  conditionType: Combine
+  attribute: null
+  operator: null
+  value: true
+  is_value_processed: null
+  aggregator: all
+  conditions:
+    - conditionType: Product/Subselect
+      attribute: qty
+      operator: ">="
+      value: '10'
+      is_value_processed:
+      aggregator: all
+      conditions:
+        - type: Product
+          attribute: cprcode
+          operator: "=="
+          value: 230997
+          is_value_processed: false       
+actions:
+  discountType: by_percent
+  discountAmount: 20
+  freeShipping: true
+  conditions:
+    conditionType: Product/Combine
+    attribute: null
+    operator: null
+    value: true
+    is_value_processed: null
+    aggregator: any
+    conditions:
+      - type: Product
+        attribute: cprcode
+        operator: "=="
+        value: 230997
+        is_value_processed: false    
+customers:
+  - 123
+  - 1234
+branches:
+  - "1000"
+  - "1001"
+
