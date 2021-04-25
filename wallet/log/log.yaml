@@ -2,12 +2,12 @@ $id: https://raw.githubusercontent.com/thanakijwanavit/villaMasterSchema/master/
 $schema: https://json-schema.org/draft/2020-12/schema
 properties:
   timestamp:
-    type: integer
+    type: number
     description: unix time stamp of the log
     examples:
       - 1619336607.964934
   datestamp:
-    type: integer
+    type: number
     description: unix date of the log
     examples:
       - 1619308800.0
