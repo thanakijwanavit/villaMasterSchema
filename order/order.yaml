@@ -91,6 +91,12 @@ definitions:
                     type:
                         - number
                         - "null"
+                pickingStatus:
+                    type: string
+                    enum:
+                        - picked
+                        - pending
+                        - cancelled
     
     Product:
         properties:
@@ -134,12 +140,6 @@ definitions:
         
 
 properties:
-    pickingStatus:
-        type: string
-        enum:
-            - picked
-            - pending
-            - cancelled
     basketName:
         type: string
     basketId:
