@@ -76,7 +76,7 @@ properties:
     description: id of the coupon
   couponName:
     type: string
-    description: name of the coupon 
+    description: name of the coupon
   couponDescription:
     type: string
     description: description of the coupon

@@ -26,7 +26,7 @@ conditions:
       aggregator: all
       conditions:
         - conditionType: Product
-          attribute: category_ids
+          attribute: groupId
           operator: "!="
           value: 112672
           is_value_processed: false

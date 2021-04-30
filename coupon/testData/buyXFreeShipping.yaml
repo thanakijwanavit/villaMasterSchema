@@ -26,7 +26,7 @@ conditions:
       aggregator: all
       conditions:
         - type: Product
-          attribute: cprcode
+          attribute: groupId
           operator: "=="
           value: 230997
           is_value_processed: false       
@@ -43,7 +43,7 @@ actions:
     aggregator: any
     conditions:
       - type: Product
-        attribute: cprcode
+        attribute: groupId
         operator: "=="
         value: 230997
         is_value_processed: false    

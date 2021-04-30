@@ -28,17 +28,17 @@ conditions:
       aggregator: all
       conditions:
         - conditionType: Product
-          attribute: promotion_matching
+          attribute: groupID
           operator: !=
-          value: OFFTAKE
+          value: 1234 # groupID for OFFTAKE
           is_value_processed: false
         - conditionType: Product
-          attribute: promotion_matching
-          operator: !{}
-          value: Get
+          attribute: groupId promotion_matching
+          operator: !=
+          value: 1235 # groupId for Get
           is_value_processed: false
         - conditionType: Product
-          attribute: category_ids
+          attribute: groupId
           operator: !=
           value: 112762
           is_value_processed: false        
@@ -60,7 +60,7 @@ actions:
         value: Dis
         is_value_processed: false
       - conditionType: Product
-        attribute: category_ids
+        attribute: groupId
         operator: !=
         value: 112762
         is_value_processed: false      
