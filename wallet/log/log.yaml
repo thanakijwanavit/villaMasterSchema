@@ -1,7 +1,14 @@
-i$id: https://raw.githubusercontent.com/thanakijwanavit/villaMasterSchema/master/wallet/log/log.yaml
+$id: https://raw.githubusercontent.com/thanakijwanavit/villaMasterSchema/master/wallet/log/log.yaml
 $schema: https://json-schema.org/draft/2020-12/schema
 #definitions: 
-
+required:
+  - appName
+  - functionName
+  - logType
+  - request
+  - response
+  - reference
+additionalProperties: false
 properties:
   timestamp:
     type: integer
@@ -42,3 +49,4 @@ properties:
   response:
     type: object
     additionalProperties: true
+  
