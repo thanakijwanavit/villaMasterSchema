@@ -1,0 +1,32 @@
+$schema: http://json-schema.org/schema#
+type: object
+properties:
+  paymentId:
+    type: string
+    description: payment transaction id
+  timestamp:
+    type: number
+    description: timestamp of when the payment was made
+  paymentType:
+    type: string
+    description: what kind of method used for this payment
+  orderId:
+    type: string
+    description: order id of this payment
+  amount:
+    type: number
+    description: amount paid
+  status:
+    type: string
+    description: status of this payment
+  metadata:
+    type: object
+    description: additional information about this payment
+required:
+- paymentId
+- timestamp
+- paymentType
+- orderId
+- amount
+- status
+additionalProperties: false
