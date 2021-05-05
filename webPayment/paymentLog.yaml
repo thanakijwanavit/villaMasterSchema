@@ -10,6 +10,12 @@ properties:
   paymentType:
     type: string
     description: what kind of method used for this payment
+    enum:
+      - CARD
+      - TOKEN
+      - APM
+      - AMEX
+      - WALLET
   orderId:
     type: string
     description: order id of this payment
