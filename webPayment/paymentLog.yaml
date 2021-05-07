@@ -1,6 +1,9 @@
 $schema: http://json-schema.org/schema#
 type: object
 properties:
+  id:
+    type: string
+    description: log id
   paymentId:
     type: string
     description: payment transaction id
@@ -29,6 +32,7 @@ properties:
     type: object
     description: additional information about this payment
 required:
+- id
 - paymentId
 - timestamp
 - paymentType
