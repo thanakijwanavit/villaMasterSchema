@@ -11,12 +11,12 @@ required:
 additionalProperties: false
 properties:
   timestamp:
-    type: integer
+    type: number
     description: unix time stamp of the log
     examples:
       - 1619336607.964934
   datestamp:
-    type: integer
+    type: number
     description: unix date of the log
     examples:
       - 1619308800.0
