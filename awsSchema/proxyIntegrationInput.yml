@@ -1,0 +1,40 @@
+$schema: http://json-schema.org/schema#
+properties:
+  body:
+    type: string
+  headers:
+    type: object
+  httpMethod:
+    type: string
+  isBase64Encoded:
+    type: string
+  multiValueHeaders:
+    type: object
+  multiValueQueryStringParameters:
+    type: object
+  path:
+    type: string
+  pathParameters:
+    type: object
+  queryStringParameters:
+    type: object
+  requestContext:
+    type: object
+  resource:
+    type: string
+  stageVariables:
+    type: object
+required:
+  - body
+  - headers
+  - httpMethod
+  - isBase64Encoded
+  - multiValueHeaders
+  - multiValueQueryStringParameters
+  - path
+  - pathParameters
+  - queryStringParameters
+  - requestContext
+  - resource
+  - stageVariables
+type: object
