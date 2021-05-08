@@ -28,7 +28,7 @@ properties:
   status:
     type: string
     description: status of this payment
-  successIndicator:
+  amexSuccessIndicator:
     type: string
     description: Amex success indicator to check payment status
   metadata:
