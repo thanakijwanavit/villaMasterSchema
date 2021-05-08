@@ -28,6 +28,9 @@ properties:
   status:
     type: string
     description: status of this payment
+  successIndicator:
+    type: string
+    description: Amex success indicator to check payment status
   metadata:
     type: object
     description: additional information about this payment
@@ -39,4 +42,3 @@ required:
 - orderId
 - amount
 - status
-additionalProperties: false
