@@ -1,0 +1,16 @@
+$schema: http://json-schema.org/schema#
+properties:
+  lat_1:
+    type: number
+  lat_2:
+    type: number
+  lon_1:
+    type: number
+  lon_2:
+    type: number
+required:
+- lat_1
+- lat_2
+- lon_1
+- lon_2
+type: object
