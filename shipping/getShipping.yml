@@ -5,7 +5,7 @@ properties:
     properties:
       lat:
         type: integer
-      long:
+      lon:
         type: integer
       postcode:
         type: integer
