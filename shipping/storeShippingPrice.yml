@@ -1,0 +1,35 @@
+1000:
+- maxDist: 10
+  price: 90
+- maxDist: 15
+  price: 150
+1015:
+- maxDist: 5
+  price: 120
+- maxDist: 12
+  price: 180
+1021:
+- maxDist: 7
+  price: 90
+1023:
+- maxDist: 10
+  price: 90
+1026:
+- maxDist: 5
+  price: 120
+- maxDist: 12
+  price: 180
+1039:
+- maxDist: 5
+  price: 90
+1041:
+- maxDist: 3
+  price: 80
+- maxDist: 10
+  price: 120
+1048:
+- maxDist: 12
+  price: 90
+1049:
+- maxDist: 15
+  price: 90
