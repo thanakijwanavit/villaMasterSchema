@@ -8,7 +8,7 @@ startDate: 1617753600
 endDate: 1649289600
 condition:
   cartTotal:
-    operator: >=
+    operator: '>='
     amount: 3500
     exclude:
       - 112672

@@ -14,7 +14,7 @@ condition:
       - 12345
       - 12346
       - 12347
-    operator: =
+    operator: '='
     amount: 3
 action:
   getFreeProduct:

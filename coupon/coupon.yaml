@@ -12,7 +12,7 @@ definitions:
           operator: 
             type: string
             enum:
-              - >=
+              - '>='
           amount:
             type: number
           exclude:
@@ -32,8 +32,8 @@ definitions:
           operator: 
             type: string
             enum:
-              - >=
-              - =
+              - '>='
+              - '='
           amount:
             type: integer
     

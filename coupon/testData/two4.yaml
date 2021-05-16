@@ -13,7 +13,7 @@ condition:
   product:
     productList: 
       - 94273
-    operator: =
+    operator: '='
     amount: 2
 actions:
   discount: 
