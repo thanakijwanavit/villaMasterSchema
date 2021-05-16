@@ -1,0 +1,19 @@
+$id: https://raw.githubusercontent.com/thanakijwanavit/villaMasterSchema/master/coupon/usedCoupon.yaml
+$schema: https://json-schema.org/draft/2020-12/schema
+
+type: object
+description: coupons that have been used
+properties:
+  couponId:
+    type: integer
+  couponCode:
+    type: string
+  customerId:
+    type: string
+  useTime:
+    type: integer
+required:
+  - couponId
+  - couponCode
+  - customerId
+  - userTime
