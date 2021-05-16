@@ -5,11 +5,6 @@ definitions:
     title: Condition
     type: object
     properties:
-      cannotUseWith:
-        description: couponIds that this coupon cannot be used with
-        type: array
-        items:
-          type: integer
       cartTotal:
         description: condition on the total amount of the cart
         type: object
@@ -38,7 +33,7 @@ definitions:
             type: string
             enum:
               - >=
-              - ==
+              - =
           amount:
             type: integer
     
@@ -51,16 +46,28 @@ definitions:
         description: discount to apply to cart/product
         type: object
         properties:
+          applyTo:
+            type: string
+            enum:
+              - CART
+              - PRODUCT
+          discountProductList:
+            description: products to apply the discount to
+            type: array
+            items:
+              type: integer
           discountType:
             type: string
             enum:
-              - VALUE
+              - FIXED_AMOUNT
               - PERCENT
+          amount:
+            type: number
       getFreeProduct:
         description: products for customer to choose for BOGO coupons
         type: object
         properties:
-          products:
+          productList:
             description: cprcodes or groupIds of products to choose from
             type: array
             items:
@@ -96,19 +103,22 @@ properties:
       - FIXED
       - AUTO_GENERATED
       - NO_CODE
+  couponCode:
+    description: required if couponCodeType is FIXED
+    type: string
   usesPerCoupon:
     type: integer
-    description: total number of times this coupon can be used 
+    description: total number of times this coupon can be used. if not specified, unlimited.
   usesPerCustomer:
     type: integer 
   startDate:
     type: integer
   endDate:
     type: integer
-  conditions:
+  condition:
     description: cart/product conditions for actions in this coupon to apply. if not specified, automatically apply actions. 
     $ref: '#/definitions/Condition'
-  actions:
+  action:
     $ref: '#/definitions/Action'
   customers:
     type: array
@@ -121,6 +131,14 @@ properties:
     items:
       type: string
       pattern: '(^\d{2}$)'
+  newCustomer:
+    description: does this coupon apply to new customer only (false or not specified means no)
+    type: bool 
+  incompatibleCoupons:
+    description: couponIds that this coupon cannot be used with
+    type: array
+    items:
+      type: integer
   branches:
     type: array
     description: list of branchIds that are eligible for this coupon. if not specified, coupon applies to all branches.
