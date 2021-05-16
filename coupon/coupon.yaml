@@ -133,7 +133,7 @@ properties:
       pattern: '(^\d{2}$)'
   newCustomer:
     description: does this coupon apply to new customer only (false or not specified means no)
-    type: bool 
+    type: boolean
   incompatibleCoupons:
     description: couponIds that this coupon cannot be used with
     type: array
