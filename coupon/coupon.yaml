@@ -84,7 +84,7 @@ required:
   - couponId
   - couponName
   - active
-  - actions
+  - action
 properties:
   couponId:
     type: integer
