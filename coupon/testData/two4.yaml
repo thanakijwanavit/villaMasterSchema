@@ -15,7 +15,7 @@ condition:
       - 94273
     operator: '='
     amount: 2
-actions:
+action:
   discount: 
     applyTo: CART
     discountType: FIXED_AMOUNT
