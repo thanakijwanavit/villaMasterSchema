@@ -1,0 +1,23 @@
+# Condition description
+# If total amount equals or greater than 1000 for a subselection of items in cart matching all of these conditions:
+# promotion matching is not OFFTAKE, does not contain Get, category is not 112672
+
+couponId: 983
+couponName: TWO4 88
+couponDescription: Buy 2 Mozzarella cheese packs discount 88 THB
+active: true
+couponCodeType: NO_CODE
+startDate: 1617753600
+endDate: 1649289600
+condition:
+  product:
+    productList: 
+      - 94273
+    operator: '='
+    amount: 2
+action:
+  discount: 
+    applyTo: CART
+    discountType: FIXED_AMOUNT
+    amount: 88
+
