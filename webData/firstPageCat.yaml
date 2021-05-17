@@ -1,73 +1,82 @@
 categoryList:
     - id: 9000000002
       name: New Arrival
-      logoUrl: Url
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/new-arrival.png
     - id: 9000000001
       name: Best Seller
-      logoUrl: Url
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/best-seller.png
     - id: 9000000003
       name: Special Offer
-      logoUrl: Url
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/special-offer.png
     - id: 9000000004
       name: Partnership Shops
-      logoUrl: Url
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/partnership-shops.svg
     - id: 147694
       name: Grab & Go
-      logoUrl: Url
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/grab-go.svg
     - id: 38153
       name: Pre Order
-      logoUrl: Url
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/pre-order.png
     - id: 5000000007
       name: Monoprix
-      logoUrl: Url
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/monoprix.svg
     - id: 5000000002
       name: Iceland
-      logoUrl: Url
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/Iceland-01.svg
     - id: 5000000025
       name: Woolworths
-      logoUrl: Url
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/woolworths-01.svg
+    - id: 78132
+      name: Festive Items
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/seasonal.svg
     - id: null
       name: Bakery
-      logoUrl: Url
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/bakery.png
     - id: null
       name: Fruits & Vegetables
-      logoUrl: Url
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/fruits.png
     - id: null
       name: Frozen Food
-      logoUrl: Url
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/frozen-food.png
     - id: null
       name: Dairy
-      logoUrl: Url
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/dairy.png
     - id: null
       name: Delicatessen & Eggs
-      logoUrl: Url
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/delicatessen.png
     - id: null
       name: Butcher Shop
-      logoUrl: Url
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/butcher.png
     - id: null
       name: Seafood
-      logoUrl: Url
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/seafood.png
     - id: null
       name: Beer Wine & Spirits
-      logoUrl: Url
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/beer.png
     - id: null
       name: Grocery
-      logoUrl: Url
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/grocery.png
     - id: null
       name: Drinks
-      logoUrl: Url
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/drinks.png
     - id: null
       name: Baby
-      logoUrl: Url
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/baby.png
     - id: null
       name: Health & Beauty
-      logoUrl: Url
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/beauty.png
     - id: null
       name: Pet & Household
-      logoUrl: Url
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/pet.png
     - id: null
       name: Health
-      logoUrl: Url
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/health.png
+    - id: 15597
+      name: Gourmet Line
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/gourmet-line.png
+    - id: 77090
+      name: Hampers & Flowers
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/hampers.png
 
 partnershipShopsList:
     - id: 220165
