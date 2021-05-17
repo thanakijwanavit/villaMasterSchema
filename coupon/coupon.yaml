@@ -20,7 +20,7 @@ definitions:
             type: array
             items: 
               type: integer
-      product:
+      productQuantity:
         description: condition on the product quantity in the cart
         type: object
         properties:
@@ -34,7 +34,7 @@ definitions:
             enum:
               - '>='
               - '='
-          amount:
+          quantity:
             type: integer
     
   Action:
@@ -63,6 +63,7 @@ definitions:
               - PERCENT
           amount:
             type: number
+          
       getFreeProduct:
         description: products for customer to choose for BOGO coupons
         type: object
@@ -72,7 +73,7 @@ definitions:
             type: array
             items:
               type: integer
-          amount:
+          quantity:
             type: integer
       freeShipping:
         type: boolean
