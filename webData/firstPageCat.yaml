@@ -1,7 +1,207 @@
 categoryList:
-  - id: 132535
-    name: kdfsjlkdfjslj
-    logoUrl: kfsdjldfkjlkdfjklsj
-  - id: 253525
-    name: klsafdjlkjf
-    logoUrl: klsdfjlkdfj
+    - id: 9000000002
+      name: New Arrival
+      logoUrl: Url
+    - id: 9000000001
+      name: Best Seller
+      logoUrl: Url
+    - id: 9000000003
+      name: Special Offer
+      logoUrl: Url
+    - id: 9000000004
+      name: Partnership Shops
+      logoUrl: Url
+    - id: 147694
+      name: Grab & Go
+      logoUrl: Url
+    - id: 38153
+      name: Pre Order
+      logoUrl: Url
+    - id: 5000000007
+      name: Monoprix
+      logoUrl: Url
+    - id: 5000000002
+      name: Iceland
+      logoUrl: Url
+    - id: 5000000025
+      name: Woolworths
+      logoUrl: Url
+    - id: null
+      name: Bakery
+      logoUrl: Url
+    - id: null
+      name: Fruits & Vegetables
+      logoUrl: Url
+    - id: null
+      name: Frozen Food
+      logoUrl: Url
+    - id: null
+      name: Dairy
+      logoUrl: Url
+    - id: null
+      name: Delicatessen & Eggs
+      logoUrl: Url
+    - id: null
+      name: Butcher Shop
+      logoUrl: Url
+    - id: null
+      name: Seafood
+      logoUrl: Url
+    - id: null
+      name: Beer Wine & Spirits
+      logoUrl: Url
+    - id: null
+      name: Grocery
+      logoUrl: Url
+    - id: null
+      name: Drinks
+      logoUrl: Url
+    - id: null
+      name: Baby
+      logoUrl: Url
+    - id: null
+      name: Health & Beauty
+      logoUrl: Url
+    - id: null
+      name: Pet & Household
+      logoUrl: Url
+    - id: null
+      name: Health
+      logoUrl: Url
+
+partnershipShopsList:
+    - id: 220165
+      name: Beirut Restaurant
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/220165/220165-1.jpg
+      level2:
+          id: null
+          name: Food & Beverages
+      level3:
+          id: null
+          name: Beirut Restaurant
+    - id: 219931
+      name: Gram Cafe&Pancakes
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/219931/219931-1.jpg
+      level2:
+          id: null
+          name: Food & Beverages
+      level3:
+          id: null
+          name: Gram Cafe&Pancakes
+    - id: 220164
+      name: Nadai Unatoto
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/220164/220164-1.jpg
+      level2:
+          id: null
+          name: Food & Beverages
+      level3:
+          id: null
+          name: Nadai Unatoto
+    - id: 220245
+      name: Sunrise Tacos
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/220245/220245-1.jpg
+      level2:
+          id: null
+          name: Food & Beverages
+      level3:
+          id: null
+          name: Sunrise Tacos
+    - id: 175989
+      name: The Green Geek
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/175989/175989-1.jpg
+      level2:
+          id: null
+          name: Food & Beverages
+      level3:
+          id: null
+          name: The Green Geek
+    - id: 7000000004
+      name: Yih Sahp Luhk
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000004/7000000004-1
+      level2:
+          id: null
+          name: Food & Beverages
+      level3:
+          id: null
+          name: Yih Sahp Luhk
+    - id: 175988
+      name: Hug Organic
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/175988/175988-1.jpg
+      level2:
+          id: null
+          name: Health & Beauty
+      level3:
+          id: null
+          name: Hug Organic
+    - id: 227944
+      name: Riedel
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/227944/227944-1.jpg
+      level2:
+          id: null
+          name: Home & Kitchen Applicances
+      level3:
+          id: null
+          name: Riedel
+    - id: 219567
+      name: Bodum
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/219567/219567-1.jpg
+      level2:
+          id: null
+          name: Home & Kitchen Applicances
+      level3:
+          id: null
+          name: Bodum
+    - id: 219889
+      name: Joseph Joseph
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/219889/219889-1.jpg
+      level2:
+          id: null
+          name: Home & Kitchen Applicances
+      level3:
+          id: null
+          name: Joseph Joseph
+    - id: 219932
+      name: Mason Appetite
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/219932/219932-1.jpg
+      level2:
+          id: null
+          name: Home & Kitchen Applicances
+      level3:
+          id: null
+          name: Mason Appetite
+    - id: 220082
+      name: Le Creuset
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/220082/220082-1.jpg
+      level2:
+          id: null
+          name: Home & Kitchen Applicances
+      level3:
+          id: null
+          name: Le Creuset
+    - id: 219578
+      name: Zwilling
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/219578/219578-1.jpg
+      level2:
+          id: null
+          name: Home & Kitchen Applicances
+      level3:
+          id: null
+          name: Zwilling
+    - id: 175991
+      name: Dogster
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/175991/175991-1.jpg
+      level2:
+          id: null
+          name: Pet Food
+      level3:
+          id: null
+          name: Dogster
+    - id: 219830
+      name: Royal Canin
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/219830/219830-1.jpg
+      level2:
+          id: null
+          name: Pet Food
+      level3:
+          id: null
+          name: Royal Canin
