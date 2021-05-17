@@ -15,11 +15,21 @@ definitions:
               - '>='
           amount:
             type: number
-          exclude:
+          excludeProduct:
             description: cprcode or groupIds that cannot count into cart total
             type: array
             items: 
               type: integer
+          excludePromotion:
+            description: promotion types that cannot count into cart total
+            type: array
+            items: 
+              type: string
+              enum:
+                - BOGO
+                - TWO4
+                - MDCOST
+                - OFFTAKE   
       productQuantity:
         description: condition on the product quantity in the cart
         type: object
