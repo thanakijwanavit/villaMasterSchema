@@ -10,11 +10,11 @@ usesPerCoupon: 500
 startDate: 1617753600
 endDate: 1649289600
 condition:
-  product:
+  productQuantity:
     productList: 
       - 230997
     operator: '>='
-    amount: 10
+    quantity: 10
 action:
   discount: 
     applyTo: PRODUCT

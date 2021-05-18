@@ -10,11 +10,11 @@ couponCodeType: NO_CODE
 startDate: 1617753600
 endDate: 1649289600
 condition:
-  product:
+  productQuantity:
     productList: 
       - 94273
     operator: '='
-    amount: 2
+    quantity: 2
 action:
   discount: 
     applyTo: CART

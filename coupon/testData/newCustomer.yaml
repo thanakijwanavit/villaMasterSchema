@@ -10,7 +10,7 @@ condition:
   cartTotal:
     operator: '>='
     amount: 3500
-    exclude:
+    excludeProduct:
       - 112672
 action: 
   freeShipping: true  

@@ -9,19 +9,19 @@ usesPerCustomer: 1
 startDate: 1617753600
 endDate: 1649289600
 condition:
-  product:
+  productQuantity:
     productList: 
       - 12345
       - 12346
       - 12347
     operator: '='
-    amount: 3
+    quantity: 3
 action:
   getFreeProduct:
     productList:
       - 12345
       - 12346
-    amount: 1
+    quantity: 1
 branches:
   - "1000"
   - "1001"

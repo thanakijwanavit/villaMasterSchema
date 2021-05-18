@@ -1,0 +1,20 @@
+couponId: 1249
+couponName: Buy 2000 THB Discount 5%
+couponDescription: Buy 2000 THB Discount 5% except control products, promotion products, and BOGO, TWO4
+active: true
+couponCodeType: AUTO_GENERATED
+condition:
+  cartTotal:
+    operator: '>='
+    amount: 2000
+    excludeProduct:
+      - 12345 # สมมติว่าเป็น controlled product group หรือไม่ก็ใส่หลาย ๆ กรุ๊ปถ้าเกิดว่ามีอยู่แล้ว
+    excludePromotion:
+      - BOGO
+      - TWO4
+action:
+  discount: 
+    applyTo: CART
+    discountType: PERCENT
+    amount: 5
+
