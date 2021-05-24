@@ -4,79 +4,105 @@ definitions:
   Condition:
     title: Condition
     type: object
-    conditionType:
-      type: string
-      description: type of the condition
-    attribute:
-      type:
-        - string
-        - "null"
-      description: attribute to apply operator. if operator not applied then null.
-      enum:
-        - "base_row_total" # total amount 
-        - "qty" # total quantity
-        - null
-    operator:
-      type:
-        - string
-        - "null"
-      enum: ["==", "!=", "<", ">", "<=", ">=", "{}", "!{}", "is one of", "is not one of", null] #==: is, {}:contains, is one of/is not one of is not used by Villa now
-    value:
-      type:
-        - boolean
-        - number
-        - string
-    is_value_processed:
-      type: 
-        - boolean
-        - "null"
-      description: not sure what this means in magento. only see null and false.
-    aggregator:
-      type: string
-      enum:
-        - all
-        - any
-    conditions:
-      type: array
-      items: 
-        $ref: '#/definitions/Condition'
-    required:
-      - conditionType
-      - attribute
-      - operator
-      - value
-      - is_value_processed
-    
-        
-  UsedCoupons:
-    type: object
-    description: coupons that have been used
     properties:
-      couponId:
-        type: integer
-      customerId:
-        type: string
-      useTime:
-        type: integer
-    required:
-      - couponId
-      - customerId
-      - userTime
-        
+      cartTotal:
+        description: condition on the total amount of the cart
+        type: object
+        properties:
+          operator: 
+            type: string
+            enum:
+              - '>='
+          amount:
+            type: number
+          excludeProduct:
+            description: cprcode or groupIds that cannot count into cart total
+            type: array
+            items: 
+              type: integer
+          excludePromotion:
+            description: promotion types that cannot count into cart total
+            type: array
+            items: 
+              type: string
+              enum:
+                - BOGO
+                - TWO4
+                - MDCOST
+                - OFFTAKE   
+      productQuantity:
+        description: condition on the product quantity in the cart
+        type: object
+        properties:
+          productList:
+            description: cprcodes or groupIds of eligible products
+            type: array
+            items:
+              type: integer
+          operator: 
+            type: string
+            enum:
+              - '>='
+              - '='
+          quantity:
+            type: integer
+    
+  Action:
+    title: Action
+    type: object
+    description: actions applied by this coupon
+    properties:
+      discount:
+        description: discount to apply to cart/product
+        type: object
+        properties:
+          applyTo:
+            type: string
+            enum:
+              - CART
+              - PRODUCT
+          discountProductList:
+            description: products to apply the discount to
+            type: array
+            items:
+              type: integer
+          discountType:
+            type: string
+            enum:
+              - FIXED_AMOUNT
+              - PERCENT
+          amount:
+            type: number
+          
+      getFreeProduct:
+        description: products for customer to choose for BOGO coupons
+        type: object
+        properties:
+          productList:
+            description: cprcodes or groupIds of products to choose from
+            type: array
+            items:
+              type: integer
+          quantity:
+            type: integer
+      freeShipping:
+        type: boolean
+
+
 
 type: object
 required:
   - couponId
   - couponName
   - active
-  - actions
+  - action
 properties:
   couponId:
     type: integer
     description: id of the coupon
   couponName:
     type: string
-    description: name of the coupon 
+    description: name of the coupon
   couponDescription:
     type: string
     description: description of the coupon
@@ -85,54 +111,48 @@ properties:
   couponCodeType:
     type: string
     enum: 
-      - fixed
-      - auto_generated
-      - no_code
+      - FIXED
+      - AUTO_GENERATED
+      - NO_CODE
   couponCode:
+    description: required if couponCodeType is FIXED
     type: string
-    description: coupon code for customers if couponCodeType is fixed.
   usesPerCoupon:
     type: integer
-    description: total number of times this coupon can be used (by same and different customers)
+    description: total number of times this coupon can be used. if not specified, unlimited.
   usesPerCustomer:
-    type: integer
+    type: integer 
   startDate:
     type: integer
   endDate:
     type: integer
-  conditions:
+  condition:
+    description: cart/product conditions for actions in this coupon to apply. if not specified, automatically apply actions. 
     $ref: '#/definitions/Condition'
-  actions:
-    type: object
-    description: query language for the actions applied by this coupon
-    properties:
-      discountType:
-        type: 
-          - string
-          - "null" # null for free shipping
-        enum: ["by_fixed", "cart_fixed", "by_percent", "buy_x_get_y_sku", "buy_x_get_y", null]
-      discountAmount:
-        type: number
-      discountQtyStep:
-        type: integer
-        description: how many X bought to apply this discount for buy X get Y (Y can be sku or discount amount)
-      maxQtyDiscountApplied:
-        type: integer
-        description: the maximum quantity of the same product that can qualify for the discount in the same purchase
-      freeShipping:
-        type: boolean
-      conditions: # apply the rule only to cart items matching the following conditions (leave blank for all items)
-        $ref: '#/definitions/Condition'
-    required:
-      - discountType
+  action:
+    $ref: '#/definitions/Action'
   customers:
     type: array
-    description: list of customerIds or customer group Ids who are eligible for this coupon
+    description: list of customerIds or customer group Ids who are eligible for this coupon. if not specified, coupon applies to all customers. 
+    items:
+      type: integer
+  customerTypes:
+    type: array
+    description: customer types that are eligible for this coupon. if not specified, coupon applies to all customerTypes.
+    items:
+      type: string
+      pattern: '(^\d{2}$)'
+  newCustomer:
+    description: does this coupon apply to new customer only (false or not specified means no)
+    type: boolean
+  incompatibleCoupons:
+    description: couponIds that this coupon cannot be used with
+    type: array
     items:
       type: integer
   branches:
     type: array
-    description: list of branchIds that are eligible for this coupon
+    description: list of branchIds that are eligible for this coupon. if not specified, coupon applies to all branches.
     items:
       type: string
 

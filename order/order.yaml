@@ -109,9 +109,10 @@ definitions:
             cprcode:
                 type: integer
             originalPrice:
+                description: "original price of the product"
                 type: number
             price:
-                description: "Price per Unit"
+                description: "Price per Unit after promotion is applied"
                 type: number
             settlementPrice:
                 description: "subTotal = price * quantity"
