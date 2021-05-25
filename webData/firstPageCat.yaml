@@ -214,3 +214,8 @@ partnershipShopsList:
       level3:
           id: null
           name: Royal Canin
+
+youTube:
+    - id: 6000000000
+      name: Shabu
+      url: https://www.youtube.com/watch?v=9TrpxyJGXBk&t=9s
