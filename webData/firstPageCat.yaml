@@ -68,7 +68,7 @@ categoryList:
     - id: null
       name: Pet & Household
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/pet.png
-    - id: null
+    - id: 448
       name: Health
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/health.png
     - id: 15597
