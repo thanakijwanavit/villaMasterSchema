@@ -74,9 +74,9 @@ categoryList:
     - id: 15597
       name: Gourmet Line
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/gourmet-line.png
-    - id: null
-      name: Seasonal Hampers & Flowers
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/health.png
+#     - id: null
+#       name: Seasonal Hampers & Flowers
+#       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/hampers.png
 
 partnershipShopsList:
     - id: 220165
