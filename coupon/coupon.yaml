@@ -145,6 +145,14 @@ properties:
   newCustomer:
     description: does this coupon apply to new customer only (false or not specified means no)
     type: boolean
+  promotionType:
+    description: type of promotion in case there is exclusion condition
+    type: string
+    enum:
+      - BOGO
+      - TWO4
+      - MDCOST
+      - OFFTAKE   
   incompatibleCoupons:
     description: couponIds that this coupon cannot be used with
     type: array
