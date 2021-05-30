@@ -1,27 +1,6 @@
 $schema: http://json-schema.org/schema#
 additionalProperties: false
 definitions:
-   OrderHistory:
-       type: object
-       description: |
-           "object which should be provided by the orderhistory app"
-       properties:
-           customerFirstName:
-               type: string
-           customerLastName:
-               type: string
-           customerEmail:
-               type: string
-           status:
-               type: string
-
-           deliveryFee:
-               type:
-                   - number
-                   - "null"
-           grandTotal:
-               type: number
-
    Shipping:
        type: object
        properties:
@@ -83,8 +62,18 @@ properties:
        type: number
    ownerId:
        type: string
+   customerFirstName:
+       type: string
+   customerLastName:
+       type: string
+   customerEmail:
+       type: string
+   status:
+       type: string
+
    isPaid:
        type: boolean      
+       
    paymentId:
        type:
            - string
