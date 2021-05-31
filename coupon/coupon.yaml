@@ -42,7 +42,6 @@ definitions:
           operator: 
             type: string
             enum:
-              - '>='
               - '='
           quantity:
             type: integer
