@@ -1,0 +1,102 @@
+$schema: http://json-schema.org/schema#
+additionalProperties: false
+definitions:
+   Shipping:
+       type: object
+       properties:
+           shippingFirstName:
+               type: string
+           shippingLastName:
+               type: string
+           shippingAddress:
+               type: string
+           shippingSubDistrict:
+               type: string
+           shippingDistrict:
+               type: string
+           shippingProvince:
+               type: string
+           shippingPostcode:
+               type: string
+           shippingPhone:
+               type: string
+           shippingDate:
+               type: number
+           shippingType:
+               description: "DELIVERY or PICKUP"
+               type:
+                   - string
+                   - "null"
+               enum: ["DELIVERY", "PICKUP", null]
+
+
+   Schedule:
+           type: object
+           properties:
+               dateTime:
+                   description: "ISO 8601 date and time string format YYYY-MM-DDThh:mm:ss.sssZ. compatible with AWSDateTime"
+                   type: string
+
+   Product:
+       properties:
+           productName:
+               type: string 
+           quantity:
+               type: integer
+           cprcode:
+               type: integer
+           rowTotal:
+               description: "Subtotal - discount"
+               type: number
+       required:
+           - quantity
+           - cprcode
+       type: object
+      
+
+
+properties:
+   orderId:
+       type: string
+   orderDate:
+       type: number
+   ownerId:
+       type: string
+   customerFirstName:
+       type: string
+   customerLastName:
+       type: string
+   customerEmail:
+       type: string
+   status:
+       type: string
+
+   isPaid:
+       type: boolean      
+       
+   paymentId:
+       type:
+           - string
+           - "null"
+   subTotal:
+       type:
+           - number
+   shippingAmount:
+       type:
+           - number
+   discountAmount:
+       type:
+           - number
+   grandTotal:
+       type:
+           - number
+   totalPaid:
+       type:
+           - number
+  
+required:
+   - orderId
+   - ownerId
+type: object
+
+

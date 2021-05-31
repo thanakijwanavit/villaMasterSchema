@@ -1,47 +1,21 @@
-# Condition description
-# If total amount equals or greater than 1000 for a subselection of items in cart matching all of these conditions:
-# promotion matching is not OFFTAKE, does not contain Get, category is not 112672
-
 couponId: 1055
 couponName: New Customer - Free delivery (Shopped over 3,500 THB)
 couponDescription: free shipping for new customer who shops over 3,500 THB
 active: true
-couponCodeType: no_code
+couponCodeType: AUTO_GENERATED
 usesPerCustomer: 1
 startDate: 1617753600
 endDate: 1649289600
-conditions:
-  conditionType: Combine # If {aggregator} of these conditions are {value}
-  attribute: null
-  operator: null
-  value: true
-  is_value_processed: null
-  aggregator: all
-  conditions:
-    - conditionType: Product/Subselect
-      attribute: base_row_total
-      operator: ">="
-      value: 3500
-      is_value_processed: null
-      aggregator: all
-      conditions:
-        - conditionType: Product
-          attribute: groupId
-          operator: "!="
-          value: 112672
-          is_value_processed: false
-        - conditionType: Customer
-          attribute: customer_first_order
-          operator: "=="
-          value: true
-          is_value_processed: false
-actions:
-  discountType: null
-  freeShipping: true
-customers:
-  - 123
-  - 1234
-branches:
-  - "1000"
-  - "1001"
+condition:
+  cartTotal:
+    operator: '>='
+    amount: 3500
+    excludeProduct:
+      - 112672
+action: 
+  freeShipping: true  
+newCustomer: true
+incompatibleCoupons:
+  - 2525
+  - 3521
 
