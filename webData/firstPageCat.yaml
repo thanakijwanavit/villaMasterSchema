@@ -8,7 +8,7 @@ categoryList:
     - id: 9000000003
       name: Special Offer
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/special-offer.png
-    - id: 9000000004
+    - id: 5000000038
       name: Partnership Shops
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/partnership-shops.svg
     - id: 147694
