@@ -99,7 +99,7 @@ partnershipShopsList:
           name: Gram Cafe&Pancakes
     - id: 5000000044
       name: Nadai Unatoto
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/220164/220164-1.jpg
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000044/5000000044-1.jpg
       level2:
           id: null
           name: Food & Beverages
@@ -108,7 +108,7 @@ partnershipShopsList:
           name: Nadai Unatoto
     - id: 5000000042
       name: Sunrise Tacos
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/220245/220245-1.jpg
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000042/5000000042-1.jpg
       level2:
           id: null
           name: Food & Beverages
@@ -117,7 +117,7 @@ partnershipShopsList:
           name: Sunrise Tacos
     - id: 5000000043
       name: The Green Geek
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/175989/175989-1.jpg
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000043/5000000043-1.jpg
       level2:
           id: null
           name: Food & Beverages
@@ -126,7 +126,7 @@ partnershipShopsList:
           name: The Green Geek
     - id: 5000000045
       name: Yih Sahp Luhk
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000004/7000000004-1
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000045/5000000045-1
       level2:
           id: null
           name: Food & Beverages
@@ -135,7 +135,7 @@ partnershipShopsList:
           name: Yih Sahp Luhk
     - id: 5000000047
       name: Hug Organic
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/175988/175988-1.jpg
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000047/5000000047-1.jpg
       level2:
           id: null
           name: Health & Beauty
@@ -144,7 +144,7 @@ partnershipShopsList:
           name: Hug Organic
     - id: 227944
       name: 5000000053
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/227944/227944-1.jpg
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000053/5000000053-1.jpg
       level2:
           id: null
           name: Home & Kitchen Applicances
@@ -153,7 +153,7 @@ partnershipShopsList:
           name: Riedel
     - id: 5000000049
       name: Bodum
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/219567/219567-1.jpg
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000049/5000000049-1.jpg
       level2:
           id: null
           name: Home & Kitchen Applicances
@@ -162,7 +162,7 @@ partnershipShopsList:
           name: Bodum
     - id: 5000000050
       name: Joseph Joseph
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/219889/219889-1.jpg
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000050/5000000050-1.jpg
       level2:
           id: null
           name: Home & Kitchen Applicances
@@ -180,7 +180,7 @@ partnershipShopsList:
           name: Mason Appetite
     - id: 5000000051
       name: Le Creuset
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/220082/220082-1.jpg
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000051/5000000051-1.jpg
       level2:
           id: null
           name: Home & Kitchen Applicances
@@ -189,7 +189,7 @@ partnershipShopsList:
           name: Le Creuset
     - id: 5000000055
       name: Zwilling
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/219578/219578-1.jpg
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000055/5000000055-1.jpg
       level2:
           id: null
           name: Home & Kitchen Applicances
@@ -198,7 +198,7 @@ partnershipShopsList:
           name: Zwilling
     - id: 5000000059
       name: Dogster
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/175991/175991-1.jpg
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000059/5000000059-1.jpg
       level2:
           id: null
           name: Pet Food
@@ -207,7 +207,7 @@ partnershipShopsList:
           name: Dogster
     - id: 5000000060
       name: Royal Canin
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/219830/219830-1.jpg
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000060/5000000060-1.jpg
       level2:
           id: null
           name: Pet Food
