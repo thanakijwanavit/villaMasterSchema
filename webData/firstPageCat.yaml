@@ -144,7 +144,7 @@ partnershipShopsList:
           name: The Green Geek
     - id: 5000000045
       name: Yih Sahp Luhk
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000045/5000000045-1
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000045/5000000045-1.jpg
       level2:
           id: null
           name: Food & Beverages
