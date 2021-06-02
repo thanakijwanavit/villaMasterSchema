@@ -88,6 +88,15 @@ partnershipShopsList:
       level3:
           id: null
           name: Beirut Restaurant
+    - id: 5000000061
+      name: Get Fresh
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000061/5000000061-1.jpg
+      level2:
+          id: null
+          name: Food & Beverages
+      level3:
+          id: null
+          name: Get Fresh     
     - id: 5000000041
       name: Gram Pancakes
       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000041/5000000041-1.jpg
@@ -96,7 +105,7 @@ partnershipShopsList:
           name: Food & Beverages
       level3:
           id: null
-          name: Gram Cafe&Pancakes
+          name: Gram Pancakes
     - id: 5000000044
       name: Nadai Unatoto
       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000044/5000000044-1.jpg
@@ -106,6 +115,15 @@ partnershipShopsList:
       level3:
           id: null
           name: Nadai Unatoto
+    - id: 5000000062
+      name: Sea's Kombucha
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000062/5000000062-1.jpg
+      level2:
+          id: null
+          name: Food & Beverages
+      level3:
+          id: null
+          name: Sea's Kombucha    
     - id: 5000000042
       name: Sunrise Tacos
       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000042/5000000042-1.jpg
@@ -142,15 +160,6 @@ partnershipShopsList:
       level3:
           id: null
           name: Hug Organic
-    - id: 227944
-      name: 5000000053
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000053/5000000053-1.jpg
-      level2:
-          id: null
-          name: Home & Kitchen Applicances
-      level3:
-          id: null
-          name: Riedel
     - id: 5000000049
       name: Bodum
       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000049/5000000049-1.jpg
@@ -169,15 +178,6 @@ partnershipShopsList:
       level3:
           id: null
           name: Joseph Joseph
-    - id: 219932
-      name: Mason Appetite
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/219932/219932-1.jpg
-      level2:
-          id: null
-          name: Home & Kitchen Applicances
-      level3:
-          id: null
-          name: Mason Appetite
     - id: 5000000051
       name: Le Creuset
       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000051/5000000051-1.jpg
@@ -187,6 +187,33 @@ partnershipShopsList:
       level3:
           id: null
           name: Le Creuset
+    - id: 5000000052
+      name: Mark Thomas
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000052/5000000052-1.jpg
+      level2:
+          id: null
+          name: Home & Kitchen Applicances
+      level3:
+          id: null
+          name: Mark Thomas      
+    - id: 5000000053
+      name: Riedel
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000053/5000000053-1.jpg
+      level2:
+          id: null
+          name: Home & Kitchen Applicances
+      level3:
+          id: null
+          name: Riedel
+    - id: 5000000054
+      name: Zalto
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000054/5000000054-1.jpg
+      level2:
+          id: null
+          name: Home & Kitchen Applicances
+      level3:
+          id: null
+          name: Zalto
     - id: 5000000055
       name: Zwilling
       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000055/5000000055-1.jpg
@@ -195,7 +222,26 @@ partnershipShopsList:
           name: Home & Kitchen Applicances
       level3:
           id: null
-          name: Zwilling
+          name: Zwilling      
+#     REMOVED FROM PARTNERSHIP SHOPS          
+#     - id: 219932
+#       name: Mason Appetite
+#       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/219932/219932-1.jpg
+#       level2:
+#           id: null
+#           name: Home & Kitchen Applicances
+#       level3:
+#           id: null
+#           name: Mason Appetite
+    - id: 5000000057
+      name: Villa Market Kid's Corner
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000057/5000000057-1.jpg
+      level2:
+          id: null
+          name: Kid's Corner
+      level3:
+          id: null
+          name: Villa Market Kid's Corner
     - id: 5000000059
       name: Dogster
       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000059/5000000059-1.jpg
@@ -217,5 +263,5 @@ partnershipShopsList:
 
 youTube:
     - id: 6000000000
-      name: Shabu
-      videoID: 9TrpxyJGXBk
+      name: Vegan
+      videoID: ltIS3hClmso
