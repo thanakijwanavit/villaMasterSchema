@@ -87,6 +87,23 @@ definitions:
                 type: 
                     - string
                 enum: ["REGULAR", "EXPRESS", "PREORDER_RELATIVE", "PREORDER_FIXED"]
+            nationwideConfig:
+                description: "config for nationwide shipping"
+                type: 
+                    - string
+                enum: 
+                    - "kerry-dry-5kg"
+                    - "kerry-dry-10kg"
+                    - "kerry-dry-15kg"
+                    - "kerry-dry-20kg"
+                    - "inter-express-dry-5kg"
+                    - "inter-express-dry-10kg"
+                    - "inter-express-dry-15kg"
+                    - "inter-express-dry-20kg"
+                    - "inter-express-fresh-5kg"
+                    - "inter-express-fresh-10kg"
+                    - "inter-express-fresh-15kg"
+                    - "inter-express-fresh-20kg"
             dateTime:
                 description: "ISO 8601 date and time string format YYYY-MM-DDThh:mm:ss.sssZ. compatible with AWSDateTime"
                 type: string
