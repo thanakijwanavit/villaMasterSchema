@@ -31,11 +31,11 @@ definitions:
 
 
    Schedule:
-           type: object
-           properties:
-               dateTime:
-                   description: "ISO 8601 date and time string format YYYY-MM-DDThh:mm:ss.sssZ. compatible with AWSDateTime"
-                   type: string
+        type: object
+        properties:
+            dateTime:
+               description: "ISO 8601 date and time string format YYYY-MM-DDThh:mm:ss.sssZ. compatible with AWSDateTime"
+               type: string
 
    Product:
        properties:
