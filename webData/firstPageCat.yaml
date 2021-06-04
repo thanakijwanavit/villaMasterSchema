@@ -11,7 +11,7 @@ categoryList:
     - id: 5000000038
       name: Partnership Shops
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/partnership-shops.svg
-    - id: 147694
+    - id: 5000000063
       name: Grab & Go
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/grab-go.svg
     - id: 38153

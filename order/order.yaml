@@ -1,10 +1,10 @@
 $schema: http://json-schema.org/schema#
 additionalProperties: false
 definitions:
-    Payment:
+    BillingInfo:
         type: object
         description: |
-            "object which should be provided by the payment app"
+            "billing information"
         properties:
             billingName:
                 type: string
@@ -26,6 +26,15 @@ definitions:
                 type: string
             customerEmail:
                 type: string
+            requestTaxInvoice:
+                description: "checkbox on checkout page"
+                type: boolean
+                default: false
+    Payment:
+        type: object
+        description: |
+            "object which should be provided by the payment app"
+        properties:
             status:
                 type: string
             paymentLog:
@@ -38,8 +47,28 @@ definitions:
                 type:
                     - number
                     - "null"
+            isPaid:
+                type: boolean
+            paymentId:
+                type: 
+                    - string
+                    - "null"
+            subTotal:
+                type:
+                    - number
+                    
+            shippingAmount:
+                type:
+                    - number
+            discountAmount:
+                type:
+                    - number
             grandTotal:
-                type: number
+                type:
+                    - number
+            totalPaid:
+                type:
+                    - number
     Shipping:
         type: object
         properties:
@@ -82,11 +111,16 @@ definitions:
             scheduleId:
                 description: "match between product and schedule group"
                 type: number
+            preOrder:
+                description: "the type of pre-order if any"
+                type:
+                    - string
+                enum: [ "PREORDER_RELATIVE", "PREORDER_FIXED"]
             mode:
-                description: ""
+                description: "the kind of shipping speed"
                 type: 
                     - string
-                enum: ["REGULAR", "EXPRESS", "PREORDER_RELATIVE", "PREORDER_FIXED"]
+                enum: ["REGULAR", "EXPRESS", "NATIONWIDE"]
             nationwideConfig:
                 description: "config for nationwide shipping"
                 type: 
@@ -174,33 +208,8 @@ properties:
         type: number
     ownerId:
         type: string
-    isPaid:
-        type: boolean
-        
-    paymentId:
-        type: 
-            - string
-            - "null"
-    subTotal:
-        type:
-            - number
-    shippingAmount:
-        type:
-            - number
-    discountAmount:
-        type:
-            - number
-    grandTotal:
-        type:
-            - number
-    totalPaid:
-        type:
-            - number
+
     
-    requestTaxInvoice:
-        description: "checkbox on checkout page"
-        type: boolean
-        default: false
     requestSubstitute:
         description: "checkbox on checkout page"
         type: boolean
@@ -219,6 +228,8 @@ properties:
         type: 
             - string
             - "null"
+    billingInfo:
+        $ref: '#/definitions/BillingInfo'
     shipping:
         $ref: '#/definitions/Shipping'
     payment:
