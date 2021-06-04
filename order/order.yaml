@@ -82,11 +82,16 @@ definitions:
             scheduleId:
                 description: "match between product and schedule group"
                 type: number
+            preOrder:
+                description: "the type of pre-order if any"
+                type:
+                    - string
+                enum: [ "PREORDER_RELATIVE", "PREORDER_FIXED"]
             mode:
-                description: ""
+                description: "the kind of shipping speed"
                 type: 
                     - string
-                enum: ["REGULAR", "EXPRESS", "PREORDER_RELATIVE", "PREORDER_FIXED"]
+                enum: ["REGULAR", "EXPRESS", "NATIONWIDE"]
             dateTime:
                 description: "ISO 8601 date and time string format YYYY-MM-DDThh:mm:ss.sssZ. compatible with AWSDateTime"
                 type: string
