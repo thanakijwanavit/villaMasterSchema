@@ -61,6 +61,10 @@ definitions:
                 type: string
             shippingPostcode:
                 type: string
+            shippingLat:
+                type: number
+            shippingLon:
+                type: number
             shippingPhone:
                 type: string
             shippingDate:
