@@ -61,9 +61,9 @@ definitions:
                 type: string
             shippingPostcode:
                 type: string
-            shippingLatitude:
+            shippingLat:
                 type: number
-            shippingLongitude:
+            shippingLon:
                 type: number
             shippingPhone:
                 type: string
