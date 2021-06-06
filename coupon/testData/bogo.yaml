@@ -1,0 +1,28 @@
+couponId: 1249
+couponName: Haagen Daaz Buy 3 Get 1 Free 
+couponDescription: Buy 3 Get 1 Free for Haagen Daaz at Suhkhumvit 33 and Langsuan
+active: true
+couponCodeType: FIXED
+couponCode: B3G1XYZ
+usesPerCoupon: 3000
+usesPerCustomer: 1
+startDate: 1617753600
+endDate: 1649289600
+condition:
+  productQuantity:
+    productList: 
+      - 12345
+      - 12346
+      - 12347
+    operator: '='
+    quantity: 3
+action:
+  getFreeProduct:
+    productList:
+      - 12345
+      - 12346
+    quantity: 1
+branches:
+  - "1000"
+  - "1001"
+

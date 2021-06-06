@@ -1,10 +1,10 @@
 $schema: http://json-schema.org/schema#
 additionalProperties: false
 definitions:
-    Payment:
+    BillingInfo:
         type: object
         description: |
-            "object which should be provided by the payment app"
+            "billing information"
         properties:
             billingName:
                 type: string
@@ -26,6 +26,15 @@ definitions:
                 type: string
             customerEmail:
                 type: string
+            requestTaxInvoice:
+                description: "checkbox on checkout page"
+                type: boolean
+                default: false
+    Payment:
+        type: object
+        description: |
+            "object which should be provided by the payment app"
+        properties:
             status:
                 type: string
             paymentLog:
@@ -38,8 +47,28 @@ definitions:
                 type:
                     - number
                     - "null"
+            isPaid:
+                type: boolean
+            paymentId:
+                type: 
+                    - string
+                    - "null"
+            subTotal:
+                type:
+                    - number
+                    
+            shippingAmount:
+                type:
+                    - number
+            discountAmount:
+                type:
+                    - number
             grandTotal:
-                type: number
+                type:
+                    - number
+            totalPaid:
+                type:
+                    - number
     Shipping:
         type: object
         properties:
@@ -61,6 +90,10 @@ definitions:
                 type: string
             shippingPostcode:
                 type: string
+            shippingLat:
+                type: number
+            shippingLon:
+                type: number
             shippingPhone:
                 type: string
             shippingDate:
@@ -73,30 +106,35 @@ definitions:
                 enum: ["DELIVERY", "PICKUP", null]
 
     Schedule:
-            type: object
-            properties:
-                scheduleId:
-                    description: "match between product and schedule group"
-                    type: number
-                mode:
-                    description: ""
-                    type: 
-                        - string
-                    enum: ["REGULAR", "EXPRESS", "PREORDER_RELATIVE", "PREORDER_FIXED"]
-                dateTime:
-                    description: "ISO 8601 date and time string format YYYY-MM-DDThh:mm:ss.sssZ. compatible with AWSDateTime"
-                    type: string
-                deliveryFee:
-                    description: "Per schedule delivery fee, example: regular delivery fee is 95 baht, preorder large product cost 150 baht."
-                    type:
-                        - number
-                        - "null"
-                pickingStatus:
-                    type: string
-                    enum:
-                        - picked
-                        - pending
-                        - cancelled
+        type: object
+        properties:
+            scheduleId:
+                description: "match between product and schedule group"
+                type: number
+            preOrder:
+                description: "the type of pre-order if any"
+                type:
+                    - string
+                enum: [ "PREORDER_RELATIVE", "PREORDER_FIXED"]
+            mode:
+                description: "the kind of shipping speed"
+                type: 
+                    - string
+                enum: ["REGULAR", "EXPRESS", "NATIONWIDE"]
+            dateTime:
+                description: "ISO 8601 date and time string format YYYY-MM-DDThh:mm:ss.sssZ. compatible with AWSDateTime"
+                type: string
+            deliveryFee:
+                description: "Per schedule delivery fee, example: regular delivery fee is 95 baht, preorder large product cost 150 baht."
+                type:
+                    - number
+                    - "null"
+            pickingStatus:
+                type: string
+                enum:
+                    - picked
+                    - pending
+                    - cancelled
     
     Product:
         properties:
@@ -109,9 +147,10 @@ definitions:
             cprcode:
                 type: integer
             originalPrice:
+                description: "original price of the product"
                 type: number
             price:
-                description: "Price per Unit"
+                description: "Price per Unit after promotion is applied"
                 type: number
             settlementPrice:
                 description: "subTotal = price * quantity"
@@ -152,33 +191,8 @@ properties:
         type: number
     ownerId:
         type: string
-    isPaid:
-        type: boolean
-        
-    paymentId:
-        type: 
-            - string
-            - "null"
-    subTotal:
-        type:
-            - number
-    shippingAmount:
-        type:
-            - number
-    discountAmount:
-        type:
-            - number
-    grandTotal:
-        type:
-            - number
-    totalPaid:
-        type:
-            - number
+
     
-    requestTaxInvoice:
-        description: "checkbox on checkout page"
-        type: boolean
-        default: false
     requestSubstitute:
         description: "checkbox on checkout page"
         type: boolean
@@ -188,10 +202,17 @@ properties:
         type: 
             - string
             - "null"
+    coupons:
+        description: "list of couponIds used in this order"
+        type: array
+        items:
+            type: integer
     couponCode:
         type: 
             - string
             - "null"
+    billingInfo:
+        $ref: '#/definitions/BillingInfo'
     shipping:
         $ref: '#/definitions/Shipping'
     payment:

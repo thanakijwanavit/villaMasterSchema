@@ -1,0 +1,21 @@
+# Condition description
+# buy X get Y free
+
+couponId: 983
+couponName: Mr X complain refund
+couponDescription: Refund voucher for Mr X complaint, Villa voucher 100 THB
+active: true
+couponCodeType: AUTO_GENERATED
+startDate: 1617753600
+endDate: 1649289600
+usesPerCoupon: 1
+usesPerCustomer: 1
+action:
+  discount: 
+    applyTo: CART
+    discountType: FIXED_AMOUNT
+    amount: 100
+customers:
+  - 12378
+
+

@@ -1,0 +1,18 @@
+$id: https://github.com/
+$schema: http://json-schema.org/schema#
+properties:
+  queryStringParameters:
+    properties:
+      lat:
+        type: integer
+      lon:
+        type: integer
+      postcode:
+        type: integer
+    required:
+    - lat
+    - long
+    type: object
+required:
+- queryStringParameters
+type: objec

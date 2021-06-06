@@ -1,0 +1,26 @@
+# Condition description
+# buy X get Y free
+
+couponId: 19
+couponName: 5J ham - online exclusive 10 pack On Top 20%
+couponDescription: Get 20% discount for each 5J Ham pack if bought >= 10 packs
+active: false
+couponCodeType: NO_CODE
+usesPerCoupon: 500
+startDate: 1617753600
+endDate: 1649289600
+condition:
+  productQuantity:
+    productList: 
+      - 230997
+    operator: '>='
+    quantity: 10
+action:
+  discount: 
+    applyTo: PRODUCT
+    discountProductList:
+      - 230997
+    discountType: PERCENT
+    amount: 20
+
+
