@@ -33,81 +33,88 @@ definitions:
           - "null"
         enum: ["DELIVERY", "PICKUP", null]
 
-Schedule:
-        type: object
-        properties:
-            scheduleId:
-                description: "match between product and schedule group"
-                type: number
-            mode:
-                description: ""
-                type: 
-                    - string
-                enum: ["REGULAR", "EXPRESS", "PREORDER_RELATIVE", "PREORDER_FIXED"]
-            dateTime:
-                description: "ISO 8601 date and time string format YYYY-MM-DDThh:mm:ss.sssZ. compatible with AWSDateTime"
-                type: string
-            deliveryFee:
-                description: "Per schedule delivery fee, example: regular delivery fee is 95 baht, preorder large product cost 150 baht."
-                type:
-                    - number
-                    - "null"
-            pickingStatus:
-                type: string
-                enum:
-                    - picked
-                    - pending
-                    - cancelled
-
-Product:
-    properties:
-        pickedQty:
-            type: integer
-        productName:
-            type: string  
-        quantity:
-            type: integer
-        cprcode:
-            type: integer
-        originalPrice:
-            type: number
-        price:
-            description: "Price per Unit"
-            type: number
-        settlementPrice:
-            description: "subTotal = price * quantity"
-            type: number
-        discount:
-            description: "discount amount"
-            type: number
-        rowTotal:
-            description: "Subtotal - discount"
-            type: number
-        remark:
-            description: "Per product remark"
-            type: 
-                - string
-                - "null"
-        isPreOrder:
-            description: "preorder flag is preOrder=1 , is not preOrder = 0 "
-            type: boolean
-        scheduleId:
-            description: "match between product and schedule group"
-            type: number        
-    required:
-        - quantity
-        - cprcode
+  Schedule:
     type: object
+    properties:
+      scheduleId:
+        description: "match between product and schedule group"
+        type: number
+      mode:
+        description: ""
+        type: 
+            - string
+        enum: ["REGULAR", "EXPRESS", "PREORDER_RELATIVE", "PREORDER_FIXED"]
+      dateTime:
+        description: "ISO 8601 date and time string format YYYY-MM-DDThh:mm:ss.sssZ. compatible with AWSDateTime"
+        type: string
+      deliveryFee:
+        description: "Per schedule delivery fee, example: regular delivery fee is 95 baht, preorder large product cost 150 baht."
+        type:
+            - number
+            - "null"
+      pickingStatus:
+        type: string
+        enum:
+            - picked
+            - pending
+            - cancelled
+
+  Product:
+    properties:
+      pickedQty:
+        type: integer
+      productName:
+        type: string  
+      quantity:
+        type: integer
+      cprcode:
+        type: integer
+      originalPrice:
+        type: number
+      price:
+        description: "Price per Unit"
+        type: number
+      settlementPrice:
+        description: "subTotal = price * quantity"
+        type: number
+      discount:
+        description: "discount amount"
+        type: number
+      rowTotal:
+        description: "Subtotal - discount"
+        type: number
+      remark:
+        description: "Per product remark"
+        type: 
+          - string
+          - "null"
+      isPreOrder:
+        description: "preorder flag is preOrder=1 , is not preOrder = 0 "
+        type: boolean
+      scheduleId:
+        description: "match between product and schedule group"
+        type: number        
+    required:
+      - quantity
+      - cprcode
+    type: object
+    
 properties:
-  mobile:
+  branchId:
     type: string
-    description: mobile number of customer
-  memberId:
+  ownerId:
     type: string
-  orderId:
-    type: string
+  productList:
+    type: array
+    items:
+      $ref: '#/definitions/Product'
+  shipping:
+    $ref: '#/definitions/Shipping'
+  coupon:
+    type: array
+    items:
+      type: string
 required:
-- mobile
-- memberId
-- orderId
+- branchId
+- productList
 type: object
