@@ -1,0 +1,11 @@
+$schema: http://json-schema.org/schema#
+additionalProperties: false
+properties:
+  orderId:
+    type: string
+  paymentId:
+    type: string
+required:
+- orderId
+- paymentId
+type: object
