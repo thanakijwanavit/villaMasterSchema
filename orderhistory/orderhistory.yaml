@@ -28,8 +28,7 @@ definitions:
                    - string
                    - "null"
                enum: ["DELIVERY", "PICKUP", null]
-
-
+        
    Schedule:
         type: object
         properties:
@@ -78,6 +77,14 @@ properties:
        type:
            - string
            - "null"
+
+   paymentMethod:
+        description: "for display to customer page and convenient filter"
+        type: 
+            - string
+            - "null"
+        enum: ["Credit/Debit Card", "WeChat", "AliPay", "ThaiQR/UnionPay/WeChat/AliPay","Amex", null]
+
    subTotal:
        type:
            - number
