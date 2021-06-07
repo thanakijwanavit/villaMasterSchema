@@ -78,6 +78,12 @@ properties:
        type:
            - string
            - "null"
+   paymentMethod:
+       description: "for display in order history"
+       type: 
+           - string
+           - "null"
+       enum: ["Credit/Debit Card", "ThaiQR", "UnionPay", "WeChat", "AliPay", "Amex", "Wallet", "Other", null]
    subTotal:
        type:
            - number
