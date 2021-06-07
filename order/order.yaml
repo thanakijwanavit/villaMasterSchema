@@ -69,6 +69,12 @@ definitions:
             totalPaid:
                 type:
                     - number
+            paymentMethod:
+                description: "for display to customer page and convenient filter"
+                type: 
+                    - string
+                    - "null"
+                enum: ["Credit/Debit Card", "WeChat", "AliPay", "ThaiQR","Amex", null]
     Shipping:
         type: object
         properties:
