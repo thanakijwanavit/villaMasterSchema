@@ -31,11 +31,11 @@ definitions:
 
 
    Schedule:
-           type: object
-           properties:
-               dateTime:
-                   description: "ISO 8601 date and time string format YYYY-MM-DDThh:mm:ss.sssZ. compatible with AWSDateTime"
-                   type: string
+        type: object
+        properties:
+            dateTime:
+               description: "ISO 8601 date and time string format YYYY-MM-DDThh:mm:ss.sssZ. compatible with AWSDateTime"
+               type: string
 
    Product:
        properties:
@@ -54,7 +54,7 @@ definitions:
        type: object
       
 
-
+   
 properties:
    orderId:
        type: string
@@ -93,7 +93,16 @@ properties:
    totalPaid:
        type:
            - number
-  
+
+   shipping:
+        $ref: '#/definitions/Shipping'
+   schedule:
+        $ref: '#/definitions/Schedule'
+   productList:
+        type: array
+        items:
+            $ref: '#/definitions/Product'
+            
 required:
    - orderId
    - ownerId
