@@ -74,7 +74,7 @@ definitions:
                 type: 
                     - string
                     - "null"
-                enum: ["Credit/Debit Card", "WeChat", "AliPay", "ThaiQR","Amex", null]
+                enum: ["Credit/Debit Card", "ThaiQR/UnionPay/WeChat/AliPay", "Amex", null]
     Shipping:
         type: object
         properties:
