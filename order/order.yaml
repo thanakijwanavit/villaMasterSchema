@@ -43,10 +43,7 @@ definitions:
                     type: string
             remark:
                 type: string
-            deliveryFee:
-                type:
-                    - number
-                    - "null"
+  
             isPaid:
                 type: boolean
             paymentId:
