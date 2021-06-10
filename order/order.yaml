@@ -225,7 +225,6 @@ properties:
         type: array
         items:
             type: integer
-                - "null"
     couponCodeList:
         description: "list of coupon codes used in this order"
         type: array
