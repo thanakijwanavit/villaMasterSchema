@@ -115,7 +115,7 @@ properties:
       $ref: '#/definitions/Product'
   shipping:
     $ref: '#/definitions/Shipping'
-  coupon:
+  couponCodeList:
     type: array
     items:
       type: string

@@ -211,8 +211,6 @@ properties:
         type: number
     ownerId:
         type: string
-
-    
     requestSubstitute:
         description: "checkbox on checkout page"
         type: boolean
@@ -222,15 +220,16 @@ properties:
         type: 
             - string
             - "null"
-    coupons:
+    couponList:
         description: "list of couponIds used in this order"
         type: array
         items:
             type: integer
-    couponCode:
-        type: 
-            - string
-            - "null"
+    couponCodeList:
+        description: "list of coupon codes used in this order"
+        type: array
+        items:
+            type: string
     billingInfo:
         $ref: '#/definitions/BillingInfo'
     shipping:
