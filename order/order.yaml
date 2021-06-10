@@ -211,8 +211,6 @@ properties:
         type: number
     ownerId:
         type: string
-
-    
     requestSubstitute:
         description: "checkbox on checkout page"
         type: boolean
