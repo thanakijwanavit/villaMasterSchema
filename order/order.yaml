@@ -224,16 +224,13 @@ properties:
         description: "list of couponIds used in this order"
         type: array
         items:
-            type: 
-                - integer
+            type: integer
                 - "null"
     couponCodeList:
         description: "list of coupon codes used in this order"
         type: array
         items:
-            type: 
-                - string
-                - "null"
+            type: string
     billingInfo:
         $ref: '#/definitions/BillingInfo'
     shipping:
