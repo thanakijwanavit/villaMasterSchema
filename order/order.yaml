@@ -222,15 +222,20 @@ properties:
         type: 
             - string
             - "null"
-    coupons:
+    couponList:
         description: "list of couponIds used in this order"
         type: array
         items:
-            type: integer
-    couponCode:
-        type: 
-            - string
-            - "null"
+            type: 
+                - integer
+                - "null"
+    couponCodeList:
+        description: "list of coupon codes used in this order"
+        type: array
+        items:
+            type: 
+                - string
+                - "null"
     billingInfo:
         $ref: '#/definitions/BillingInfo'
     shipping:
