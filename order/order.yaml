@@ -43,10 +43,7 @@ definitions:
                     type: string
             remark:
                 type: string
-            deliveryFee:
-                type:
-                    - number
-                    - "null"
+  
             isPaid:
                 type: boolean
             paymentId:
@@ -127,6 +124,23 @@ definitions:
                 type: 
                     - string
                 enum: ["REGULAR", "EXPRESS", "NATIONWIDE"]
+            nationwideConfig:
+                description: "config for nationwide shipping"
+                type: 
+                    - string
+                enum: 
+                    - "kerry-dry-5kg"
+                    - "kerry-dry-10kg"
+                    - "kerry-dry-15kg"
+                    - "kerry-dry-20kg"
+                    - "inter-express-dry-5kg"
+                    - "inter-express-dry-10kg"
+                    - "inter-express-dry-15kg"
+                    - "inter-express-dry-20kg"
+                    - "inter-express-fresh-5kg"
+                    - "inter-express-fresh-10kg"
+                    - "inter-express-fresh-15kg"
+                    - "inter-express-fresh-20kg"
             dateTime:
                 description: "ISO 8601 date and time string format YYYY-MM-DDThh:mm:ss.sssZ. compatible with AWSDateTime"
                 type: string
@@ -197,8 +211,6 @@ properties:
         type: number
     ownerId:
         type: string
-
-    
     requestSubstitute:
         description: "checkbox on checkout page"
         type: boolean
@@ -208,15 +220,16 @@ properties:
         type: 
             - string
             - "null"
-    coupons:
+    couponList:
         description: "list of couponIds used in this order"
         type: array
         items:
             type: integer
-    couponCode:
-        type: 
-            - string
-            - "null"
+    couponCodeList:
+        description: "list of coupon codes used in this order"
+        type: array
+        items:
+            type: string
     billingInfo:
         $ref: '#/definitions/BillingInfo'
     shipping:

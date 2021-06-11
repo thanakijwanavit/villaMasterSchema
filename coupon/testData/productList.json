@@ -1,0 +1,16 @@
+[{
+    "productName": "Small Egg Noodles",
+    "quantity": 3,
+    "cprcode": 3802,
+    "isPreOrder": false,
+    "scheduleId": 0,
+    "remark": "TEST REMARK"
+},
+{
+    "productName": "Small Egg Noodles",
+    "quantity": 5,
+    "cprcode": 3805,
+    "isPreOrder": false,
+    "scheduleId": 0,
+    "remark": "TEST REMARK"
+}]
