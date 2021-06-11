@@ -1,15 +1,11 @@
 $schema: http://json-schema.org/schema#
 additionalProperties: false
 properties:
-  mobile:
-    type: string
-    description: mobile number of customer
-  memberId:
-    type: string
   orderId:
     type: string
+  paymentId:
+    type: string
 required:
-- mobile
-- memberId
 - orderId
+- paymentId
 type: object

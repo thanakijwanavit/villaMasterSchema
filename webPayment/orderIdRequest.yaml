@@ -1,8 +1,8 @@
 $schema: http://json-schema.org/schema#
+additionalProperties: false
 properties:
   orderId:
     type: string
 required:
 - orderId
 type: object
-
