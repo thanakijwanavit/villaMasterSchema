@@ -119,6 +119,9 @@ properties:
   usesPerCoupon:
     type: integer
     description: total number of times this coupon can be used. if not specified, unlimited.
+  numberCouponUsed:
+    type: integer
+    description: total number of times this coupon is used. 
   usesPerCustomer:
     type: integer 
   startDate:
