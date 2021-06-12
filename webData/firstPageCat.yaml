@@ -44,6 +44,9 @@ categoryList:
     - id: null
       name: Butcher Shop
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/butcher.png
+#    - id: null
+#      name: Butcher Shop
+#      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/butcher.png  
     - id: null
       name: Seafood
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/seafood.png
@@ -205,6 +208,15 @@ partnershipShopsList:
       level3:
           id: null
           name: Riedel
+    - id: 5000000102
+      name: Smeg
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000102/5000000102-1.jpg
+      level2:
+          id: null
+          name: Home & Kitchen Applicances
+      level3:
+          id: null
+          name: Smeg      
     - id: 5000000054
       name: Zalto
       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000054/5000000054-1.jpg
