@@ -41,7 +41,7 @@ categoryList:
     - id: null
       name: Delicatessen & Eggs
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/delicatessen.png
-    - id: null
+    - id: 5000000119
       name: Butcher Shop
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/butcher.png
 #    - id: null
