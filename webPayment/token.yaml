@@ -1,0 +1,25 @@
+$schema: http://json-schema.org/schema#
+type: object
+properties:
+  id:
+    type: string
+    description: log id
+  ownerId:
+    type: string
+    description: customer id
+  timestamp:
+    type: number
+    description: timestamp when the token is created
+  token:
+    type: string
+    description: customer's card token
+  lastFourDigits:
+    type: string
+    description: last four digits of the payment card
+required:
+- id
+- ownerId
+- timestamp
+- token
+- lastFourDigits
+additionalProperties: false
