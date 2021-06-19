@@ -83,7 +83,7 @@ properties:
        type: 
            - string
            - "null"
-       enum: ["Credit/Debit Card", "ThaiQR", "UnionPay", "WeChat", "AliPay", "Amex", "Wallet", "Other","VPlus Wallet", null]
+       enum: ["Credit/Debit Card", "ThaiQR", "UnionPay", "WeChat", "AliPay", "Amex",  "Other","VPlus Wallet", null]
    subTotal:
        type:
            - number
