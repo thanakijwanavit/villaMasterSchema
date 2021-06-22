@@ -166,6 +166,8 @@ definitions:
                 type: integer
             cprcode:
                 type: integer
+            iprcode:
+                type: integer
             originalPrice:
                 description: "original price of the product"
                 type: number
