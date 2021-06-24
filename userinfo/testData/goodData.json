@@ -1,0 +1,53 @@
+{
+           "customerType" : "Facebook",
+           "email": "jirawut@villamarket.com",
+           "defaultBilling": 2,
+           "defaultShipping": 1,
+           "createdAt": 1536276916.222333,
+           "updatedAt": 1618975844.222333,
+           "firstName": "jirawut",
+           "lastName": "chayapong",
+           "gender": 0,
+           "storeId": "1000",
+           "AddressesList": [
+               {
+                   "id": 2,
+                   "email": "jirawut@villamarket.com",
+                   "region": "กรุงเทพมหานคร",
+                   "countryId": "TH",
+                   "Street" : "1100/40 Noble Residence.  Phatthanakan Rd, แขวง สวนหลวง",
+                   "telePhone": "‭02111111",
+                   "postCode": "10250",
+                   "city": "สวนหลวง",
+                   "firstName": "jirawut",
+                   "lastName": "chayapong",
+                   "defaultBilling": true
+               },
+               {
+                   "id": 1,
+                   "email": "jirawut@villamarket.com",
+                   "region": "กรุงเทพมหานคร",
+                   "countryDd": "TH",
+                   "street": "1100/40 Noble Residence.  Phatthanakan Rd, แขวง สวนหลวง",
+                   "telePhone": "‭02111111",
+                   "postCode": "10250",
+                   "city": "สวนหลวง",
+                   "firstName": "jirawut",
+                   "lastName": "chayapong",
+                   "defaultShipping": true
+               }
+           ],
+"favoritList":[1234,1235],
+"memberMaritalStatus": "Married",
+"VplusPoint": 1720,
+"memberChildrenLessThan": 0,
+"MemberChildrenGreaterThan":2,
+"VplusNo" : "A30010",
+"VplusMobile" : "0816276222",
+"card2c2pToken":[
+                {"maskedCardNumber":"43913XXXXXXX2043",
+                 "encryptedToken":"1234567890"
+                }
+                ]
+}
+
