@@ -71,8 +71,15 @@ properties:
         type: string
     VplusMobile: 
         type: string
-    twocpToken:
-        type: string
+    card2c2pToken:
+        type: array
+        items:
+          type: object
+          properties:
+            maskedCardNumber: 
+              type: string
+            encryptedToken:
+              type: string  
     favoritList:
         type: array
         items:
