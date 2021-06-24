@@ -16,7 +16,12 @@ definitions:
           amount:
             type: number
           excludeProduct:
-            description: cprcode or groupIds that cannot count into cart total
+            description: cprcode that cannot count into cart total
+            type: array
+            items: 
+              type: integer
+          excludeGroupId:
+            description: groupIds that cannot count into cart total
             type: array
             items: 
               type: integer
@@ -35,7 +40,12 @@ definitions:
         type: object
         properties:
           productList:
-            description: cprcodes or groupIds of eligible products
+            description: cprcodes of eligible products
+            type: array
+            items:
+              type: integer
+          groupList:
+            description: groupIds of eligible products
             type: array
             items:
               type: integer
@@ -65,6 +75,11 @@ definitions:
             type: array
             items:
               type: integer
+          discountGroupList:
+            description: groupIds to apply the discount to
+            type: array
+            items:
+              type: integer
           discountType:
             type: string
             enum:
@@ -78,7 +93,12 @@ definitions:
         type: object
         properties:
           productList:
-            description: cprcodes or groupIds of products to choose from
+            description: cprcodes of products to choose from
+            type: array
+            items:
+              type: integer
+          groupList:
+            description: groupIds of products to choose from
             type: array
             items:
               type: integer
@@ -157,6 +177,3 @@ properties:
     description: list of branchIds that are eligible for this coupon. if not specified, coupon applies to all branches.
     items:
       type: string
-
-
-  
