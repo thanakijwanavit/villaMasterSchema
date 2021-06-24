@@ -6,9 +6,6 @@ properties:
   token:
     type: string
     description: "credit card token if the customer wants to use token to pay"
-  storeToken:
-    type: boolean
-    description: "true if the customer wants to store this card; default to false"
 required:
 - orderId
 type: object
