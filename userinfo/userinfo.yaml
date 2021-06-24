@@ -1,0 +1,91 @@
+$schema: http://json-schema.org/schema#
+additionalProperties: false
+definitions:
+    Addresses:
+        type: object
+        description: 
+            Shipping Addresses or Billing Addresses
+        properties:  
+            id:  
+                type: integer
+            email: 
+                type: string
+            region: 
+                type: string
+            countryId: 
+                type: string
+            street: 
+                type: string
+            telePhone: 
+                type: string
+            postCode:
+                type: string
+            city: 
+                type: string
+            firstName:
+                type: string
+            lastName:: 
+                type: string
+            defaultBilling: 
+                type: 
+                    - boolean
+            defaultShipping:
+                type: 
+                    - boolean
+properties:
+    customerType: 
+        type: string
+    email: 
+        type: string
+    defaultBilling:
+        type: integer
+    defaultShipping: 
+        type: integer
+    createdAt: 
+        type: number 
+    updatedAt:
+        type: number
+    firstName: 
+        type: string
+    lastName: 
+        type: string
+    gender: 
+        type: integer
+    storeId: 
+        type: string
+    AddressesList:
+        type: array
+        items:
+            $ref: '#/definitions/Addresses'
+
+    memberMaritalStatus:
+        type: string
+        enum: [Single,Married,Divorced]
+    VplusPoint: 
+        type: integer
+    memberChildrenLessThan: 
+        type: integer
+    MemberChildrenGreaterThan:
+        type: integer
+    VplusNo :
+        type: string
+    VplusMobile: 
+        type: string
+    favoritList:
+        type: array
+        items:
+            type: integer
+    card2c2pToken:
+        type: array
+        items:
+            type: object
+            properties:
+                maskedCardNumber:
+                    type: string
+                encryptedToken:
+                    type: string  
+required:
+    - email
+    - firstName
+    - lastName
+type: object
