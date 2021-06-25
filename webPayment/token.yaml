@@ -6,10 +6,13 @@ properties:
     description: customer id
   timestamp:
     type: number
-    description: timestamp of when the payment was made
+    description: timestamp of when the token is created
   encryptedToken:
     type: string
     description: encrypted card token
+  maskedCardNo:
+    type: string
+    description: masked card number
 required:
 - ownerId
 - timestamp
