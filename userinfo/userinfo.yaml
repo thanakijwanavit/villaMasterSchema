@@ -75,15 +75,6 @@ properties:
         type: array
         items:
             type: integer
-    card2c2pToken:
-        type: array
-        items:
-            type: object
-            properties:
-                maskedCardNumber:
-                    type: string
-                encryptedToken:
-                    type: string  
 required:
     - email
     - firstName
