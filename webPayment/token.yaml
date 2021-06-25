@@ -1,0 +1,16 @@
+$schema: http://json-schema.org/schema#
+type: object
+properties:
+  ownerId:
+    type: string
+    description: customer id
+  timestamp:
+    type: number
+    description: timestamp of when the payment was made
+  encryptedToken:
+    type: string
+    description: encrypted card token
+required:
+- ownerId
+- timestamp
+- encryptedToken
