@@ -33,8 +33,7 @@ definitions:
               enum:
                 - BOGO
                 - TWO4
-                - MDCOST
-                - OFFTAKE   
+                - SPECIALPRICE  
       productQuantity:
         description: condition on the product quantity in the cart
         type: object
@@ -155,12 +154,6 @@ properties:
     description: list of customerIds or customer group Ids who are eligible for this coupon. if not specified, coupon applies to all customers. 
     items:
       type: integer
-  customerTypes:
-    type: array
-    description: customer types that are eligible for this coupon. if not specified, coupon applies to all customerTypes.
-    items:
-      type: string
-      pattern: '(^\d{2}$)'
   newCustomer:
     description: does this coupon apply to new customer only (false or not specified means no)
     type: boolean
