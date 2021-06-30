@@ -15,6 +15,16 @@ definitions:
               - '>='
           amount:
             type: number
+          productList:
+            description: cprcodes of eligible products; if not empty will only count the amount of these products
+            type: array
+            items:
+              type: integer
+          groupList:
+            description: groupIds of eligible products; if not empty will only count the amount of the products in these groups
+            type: array
+            items:
+              type: integer
           excludeProduct:
             description: cprcode that cannot count into cart total
             type: array
