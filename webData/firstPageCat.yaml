@@ -36,8 +36,8 @@ categoryList:
       name: Frozen Food
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/frozen-food.png
     - id: null
-      name: Dairy
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/dairy.png
+      name: Beer Wine & Spirits
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/beer.png  
     - id: null
       name: Delicatessen & Eggs
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/delicatessen.png
@@ -51,8 +51,8 @@ categoryList:
       name: Seafood
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/seafood.png
     - id: null
-      name: Beer Wine & Spirits
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/beer.png
+      name: Dairy
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/dairy.png
     - id: null
       name: Grocery
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/grocery.png
@@ -275,5 +275,5 @@ partnershipShopsList:
 
 youTube:
     - id: 6000000000
-      name: Vegan
-      videoID: ltIS3hClmso
+      name: Beef
+      videoID: 0_n_I5HsLEQ
