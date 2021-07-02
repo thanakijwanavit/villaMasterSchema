@@ -3,6 +3,7 @@ additionalProperties: false
 definitions:
     BillingInfo:
         type: object
+        additionalProperties: false
         description: |
             "billing information"
         properties:
@@ -32,6 +33,7 @@ definitions:
                 default: false
     Payment:
         type: object
+        additionalProperties: false
         description: |
             "object which should be provided by the payment app"
         properties:
@@ -78,6 +80,7 @@ definitions:
                     - number
     Shipping:
         type: object
+        additionalProperties: false
         properties:
             scheduleList:
                 type: array
@@ -116,6 +119,7 @@ definitions:
 
     Schedule:
         type: object
+        additionalProperties: false
         properties:
             scheduleId:
                 description: "match between product and schedule group"
@@ -204,6 +208,7 @@ definitions:
             - quantity
             - cprcode
         type: object
+        additionalProperties: false
         
 
 properties:
