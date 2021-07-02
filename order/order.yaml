@@ -72,6 +72,10 @@ definitions:
                     - string
                     - "null"
                 enum: ["Credit/Debit Card", "ThaiQR", "UnionPay", "WeChat", "AliPay", "Amex", "Wallet", "Other", null]
+            timestamp:
+                description: "unix timestamp, for display to customer page and filter"
+                type:
+                    - number
     Shipping:
         type: object
         properties:
