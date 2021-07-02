@@ -99,6 +99,8 @@ definitions:
                 type: number
             shippingPhone:
                 type: string
+            shippingEmail:
+                type: string
             shippingDate:
                 type: number
             shippingType:
