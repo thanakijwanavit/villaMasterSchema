@@ -208,7 +208,7 @@ definitions:
             - quantity
             - cprcode
         type: object
-        additionalProperties: false
+        additionalProperties: true
         
 
 properties:
