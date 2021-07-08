@@ -36,20 +36,23 @@ categoryList:
       name: Frozen Food
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/frozen-food.png
     - id: null
-      name: Dairy
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/dairy.png
+      name: Beer Wine & Spirits
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/beer.png  
     - id: null
       name: Delicatessen & Eggs
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/delicatessen.png
-    - id: null
+    - id: 5000000119
       name: Butcher Shop
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/butcher.png
+#    - id: null
+#      name: Butcher Shop
+#      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/butcher.png  
     - id: null
       name: Seafood
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/seafood.png
     - id: null
-      name: Beer Wine & Spirits
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/beer.png
+      name: Dairy
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/dairy.png
     - id: null
       name: Grocery
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/grocery.png
@@ -205,6 +208,15 @@ partnershipShopsList:
       level3:
           id: null
           name: Riedel
+    - id: 5000000102
+      name: Smeg
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000102/5000000102-1.jpg
+      level2:
+          id: null
+          name: Home & Kitchen Applicances
+      level3:
+          id: null
+          name: Smeg      
     - id: 5000000054
       name: Zalto
       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000054/5000000054-1.jpg
@@ -263,5 +275,5 @@ partnershipShopsList:
 
 youTube:
     - id: 6000000000
-      name: Vegan
-      videoID: ltIS3hClmso
+      name: Beef
+      videoID: 0_n_I5HsLEQ

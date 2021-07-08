@@ -1,0 +1,19 @@
+$schema: http://json-schema.org/schema#
+type: object
+properties:
+  ownerId:
+    type: string
+    description: customer id
+  timestamp:
+    type: number
+    description: timestamp of when the token is created
+  encryptedToken:
+    type: string
+    description: encrypted card token
+  maskedCardNo:
+    type: string
+    description: masked card number
+required:
+- ownerId
+- timestamp
+- encryptedToken

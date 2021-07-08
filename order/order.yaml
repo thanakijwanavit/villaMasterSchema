@@ -3,6 +3,7 @@ additionalProperties: false
 definitions:
     BillingInfo:
         type: object
+        additionalProperties: false
         description: |
             "billing information"
         properties:
@@ -32,6 +33,7 @@ definitions:
                 default: false
     Payment:
         type: object
+        additionalProperties: false
         description: |
             "object which should be provided by the payment app"
         properties:
@@ -72,8 +74,13 @@ definitions:
                     - string
                     - "null"
                 enum: ["Credit/Debit Card", "ThaiQR", "UnionPay", "WeChat", "AliPay", "Amex", "Wallet", "Other", null]
+            timestamp:
+                description: "unix timestamp, for display to customer page and filter"
+                type:
+                    - number
     Shipping:
         type: object
+        additionalProperties: false
         properties:
             scheduleList:
                 type: array
@@ -99,6 +106,8 @@ definitions:
                 type: number
             shippingPhone:
                 type: string
+            shippingEmail:
+                type: string
             shippingDate:
                 type: number
             shippingType:
@@ -110,6 +119,7 @@ definitions:
 
     Schedule:
         type: object
+        additionalProperties: false
         properties:
             scheduleId:
                 description: "match between product and schedule group"
@@ -166,6 +176,8 @@ definitions:
                 type: integer
             cprcode:
                 type: integer
+            iprcode:
+                type: integer
             originalPrice:
                 description: "original price of the product"
                 type: number
@@ -196,6 +208,7 @@ definitions:
             - quantity
             - cprcode
         type: object
+        additionalProperties: true
         
 
 properties:

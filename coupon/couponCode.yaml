@@ -20,5 +20,3 @@ properties:
 required:
   - couponId
   - couponCode
-  - customerId
-  - userTime

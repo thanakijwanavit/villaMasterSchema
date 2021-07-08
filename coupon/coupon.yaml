@@ -15,8 +15,23 @@ definitions:
               - '>='
           amount:
             type: number
+          productList:
+            description: cprcodes of eligible products; if not empty will only count the amount of these products
+            type: array
+            items:
+              type: integer
+          groupList:
+            description: groupIds of eligible products; if not empty will only count the amount of the products in these groups
+            type: array
+            items:
+              type: integer
           excludeProduct:
-            description: cprcode or groupIds that cannot count into cart total
+            description: cprcode that cannot count into cart total
+            type: array
+            items: 
+              type: integer
+          excludeGroupId:
+            description: groupIds that cannot count into cart total
             type: array
             items: 
               type: integer
@@ -28,14 +43,18 @@ definitions:
               enum:
                 - BOGO
                 - TWO4
-                - MDCOST
-                - OFFTAKE   
+                - SPECIALPRICE  
       productQuantity:
         description: condition on the product quantity in the cart
         type: object
         properties:
           productList:
-            description: cprcodes or groupIds of eligible products
+            description: cprcodes of eligible products
+            type: array
+            items:
+              type: integer
+          groupList:
+            description: groupIds of eligible products
             type: array
             items:
               type: integer
@@ -65,6 +84,11 @@ definitions:
             type: array
             items:
               type: integer
+          discountGroupList:
+            description: groupIds to apply the discount to
+            type: array
+            items:
+              type: integer
           discountType:
             type: string
             enum:
@@ -78,7 +102,12 @@ definitions:
         type: object
         properties:
           productList:
-            description: cprcodes or groupIds of products to choose from
+            description: cprcodes of products to choose from
+            type: array
+            items:
+              type: integer
+          groupList:
+            description: groupIds of products to choose from
             type: array
             items:
               type: integer
@@ -119,6 +148,9 @@ properties:
   usesPerCoupon:
     type: integer
     description: total number of times this coupon can be used. if not specified, unlimited.
+  numberCouponUsed:
+    type: integer
+    description: total number of times this coupon is used. 
   usesPerCustomer:
     type: integer 
   startDate:
@@ -135,12 +167,6 @@ properties:
     description: list of customerIds or customer group Ids who are eligible for this coupon. if not specified, coupon applies to all customers. 
     items:
       type: integer
-  customerTypes:
-    type: array
-    description: customer types that are eligible for this coupon. if not specified, coupon applies to all customerTypes.
-    items:
-      type: string
-      pattern: '(^\d{2}$)'
   newCustomer:
     description: does this coupon apply to new customer only (false or not specified means no)
     type: boolean
@@ -154,6 +180,3 @@ properties:
     description: list of branchIds that are eligible for this coupon. if not specified, coupon applies to all branches.
     items:
       type: string
-
-
-  
