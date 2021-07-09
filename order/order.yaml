@@ -80,6 +80,13 @@ definitions:
                     - number
     Shipping:
         type: object
+        required:
+            - scheduleList
+            - shippingAddress
+            - shippingPostcode
+            - shippingLat
+            - shippingLon
+            - shippingPhone
         additionalProperties: false
         properties:
             scheduleList:
