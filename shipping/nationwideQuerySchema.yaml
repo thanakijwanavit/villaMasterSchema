@@ -1,5 +1,5 @@
 $schema: http://json-schema.org/draft-06/schema#
-description: 'NationwideQuery(shippingMode: __main__.ShippingMode, weight: numbers.Number,
+description: 'NationwideQuery(shippingMode: __main__.ShippingMode, weight: float,
   postcode: int)'
 properties:
   postcode:
@@ -10,7 +10,8 @@ properties:
     - dry
     - mix
     type: string
-  weight: {}
+  weight:
+    type: number
 required:
 - shippingMode
 - weight
