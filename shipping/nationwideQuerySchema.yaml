@@ -1,0 +1,19 @@
+$schema: http://json-schema.org/draft-06/schema#
+description: 'NationwideQuery(shippingMode: __main__.ShippingMode, weight: float,
+  postcode: int)'
+properties:
+  postcode:
+    type: integer
+  shippingMode:
+    enum:
+    - fresh
+    - dry
+    - mix
+    type: string
+  weight:
+    type: number
+required:
+- shippingMode
+- weight
+- postcode
+type: object
