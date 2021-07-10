@@ -210,6 +210,25 @@ definitions:
         type: object
         additionalProperties: true
         
+    Picking:
+        type: object
+        additionalProperties: false
+        properties:
+            picker:
+                description: "user picker"
+                type: string
+            pickingStatus:
+                type: string
+                enum:
+                    - picked
+                    - pending
+                    - cancelled
+            pickingStartTime:
+                description: "start datetime"
+                type: number
+            pickingEndTime:
+                description: "end datetime"
+                type: number
 
 properties:
     basketName:
@@ -253,6 +272,8 @@ properties:
         type: array
         items:
             $ref: '#/definitions/Product'
+    picking:
+        $ref: '#/definitions/Picking'
 required:
     - basketId
     - orderId
