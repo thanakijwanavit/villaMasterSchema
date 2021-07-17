@@ -1,0 +1,67 @@
+$schema: http://json-schema.org/draft-06/schema#
+definitions:
+  Product:
+    description: 'Product(cprcode: (<class ''int''>, <class ''str''>), isPreOrder:
+      bool, productName: str, quantity: int, scheduleId: int)'
+    properties:
+      cprcode: {}
+      isPreOrder:
+        type: boolean
+      productName:
+        type: string
+      quantity:
+        type: integer
+      scheduleId:
+        type: integer
+    required:
+    - cprcode
+    - isPreOrder
+    - productName
+    - quantity
+    - scheduleId
+    type: object
+  Schedule:
+    description: 'Schedule(deliveryFee: int, mode: str)'
+    properties:
+      deliveryFee:
+        type: integer
+      mode:
+        type: string
+    required:
+    - deliveryFee
+    - mode
+    type: object
+  Shipping:
+    description: 'Shipping(scheduleList: List[__main__.Schedule], shippingType: str)'
+    properties:
+      scheduleList:
+        items:
+          $ref: '#/definitions/Schedule'
+        type: array
+      shippingType:
+        type: string
+    required:
+    - scheduleList
+    - shippingType
+    type: object
+description: 'GetCostInput(branchId: str, couponCodeList: List[ForwardRef(''str'')],
+  productList: List[__main__.Product], shipping: __main__.Shipping)'
+properties:
+  branchId:
+    type: string
+  couponCodeList:
+    items:
+      type: string
+    type: array
+  productList:
+    items:
+      $ref: '#/definitions/Product'
+    type: array
+  shipping:
+    $ref: '#/definitions/Shipping'
+required:
+- branchId
+- couponCodeList
+- productList
+- shipping
+type: object
