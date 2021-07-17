@@ -4,8 +4,11 @@ type: object
 required:
   - cprcode
   - couponId
+  - couponCode
 properties:
   cprcode:
     type: integer
   couponId:
     type: integer
+  couponCode:
+    type: string
