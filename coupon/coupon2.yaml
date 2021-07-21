@@ -30,10 +30,24 @@ definitions:
       - "null"
   Conditions:
     description: 'Conditions(noCombine: List[__main__.Type], cartTotal: float, firstTimerOnly:
-      bool)'
+      bool, endDate: int, startDate: int = 1626842794.936353, usesPerCustomer: Union[int,
+      NoneType] = None, eligibleCustomers: List[str] = <factory>, eligibleBranches:
+      List[str] = <factory>)'
     properties:
       cartTotal:
         type: number
+      eligibleBranches:
+        default: []
+        items:
+          type: string
+        type: array
+      eligibleCustomers:
+        default: []
+        items:
+          type: string
+        type: array
+      endDate:
+        type: integer
       firstTimerOnly:
         type: boolean
       noCombine:
@@ -45,13 +59,26 @@ definitions:
           - FREESHIP
           type: string
         type: array
+      startDate:
+        default: 1626842794.936353
+        type: integer
+      usesPerCustomer:
+        type: integer
     required:
     - noCombine
     - cartTotal
     - firstTimerOnly
+    - endDate
     type: 
       - object
       - "null"
+  Counter:
+    description: 'Counter(usageCount: int = 0)'
+    properties:
+      usageCount:
+        default: 0
+        type: integer
+    type: object
   Disc:
     description: 'Disc(products: List[int] = <factory>, exclude: List[int] = <factory>,
       cash: Union[float, NoneType] = None, percentage: Union[float, NoneType] = None)'
@@ -94,18 +121,24 @@ definitions:
 description: 'Coupon(couponCodes: List[str], couponId: int, type_: __main__.Type,
   bogo: Union[__main__.Bogo, NoneType] = None, two4: Union[__main__.Two4, NoneType]
   = None, disc: Union[__main__.Disc, NoneType] = None, conditions: Union[__main__.Conditions,
-  NoneType] = None)'
+  NoneType] = None, counter: Union[__main__.Counter, NoneType] = None, description:
+  str = '''')'
 properties:
   bogo:
     $ref: '#/definitions/Bogo'
   conditions:
     $ref: '#/definitions/Conditions'
+  counter:
+    $ref: '#/definitions/Counter'
   couponCodes:
     items:
       type: string
     type: array
   couponId:
     type: integer
+  description:
+    default: ''
+    type: string
   disc:
     $ref: '#/definitions/Disc'
   two4:
