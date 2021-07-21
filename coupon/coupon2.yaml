@@ -10,7 +10,9 @@ definitions:
     required:
     - buy
     - get
-    type: object
+    type: 
+      - object
+      - "null"
   BogoProduct:
     description: 'BogoProduct(products: List[int], quantity: int)'
     properties:
@@ -23,7 +25,9 @@ definitions:
     required:
     - products
     - quantity
-    type: object
+    type: 
+      - object
+      - "null"
   Conditions:
     description: 'Conditions(noCombine: List[__main__.Type], cartTotal: float, firstTimerOnly:
       bool)'
@@ -45,7 +49,9 @@ definitions:
     - noCombine
     - cartTotal
     - firstTimerOnly
-    type: object
+    type: 
+      - object
+      - "null"
   Disc:
     description: 'Disc(products: List[int] = <factory>, exclude: List[int] = <factory>,
       cash: Union[float, NoneType] = None, percentage: Union[float, NoneType] = None)'
@@ -64,7 +70,9 @@ definitions:
         items:
           type: integer
         type: array
-    type: object
+    type: 
+      - object
+      - "null"
   Two4:
     description: 'Two4(products: List[int], price: float, quantity: int)'
     properties:
@@ -80,7 +88,9 @@ definitions:
     - products
     - price
     - quantity
-    type: object
+    type: 
+      - object
+      - "null"
 description: 'Coupon(couponCodes: List[str], couponId: int, type_: __main__.Type,
   bogo: Union[__main__.Bogo, NoneType] = None, two4: Union[__main__.Two4, NoneType]
   = None, disc: Union[__main__.Disc, NoneType] = None, conditions: Union[__main__.Conditions,
