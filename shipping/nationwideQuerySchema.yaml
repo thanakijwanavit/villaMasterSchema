@@ -6,9 +6,9 @@ properties:
     type: integer
   shippingMode:
     enum:
-    - fresh
-    - dry
-    - mix
+    - FRESH
+    - DRY
+    - MIX
     type: string
   weight:
     type: number
