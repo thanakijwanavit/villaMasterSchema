@@ -10,9 +10,7 @@ definitions:
     required:
     - buy
     - get
-    type: 
-      - object
-      - "null"
+    type: object
   BogoProduct:
     description: 'BogoProduct(products: List[int], quantity: int)'
     properties:
@@ -25,14 +23,12 @@ definitions:
     required:
     - products
     - quantity
-    type: 
-      - object
-      - "null"
+    type: object
   Conditions:
     description: 'Conditions(noCombine: List[__main__.Type], cartTotal: float, firstTimerOnly:
-      bool, endDate: int, startDate: int = 1626842794.936353, usesPerCustomer: Union[int,
-      NoneType] = None, eligibleCustomers: List[str] = <factory>, eligibleBranches:
-      List[str] = <factory>)'
+      bool, endDate: int, isActive: bool = True, isSingleUseCode: bool = False, startDate:
+      int = 1627171200, usesPerCustomer: Union[int, NoneType] = None, eligibleCustomers:
+      List[str] = <factory>, eligibleBranches: List[str] = <factory>)'
     properties:
       cartTotal:
         type: number
@@ -50,6 +46,12 @@ definitions:
         type: integer
       firstTimerOnly:
         type: boolean
+      isActive:
+        default: true
+        type: boolean
+      isSingleUseCode:
+        default: false
+        type: boolean
       noCombine:
         items:
           enum:
@@ -60,7 +62,7 @@ definitions:
           type: string
         type: array
       startDate:
-        default: 1626842794.936353
+        default: 1627171200
         type: integer
       usesPerCustomer:
         type: integer
@@ -69,15 +71,21 @@ definitions:
     - cartTotal
     - firstTimerOnly
     - endDate
-    type: 
-      - object
-      - "null"
+    type: object
   Counter:
-    description: 'Counter(usageCount: int = 0)'
+    description: 'Counter(usageCount: int = 0, usageLimit: Union[int, NoneType] =
+      None, usedCodes: List[str] = <factory>)'
     properties:
       usageCount:
         default: 0
         type: integer
+      usageLimit:
+        type: integer
+      usedCodes:
+        default: []
+        items:
+          type: string
+        type: array
     type: object
   Disc:
     description: 'Disc(products: List[int] = <factory>, exclude: List[int] = <factory>,
@@ -97,9 +105,7 @@ definitions:
         items:
           type: integer
         type: array
-    type: 
-      - object
-      - "null"
+    type: object
   Two4:
     description: 'Two4(products: List[int], price: float, quantity: int)'
     properties:
@@ -115,9 +121,7 @@ definitions:
     - products
     - price
     - quantity
-    type: 
-      - object
-      - "null"
+    type: object
 description: 'Coupon(couponCodes: List[str], couponId: int, type_: __main__.Type,
   bogo: Union[__main__.Bogo, NoneType] = None, two4: Union[__main__.Two4, NoneType]
   = None, disc: Union[__main__.Disc, NoneType] = None, conditions: Union[__main__.Conditions,
