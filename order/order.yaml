@@ -1,9 +1,9 @@
 $schema: http://json-schema.org/schema#
-additionalProperties: false
+# additionalProperties: false
 definitions:
     BillingInfo:
         type: object
-        additionalProperties: false
+        # additionalProperties: false
         description: |
             "billing information"
         properties:
@@ -87,7 +87,7 @@ definitions:
             - shippingLat
             - shippingLon
             - shippingPhone
-        additionalProperties: false
+        additionalProperties: true
         properties:
             scheduleList:
                 type: array
@@ -126,7 +126,7 @@ definitions:
 
     Schedule:
         type: object
-        additionalProperties: false
+        # additionalProperties: false
         properties:
             scheduleId:
                 description: "match between product and schedule group"
@@ -219,7 +219,7 @@ definitions:
         
     Picking:
         type: object
-        # additionalProperties: false
+        additionalProperties: true
         properties:
             picker:
                 description: "user picker"
