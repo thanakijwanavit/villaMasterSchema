@@ -1,0 +1,87 @@
+$schema: http://json-schema.org/draft-06/schema#
+definitions:
+  Discount:
+    description: 'Discount(couponId: str, couponName: str, discount: float, eligibleProducts:
+      List[int])'
+    properties:
+      couponId:
+        type: string
+      couponName:
+        type: string
+      discount:
+        type: number
+      eligibleProducts:
+        items:
+          type: integer
+        type: array
+    required:
+    - couponId
+    - couponName
+    - discount
+    - eligibleProducts
+    type: object
+  OutputProduct:
+    description: 'OutputProduct(cprcode: (<class ''int''>, <class ''str''>), isPreOrder:
+      bool, productName: str, quantity: int, scheduleId: int, originalPrice: float,
+      price: float, rowTotal: float, settlementPrice: float, discountFromCoupon: int
+      = 0)'
+    properties:
+      cprcode: {}
+      discountFromCoupon:
+        default: 0
+        type: integer
+      isPreOrder:
+        type: boolean
+      originalPrice:
+        type: number
+      price:
+        type: number
+      productName:
+        type: string
+      quantity:
+        type: integer
+      rowTotal:
+        type: number
+      scheduleId:
+        type: integer
+      settlementPrice:
+        type: number
+    required:
+    - cprcode
+    - isPreOrder
+    - productName
+    - quantity
+    - scheduleId
+    - originalPrice
+    - price
+    - rowTotal
+    - settlementPrice
+    type: object
+description: 'GetCostOutput(cartDiscount: float, cartDiscountInfo: List[__main__.Discount],
+  deliveryFee: float, productList: List[__main__.OutputProduct], subTotal: float,
+  grandTotal: float)'
+properties:
+  cartDiscount:
+    type: number
+  cartDiscountInfo:
+    items:
+      $ref: '#/definitions/Discount'
+    type: array
+  deliveryFee:
+    type: number
+  grandTotal:
+    type: number
+  productList:
+    items:
+      $ref: '#/definitions/OutputProduct'
+    type: array
+  subTotal:
+    type: number
+required:
+- cartDiscount
+- cartDiscountInfo
+- deliveryFee
+- productList
+- subTotal
+- grandTotal
+type: object

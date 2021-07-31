@@ -1,0 +1,17 @@
+No coupon code
+BOGO: Buy X Get Y Free
+TWO4: Buy 2 of something get YY baht discount
+
+With coupon code
+This can have many conditions, for example
+
+Code BULBLU10 (id: 53651)
+Buy 0218190 or 0220128 >=2388 THB, discount 10% (discount apply to participate product only)
+
+Code NEWME200 (id: 46813)
+New customer buy any product >=2000, discount 200 THB (discount apply to all sku in cart)
+
+Code RAINFREE (id: 47187)
+Buy any product >=2500 THB, get free shipping
+
+sometimes they also exclude some product or group of products that cannot count into the condition or action. 

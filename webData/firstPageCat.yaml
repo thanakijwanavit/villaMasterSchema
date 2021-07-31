@@ -41,15 +41,18 @@ categoryList:
     - id: null
       name: Delicatessen & Eggs
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/delicatessen.png
-    - id: 5000000119
+    - id: 5000000186
       name: Butcher Shop
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/butcher.png
 #    - id: null
 #      name: Butcher Shop
-#      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/butcher.png  
-    - id: null
+#      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/butcher.png
+    - id: 5000000169
       name: Seafood
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/seafood.png
+#    - id: null
+#      name: Seafood
+#      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/seafood.png
     - id: null
       name: Dairy
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/dairy.png

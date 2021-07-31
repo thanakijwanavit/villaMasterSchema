@@ -134,6 +134,9 @@ properties:
   couponDescription:
     type: string
     description: description of the coupon
+  couponType:
+    type: string
+    description: type of the coupon e.g., BOGO, TWO4, REFUND, etc.
   active:
     type: boolean
   couponCodeType:

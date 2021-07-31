@@ -1,0 +1,88 @@
+$schema: http://json-schema.org/draft-06/schema#
+definitions:
+  Product:
+    description: 'Product(cprcode: (<class ''int''>, <class ''str''>), productName:
+      str, quantity: int, scheduleId: Union[int, NoneType] = None, isPreOrder: bool
+      = False)'
+    properties:
+      cprcode: {}
+      isPreOrder:
+        default: false
+        type: boolean
+      productName:
+        type: string
+      quantity:
+        type: integer
+      scheduleId:
+        type: integer
+    required:
+    - cprcode
+    - productName
+    - quantity
+    type: object
+  Schedule:
+    description: 'Schedule(mode: __main__.ShippingMode, dateTime: str = '''', scheduleId:
+      int = 0, deliveryFee: float = 0)'
+    properties:
+      dateTime:
+        default: ''
+        type: string
+      deliveryFee:
+        default: 0
+        type: number
+      mode:
+        enum:
+        - NATIONWIDE
+        - EXPRESS
+        - PICKUP
+        type: string
+      scheduleId:
+        default: 0
+        type: integer
+    required:
+    - mode
+    type: object
+  Shipping:
+    description: 'Shipping(scheduleList: List[__main__.Schedule], shippingType: __main__.ShippingType,
+      shippingLat: float = 0, shippingLon: float = 0)'
+    properties:
+      scheduleList:
+        items:
+          $ref: '#/definitions/Schedule'
+        type: array
+      shippingLat:
+        default: 0
+        type: number
+      shippingLon:
+        default: 0
+        type: number
+      shippingType:
+        enum:
+        - DELIVERY
+        - PICKUP
+        type: string
+    required:
+    - scheduleList
+    - shippingType
+    type: object
+description: 'GetCostInput(branchId: str, productList: List[__main__.Product], shipping:
+  Union[__main__.Shipping, NoneType] = None, couponCodeList: List[ForwardRef(''str'')]
+  = <factory>)'
+properties:
+  branchId:
+    type: string
+  couponCodeList:
+    default: []
+    items:
+      type: string
+    type: array
+  productList:
+    items:
+      $ref: '#/definitions/Product'
+    type: array
+  shipping:
+    $ref: '#/definitions/Shipping'
+required:
+- branchId
+- productList
+type: object

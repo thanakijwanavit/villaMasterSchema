@@ -1,0 +1,161 @@
+$schema: http://json-schema.org/draft-06/schema#
+definitions:
+  Bogo:
+    description: 'Bogo(buy: __main__.BogoProduct, get: __main__.BogoProduct)'
+    properties:
+      buy:
+        $ref: '#/definitions/BogoProduct'
+      get:
+        $ref: '#/definitions/BogoProduct'
+    required:
+    - buy
+    - get
+    type: object
+  BogoProduct:
+    description: 'BogoProduct(products: List[int], quantity: int)'
+    properties:
+      products:
+        items:
+          type: integer
+        type: array
+      quantity:
+        type: integer
+    required:
+    - products
+    - quantity
+    type: object
+  Conditions:
+    description: 'Conditions(noCombine: List[__main__.Type], cartTotal: float, firstTimerOnly:
+      bool, endDate: int, isActive: bool = True, isSingleUseCode: bool = False, startDate:
+      int = 1627171200, usesPerCustomer: Union[int, NoneType] = None, eligibleCustomers:
+      List[str] = <factory>, eligibleBranches: List[str] = <factory>)'
+    properties:
+      cartTotal:
+        type: number
+      eligibleBranches:
+        default: []
+        items:
+          type: string
+        type: array
+      eligibleCustomers:
+        default: []
+        items:
+          type: string
+        type: array
+      endDate:
+        type: integer
+      firstTimerOnly:
+        type: boolean
+      isActive:
+        default: true
+        type: boolean
+      isSingleUseCode:
+        default: false
+        type: boolean
+      noCombine:
+        items:
+          enum:
+          - BOGO
+          - TWO4
+          - DISC
+          - FREESHIP
+          type: string
+        type: array
+      startDate:
+        default: 1627171200
+        type: integer
+      usesPerCustomer:
+        type: integer
+    required:
+    - noCombine
+    - cartTotal
+    - firstTimerOnly
+    - endDate
+    type: object
+  Counter:
+    description: 'Counter(usageCount: int = 0, usageLimit: Union[int, NoneType] =
+      None, usedCodes: List[str] = <factory>)'
+    properties:
+      usageCount:
+        default: 0
+        type: integer
+      usageLimit:
+        type: integer
+      usedCodes:
+        default: []
+        items:
+          type: string
+        type: array
+    type: object
+  Disc:
+    description: 'Disc(products: List[int] = <factory>, exclude: List[int] = <factory>,
+      cash: Union[float, NoneType] = None, percentage: Union[float, NoneType] = None)'
+    properties:
+      cash:
+        type: number
+      exclude:
+        default: []
+        items:
+          type: integer
+        type: array
+      percentage:
+        type: number
+      products:
+        default: []
+        items:
+          type: integer
+        type: array
+    type: object
+  Two4:
+    description: 'Two4(products: List[int], price: float, quantity: int)'
+    properties:
+      price:
+        type: number
+      products:
+        items:
+          type: integer
+        type: array
+      quantity:
+        type: integer
+    required:
+    - products
+    - price
+    - quantity
+    type: object
+description: 'Coupon(couponCodes: List[str], couponId: int, type_: __main__.Type,
+  bogo: Union[__main__.Bogo, NoneType] = None, two4: Union[__main__.Two4, NoneType]
+  = None, disc: Union[__main__.Disc, NoneType] = None, conditions: Union[__main__.Conditions,
+  NoneType] = None, counter: Union[__main__.Counter, NoneType] = None, description:
+  str = '''')'
+properties:
+  bogo:
+    $ref: '#/definitions/Bogo'
+  conditions:
+    $ref: '#/definitions/Conditions'
+  counter:
+    $ref: '#/definitions/Counter'
+  couponCodes:
+    items:
+      type: string
+    type: array
+  couponId:
+    type: integer
+  description:
+    default: ''
+    type: string
+  disc:
+    $ref: '#/definitions/Disc'
+  two4:
+    $ref: '#/definitions/Two4'
+  type_:
+    enum:
+    - BOGO
+    - TWO4
+    - DISC
+    - FREESHIP
+    type: string
+required:
+- couponCodes
+- couponId
+- type_
+type: object
