@@ -219,7 +219,7 @@ definitions:
         
     Picking:
         type: object
-        additionalProperties: false
+        # additionalProperties: false
         properties:
             picker:
                 description: "user picker"
