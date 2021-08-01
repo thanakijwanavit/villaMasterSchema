@@ -2,52 +2,52 @@ $schema: http://json-schema.org/schema#
 additionalProperties: false
 definitions:
   Shipping:
-      type: object
-      required:
-          - scheduleList
-          - shippingAddress
-          - shippingPostcode
-          - shippingLat
-          - shippingLon
-          - shippingPhone
-      additionalProperties: true
-      properties:
-          scheduleList:
-              type: array
-              items:
-                  $ref: '#/definitions/Schedule'
-          shippingFirstName:
-              type: string
-          shippingLastName:
-              type: string
-          shippingAddress:
-              type: string
-          shippingSubDistrict:
-              type: string
-          shippingDistrict:
-              type: string
-          shippingProvince:
-              type: string
-          shippingPostcode:
-              type: string
-          shippingLat:
-              type: number
-          shippingLon:
-              type: number
-          shippingPhone:
-              type: string
-          shippingEmail:
-              type: 
-                - string
-                - null
-          shippingDate:
-              type: number
-          shippingType:
-              description: "DELIVERY or PICKUP"
-              type: 
-                  - string
-                  - "null"
-              enum: ["DELIVERY", "PICKUP", null]
+    type: object
+    required:
+      - scheduleList
+      - shippingAddress
+      - shippingPostcode
+      - shippingLat
+      - shippingLon
+      - shippingPhone
+    additionalProperties: true
+    properties:
+      scheduleList:
+        type: array
+        items:
+            $ref: '#/definitions/Schedule'
+    shippingFirstName:
+        type: string
+      shippingLastName:
+        type: string
+      shippingAddress:
+        type: string
+      shippingSubDistrict:
+        type: string
+      shippingDistrict:
+        type: string
+      shippingProvince:
+        type: string
+      shippingPostcode:
+        type: string
+      shippingLat:
+        type: number
+      shippingLon:
+        type: number
+      shippingPhone:
+        type: string
+      shippingEmail:
+        type: 
+          - string
+          - "null"
+      shippingDate:
+        type: number
+      shippingType:
+        description: "DELIVERY or PICKUP"
+        type: 
+            - string
+            - "null"
+        enum: ["DELIVERY", "PICKUP", null]
 
   Schedule:
     type: object
