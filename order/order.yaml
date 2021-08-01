@@ -227,15 +227,30 @@ definitions:
             pickingStatus:
                 type: string
                 enum:
-                    - picked
-                    - pending
-                    - cancelled
+                    - Assigned
+                    - Picking
+                    - Finish
             pickingStartTime:
-                description: "start datetime"
+                description: "picking start datetime"
                 type: number
             pickingEndTime:
-                description: "end datetime"
+                description: "picking end datetime"
                 type: number
+            dryQty:
+                description: "number of bag for dry"
+                type: integer
+            freshQty:
+                description: "number of bag for fresh"
+                type: integer
+            frozenQty:
+                description: "number of bag for frozen"
+                type: integer
+            diffAmount:
+                description: "diff amount"
+                type: number
+            diffRemark:
+                description: "diff remark"
+                type: string
 
 properties:
     basketName:
