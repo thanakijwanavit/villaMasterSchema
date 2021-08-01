@@ -1,0 +1,21 @@
+branchId: '1000'
+couponCodeList:
+- NEWME200
+productList:
+- cprcode: 31802
+  isPreOrder: false
+  productName: Blueberry Jam
+  quantity: 18
+  scheduleId: 0
+  usedForCoupon: null
+shipping:
+  scheduleList:
+  - dateTime: '2022-04-09T13:00:00.000Z'
+    deliveryFee: 90
+    mode: REGULAR
+    nationwideMode: null
+    scheduleId: 0
+  shippingLat: 13.73204799
+  shippingLon: 100.56762289
+  shippingPostcode: '10140'
+  shippingType: DELIVERY

@@ -1,0 +1,40 @@
+branchId: '1049'
+couponCodeList:
+- TESTBLU
+productList:
+- cprcode: 218190
+  isPreOrder: false
+  productName: Peru Blueberry
+  quantity: 10
+  scheduleId: 0
+- cprcode: 220128
+  isPreOrder: false
+  productName: USA Blueberry
+  quantity: 10
+  scheduleId: 0
+- cprcode: 5263
+  isPreOrder: false
+  productName: Cereal
+  quantity: 2
+  scheduleId: 0
+- cprcode: 6078
+  isPreOrder: false
+  productName: water
+  quantity: 7
+  scheduleId: 0
+shipping:
+  scheduleList:
+  - dateTime: '2022-04-09T13:00:00.000Z'
+    mode: NATIONWIDE
+    nationwideConfig: inter-express-fresh-15kg
+    scheduleId: 0
+  shippingAddress: 595 Sukhumvit Rd
+  shippingDistrict: Vadhana
+  shippingFirstName: tor
+  shippingLastName: intanon
+  shippingLat: 13.73204799
+  shippingLon: 100.56762289
+  shippingPhone: 061-002-0199
+  shippingPostcode: '10140'
+  shippingProvince: Bangkok
+  shippingType: DELIVERY

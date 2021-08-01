@@ -1,0 +1,32 @@
+branchId: '1023'
+couponCodeList:
+- 9I7Y2KEY
+productList:
+- cprcode: 146098
+  isPreOrder: true
+  productName: ice cream
+  quantity: 1
+  scheduleId: 2
+shipping:
+  scheduleList:
+  - dateTime: '2022-04-09T13:00:00.000Z'
+    deliveryFee: 90
+    mode: NATIONWIDE
+    scheduleId: 0
+  - dateTime: '2022-04-11T02:00:00.000Z'
+    deliveryFee: 90
+    mode: NATIONWIDE
+    scheduleId: 1
+  - dateTime: '2022-04-13T02:00:00.000Z'
+    deliveryFee: 90
+    mode: EXPRESS
+    scheduleId: 2
+  shippingLat: 13.73204799
+  shippingLon: 100.56762289
+  shippingAddress: 595 Sukhumvit Rd
+  shippingDistrict: Vadhana
+  shippingFirstName: tor
+  shippingLastName: intanon
+  shippingPhone: 061-002-0199
+  shippingProvince: Bangkok
+  shippingType: DELIVERY

@@ -1,0 +1,35 @@
+branchId: '1049'
+couponCodeList:
+- NEWME200
+productList:
+- cprcode: 31802
+  productName: Blueberry Jam
+  quantity: 3
+  scheduleId: 0
+- cprcode: 31803
+  productName: Marmalade
+  quantity: 1
+  scheduleId: 0
+- cprcode: 233114
+  productName: handwash
+  quantity: 2
+  scheduleId: 0
+- cprcode: 38617
+  productName: oreo
+  quantity: 7
+  scheduleId: 0
+shipping:
+  scheduleList:
+  - dateTime: '2022-04-09T13:00:00.000Z'
+    mode: REGULAR
+    scheduleId: 0
+  shippingAddress: 595 Sukhumvit Rd
+  shippingDistrict: Vadhana
+  shippingFirstName: tor
+  shippingLastName: intanon
+  shippingLat: 13.73204799
+  shippingLon: 100.56762289
+  shippingPhone: 061-002-0199
+  shippingPostcode: '10140'
+  shippingProvince: Bangkok
+  shippingType: DELIVERY

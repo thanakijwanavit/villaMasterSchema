@@ -1,0 +1,7 @@
+branchId: '1000'
+shipping:
+  shippingType: PICKUP
+productList:
+- cprcode: 8498
+  productName: 'Red Bean Curd Chilli #02'
+  quantity: 2

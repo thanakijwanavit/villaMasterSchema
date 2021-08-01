@@ -1,0 +1,36 @@
+branchId: '1049'
+couponCodeList:
+- V8M1EYED
+productList:
+- cprcode: 3591
+  productName: Nuts
+  quantity: 2
+  scheduleId: 2
+- cprcode: 5849
+  productName: Yogurt
+  quantity: 2
+  scheduleId: 0
+- cprcode: 214868
+  productName: haddock
+  quantity: 1
+  scheduleId: 1
+shipping:
+  scheduleList:
+  - dateTime: '2022-04-09T13:00:00.000Z'
+    mode: NATIONWIDE
+    scheduleId: 0
+  - dateTime: '2022-04-11T02:00:00.000Z'
+    mode: EXPRESS
+    scheduleId: 1
+  - dateTime: '2022-04-13T02:00:00.000Z'
+    mode: NATIONWIDE
+    scheduleId: 2
+  shippingAddress: 595 Sukhumvit Rd
+  shippingDistrict: Vadhana
+  shippingFirstName: tor
+  shippingLastName: intanon
+  shippingLat: 13.73204799
+  shippingLon: 100.56762289
+  shippingPhone: 061-002-0199
+  shippingProvince: Bangkok
+  shippingType: DELIVERY

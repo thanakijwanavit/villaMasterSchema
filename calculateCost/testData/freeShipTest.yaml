@@ -1,0 +1,32 @@
+branchId: '1003'
+couponCodeList:
+- UTP2YEYO
+productList:
+- cprcode: 31802
+  productName: Blueberry Preserves
+  quantity: 1
+- cprcode: 5602
+  productName: Quick
+  quantity: 1
+- cprcode: 6078
+  productName: Mineral Water
+  quantity: 2
+- cprcode: 233114
+  productName: Liquid Hand Wash Botanical
+  quantity: 3
+shipping:
+  scheduleList:
+  - deliveryFee: 90
+    mode: EXPRESS
+    pickingStatus: pending
+  shippingAddress: ' Thanon Chaeng Watthana'
+  shippingDistrict: "\u0E2D.\u0E1B\u0E32\u0E01\u0E40\u0E01\u0E23\u0E47\u0E14"
+  shippingEmail: inta495@gmail.com
+  shippingFirstName: tor
+  shippingLastName: intanon
+  shippingLat: 13.908912
+  shippingLon: 100.5024447
+  shippingPhone: '+66823327227'
+  shippingPostcode: '11120'
+  shippingProvince: "\u0E08.\u0E19\u0E19\u0E17\u0E1A\u0E38\u0E23\u0E35"
+  shippingType: DELIVERY

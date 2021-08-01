@@ -1,0 +1,25 @@
+branchId: '1026'
+couponCodeList: []
+productList:
+- cprcode: 59827
+  productName: Baby Touch Baby Fabric Wash
+  quantity: 1
+- cprcode: 79934
+  productName: Tomato Juice 99%
+  quantity: 1
+shipping:
+  scheduleList:
+  - deliveryFee: 90
+    mode: NATIONWIDE
+    pickingStatus: pending
+  shippingAddress: ''
+  shippingDistrict: Khet Thon Buri
+  shippingEmail: tor@avilon.co
+  shippingFirstName: tor
+  shippingLastName: intanon
+  shippingLat: 13.7325069
+  shippingLon: 100.4931185
+  shippingPhone: 0823327227
+  shippingPostcode: '10600'
+  shippingProvince: Krung Thep Maha Nakhon
+  shippingType: DELIVERY
