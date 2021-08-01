@@ -16,7 +16,7 @@ definitions:
         type: array
         items:
             $ref: '#/definitions/Schedule'
-    shippingFirstName:
+      shippingFirstName:
         type: string
       shippingLastName:
         type: string
