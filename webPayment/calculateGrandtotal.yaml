@@ -3,11 +3,19 @@ additionalProperties: false
 definitions:
   Shipping:
     type: object
+    required:
+      - scheduleList
+      - shippingAddress
+      - shippingPostcode
+      - shippingLat
+      - shippingLon
+      - shippingPhone
+    additionalProperties: true
     properties:
       scheduleList:
         type: array
         items:
-          $ref: '#/definitions/Schedule'
+            $ref: '#/definitions/Schedule'
       shippingFirstName:
         type: string
       shippingLastName:
@@ -22,19 +30,28 @@ definitions:
         type: string
       shippingPostcode:
         type: string
+      shippingLat:
+        type: number
+      shippingLon:
+        type: number
       shippingPhone:
         type: string
+      shippingEmail:
+        type: 
+          - string
+          - "null"
       shippingDate:
         type: number
       shippingType:
         description: "DELIVERY or PICKUP"
         type: 
-          - string
-          - "null"
+            - string
+            - "null"
         enum: ["DELIVERY", "PICKUP", null]
 
   Schedule:
     type: object
+    # additionalProperties: false
     properties:
       scheduleId:
         description: "match between product and schedule group"
@@ -42,42 +59,62 @@ definitions:
       preOrder:
         description: "the type of pre-order if any"
         type:
-          - string
+            - string
         enum: [ "PREORDER_RELATIVE", "PREORDER_FIXED"]
       mode:
-        description: "the kind of shipping speed"
+          description: "the kind of shipping speed"
+          type: 
+              - string
+          enum: ["REGULAR", "EXPRESS", "NATIONWIDE"]
+      nationwideConfig:
+        description: "config for nationwide shipping"
         type: 
-          - string
-        enum: ["REGULAR", "EXPRESS", "NATIONWIDE"]
+            - string
+        enum: 
+          - "kerry-dry-5kg"
+          - "kerry-dry-10kg"
+          - "kerry-dry-15kg"
+          - "kerry-dry-20kg"
+          - "inter-express-dry-5kg"
+          - "inter-express-dry-10kg"
+          - "inter-express-dry-15kg"
+          - "inter-express-dry-20kg"
+          - "inter-express-fresh-5kg"
+          - "inter-express-fresh-10kg"
+          - "inter-express-fresh-15kg"
+          - "inter-express-fresh-20kg"
       dateTime:
         description: "ISO 8601 date and time string format YYYY-MM-DDThh:mm:ss.sssZ. compatible with AWSDateTime"
         type: string
       deliveryFee:
         description: "Per schedule delivery fee, example: regular delivery fee is 95 baht, preorder large product cost 150 baht."
         type:
-            - number
-            - "null"
+          - number
+          - "null"
       pickingStatus:
         type: string
         enum:
-            - picked
-            - pending
-            - cancelled
+          - picked
+          - pending
+          - cancelled
 
   Product:
     properties:
       pickedQty:
-        type: integer
+          type: integer
       productName:
-        type: string  
+          type: string  
       quantity:
         type: integer
       cprcode:
         type: integer
+      iprcode:
+        type: integer
       originalPrice:
+        description: "original price of the product"
         type: number
       price:
-        description: "Price per Unit"
+        description: "Price per Unit after promotion is applied"
         type: number
       settlementPrice:
         description: "subTotal = price * quantity"
@@ -100,9 +137,10 @@ definitions:
         description: "match between product and schedule group"
         type: number        
     required:
-      - quantity
-      - cprcode
+        - quantity
+        - cprcode
     type: object
+    additionalProperties: true
     
 properties:
   branchId:
