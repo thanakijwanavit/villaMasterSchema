@@ -14,11 +14,11 @@
 1023:
 - maxDist: 10
   price: 90
-1026:
-- maxDist: 5
-  price: 120
-- maxDist: 12
-  price: 180
+# 1026:
+# - maxDist: 5
+#   price: 120
+# - maxDist: 12
+#   price: 180
 1039:
 - maxDist: 5
   price: 90
