@@ -1,35 +1,105 @@
-1000:
-- maxDist: 10
-  price: 90
-- maxDist: 15
-  price: 150
-1015:
-- maxDist: 5
-  price: 120
-- maxDist: 12
-  price: 180
-1021:
-- maxDist: 7
-  price: 90
-1023:
-- maxDist: 10
-  price: 90
-# 1026:
-# - maxDist: 5
-#   price: 120
-# - maxDist: 12
-#   price: 180
-1039:
-- maxDist: 5
-  price: 90
-1041:
-- maxDist: 3
-  price: 80
-- maxDist: 10
-  price: 120
-1048:
-- maxDist: 12
-  price: 90
-1049:
-- maxDist: 15
-  price: 90
+- br_code: 1015
+  eligible_to_shop_at_33: false
+  latitude: 12.929871
+  longitude: 100.880805
+  store_name: Pattaya
+  tier1: '{''maxDist'':10,''price'':90}'
+  tier2: '{''maxDist'':15,''price'':150}'
+- br_code: 1048
+  eligible_to_shop_at_33: false
+  latitude: 12.93627193
+  longitude: 100.9024377
+  store_name: Littlewalk Pattaya
+  tier1: '{''maxDist'':10,''price'':90}'
+  tier2: null
+- br_code: 1016
+  eligible_to_shop_at_33: false
+  latitude: 12.564365
+  longitude: 99.959439
+  store_name: Hua Hin
+  tier1: '{''maxDist'':3,''price'':80}'
+  tier2: '{''maxDist'':10,''price'':120}'
+- br_code: 1041
+  eligible_to_shop_at_33: true
+  latitude: 13.767211
+  longitude: 100.443864
+  store_name: The Circle
+  tier1: '{''maxDist'':12,''price'':90}'
+  tier2: null
+- br_code: 1039
+  eligible_to_shop_at_33: false
+  latitude: 7.961894
+  longitude: 98.385269
+  store_name: Boat Lagoon (Phuket)
+  tier1: '{''maxDist'':5,''price'':120}'
+  tier2: '{''maxDist'':12,''price'':180}'
+- br_code: 1021
+  eligible_to_shop_at_33: false
+  latitude: 7.824785
+  longitude: 98.339117
+  store_name: Chalong (Phuket)
+  tier1: '{''maxDist'':5,''price'':120}'
+  tier2: '{''maxDist'':12,''price'':180}'
+- br_code: 1040
+  eligible_to_shop_at_33: false
+  latitude: 12.59948
+  longitude: 99.95025
+  store_name: Index Hua Hin
+  tier1: '{''maxDist'':3,''price'':80}'
+  tier2: '{''maxDist'':10,''price'':120}'
+- br_code: 1022
+  eligible_to_shop_at_33: true
+  latitude: 13.834663
+  longitude: 100.610776
+  store_name: Kaset-Nawamin
+  tier1: '{''maxDist'':15,''price'':90}'
+  tier2: null
+- br_code: 1032
+  eligible_to_shop_at_33: false
+  latitude: 7.993713
+  longitude: 98.30454
+  store_name: Laguna (Phuket)
+  tier1: '{''maxDist'':5,''price'':120}'
+  tier2: '{''maxDist'':12,''price'':180}'
+- br_code: 1049
+  eligible_to_shop_at_33: true
+  latitude: 13.73968732
+  longitude: 100.54283023
+  store_name: Langsuan
+  tier1: '{''maxDist'':5,''price'':90}'
+  tier2: null
+- br_code: 1000
+  eligible_to_shop_at_33: true
+  latitude: 13.73204799
+  longitude: 100.56762289
+  store_name: Sukhumvit 33
+  tier1: '{''maxDist'':10,''price'':90}'
+  tier2: '{''maxDist'':15,''price'':150}'
+- br_code: 1047
+  eligible_to_shop_at_33: true
+  latitude: 13.65756466
+  longitude: 100.624406
+  store_name: Lasalle
+  tier1: '{''maxDist'':7,''price'':90}'
+  tier2: null
+- br_code: 1003
+  eligible_to_shop_at_33: true
+  latitude: 13.890849
+  longitude: 100.524473
+  store_name: Nichada
+  tier1: '{''maxDist'':10,''price'':90}'
+  tier2: null
+- br_code: 1023
+  eligible_to_shop_at_33: true
+  latitude: 13.688187
+  longitude: 100.647463
+  store_name: Paradise Park
+  tier1: '{''maxDist'':14,''price'':90}'
+  tier2: null
+- br_code: 1026
+  eligible_to_shop_at_33: true
+  latitude: 13.71921
+  longitude: 100.507704
+  store_name: Sena Fest
+  tier1: '{''maxDist'':10,''price'':90}'
+  tier2: null
