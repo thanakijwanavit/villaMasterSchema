@@ -35,7 +35,9 @@ definitions:
       shippingLon:
         type: number
       shippingPhone:
-        type: string
+        type: 
+          - string
+          - "null"
       shippingEmail:
         type: 
           - string
