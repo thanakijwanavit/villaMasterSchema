@@ -96,10 +96,10 @@
   store_name: Paradise Park
   tier1: '{''maxDist'':14,''price'':90}'
   tier2: null
-- br_code: 1026
-  eligible_to_shop_at_33: true
-  latitude: 13.71921
-  longitude: 100.507704
-  store_name: Sena Fest
-  tier1: '{''maxDist'':10,''price'':90}'
-  tier2: null
+# - br_code: 1026
+#   eligible_to_shop_at_33: true
+#   latitude: 13.71921
+#   longitude: 100.507704
+#   store_name: Sena Fest
+#   tier1: '{''maxDist'':10,''price'':90}'
+#   tier2: null
