@@ -114,7 +114,9 @@ definitions:
             shippingPhone:
                 type: string
             shippingEmail:
-                type: string
+                type: 
+                    - string
+                    - "null"
             shippingDate:
                 type: number
             shippingType:
