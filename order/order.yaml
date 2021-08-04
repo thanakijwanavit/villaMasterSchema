@@ -37,6 +37,10 @@ definitions:
         description: |
             "object which should be provided by the payment app"
         properties:
+            paymentDate:
+                type: 
+                    - number
+                    - "null"
             status:
                 type: string
             paymentLog:
