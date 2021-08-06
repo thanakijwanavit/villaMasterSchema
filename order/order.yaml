@@ -27,6 +27,10 @@ definitions:
                 type: string
             customerEmail:
                 type: string
+            customerCompanyName:
+                type: string
+            customerTaxId:
+                type: string
             requestTaxInvoice:
                 description: "checkbox on checkout page"
                 type: boolean
