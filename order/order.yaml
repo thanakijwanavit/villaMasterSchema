@@ -21,6 +21,8 @@ definitions:
                 type: string
             billingPhone:
                 type: string
+            billingCompanyName:
+                type: string
             customerFirstName:
                 type: string
             customerLastName:
