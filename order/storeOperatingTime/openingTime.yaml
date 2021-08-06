@@ -5,4 +5,4 @@
 0: #default
   opening: 8
   closing: 21
-  slotSize: 50 # how many hours to accept per hour
+  slotSize: 20 # how many orders to accept per hour
