@@ -29,6 +29,8 @@ definitions:
                 type: string
             customerCompanyName:
                 type: string
+            customerCompanyBranch:
+                type: string
             customerTaxId:
                 type: string
             requestTaxInvoice:
