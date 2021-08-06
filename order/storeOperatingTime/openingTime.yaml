@@ -1,6 +1,8 @@
 1000:
   opening: 8
   closing: 21
+  slotSize: 50
 0: #default
   opening: 8
   closing: 21
+  slotSize: 50 # how many hours to accept per hour
