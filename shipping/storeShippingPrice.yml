@@ -52,7 +52,7 @@
   latitude: 13.834663
   longitude: 100.610776
   store_name: Kaset-Nawamin
-  tier1: '{''maxDist'':15,''price'':90}'
+  tier1: '{''maxDist'':8,''price'':90}'
   tier2: null
 - br_code: 1032
   eligible_to_shop_at_33: false
