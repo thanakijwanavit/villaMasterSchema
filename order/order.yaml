@@ -138,8 +138,6 @@ definitions:
 
     Schedule:
         type: object
-        required:
-            - mode
         # additionalProperties: false
         properties:
             scheduleId:
