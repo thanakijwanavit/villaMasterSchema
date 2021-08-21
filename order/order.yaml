@@ -239,6 +239,7 @@ definitions:
             pickingStatus:
                 type: string
                 enum:
+                    - Pending
                     - Assigned
                     - Picking
                     - Finish
