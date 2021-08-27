@@ -61,7 +61,7 @@ categoryList:
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/grocery.png
     - id: null
       name: Confectionery & Snacks
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/hampers.png
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/confectionery.png
     - id: null
       name: Drinks
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/drinks.png
