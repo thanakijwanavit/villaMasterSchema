@@ -175,6 +175,15 @@ partnershipShopsList:
       level3:
           id: null
           name: Lalil        
+    - id: 5000000206
+      name: Neoflam
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000206/5000000206-1.jpg
+      level2:
+          id: null
+          name: Home & Kitchen Applicances
+      level3:
+          id: null
+          name: Neoflam 
     - id: 5000000204
       name: Berghoff
       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000204/5000000204-1.jpg
