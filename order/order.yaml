@@ -203,6 +203,9 @@ definitions:
             price:
                 description: "Price per Unit after promotion is applied"
                 type: number
+            subTotal:
+                description: "subTotal = price * quantity"
+                type: number
             settlementPrice:
                 description: "subTotal = price * quantity"
                 type: number
