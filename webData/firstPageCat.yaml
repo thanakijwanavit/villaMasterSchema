@@ -1,22 +1,43 @@
 categoryList:
     - id: 9000000002
       name: New Arrival
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/new-arrival.png
-    - id: 38153
-      name: Pre Order
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/pre-order.png
-    - id: 5000000063
-      name: Grab & Go
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/grab-go.png  
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/new-arrival.png    
     - id: 9000000003
       name: Special Offer
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/special-offer.png
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/special-offer.png     
     - id: null
       name: Grocery
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/grocery.png
     - id: null
       name: Confectionery & Snacks
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/confectionery.png  
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/confectionery.png
+    - id: null
+      name: Delicatessen & Eggs
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/delicatessen.png
+    - id: null
+      name: Bakery
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/bakery.png
+    - id: null
+      name: Frozen Food
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/frozen-food.png
+    - id: 448
+      name: Health
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/health.png
+    - id: null
+      name: Pet & Household
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/pet.png
+    - id: null
+      name: Health & Beauty
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/beauty.png
+    - id: 15597
+      name: Gourmet Line
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/gourmet-line.png
+    - id: 9000000001
+      name: Best Seller
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/best-seller.png
+    - id: 38153
+      name: Pre Order
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/pre-order.png     
     - id: 5000000186
       name: Butcher Shop
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/butcher.png
@@ -34,19 +55,7 @@ categoryList:
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/fruits.png
     - id: null
       name: Dairy
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/dairy.png
-    - id: null
-      name: Delicatessen & Eggs
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/delicatessen.png  
-    - id: null
-      name: Bakery
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/bakery.png
-    - id: null
-      name: Frozen Food
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/frozen-food.png
-    - id: 448
-      name: Health
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/health.png 
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/dairy.png    
     - id: 5000000002
       name: Iceland
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/Iceland-01.png  
@@ -59,18 +68,6 @@ categoryList:
     - id: null
       name: Baby & Adult
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/baby.png
-    - id: null
-      name: Pet & Household
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/pet.png   
-    - id: null
-      name: Health & Beauty
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/beauty.png    
-    - id: 15597
-      name: Gourmet Line
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/gourmet-line.png
-    - id: 9000000001
-      name: Best Seller
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/best-seller.png
     - id: 5000000025
       name: Woolworths
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/woolworths-01.png
@@ -79,10 +76,13 @@ categoryList:
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/partnership-shops.png
     - id: null
       name: Beer Wine & Spirits
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/beer.png      
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/beer.png
 #     - id: null
 #       name: Seasonal Hampers & Flowers
-#       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/hampers.png
+#       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/hampers.png    
+    - id: 5000000063
+      name: Grab & Go
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/grab-go.png
 
 partnershipShopsList:
     - id: 5000000040
