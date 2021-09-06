@@ -1,0 +1,147 @@
+$schema: http://json-schema.org/draft-06/schema#
+definitions:
+  OutputProduct:
+    description: 'OutputProduct(cprcode: (<class ''int''>, <class ''str''>), productName:
+      str, quantity: int, originalPrice: numbers.Number, price: numbers.Number, settlementPrice:
+      numbers.Number, discountFromCoupon: numbers.Number = 0, scheduleId: Union[int,
+      NoneType] = None, isPreOrder: bool = False)'
+    properties:
+      cprcode: {}
+      discountFromCoupon:
+        default: 0
+      isPreOrder:
+        default: false
+        type: boolean
+      originalPrice: {}
+      price: {}
+      productName:
+        type: string
+      quantity:
+        type: integer
+      scheduleId:
+        type: integer
+      settlementPrice: {}
+    required:
+    - cprcode
+    - productName
+    - quantity
+    - originalPrice
+    - price
+    - settlementPrice
+    type: object
+  Schedule:
+    description: 'Schedule(mode: __main__.ShippingMode = <ShippingMode.nationwide:
+      ''NATIONWIDE''>, dateTime: str = '''', scheduleId: int = 0, deliveryFee: numbers.Number
+      = 0, nationwideMode: Union[__main__.NationwideMode, NoneType] = None)'
+    properties:
+      dateTime:
+        default: ''
+        type: string
+      deliveryFee:
+        default: 0
+      mode:
+        default: NATIONWIDE
+        enum:
+        - NATIONWIDE
+        - REGULAR
+        - EXPRESS
+        - PICKUP
+        type: string
+      nationwideMode:
+        enum:
+        - FRESH
+        - DRY
+        - MIX
+        type: string
+      scheduleId:
+        default: 0
+        type: integer
+    type: object
+  Shipping:
+    description: 'Shipping(scheduleList: List[__main__.Schedule] = <factory>, shippingType:
+      __main__.ShippingType = <ShippingType.pickup: ''PICKUP''>, shippingPostcode:
+      str = '''', shippingLat: numbers.Number = 0, shippingLon: numbers.Number = 0,
+      shippingFirstName: str = '''', shippingLastName: str = '''', shippingAddress:
+      str = '''', shippingSubDistrict: str = '''', shippingProvince: str = '''', shippingPhone:
+      str = '''', shippingEmail: str = '''', shippingDate: numbers.Number = 0)'
+    properties:
+      scheduleList:
+        default: []
+        items:
+          $ref: '#/definitions/Schedule'
+        type: array
+      shippingAddress:
+        default: ''
+        type: string
+      shippingDate:
+        default: 0
+      shippingEmail:
+        default: ''
+        type: string
+      shippingFirstName:
+        default: ''
+        type: string
+      shippingLastName:
+        default: ''
+        type: string
+      shippingLat:
+        default: 0
+      shippingLon:
+        default: 0
+      shippingPhone:
+        default: ''
+        type: string
+      shippingPostcode:
+        default: ''
+        type: string
+      shippingProvince:
+        default: ''
+        type: string
+      shippingSubDistrict:
+        default: ''
+        type: string
+      shippingType:
+        default: PICKUP
+        enum:
+        - DELIVERY
+        - PICKUP
+        type: string
+    type: object
+description: 'GetCostOutput(productList: List[__main__.OutputProduct], deliveryFee:
+  numbers.Number, voucherId: List[int] = <factory>, ownerId: Union[str, NoneType]
+  = None, shipping: Union[__main__.Shipping, NoneType] = None, cartDiscount: numbers.Number
+  = 0, cartDiscountInfo: List[Any] = <factory>, couponCodeList: List[ForwardRef(''str'')]
+  = <factory>, branchId: str = ''1000'')'
+properties:
+  branchId:
+    default: '1000'
+    type: string
+  cartDiscount:
+    default: 0
+  cartDiscountInfo:
+    default: []
+    type: array
+  couponCodeList:
+    default: []
+    items:
+      type: string
+    type: array
+  deliveryFee: {}
+  ownerId:
+    type: string
+  productList:
+    items:
+      $ref: '#/definitions/OutputProduct'
+    type: array
+  shipping:
+    $ref: '#/definitions/Shipping'
+  voucherId:
+    default: []
+    items:
+      type: integer
+    type: array
+required:
+- productList
+- deliveryFee
+type: object
+
