@@ -297,6 +297,11 @@ properties:
         type: array
         items:
             type: string
+    voucherId:
+        description: vouchers used in this order
+        type: array
+        items:
+            type: integer
     billingInfo:
         $ref: '#/definitions/BillingInfo'
     shipping:
