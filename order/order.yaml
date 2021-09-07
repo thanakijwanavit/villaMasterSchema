@@ -207,7 +207,10 @@ definitions:
                 description: "subTotal = price * quantity"
                 type: number
             discount:
-                description: "discount amount"
+                description: "discount amount excluding coupon discount"
+                type: number
+            discountFromCoupon:
+                description: "discount from coupon usage including bogo"
                 type: number
             rowTotal:
                 description: "Subtotal - discount"
