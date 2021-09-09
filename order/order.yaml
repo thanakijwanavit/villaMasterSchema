@@ -293,11 +293,6 @@ properties:
         type: 
             - string
             - "null"
-    couponList:
-        description: "list of couponIds used in this order"
-        type: array
-        items:
-            type: integer
     couponCodeList:
         description: "list of coupon codes used in this order"
         type: array
