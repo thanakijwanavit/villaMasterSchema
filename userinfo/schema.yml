@@ -1,0 +1,53 @@
+type: object
+properties:
+  id:
+    type: string
+  name:
+    type: string
+  phone_number:
+    type: string
+  lastUpdated:
+    type: number
+  creation:
+    type: number
+  firstname:
+    type: string
+  lastname:
+    type: string
+  phone:
+    type: string
+  birthDate:
+    type: string
+  address:
+    type: array
+    items:
+      type: object
+      properties:
+        address:
+          type: string
+        district:
+          type: string
+        email:
+          type: string
+        firstname:
+          type: string
+        lastname:
+          type: string
+        name:
+          type: string
+        id:
+          type: number
+        phone:
+          type: string
+        postcode:
+          type: string
+        subDistrict:
+          type: string
+        province:
+          type: string
+  defaultShippingAddress:
+    type: number
+  favoriteList:
+    type: array
+    items:
+      type: object

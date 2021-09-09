@@ -1,6 +1,12 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+# In[2]:
+
+
+pip install nicHelper
+
+
 # In[1]:
 
 
@@ -26,6 +32,8 @@ dataFolder = 'testData' # data folder
 
 with open(f'./order.yaml', 'r')as f: # load the schema
     schema = yaml.load(f.read(), Loader=yaml.FullLoader)
+
+print(schema)
 
 
 # ## create unit test object
@@ -101,13 +109,25 @@ suite = unittest.defaultTestLoader.loadTestsFromTestCase(TestValidation)
 unittest.TextTestRunner().run(suite)
 
 
-# In[13]:
+# In[9]:
 
 
 try:
     get_ipython().system('jupyter nbconvert --to script tester.ipynb')
 except:
     pass
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
 
 
 # In[ ]:

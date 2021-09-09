@@ -207,7 +207,10 @@ definitions:
                 description: "subTotal = price * quantity"
                 type: number
             discount:
-                description: "discount amount"
+                description: "discount amount excluding coupon discount"
+                type: number
+            discountFromCoupon:
+                description: "discount from coupon usage including bogo"
                 type: number
             rowTotal:
                 description: "Subtotal - discount"
@@ -223,6 +226,9 @@ definitions:
             scheduleId:
                 description: "match between product and schedule group"
                 type: number        
+            discountedRowTotal:
+                description: "row total after application of the coupon discount"
+                type: number
         required:
             - quantity
             - cprcode
@@ -287,16 +293,16 @@ properties:
         type: 
             - string
             - "null"
-    couponList:
-        description: "list of couponIds used in this order"
-        type: array
-        items:
-            type: integer
     couponCodeList:
         description: "list of coupon codes used in this order"
         type: array
         items:
             type: string
+    voucherId:
+        description: vouchers used in this order
+        type: array
+        items:
+            type: integer
     billingInfo:
         $ref: '#/definitions/BillingInfo'
     shipping:

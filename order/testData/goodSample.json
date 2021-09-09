@@ -29,10 +29,16 @@
         "shippingType": "DELIVERY",
         "shippingAddress": "tor intanon \\n168 \\nnon \\ninta495@gmail.com \\n ",
         "deliveryFee": 95,
-        "schedule": {
-            "isExpress": false,
-            "time": "13:00 - 14:00",
-            "date": "12 Mar"
-        }
+        "shippingPostcode": "10330",
+        "shippingLat": 1.05,
+        "shippingLon": 1.06,
+        "shippingPhone": "555-555-5555",
+        "scheduleList": [
+            {
+                "isExpress": false,
+                "time": "13:00 - 14:00",
+                "date": "12 Mar"
+            }
+        ]
     }
 }
