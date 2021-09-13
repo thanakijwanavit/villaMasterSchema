@@ -1,0 +1,27 @@
+$schema: http://json-schema.org/draft-06/schema#
+description: 'Voucher(isUsed: bool = False, usedOnOrder: List[str] = <factory>, ownerId:
+  str = <factory>, voucherId: str = <factory>, value: numbers.Number = <factory>,
+  creationDate: numbers.Number = 1631293200, useDate: Union[numbers.Number, NoneType]
+  = None)'
+properties:
+  creationDate:
+    default: 1631293200
+  isUsed:
+    default: false
+    type: boolean
+  ownerId:
+    default: ''
+    type: string
+  useDate: {}
+  usedOnOrder:
+    default: []
+    items:
+      type: string
+    type: array
+  value:
+    description: value of the voucher in thb, this can be used instead of cash payment
+    default: 0.0
+  voucherId:
+    default: ''
+    type: string
+type: object
