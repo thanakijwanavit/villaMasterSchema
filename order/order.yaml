@@ -94,8 +94,6 @@ definitions:
             - scheduleList
             - shippingAddress
             - shippingPostcode
-            - shippingLat
-            - shippingLon
             - shippingPhone
         additionalProperties: true
         properties:
@@ -302,7 +300,7 @@ properties:
         description: vouchers used in this order
         type: array
         items:
-            type: integer
+            type: string
     billingInfo:
         $ref: '#/definitions/BillingInfo'
     shipping:
