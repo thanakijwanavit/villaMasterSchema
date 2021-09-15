@@ -94,8 +94,6 @@ definitions:
             - scheduleList
             - shippingAddress
             - shippingPostcode
-            - shippingLat
-            - shippingLon
             - shippingPhone
         additionalProperties: true
         properties:
