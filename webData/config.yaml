@@ -16,7 +16,7 @@ paymentMethods:
     img: ["visa.svg", "master-card.svg", "jcb.svg"]
   - name: "Amex"
     img: ["amex.svg"]
-  - name: "Vplus Wallet"
-    img: ["wallet-logo.svg"]
+#   - name: "Vplus Wallet"
+#     img: ["wallet-logo.svg"]
   - name: "Other"
     img: ["thai_qr.png","alipay_logo.jpg", "wechat-pay.svg", "union.svg"]
