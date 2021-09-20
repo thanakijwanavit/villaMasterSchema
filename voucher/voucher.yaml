@@ -1,18 +1,25 @@
 $schema: http://json-schema.org/draft-06/schema#
-description: 'Voucher(isUsed: bool = False, usedOnOrder: List[str] = <factory>, ownerId:
-  str = <factory>, voucherId: str = <factory>, value: numbers.Number = <factory>,
-  creationDate: numbers.Number = 1631293200, useDate: Union[numbers.Number, NoneType]
-  = None)'
+description: 'Voucher(isActive: bool = True, isUsed: bool = <property object at 0x7f6f5990e1d0>,
+  isRefund: bool = False, usedOnOrder: List[str] = <factory>, ownerId: str = <factory>,
+  voucherId: str = <factory>, value: numbers.Number = <factory>, creationDate: numbers.Number
+  = 1632070800, useDate: Union[numbers.Number, NoneType] = None)'
 properties:
   creationDate:
-    default: 1631293200
+    default: 1632070800
+  isActive:
+    default: true
+    type: boolean
+  isRefund:
+    default: false
+    type: boolean
   isUsed:
     default: false
     type: boolean
   ownerId:
     default: ''
     type: string
-  useDate: {}
+  useDate:
+    type: number
   usedOnOrder:
     default: []
     items:
@@ -20,6 +27,7 @@ properties:
     type: array
   value:
     description: value of the voucher in thb, this can be used instead of cash payment
+    type: number
     default: 0.0
   voucherId:
     default: ''
