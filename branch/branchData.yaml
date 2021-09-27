@@ -3,61 +3,61 @@
   br_code_web: 0
   br_eng: SUKHUMVIT 33
   br_th: "\u0E2A\u0E33\u0E19\u0E31\u0E01\u0E07\u0E32\u0E19\u0E43\u0E2B\u0E0D\u0E48"
-- Zone: BKK
-  br_code: 1001
-  br_code_web: 1
-  br_eng: PHAHOLYOTHIN
-  br_th: "\u0E1E\u0E2B\u0E25\u0E42\u0E22\u0E18\u0E34\u0E19"
+# - Zone: BKK
+#   br_code: 1001
+#   br_code_web: 1
+#   br_eng: PHAHOLYOTHIN
+#   br_th: "\u0E1E\u0E2B\u0E25\u0E42\u0E22\u0E18\u0E34\u0E19"
 - Zone: BKK
   br_code: 1003
   br_code_web: 3
   br_eng: NICHADA
   br_th: "\u0E19\u0E34\u0E0A\u0E14\u0E32"
-- Zone: BKK
-  br_code: 1005
-  br_code_web: 5
-  br_eng: SUKHUMVIT 49
-  br_th: "\u0E2A\u0E38\u0E02\u0E38\u0E21\u0E27\u0E34\u0E17 49"
-- Zone: BKK
-  br_code: 1006
-  br_code_web: 6
-  br_eng: PLOENCHIT
-  br_th: "\u0E40\u0E1E\u0E25\u0E34\u0E19\u0E08\u0E34\u0E15"
-- Zone: BKK
-  br_code: 1007
-  br_code_web: 7
-  br_eng: SILOM
-  br_th: "\u0E2A\u0E35\u0E25\u0E21"
-- Zone: BKK
-  br_code: 1011
-  br_code_web: 11
-  br_eng: THONGLOR
-  br_th: "\u0E17\u0E2D\u0E07\u0E2B\u0E25\u0E48\u0E2D"
-- Zone: BKK
-  br_code: 1012
-  br_code_web: 12
-  br_eng: GRANDCANAL
-  br_th: "\u0E41\u0E01\u0E23\u0E19\u0E14\u0E4C\u0E04\u0E30\u0E41\u0E19\u0E25"
-- Zone: BKK
-  br_code: 1014
-  br_code_web: 14
-  br_eng: AREE
-  br_th: "\u0E2D\u0E32\u0E23\u0E35"
-- Zone: BKK
-  br_code: 1017
-  br_code_web: 17
-  br_eng: CHAENG WATTHANA
-  br_th: "\u0E41\u0E08\u0E49\u0E07\u0E27\u0E31\u0E12\u0E19\u0E30"
-- Zone: BKK
-  br_code: 1019
-  br_code_web: 19
-  br_eng: RATCHAYOTHIN
-  br_th: "\u0E23\u0E31\u0E0A\u0E42\u0E22\u0E18\u0E34\u0E19"
-- Zone: BKK
-  br_code: 1020
-  br_code_web: 20
-  br_eng: RATCHAPRUEK
-  br_th: "\u0E23\u0E32\u0E0A\u0E1E\u0E24\u0E01\u0E29\u0E4C"
+# - Zone: BKK
+#   br_code: 1005
+#   br_code_web: 5
+#   br_eng: SUKHUMVIT 49
+#   br_th: "\u0E2A\u0E38\u0E02\u0E38\u0E21\u0E27\u0E34\u0E17 49"
+# - Zone: BKK
+#   br_code: 1006
+#   br_code_web: 6
+#   br_eng: PLOENCHIT
+#   br_th: "\u0E40\u0E1E\u0E25\u0E34\u0E19\u0E08\u0E34\u0E15"
+# - Zone: BKK
+#   br_code: 1007
+#   br_code_web: 7
+#   br_eng: SILOM
+#   br_th: "\u0E2A\u0E35\u0E25\u0E21"
+# - Zone: BKK
+#   br_code: 1011
+#   br_code_web: 11
+#   br_eng: THONGLOR
+#   br_th: "\u0E17\u0E2D\u0E07\u0E2B\u0E25\u0E48\u0E2D"
+# - Zone: BKK
+#   br_code: 1012
+#   br_code_web: 12
+#   br_eng: GRANDCANAL
+#   br_th: "\u0E41\u0E01\u0E23\u0E19\u0E14\u0E4C\u0E04\u0E30\u0E41\u0E19\u0E25"
+# - Zone: BKK
+#   br_code: 1014
+#   br_code_web: 14
+#   br_eng: AREE
+#   br_th: "\u0E2D\u0E32\u0E23\u0E35"
+# - Zone: BKK
+#   br_code: 1017
+#   br_code_web: 17
+#   br_eng: CHAENG WATTHANA
+#   br_th: "\u0E41\u0E08\u0E49\u0E07\u0E27\u0E31\u0E12\u0E19\u0E30"
+# - Zone: BKK
+#   br_code: 1019
+#   br_code_web: 19
+#   br_eng: RATCHAYOTHIN
+#   br_th: "\u0E23\u0E31\u0E0A\u0E42\u0E22\u0E18\u0E34\u0E19"
+# - Zone: BKK
+#   br_code: 1020
+#   br_code_web: 20
+#   br_eng: RATCHAPRUEK
+#   br_th: "\u0E23\u0E32\u0E0A\u0E1E\u0E24\u0E01\u0E29\u0E4C"
 - Zone: BKK
   br_code: 1022
   br_code_web: 22
@@ -79,50 +79,50 @@
   br_code_web: 26
   br_eng: SENA FEST
   br_th: "\u0E40\u0E2A\u0E19\u0E32\u0E40\u0E1F\u0E2A\u0E17\u0E4C"
-- Zone: BKK
-  br_code: 1030
-  br_code_web: 30
-  br_eng: K-VILLAGE
-  br_th: "K Village (\u0E2A\u0E38\u0E02\u0E38\u0E21\u0E27\u0E34\u0E17 26)"
-- Zone: BKK
-  br_code: 1033
-  br_code_web: 33
-  br_eng: PESEO-RAM
-  br_th: "\u0E1E\u0E32\u0E0B\u0E34\u0E42\u0E2D(\u0E23\u0E32\u0E21\u0E04\u0E33\u0E41\
-    \u0E2B\u0E07)"
-- Zone: BKK
-  br_code: 1034
-  br_code_web: 34
-  br_eng: PESEO-LAT
-  br_th: "\u0E1E\u0E32\u0E0B\u0E34\u0E42\u0E2D(\u0E25\u0E32\u0E14\u0E01\u0E23\u0E30\
-    \u0E1A\u0E31\u0E07)"
-- Zone: BKK
-  br_code: 1036
-  br_code_web: 36
-  br_eng: RAMA3
-  br_th: "\u0E1E\u0E23\u0E30\u0E23\u0E32\u0E21 3"
-- Zone: BKK
-  br_code: 1038
-  br_code_web: 38
-  br_eng: PESEO KAN
-  br_th: "\u0E1E\u0E32\u0E0B\u0E34\u0E42\u0E2D(\u0E01\u0E32\u0E0D\u0E08\u0E19\u0E32\
-    \u0E20\u0E34\u0E40\u0E29\u0E01)"
+# - Zone: BKK
+#   br_code: 1030
+#   br_code_web: 30
+#   br_eng: K-VILLAGE
+#   br_th: "K Village (\u0E2A\u0E38\u0E02\u0E38\u0E21\u0E27\u0E34\u0E17 26)"
+# - Zone: BKK
+#   br_code: 1033
+#   br_code_web: 33
+#   br_eng: PESEO-RAM
+#   br_th: "\u0E1E\u0E32\u0E0B\u0E34\u0E42\u0E2D(\u0E23\u0E32\u0E21\u0E04\u0E33\u0E41\
+#     \u0E2B\u0E07)"
+# - Zone: BKK
+#   br_code: 1034
+#   br_code_web: 34
+#   br_eng: PESEO-LAT
+#   br_th: "\u0E1E\u0E32\u0E0B\u0E34\u0E42\u0E2D(\u0E25\u0E32\u0E14\u0E01\u0E23\u0E30\
+#     \u0E1A\u0E31\u0E07)"
+# - Zone: BKK
+#   br_code: 1036
+#   br_code_web: 36
+#   br_eng: RAMA3
+#   br_th: "\u0E1E\u0E23\u0E30\u0E23\u0E32\u0E21 3"
+# - Zone: BKK
+#   br_code: 1038
+#   br_code_web: 38
+#   br_eng: PESEO KAN
+#   br_th: "\u0E1E\u0E32\u0E0B\u0E34\u0E42\u0E2D(\u0E01\u0E32\u0E0D\u0E08\u0E19\u0E32\
+#     \u0E20\u0E34\u0E40\u0E29\u0E01)"
 - Zone: BKK
   br_code: 1041
   br_code_web: 41
   br_eng: THE CIRCLE
   br_th: "\u0E40\u0E14\u0E2D\u0E30\u0E40\u0E0B\u0E2D\u0E23\u0E4C\u0E40\u0E04\u0E34\
     \u0E25"
-- Zone: BKK
-  br_code: 1044
-  br_code_web: 44
-  br_eng: BANGNA
-  br_th: "\u0E1A\u0E32\u0E07\u0E19\u0E32"
-- Zone: BKK
-  br_code: 1046
-  br_code_web: 46
-  br_eng: SUKHUMVIT 11
-  br_th: "\u0E2A\u0E38\u0E02\u0E38\u0E21\u0E27\u0E34\u0E17 11"
+# - Zone: BKK
+#   br_code: 1044
+#   br_code_web: 44
+#   br_eng: BANGNA
+#   br_th: "\u0E1A\u0E32\u0E07\u0E19\u0E32"
+# - Zone: BKK
+#   br_code: 1046
+#   br_code_web: 46
+#   br_eng: SUKHUMVIT 11
+#   br_th: "\u0E2A\u0E38\u0E02\u0E38\u0E21\u0E27\u0E34\u0E17 11"
 - Zone: BKK
   br_code: 1047
   br_code_web: 47
@@ -144,12 +144,12 @@
   br_eng: INDEX HUA HIN
   br_th: "\u0E2D\u0E34\u0E19\u0E40\u0E14\u0E47\u0E01\u0E0B\u0E4C\u0E2B\u0E31\u0E27\
     \u0E2B\u0E34\u0E19"
-- Zone: NORTHEAST
-  br_code: 1042
-  br_code_web: 42
-  br_eng: UD TOWN UDON
-  br_th: "\u0E22\u0E39\u0E14\u0E35\u0E17\u0E32\u0E27\u0E19\u0E4C(\u0E2D\u0E38\u0E14\
-    \u0E23)"
+# - Zone: NORTHEAST
+#   br_code: 1042
+#   br_code_web: 42
+#   br_eng: UD TOWN UDON
+#   br_th: "\u0E22\u0E39\u0E14\u0E35\u0E17\u0E32\u0E27\u0E19\u0E4C(\u0E2D\u0E38\u0E14\
+#     \u0E23)"
 - Zone: PATTAYA
   br_code: 1015
   br_code_web: 15
