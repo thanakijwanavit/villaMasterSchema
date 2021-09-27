@@ -103,3 +103,10 @@
   store_name: Sena Fest
   tier1: '{''maxDist'':10,''price'':90}'
   tier2: null
+- br_code: 1024
+  eligible_to_shop_at_33: true
+  latitude: 13.775843419315635
+  longitude: 100.6738580301249
+  store_name: Sammakorn
+  tier1: '{''maxDist'':5,''price'':90}'
+  tier2: null
