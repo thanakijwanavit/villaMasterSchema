@@ -291,6 +291,10 @@ properties:
         type: 
             - string
             - "null"
+    noPlasticBags:
+        description: "checkbox on checkout page and told shopper to reduce plastic bag"
+        type: boolean
+        default: false
     couponCodeList:
         description: "list of coupon codes used in this order"
         type: array
