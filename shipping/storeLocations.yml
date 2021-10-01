@@ -55,12 +55,12 @@
   store_name: THONGLOR
 - Latitude: 13.782999
   Longitude: 100.546467
-  brcode: .nan
+  brcode: 1019.0
   store_id: 58
   store_name: PHAHOLYOTHIN
 - Latitude: 13.780088
   Longitude: 100.545136
-  brcode: 1022.0
+  brcode: 1014.0
   store_id: 51
   store_name: AREE
 - Latitude: 13.759806
