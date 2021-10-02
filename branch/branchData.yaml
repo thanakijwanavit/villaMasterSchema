@@ -38,21 +38,21 @@
 #   br_code_web: 12
 #   br_eng: GRANDCANAL
 #   br_th: "\u0E41\u0E01\u0E23\u0E19\u0E14\u0E4C\u0E04\u0E30\u0E41\u0E19\u0E25"
-# - Zone: BKK
-#   br_code: 1014
-#   br_code_web: 14
-#   br_eng: AREE
-#   br_th: "\u0E2D\u0E32\u0E23\u0E35"
+- Zone: BKK
+  br_code: 1014
+  br_code_web: 14
+  br_eng: AREE
+  br_th: "\u0E2D\u0E32\u0E23\u0E35"
 # - Zone: BKK
 #   br_code: 1017
 #   br_code_web: 17
 #   br_eng: CHAENG WATTHANA
 #   br_th: "\u0E41\u0E08\u0E49\u0E07\u0E27\u0E31\u0E12\u0E19\u0E30"
-# - Zone: BKK
-#   br_code: 1019
-#   br_code_web: 19
-#   br_eng: RATCHAYOTHIN
-#   br_th: "\u0E23\u0E31\u0E0A\u0E42\u0E22\u0E18\u0E34\u0E19"
+- Zone: BKK
+  br_code: 1019
+  br_code_web: 19
+  br_eng: RATCHAYOTHIN
+  br_th: "\u0E23\u0E31\u0E0A\u0E42\u0E22\u0E18\u0E34\u0E19"
 # - Zone: BKK
 #   br_code: 1020
 #   br_code_web: 20
