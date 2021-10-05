@@ -1,0 +1,28 @@
+branchId: '1000'
+couponCodeList: 
+- '2021000262'
+productList:
+- cprcode: 246807
+  productName: Keep Calm and Relax Skin Soothing Shower Gel
+  quantity: 2
+  scheduleId: 0
+  isPreOrder: false
+shipping:
+  scheduleList:
+  - mode: REGULAR
+    dateTime: '2022-08-27T18:30:00.000Z'
+    scheduleId: 0
+    deliveryFee: 0
+    nationwideMode:
+  shippingType: PICKUP
+  shippingPostcode: '10110'
+  shippingLat: 13.7325069
+  shippingLon: 100.4931185
+  shippingFirstName: Pin Pin
+  shippingLastName: Tea
+  shippingAddress: 595 Sukhumvit Rd
+  shippingSubDistrict: ''
+  shippingProvince: Bangkok
+  shippingPhone: "+66851883884"
+  shippingEmail: pinnareet@gmail.com
+  shippingDate: 0
