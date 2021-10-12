@@ -131,13 +131,13 @@
   store_name: Pasio Latkrabang
   tier1: '{''maxDist'':5,''price'':90}'
   tier2: null
-# - br_code: 1012
-#   eligible_to_shop_at_33: true
-#   latitude: 13.881576490932584
-#   longitude: 100.55049635514368
-#   store_name: Grand Canal
-#   tier1: '{''maxDist'':5,''price'':90}'
-#   tier2: null
+- br_code: 1012
+  eligible_to_shop_at_33: true
+  latitude: 13.881576490932584
+  longitude: 100.55049635514368
+  store_name: Grand Canal
+  tier1: '{''maxDist'':5,''price'':90}'
+  tier2: null
 - br_code: 1038
   eligible_to_shop_at_33: true
   latitude: 13.766491
