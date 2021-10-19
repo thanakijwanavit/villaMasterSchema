@@ -81,7 +81,7 @@ categoryList:
       name: Grab & Go
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/grab-go.png
     - id: 5000000333
-      name: Seasonal Hampers & Flowers
+      name: Seasonal
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/hampers_new.png  
 
 partnershipShopsList:
