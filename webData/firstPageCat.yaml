@@ -80,9 +80,9 @@ categoryList:
     - id: 5000000063
       name: Grab & Go
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/grab-go.png
-#     - id: 5000000333
-#       name: Seasonal
-#       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/hampers_new.png  
+    - id: 5000000333
+      name: Seasonal
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/hampers_new.png  
 
 partnershipShopsList:
     - id: 5000000040
