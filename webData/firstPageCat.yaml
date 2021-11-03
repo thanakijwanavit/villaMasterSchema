@@ -50,7 +50,10 @@ categoryList:
 #    - id: null
 #      name: Seafood
 #      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/seafood.png
-    - id: null
+#     - id: null
+#       name: Fruits & Vegetables
+#       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/fruits.png
+    - id: 5000000338
       name: Fruits & Vegetables
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/fruits.png
     - id: null
