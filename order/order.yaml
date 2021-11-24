@@ -182,6 +182,12 @@ definitions:
                     - picked
                     - pending
                     - cancelled
+            date_slot:
+                description: "format YYYYMMDD"
+                type: string
+            booking_hour:
+                description: "format HH (00:00 - 24:00)"
+                type: number
     
     Product:
         properties:
