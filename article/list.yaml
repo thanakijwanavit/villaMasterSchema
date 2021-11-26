@@ -1,0 +1,33 @@
+$schema: http://json-schema.org/draft-07/schema
+additionalProperties: false
+properties:
+    article_list:
+        additionalItems: false
+        items:
+            additionalProperties: false
+            properties:
+                artiale_type_en:
+                    type: string
+                artiale_type_th:
+                    type: string
+                article_id:
+                    type: string
+                article_name_en:
+                    type: string
+                article_name_th:
+                    type: string
+                button_label_en:
+                    type: string
+                button_label_th:
+                    type: string
+                description_en:
+                    type: string
+                description_th:
+                    type: string
+                imageUrl:
+                    type: string
+            required: []
+            type: object
+        type: array
+required: []
+type: object
