@@ -69,6 +69,10 @@ definitions:
             shippingAmount:
                 type:
                     - number
+            expressFeeAmount:
+                description: "for display to order detail page"
+                type:
+                    - number
             discountAmount:
                 type:
                     - number
@@ -188,7 +192,10 @@ definitions:
             booking_hour:
                 description: "format HH (00:00 - 24:00)"
                 type: number
-    
+            expressFee:
+                description: "express fee"
+                type: number
+                
     Product:
         properties:
             pickedQty:
