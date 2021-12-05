@@ -1,0 +1,74 @@
+$schema: http://json-schema.org/draft-07/schema
+additionalProperties: false
+properties:
+    artiale_type_en:
+        type: string
+    artiale_type_th:
+        type: string
+    article_detail_en:
+        additionalProperties: false
+        properties:
+            author:
+                type: string
+            credit:
+                type: string
+            paragraph_list:
+                additionalItems: false
+                items:
+                    additionalProperties: false
+                    properties:
+                        detail:
+                            additionalItems: false
+                            items:
+                                type: string
+                            type: array
+                        ordered:
+                            type: boolean
+                        paragraph_title:
+                            type: string
+                    required: []
+                    type: object
+                type: array
+        required: []
+        type: object
+    article_detail_th:
+        additionalProperties: false
+        properties:
+            author:
+                type: string
+            credit:
+                type: string
+            paragraph_list:
+                additionalItems: false
+                items:
+                    additionalProperties: false
+                    properties:
+                        detail:
+                            additionalItems: false
+                            items:
+                                type: string
+                            type: array
+                        ordered:
+                            type: boolean
+                        paragraph_title:
+                            type: string
+                    required: []
+                    type: object
+                type: array
+        required: []
+        type: object
+    article_id:
+        type: string
+    article_name_en:
+        type: string
+    article_name_th:
+        type: string
+    imageUrl:
+        type: string
+    ingredient_list:
+        additionalItems: false
+        items:
+            type: integer
+        type: array
+required: []
+type: object
