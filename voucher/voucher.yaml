@@ -32,4 +32,11 @@ properties:
   voucherId:
     default: ''
     type: string
+  name:
+    type: string
+  displayName:
+    type: string
+  displayColor:
+    description: display color format #XXXXXX
+    type: string 
 type: object
