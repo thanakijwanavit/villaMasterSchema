@@ -179,6 +179,7 @@ definitions:
         enum:
         - 'DRY'
         - 'FRESH'
+        - 'MIX'
         
 description: 'ValueUpdate(items: List[__main__.Product])'
 properties:
