@@ -330,6 +330,9 @@ properties:
             $ref: '#/definitions/Product'
     picking:
         $ref: '#/definitions/Picking'
+    saleId:
+        description: "search by saleId"
+        type: string
 required:
     - basketId
     - orderId
