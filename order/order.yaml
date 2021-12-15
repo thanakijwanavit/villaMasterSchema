@@ -330,6 +330,10 @@ properties:
             $ref: '#/definitions/Product'
     picking:
         $ref: '#/definitions/Picking'
+    isDrafting:
+        description: order is in drafting state, some information may not complete and cannot be sent to payment
+        type: boolean
+        default: false
 required:
     - basketId
     - orderId
