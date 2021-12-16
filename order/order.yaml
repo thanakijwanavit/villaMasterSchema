@@ -337,6 +337,9 @@ properties:
             - "WEB"
             - "LINE"
             - "SALETOOL"
+    saleId:
+        description: "search by saleId"
+        type: string
 required:
     - basketId
     - orderId
