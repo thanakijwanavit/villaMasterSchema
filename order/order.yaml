@@ -330,6 +330,13 @@ properties:
             $ref: '#/definitions/Product'
     picking:
         $ref: '#/definitions/Picking'
+    orderSource:
+        type: 
+            - string
+        enum: 
+            - "WEB"
+            - "LINE"
+            - "SALETOOL"
 required:
     - basketId
     - orderId
