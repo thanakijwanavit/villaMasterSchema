@@ -334,6 +334,16 @@ properties:
         description: order is in drafting state, some information may not complete and cannot be sent to payment
         type: boolean
         default: false
+    orderSource:
+        type: 
+            - string
+        enum: 
+            - "WEB"
+            - "LINE"
+            - "SALETOOL"
+    saleId:
+        description: "search by saleId"
+        type: string
 required:
     - basketId
     - orderId
