@@ -188,3 +188,13 @@
   brcode: 1024.0
   store_id: 60
   store_name: SAMMAKORN
+- Latitude: 13.820421791432869
+  Longitude: 100.44813322630216
+  brcode: 1020.0
+  store_id: 61
+  store_name: RATCHAPHRUEK
+- Latitude: 13.700917688498235
+  Longitude: 100.54078148212011
+  brcode: 1036.0
+  store_id: 62
+  store_name: RAMA3
