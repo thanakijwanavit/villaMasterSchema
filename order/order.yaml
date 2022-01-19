@@ -186,6 +186,8 @@ definitions:
                     - picked
                     - pending
                     - cancelled
+                    - delivering
+                    - complete
             date_slot:
                 description: "format YYYYMMDD"
                 type: string
