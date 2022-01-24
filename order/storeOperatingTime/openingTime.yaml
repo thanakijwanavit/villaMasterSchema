@@ -2,7 +2,47 @@
   opening: 9
   closing: 22
   slotSize: 50
+1047:
+  opening: 9
+  closing: 22
+  slotSize: 20
+1015:
+  opening: 9
+  closing: 22
+  slotSize: 20
+1048:
+  opening: 9
+  closing: 22
+  slotSize: 20
+1016:
+  opening: 9
+  closing: 22
+  slotSize: 20
+1040:
+  opening: 9
+  closing: 22
+  slotSize: 20
+1049:
+  opening: 9
+  closing: 22
+  slotSize: 20
+1026:
+  opening: 9
+  closing: 22
+  slotSize: 20
+1041:
+  opening: 9
+  closing: 22
+  slotSize: 20
+1022:
+  opening: 9
+  closing: 22
+  slotSize: 20
+1023:
+  opening: 9
+  closing: 21
+  slotSize: 20
 0: #default
-  opening: 8
+  opening: 9
   closing: 21
   slotSize: 20 # how many orders to accept per hour
