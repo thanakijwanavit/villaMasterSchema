@@ -259,15 +259,15 @@ partnershipShopsList:
       level3:
           id: null
           name: Smeg
-    - id: 5000000218
-      name: Room Concept
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000218/5000000218-1.jpg
-      level2:
-          id: null
-          name: Home & Kitchen Applicances
-      level3:
-          id: null
-          name: Room Concept
+#     - id: 5000000218
+#       name: Room Concept
+#       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000218/5000000218-1.jpg
+#       level2:
+#           id: null
+#           name: Home & Kitchen Applicances
+#       level3:
+#           id: null
+#           name: Room Concept
 #     - id: 5000000054
 #       name: Zalto
 #       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000054/5000000054-1.jpg
