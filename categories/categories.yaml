@@ -845,7 +845,7 @@ Iceland:
       Seafood: true
       Vegetables: true
       Meat: true
-    Delicatessen: 1
+    Delicatessen: true
 Monoprix:
   icon: monoprix.svg
   name: Monoprix
