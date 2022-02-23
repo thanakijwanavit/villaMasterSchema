@@ -69,6 +69,10 @@ definitions:
             shippingAmount:
                 type:
                     - number
+            expressFeeAmount:
+                description: "for display to order detail page"
+                type:
+                    - number
             discountAmount:
                 type:
                     - number
@@ -182,7 +186,18 @@ definitions:
                     - picked
                     - pending
                     - cancelled
-    
+                    - delivering
+                    - complete
+            date_slot:
+                description: "format YYYYMMDD"
+                type: string
+            booking_hour:
+                description: "format HH (00:00 - 24:00)"
+                type: number
+            expressFee:
+                description: "express fee"
+                type: number
+                
     Product:
         properties:
             pickedQty:
@@ -291,6 +306,10 @@ properties:
         type: 
             - string
             - "null"
+    noPlasticBags:
+        description: "checkbox on checkout page and told shopper to reduce plastic bag"
+        type: boolean
+        default: false
     couponCodeList:
         description: "list of coupon codes used in this order"
         type: array
@@ -313,6 +332,20 @@ properties:
             $ref: '#/definitions/Product'
     picking:
         $ref: '#/definitions/Picking'
+    isDrafting:
+        description: order is in drafting state, some information may not complete and cannot be sent to payment
+        type: boolean
+        default: false
+    orderSource:
+        type: 
+            - string
+        enum: 
+            - "WEB"
+            - "LINE"
+            - "SALETOOL"
+    saleId:
+        description: "search by saleId"
+        type: string
 required:
     - basketId
     - orderId
