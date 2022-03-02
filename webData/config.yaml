@@ -14,8 +14,8 @@ ignoreGroupList:
 paymentMethods:
   - name: "Credit/Debit Card"
     img: ["visa.svg", "master-card.svg", "jcb.svg"]
-  - name: "Amex"
-    img: ["amex.svg"]
+#   - name: "Amex"
+#     img: ["amex.svg"]
   - name: "Vplus Wallet"
     img: ["wallet-logo.svg"]
   - name: "Other"
