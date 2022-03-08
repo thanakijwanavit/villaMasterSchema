@@ -85,7 +85,10 @@ categoryList:
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/grab-go.png
     - id: 5000000333
       name: Seasonal
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/hampers_new.png  
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/hampers_new.png
+    - id: 5000000376
+      name: Summer
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/summer.png   
 
 partnershipShopsList:
     - id: 5000000040
