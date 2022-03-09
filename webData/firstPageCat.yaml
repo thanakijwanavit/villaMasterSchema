@@ -38,6 +38,9 @@ categoryList:
     - id: 38153
       name: Pre Order
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/pre-order.png
+    - id: 5000000063
+      name: Grab & Go
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/grab-go.png  
     - id: 5000000186
       name: Butcher Shop
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/butcher.png
@@ -80,9 +83,6 @@ categoryList:
     - id: 15597
       name: Gourmet Line
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/gourmet-line.png     
-    - id: 5000000063
-      name: Grab & Go
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/grab-go.png
     - id: 5000000333
       name: Seasonal
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/hampers_new.png
