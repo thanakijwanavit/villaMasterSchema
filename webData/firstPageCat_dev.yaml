@@ -1,7 +1,7 @@
 # for developer only
 categoryList:
     - id: 9000000002
-      name: Beed
+      name: Beef
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/new-arrival.png    
     - id: 9000000003
       name: Pork
