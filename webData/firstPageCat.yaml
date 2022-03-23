@@ -139,15 +139,15 @@ partnershipShopsList:
       level3:
           id: null
           name: Gram Pancakes
-    - id: 5000000044
-      name: Nadai Unatoto
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000044/5000000044-1.jpg
-      level2:
-          id: null
-          name: Food & Beverages
-      level3:
-          id: null
-          name: Nadai Unatoto
+#     - id: 5000000044
+#       name: Nadai Unatoto
+#       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000044/5000000044-1.jpg
+#       level2:
+#           id: null
+#           name: Food & Beverages
+#       level3:
+#           id: null
+#           name: Nadai Unatoto
     - id: 5000000062
       name: Sea's Kombucha
       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000062/5000000062-1.jpg
