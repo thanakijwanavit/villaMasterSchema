@@ -56,6 +56,9 @@ categoryList:
     - id: 9000000003
       name: Special Offer
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/special-offer.png
+    - id: 5000000220
+      name: Health
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/health.png  
     - id: 9000000001
       name: Best Seller
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/best-seller.png  
@@ -74,9 +77,6 @@ categoryList:
 #     - id: 5000000002
 #       name: Iceland
 #       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/Iceland-01.png
-    - id: 5000000220
-      name: Health
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/health.png
     - id: null
       name: Pet & Household
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/pet.png
@@ -112,6 +112,60 @@ categoryList:
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/pre-order.png  
 
 partnershipShopsList:
+    - id: 7000000055
+      name: Yeti
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000055/7000000055-1.jpg
+      level2:
+          id: null
+          name: Garden & Outdoors
+      level3:
+          id: null
+          name: Yeti
+    - id: 7000000054
+      name: Stanley
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000054/7000000054-1.jpg
+      level2:
+          id: null
+          name: Garden & Outdoors
+      level3:
+          id: null
+          name: Stanley
+    - id: 7000000058
+      name: LifeStraw
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000058/7000000058-1.jpg
+      level2:
+          id: null
+          name: Garden & Outdoors
+      level3:
+          id: null
+          name: LifeStraw
+    - id: 7000000056
+      name: UCO Gear
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000056/7000000056-1.jpg
+      level2:
+          id: null
+          name: Garden & Outdoors
+      level3:
+          id: null
+          name: UCO Gear
+    - id: 7000000059
+      name: Gosili
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000059/7000000059-1.jpg
+      level2:
+          id: null
+          name: Garden & Outdoors
+      level3:
+          id: null
+          name: Gosili
+    - id: 7000000057
+      name: Light My Fire
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000057/7000000057-1.jpg
+      level2:
+          id: null
+          name: Garden & Outdoors
+      level3:
+          id: null
+          name: Light My Fire
     - id: 5000000040
       name: Beirut Restaurant
       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000040/5000000040-1.jpg
