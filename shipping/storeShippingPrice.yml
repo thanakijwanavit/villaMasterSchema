@@ -166,3 +166,73 @@
   store_name: Rama3
   tier1: '{''maxDist'':5,''price'':90}'
   tier2: null
+- br_code: 1005
+   eligible_to_shop_at_33: true
+   latitude: 13.732654778240025
+   longitude: 100.57622645328418
+   store_name: Sukhumvit49
+   tier1: '{''maxDist'':2,''price'':90}'
+   tier2: null
+ - br_code: 1006
+   eligible_to_shop_at_33: true
+   latitude: 13.74172168167612
+   longitude: 100.5516845665168
+   store_name: Ploenchit
+   tier1: '{''maxDist'':3,''price'':90}'
+   tier2: null
+ - br_code: 1007
+   eligible_to_shop_at_33: true
+   latitude: 13.725461449803067
+   longitude: 100.53068922630122
+   store_name: Silom
+   tier1: '{''maxDist'':2,''price'':90}'
+   tier2: null
+ - br_code: 1011
+   eligible_to_shop_at_33: true
+   latitude: 13.734717684900478
+   longitude: 100.58157313741671
+   store_name: Tonglor
+   tier1: '{''maxDist'':2,''price'':90}'
+   tier2: null
+ - br_code: 1017
+   eligible_to_shop_at_33: true
+   latitude: 13.896411355765428
+   longitude: 100.55789412031938
+   store_name: Chaeng Watthana
+   tier1: '{''maxDist'':2,''price'':90}'
+   tier2: null
+ - br_code: 1030
+   eligible_to_shop_at_33: true
+   latitude: 13.72044813491174
+   longitude: 100.56933343979264
+   store_name: K-Village
+   tier1: '{''maxDist'':3,''price'':90}'
+   tier2: null
+ - br_code: 1033
+   eligible_to_shop_at_33: true
+   latitude: 13.774248497720636
+   longitude: 100.66681262444821
+   store_name: Paseo Ramkhamheang
+   tier1: '{''maxDist'':2,''price'':90}'
+   tier2: null
+ - br_code: 1033
+   eligible_to_shop_at_33: true
+   latitude: 13.774248497720636
+   longitude: 100.66681262444821
+   store_name: Paseo Ramkhamheang
+   tier1: '{''maxDist'':2,''price'':90}'
+   tier2: null
+ - br_code: 1042
+   eligible_to_shop_at_33: true
+   latitude: 17.403816448647603
+   longitude: 102.80468701245893
+   store_name: UD town Udon
+   tier1: '{''maxDist'':3,''price'':80}'
+   tier2: '{''maxDist'':7,''price'':120}'
+ - br_code: 1046
+   eligible_to_shop_at_33: true
+   latitude:  13.745398092444978
+   longitude: 100.55621028212053
+   store_name: Sukhumvit 11
+   tier1: '{''maxDist'':2,''price'':90}'
+   tier2: null
