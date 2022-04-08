@@ -57,7 +57,7 @@ categoryList:
       name: Special Offer
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/special-offer.png
     - id: 5000000220
-      name: Health
+      name: Healthy
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/health.png  
     - id: 9000000001
       name: Best Seller
