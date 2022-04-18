@@ -223,7 +223,7 @@
   tier1: '{''maxDist'':2,''price'':90}'
   tier2: null
 - br_code: 1042
-  eligible_to_shop_at_33: true
+  eligible_to_shop_at_33: false
   latitude: 17.403816448647603
   longitude: 102.80468701245893
   store_name: UD town Udon
