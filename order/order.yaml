@@ -43,6 +43,8 @@ definitions:
         description: |
             "object which should be provided by the payment app"
         properties:
+            gbpReferenceNo:
+                type: string
             paymentDate:
                 type: 
                     - number
