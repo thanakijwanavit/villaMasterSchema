@@ -2,13 +2,16 @@ $schema: http://json-schema.org/draft-06/schema#
 properties:
   cardToken:
     type: string
-  dry:
+  dry: # dry run to warm the function
     default: false
     type: boolean
-  ispaying:
+  ispaying: # user is paying or just want to dry run
     default: true
     type: boolean
-  orderId:
+  orderId: # orderId need to be created first 
+    type: string
+  responseUrl: # redirect to this url after otp
+    default: https://shop.villamarket.com
     type: string
 required:
 - orderId
