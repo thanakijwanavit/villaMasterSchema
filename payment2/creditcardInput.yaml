@@ -1,0 +1,16 @@
+$schema: http://json-schema.org/draft-06/schema#
+properties:
+  cardToken:
+    type: string
+  dry:
+    default: false
+    type: boolean
+  ispaying:
+    default: true
+    type: boolean
+  orderId:
+    type: string
+required:
+- orderId
+- cardToken
+type: object
