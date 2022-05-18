@@ -1,0 +1,139 @@
+$schema: http://json-schema.org/schema#
+additionalProperties: false
+properties:
+    id: 
+        type: string
+        description: unique id
+    identities:
+        type:
+          - string 
+          - "null"
+        description: not use
+    picture:
+        type:
+          - string 
+          - "null"
+        description: not use
+    sub:
+        type: string
+        description: unique id from cognito sub
+    name:
+        type: string
+        description: username
+    phone_number:
+        type: string
+        description: phone number include nation code ex. +6612345678
+    family_name:
+        type: 
+          - string
+          - "null"
+    email:
+        type: string
+    version:
+        type: number
+    lastUpdated:
+        type: number
+        description: unix time
+    creation:
+        type: 
+          - number
+          - "null"
+        description: unix time
+    paymentMethod:
+        type: string
+        description: recent payment method
+    requestTaxInvoiceData:
+        type: object
+        properties:
+            requestTaxInvoice:
+                type: boolean
+            type:
+                type: string
+                description: type can be "USE_SAVED_ADDRESS", "USE_OTHER_ADDRESS", "USE_DELIVERY_ADDRESS"
+            savedAddressIndex:
+                type: number
+                description: the index of address list which user choosed
+    address:
+        type: array
+        items:
+            type: object
+            properties:
+                address:
+                    type: string
+                    description: address detail
+                district:
+                    type: string 
+                email:
+                    type: string 
+                firestname:
+                    type: string
+                lastname:
+                    type: string 
+                name:
+                    type: string
+                    description: address name ex. home, office
+                id:
+                    type: number
+                phone:
+                    tpye: string 
+                    description: phone number 
+                postcode:
+                    type: string 
+                subDistrict:
+                    type: string
+                province:
+                    type: string
+                location:
+                    type: object
+                    properties:
+                        lat:
+                            type: number 
+                        lng:
+                            type: number               
+    shippingType:
+        type: string
+        description: can be "DELIVERY" or "PICKUP"
+    defaultShippingAddress:
+        type: number
+        description: the index of address list which user choosed
+    requestSubstitude:
+        type: boolean
+        description: deprecated, use "requestSubstitute"
+    vplusMobileNumber:
+        type: string
+        description: vplus phone number not include nation code 
+    vplusMemberID:
+        type: string
+    email_verified:
+        type: boolean
+    phone_number_verified:
+        type: boolean
+    requestSubstitute:
+        type: boolean
+        description: migrate from "requestSubstitude"
+    firstName:
+        type: string
+    lastName: 
+        type: string
+    favoriteList:
+        type: array
+        description: cprcode list
+        items:
+            type: number
+    customMagentoId:
+        type: string 
+    customCreatedAt:
+        type: string
+    customGroupId:
+        type: string
+    customStoreId:
+        type: string 
+    deviceTokens:
+        type: array
+        description: deprecated, deviceTokens managed by aws pinpoint and can search by cognito id(sub)
+        items:  
+            type: string
+    
+required:
+    - id
+type: object
