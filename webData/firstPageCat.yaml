@@ -395,15 +395,15 @@ partnershipShopsList:
       level3:
           id: null
           name: Dogster
-    - id: 5000000060
-      name: Royal Canin
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000060/5000000060-1.jpg
-      level2:
-          id: null
-          name: Pet Food
-      level3:
-          id: null
-          name: Royal Canin
+#     - id: 5000000060
+#       name: Royal Canin
+#       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000060/5000000060-1.jpg
+#       level2:
+#           id: null
+#           name: Pet Food
+#       level3:
+#           id: null
+#           name: Royal Canin
     - id: 5000000219
       name: Villa Market Pet's Corner
       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000219/5000000219-1.jpg
