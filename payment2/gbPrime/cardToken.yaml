@@ -12,7 +12,9 @@ items:
         number:
           type: string
         securityCode:
-          type: string
+          type: 
+            - string
+            - null
         token:
           type: string
       required:
