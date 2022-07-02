@@ -1,40 +1,32 @@
 $schema: http://json-schema.org/schema#
 definitions:
-  Card:
+  CardToken:
     type: object
-    description: "credit card token for storage"
-    properties:
-      expirationMonth:
-        type: string
-      expirationYear:
-        type: string
-      name:
-        type: string
-      number:
-        type: string
-      securityCode:
-        type: 
-          - string
-          - "null"
-      token:
-        type: string
     required:
+    - card
+    card:
+      type: object
+      properties:
+        expirationMonth:
+          type: string
+        expirationYear:
+          type: string
+        name:
+          type: string
+        number:
+          type: string
+        securityCode:
+          type: 
+            - string
+            - "null"
+        token:
+          type: string
+      required:
       - token
-
-
-items:
-  properties:
-    card: 
-      $ref: '#/definitions/Card'
     rememberCard:
       type: boolean
     resultCode:
       type: string
-      enum:
-        - "02"
-        - "00"
-        - "54"
-    required:
-      - card
-  type: object
 type: array
+items:
+  $ref: '#/definitions/CardToken'
