@@ -1,4 +1,7 @@
 $schema: http://json-schema.org/schema#
+type: array
+items:
+  $ref: '#/definitions/CardToken'
 definitions:
   CardToken:
     type: object
@@ -27,6 +30,5 @@ definitions:
       type: boolean
     resultCode:
       type: string
-type: array
-items:
-  $ref: '#/definitions/CardToken'
+    userId:
+      type: string
