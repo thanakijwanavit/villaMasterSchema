@@ -1,0 +1,15 @@
+{
+    "body": "{\"rememberCard\":false,\"resultCode\":\"00\",\"card\":{\"token\":\"b6f5b1e2-030e-401e-9abc-7de97fba501f\",\"number\":\"453501XXXXXX5741\",\"expirationMonth\":\"05\",\"expirationYear\":\"28\",\"name\":\"Card Test UAT (Server Test)\",\"securityCode\":\"\"}}",
+    "httpMethod": null,
+    "multiValueHeaders": null,
+    "multiValueQueryStringParameters": null,
+    "path": null,
+    "pathParameters": null,
+    "queryStringParameters": {},
+    "requestContext": null,
+    "headers": {
+        "User": "{\"email\":\"nicxxx1@gmail.com\",\"cognito:username\":\"1234\"}"
+    },
+    "statusCode": 200,
+    "isBase64Encoded": false
+}
