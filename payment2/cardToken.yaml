@@ -1,33 +1,34 @@
 $schema: http://json-schema.org/schema#
+type: array
+items:
+  $ref: '#/definitions/CardToken'
 definitions:
   CardToken:
     type: object
     required:
     - card
-    properties:
-      card:
-        type: object
-        properties:
-          expirationMonth:
-            type: string
-          expirationYear:
-            type: string
-          name:
-            type: string
-          number:
-            type: string
-          securityCode:
-            type: 
-              - string
-              - "null"
-          token:
-            type: string
-        required:
-        - token
-      rememberCard:
-        type: boolean
-      resultCode:
-        type: string
-type: array
-items:
-  $ref: '#/definitions/CardToken'
+    card:
+      type: object
+      properties:
+        expirationMonth:
+          type: string
+        expirationYear:
+          type: string
+        name:
+          type: string
+        number:
+          type: string
+        securityCode:
+          type: 
+            - string
+            - "null"
+        token:
+          type: string
+      required:
+      - token
+    rememberCard:
+      type: boolean
+    resultCode:
+      type: string
+    userId:
+      type: string
