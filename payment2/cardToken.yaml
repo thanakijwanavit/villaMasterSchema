@@ -4,29 +4,30 @@ definitions:
     type: object
     required:
     - card
-    card:
-      type: object
-      properties:
-        expirationMonth:
-          type: string
-        expirationYear:
-          type: string
-        name:
-          type: string
-        number:
-          type: string
-        securityCode:
-          type: 
-            - string
-            - "null"
-        token:
-          type: string
-      required:
-      - token
-    rememberCard:
-      type: boolean
-    resultCode:
-      type: string
+    properties:
+      card:
+        type: object
+        properties:
+          expirationMonth:
+            type: string
+          expirationYear:
+            type: string
+          name:
+            type: string
+          number:
+            type: string
+          securityCode:
+            type: 
+              - string
+              - "null"
+          token:
+            type: string
+        required:
+        - token
+      rememberCard:
+        type: boolean
+      resultCode:
+        type: string
 type: array
 items:
   $ref: '#/definitions/CardToken'
