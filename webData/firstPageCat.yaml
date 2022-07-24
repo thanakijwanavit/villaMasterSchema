@@ -196,15 +196,15 @@ partnershipShopsList:
       level3:
           id: null
           name: Gram Pancakes
-     - id: 7000000120
-      name: Cru Caviar
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000120/7000000120-1.jpg
-      level2:
-          id: null
-          name: Food & Beverages
-      level3:
-          id: null
-          name: Cru Caviar   
+#      - id: 7000000120
+#       name: Cru Caviar
+#       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000120/7000000120-1.jpg
+#       level2:
+#           id: null
+#           name: Food & Beverages
+#       level3:
+#           id: null
+#           name: Cru Caviar   
 #     - id: 5000000044
 #       name: Nadai Unatoto
 #       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000044/5000000044-1.jpg
