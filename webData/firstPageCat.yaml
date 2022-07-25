@@ -112,7 +112,11 @@ categoryList:
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/summer.png
     - id: 38153
       name: Pre Order
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/pre-order.png  
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/pre-order.png
+    - id: null
+      name: Buy Again
+      externalURL: "https://shop.villamarket.com/profile/historyitems"
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/buy-again.png    
 
 partnershipShopsList:
 #     - id: 7000000055
