@@ -119,6 +119,15 @@ categoryList:
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/buy-again.png    
 
 partnershipShopsList:
+    - id: 7000000121
+      name: Brew Flavor
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000121/7000000121-1.jpg
+      level2:
+          id: null
+          name: Food & Beverages
+      level3:
+          id: null
+          name: Brew Flavor
     - id: 5000000051
       name: Le Creuset
       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000051/5000000051-1.jpg
