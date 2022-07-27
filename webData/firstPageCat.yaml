@@ -133,7 +133,7 @@ partnershipShopsList:
       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000051/5000000051-1.jpg
       level2:
           id: null
-          name: Home & Kitchen Applicances
+          name: Home & Kitchen
       level3:
           id: null
           name: Le Creuset
@@ -151,7 +151,7 @@ partnershipShopsList:
       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000053/5000000053-1.jpg
       level2:
           id: null
-          name: Home & Kitchen Applicances
+          name: Home & Kitchen
       level3:
           id: null
           name: Riedel
@@ -160,7 +160,7 @@ partnershipShopsList:
       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000102/5000000102-1.jpg
       level2:
           id: null
-          name: Home & Kitchen Applicances
+          name: Applicances
       level3:
           id: null
           name: Smeg
@@ -187,7 +187,7 @@ partnershipShopsList:
       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000055/5000000055-1.jpg
       level2:
           id: null
-          name: Home & Kitchen Applicances
+          name: Home & Kitchen
       level3:
           id: null
           name: Zwilling      
@@ -242,7 +242,7 @@ partnershipShopsList:
       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000050/5000000050-1.jpg
       level2:
           id: null
-          name: Home & Kitchen Applicances
+          name: Home & Kitchen
       level3:
           id: null
           name: Joseph Joseph
@@ -251,7 +251,7 @@ partnershipShopsList:
       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000206/5000000206-1.jpg
       level2:
           id: null
-          name: Home & Kitchen Applicances
+          name: Home & Kitchen
       level3:
           id: null
           name: Neoflam           
@@ -413,7 +413,7 @@ partnershipShopsList:
       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000204/5000000204-1.jpg
       level2:
           id: null
-          name: Home & Kitchen Applicances
+          name: Home & Kitchen
       level3:
           id: null
           name: Berghoff   
@@ -422,7 +422,7 @@ partnershipShopsList:
       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000049/5000000049-1.jpg
       level2:
           id: null
-          name: Home & Kitchen Applicances
+          name: Home & Kitchen
       level3:
           id: null
           name: Bodum
@@ -431,7 +431,7 @@ partnershipShopsList:
       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000203/5000000203-1.jpg
       level2:
           id: null
-          name: Home & Kitchen Applicances
+          name: Home & Kitchen
       level3:
           id: null
           name: Grassl Glass      
