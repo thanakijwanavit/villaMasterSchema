@@ -160,7 +160,7 @@ partnershipShopsList:
       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000102/5000000102-1.jpg
       level2:
           id: null
-          name: Applicances
+          name: Appliances
       level3:
           id: null
           name: Smeg
