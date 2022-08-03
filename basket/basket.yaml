@@ -1,1 +1,49 @@
-ok
+$schema: http://json-schema.org/schema#
+# example
+#{
+#    "basketId": "647fdaab-f07c-43f5-aab0-5e33f820821f",
+#    "creationTime": 1625035961.717266,
+#    "basketName": "647fdaab-f07c-43f5-aab0-5e33f820821f",
+#    "ownerId": "647fdaab-f07c-43f5-aab0-5e33f820821f",
+#    "productList": [
+#        {
+#            "sku": 247098,
+#            "quantity": 3
+#        }
+#    ],
+#    "branchId": "any"
+#}
+
+# additionalProperties: false
+properties:
+    basketId:
+        type: string
+    creationTime:
+        type: number
+    basketName:
+        type: string
+    ownerId:
+        type: string
+    productList:
+        type: array
+        items:
+            type: object
+            properties:
+                sku:
+                    type: number
+                quantity:
+                    type: number
+    branchId:
+        type: string
+    currentOrder:
+        type: object
+        properties:
+            orderId:
+                type: string
+            creationTime:
+                type: number
+required:
+    - basketId
+    - orderId
+    - ownerId
+type: object
