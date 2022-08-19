@@ -116,6 +116,7 @@ categoryList:
     - id: null
       name: Buy Again
       externalURL: "https://shop.villamarket.com/profile/historyitems"
+      appUrl: "/historyitems"
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/buy-again.png    
 
 partnershipShopsList:
