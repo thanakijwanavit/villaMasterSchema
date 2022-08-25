@@ -16,7 +16,9 @@ definitions:
           expirationYear:
             type: string
           name:
-            type: string
+            type: 
+              - string
+              - "null"
           number:
             type: string
           securityCode:
@@ -32,4 +34,14 @@ definitions:
       resultCode:
         type: string
       userId:
-        type: string
+        type: 
+          - string
+          - "null"
+      email:
+        type: 
+          - string
+          - "null"
+      mobilePhone:
+        type: 
+          - string
+          - "null"
