@@ -140,7 +140,16 @@ partnershipShopsList:
           name: Food & Beverages
       level3:
           id: null
-          name: Pauldy      
+          name: Pauldy
+    - id: 7000000127
+      name: CBD Group
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000127/7000000127-1.jpg
+      level2:
+          id: null
+          name: Health & Beauty
+      level3:
+          id: null
+          name: CBD Group          
     - id: 5000000051
       name: Le Creuset
       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000051/5000000051-1.jpg
