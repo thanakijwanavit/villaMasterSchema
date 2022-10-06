@@ -149,7 +149,7 @@ partnershipShopsList:
           name: Food & Beverages
       level3:
           id: null
-          name: Pauldy         
+          name: Pauldy     
     - id: 5000000051
       name: Le Creuset
       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000051/5000000051-1.jpg
@@ -159,6 +159,15 @@ partnershipShopsList:
       level3:
           id: null
           name: Le Creuset
+    - id: 7000000139
+      name: NOW
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000139/7000000139-1.jpg
+      level2:
+          id: null
+          name: Health & Beauty
+      level3:
+          id: null
+          name: NOW          
 #     - id: 5000000052
 #       name: Mark Thomas
 #       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000052/5000000052-1.jpg
