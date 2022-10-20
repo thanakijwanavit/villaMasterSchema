@@ -110,9 +110,9 @@ categoryList:
     - id: 5000000483
       name: Valued Pack
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/valuedpack.png      
-    - id: 5000000376
-      name: Summer
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/summer.png
+#    - id: 5000000376
+#      name: Summer
+#      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/summer.png
     - id: 38153
       name: Pre Order
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/pre-order.png
