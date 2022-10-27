@@ -357,7 +357,7 @@ partnershipShopsList:
           name: Food & Beverages
       level3:
           id: null
-          name: Get Fresh    
+          name: Getfresh    
     - id: 7000000120
       name: Cru Caviar
       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000120/7000000120-1.jpg
