@@ -350,7 +350,7 @@ partnershipShopsList:
           id: null
           name: Beirut Restaurant
     - id: 5000000061
-      name: Get Fresh
+      name: Getfresh
       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000061/5000000061-1.jpg
       level2:
           id: null
