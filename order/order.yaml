@@ -345,6 +345,7 @@ properties:
             - "WEB"
             - "LINE"
             - "SALETOOL"
+            - "APP"
     saleId:
         description: "search by saleId"
         type: string
