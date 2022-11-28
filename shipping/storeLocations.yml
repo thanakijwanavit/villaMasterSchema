@@ -213,34 +213,39 @@
   brcode: 1007.0
   store_id: 65
   store_name: SILOM
- - Latitude: 13.734717684900478
+- Latitude: 13.734717684900478
   Longitude: 100.58157313741671
   brcode: 1011.0
   store_id: 66
   store_name: TONGLOR
- - Latitude: 13.896411355765428
+- Latitude: 13.896411355765428
   Longitude: 100.55789412031938
   brcode: 1017.0
   store_id: 67
   store_name: CHAENG WATTHANA
- - Latitude: 13.72044813491174
+- Latitude: 13.72044813491174
   Longitude: 100.56933343979264
   brcode: 1030.0
   store_id: 68
   store_name: K Village
- - Latitude: 13.774248497720636
+- Latitude: 13.774248497720636
   Longitude: 100.66681262444821
   brcode: 1033.0
   store_id: 69
   store_name: PASEO RAMKHAMHEANG
- - Latitude: 17.403816448647603
+- Latitude: 17.403816448647603
   Longitude: 102.80468701245893
   brcode: 1042.0
   store_id: 70
   store_name: UD TOWN UDON
- - Latitude: 13.745398092444978
+- Latitude: 13.745398092444978
   Longitude: 100.55621028212053
   brcode: 1046.0
   store_id: 71
   store_name: Sukhumvit 11
-
+- Latitude: 7.89350863445366
+  Longitude: 98.36840545759966
+  brcode: 1050.0
+  store_id: 72
+  store_name: BUKIS PHUKET
+  
