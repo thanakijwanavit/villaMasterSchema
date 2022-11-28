@@ -285,7 +285,20 @@ definitions:
             diffRemark:
                 description: "diff remark"
                 type: string
-
+    
+    AppInfo:
+        type: object
+        additionalProperties: true
+        properties:
+            os:
+                description: "os name and version"
+                type: string
+            version:
+                description: "app version"
+                type: string
+            device:
+                description: "device name or brand"
+                type: string
 properties:
     basketName:
         type: string
@@ -346,6 +359,8 @@ properties:
             - "LINE"
             - "SALETOOL"
             - "APP"
+    appInfo:
+        $ref: '#/definitions/AppInfo'
     saleId:
         description: "search by saleId"
         type: string
