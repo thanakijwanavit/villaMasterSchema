@@ -236,3 +236,10 @@
   store_name: Sukhumvit 11
   tier1: '{''maxDist'':2,''price'':90}'
   tier2: null
+- br_code: 1050
+  eligible_to_shop_at_33: false
+  latitude:  7.893519261633957
+  longitude: 98.36840813980871
+  store_name: Bukis Phuket
+  tier1: '{''maxDist'':5,''price'':120}'
+  tier2: null
