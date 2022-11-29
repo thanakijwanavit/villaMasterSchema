@@ -297,7 +297,10 @@ definitions:
                 description: "app version"
                 type: string
             device:
-                description: "device name or brand"
+                description: "device name or brand example: iphone "
+                type: string
+            model:
+                description: "device model example: iphone 13"
                 type: string
 properties:
     basketName:
