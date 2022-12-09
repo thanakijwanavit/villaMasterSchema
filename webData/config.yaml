@@ -12,11 +12,21 @@ ignoreGroupList:
   - id: 123456789
 
 paymentMethods:
-  - name: "Credit/Debit Card"
+  - id: "Credit/Debit Card"
+    name: "Credit/Debit Card"
     img: ["visa.svg", "master-card.svg", "jcb.svg"]
-  - name: "Amex"
+  - id: "Credit/Debit Card V2"
+    name: "Credit/Debit Card"
+    img: ["visa.svg", "master-card.svg", "jcb.svg", "amex.svg"]
+  - id: "Amex"
+    name: "Amex"
     img: ["amex.svg"]
-  - name: "Vplus Wallet"
+  - id: "Vplus Wallet"
+    name: "Vplus Wallet"
     img: ["wallet-logo.svg"]
-  - name: "Other"
+  - id: "Thai QR"
+    name: "Thai QR"
+    img: ["thai_qr.png"]
+  - id: "Other"
+    name: "Other"
     img: ["thai_qr.png","alipay_logo.jpg", "wechat-pay.svg", "union.svg"]
