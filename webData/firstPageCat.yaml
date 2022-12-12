@@ -140,7 +140,52 @@ partnershipShopsList:
           name: Health & Beauty
       level3:
           id: null
-          name: CBD Group 
+          name: CBD Group
+    - id: 7000000126
+      name: Amazon
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000126/7000000126-1.jpg
+      level2:
+          id: null
+          name: Appliances
+      level3:
+          id: null
+          name: Amazon
+    - id: 7000000128
+      name: Stasher
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000128/7000000128-1.jpg
+      level2:
+          id: null
+          name: Home & Kitchen
+      level3:
+          id: null
+          name: Stasher
+    - id: 7000000150
+      name: Sonite
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000150/7000000150-1.jpg
+      level2:
+          id: null
+          name: Home & Kitchen
+      level3:
+          id: null
+          name: Sonite
+    - id: 7000000158
+      name: Shun Classic
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000158/7000000158-1.jpg
+      level2:
+          id: null
+          name: Home & Kitchen
+      level3:
+          id: null
+          name: Shun Classic
+    - id: 7000000159
+      name: Baggu
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000159/7000000159-1.jpg
+      level2:
+          id: null
+          name: Home & Kitchen
+      level3:
+          id: null
+          name: Baggu            
     - id: 7000000121
       name: Brew Flavor
       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000121/7000000121-1.jpg
