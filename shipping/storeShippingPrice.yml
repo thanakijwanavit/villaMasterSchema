@@ -243,3 +243,10 @@
   store_name: Bukis Phuket
   tier1: '{''maxDist'':5,''price'':120}'
   tier2: null
+- br_code: 1051
+  eligible_to_shop_at_33: false
+  latitude:  13.905739146619421
+  longitude: 100.45005127789244
+  store_name: Chic Republic
+  tier1: '{''maxDist'':5,''price'':90}'
+  tier2: null
