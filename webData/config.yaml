@@ -38,4 +38,4 @@ paymentMethods:
     img: ["alipay_logo.jpg"]
   - id: "Vplus Wallet V2"
     name: "Vplus Wallet"
-    img: ["wallet-logo.svg"]
+    img: ["wallet-logo.png"]
