@@ -250,3 +250,10 @@
   store_name: Chic Republic
   tier1: '{''maxDist'':5,''price'':90}'
   tier2: null
+- br_code: 1052
+  eligible_to_shop_at_33: false
+  latitude:  13.723429684618386
+  longitude: 100.72576358028095
+  store_name: LittleWalk LatKrabang
+  tier1: '{''maxDist'':5,''price'':90}'
+  tier2: null
