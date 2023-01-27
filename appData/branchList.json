@@ -723,7 +723,7 @@
         "code": "1042",
         "online": true,
         "hub": "1042"
-    },
+    	},
 	{
         "name": "Bukis Phuket",
         "name_th": "บูคิส ภูเก็ต",
@@ -743,7 +743,7 @@
         "code": "1050",
         "online": true,
         "hub": "1050"
-    },
+    	},
 	{
         "name": "Chic Republic",
         "name_th": "ชิค รีพับบลิค ราชพฤกษ์",
@@ -763,5 +763,25 @@
         "code": "1051",
         "online": true,
         "hub": "1051"
-    }
+    	},
+  	{
+        "name": "Little Walk Lat-Krabang",
+        "name_th": "ลิตเติ้ลวอล์ค ลาดกระบัง",
+        "distance": "5.0 km",
+        "latlng": [13.722694893644737, 100.72588159746505],
+        "address": "597 Lat Krabang Road, Lat Krabang Subdistrict, Lat Krabang District, Bangkok 10520",
+        "subDistrict": "Lat Krabang",
+        "district": "Lat Krabang",
+        "address_th":
+            "597 ถ.ลาดกระบัง แขวงลาดกระบัง เขตลาดกระบัง กรุงเทพ 10520",
+        "province": "Bangkok",
+        "province_th": "กรุงเทพฯ",
+        "postcode": "10520",
+        "phoneNumber": "025027387",
+        "active": true,
+        "location_url": "https://www.google.co.th/maps/place/Little+Walk+Ladkrabang/@13.7226063,100.7236929,17z/data=!4m12!1m6!3m5!1s0x311d67cf35b8fcb1:0xc0fe2511af4ebe4e!2sLittle+Walk+Ladkrabang!8m2!3d13.7226011!4d100.7258816!3m4!1s0x311d67cf35b8fcb1:0xc0fe2511af4ebe4e!8m2!3d13.7226011!4d100.7258816",
+        "code": "1052",
+        "online": true,
+        "hub": "1052"
+    	}
 ]
