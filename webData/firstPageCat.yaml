@@ -141,6 +141,15 @@ partnershipShopsList:
       level3:
           id: null
           name: CBD Group
+    - id: 7000000160
+      name: Haan
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000160/7000000160-1.jpg
+      level2:
+          id: null
+          name: Health & Beauty
+      level3:
+          id: null
+          name: Haan          
     - id: 7000000126
       name: Amazon
       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000126/7000000126-1.jpg
