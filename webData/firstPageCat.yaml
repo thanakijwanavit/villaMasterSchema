@@ -213,15 +213,15 @@ partnershipShopsList:
     #   level3:
     #       id: null
     #       name: Pauldy     
-    - id: 5000000051
-      name: Le Creuset
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000051/5000000051-1.jpg
-      level2:
-          id: null
-          name: Home & Kitchen
-      level3:
-          id: null
-          name: Le Creuset
+    # - id: 5000000051
+    #   name: Le Creuset
+    #   logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000051/5000000051-1.jpg
+    #   level2:
+    #       id: null
+    #       name: Home & Kitchen
+    #   level3:
+    #       id: null
+    #       name: Le Creuset
     - id: 7000000139
       name: NOW
       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000139/7000000139-1.jpg
@@ -240,15 +240,15 @@ partnershipShopsList:
 #       level3:
 #           id: null
 #           name: Mark Thomas      
-    - id: 5000000053
-      name: Riedel
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000053/5000000053-1.jpg
-      level2:
-          id: null
-          name: Home & Kitchen
-      level3:
-          id: null
-          name: Riedel
+    # - id: 5000000053
+    #   name: Riedel
+    #   logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000053/5000000053-1.jpg
+    #   level2:
+    #       id: null
+    #       name: Home & Kitchen
+    #   level3:
+    #       id: null
+    #       name: Riedel
     - id: 5000000102
       name: Smeg
       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000102/5000000102-1.jpg
@@ -276,15 +276,15 @@ partnershipShopsList:
 #       level3:
 #           id: null
 #           name: Zalto
-    - id: 5000000055
-      name: Zwilling
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000055/5000000055-1.jpg
-      level2:
-          id: null
-          name: Home & Kitchen
-      level3:
-          id: null
-          name: Zwilling      
+    # - id: 5000000055
+    #   name: Zwilling
+    #   logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000055/5000000055-1.jpg
+    #   level2:
+    #       id: null
+    #       name: Home & Kitchen
+    #   level3:
+    #       id: null
+    #       name: Zwilling      
 #     REMOVED FROM PARTNERSHIP SHOPS          
 #     - id: 219932
 #       name: Mason Appetite
@@ -331,15 +331,15 @@ partnershipShopsList:
       level3:
           id: null
           name: Villa Market Pet's Corner
-    - id: 5000000050
-      name: Joseph Joseph
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000050/5000000050-1.jpg
-      level2:
-          id: null
-          name: Home & Kitchen
-      level3:
-          id: null
-          name: Joseph Joseph
+    # - id: 5000000050
+    #   name: Joseph Joseph
+    #   logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000050/5000000050-1.jpg
+    #   level2:
+    #       id: null
+    #       name: Home & Kitchen
+    #   level3:
+    #       id: null
+    #       name: Joseph Joseph
     - id: 5000000206
       name: Neoflam
       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000206/5000000206-1.jpg
@@ -502,15 +502,15 @@ partnershipShopsList:
       level3:
           id: null
           name: Lalil        
-    - id: 5000000204
-      name: Berghoff
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000204/5000000204-1.jpg
-      level2:
-          id: null
-          name: Home & Kitchen
-      level3:
-          id: null
-          name: Berghoff   
+    # - id: 5000000204
+    #   name: Berghoff
+    #   logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000204/5000000204-1.jpg
+    #   level2:
+    #       id: null
+    #       name: Home & Kitchen
+    #   level3:
+    #       id: null
+    #       name: Berghoff   
     - id: 5000000049
       name: Bodum
       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000049/5000000049-1.jpg
