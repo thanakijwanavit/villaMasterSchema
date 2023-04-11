@@ -249,7 +249,16 @@ definitions:
             - cprcode
         type: object
         additionalProperties: true
-        
+    Tracking:
+        type: object
+        additionalProperties: true
+        properties:
+            event:
+                type: string
+            timestamp:
+                type: 
+                    - string
+                    - number
     Picking:
         type: object
         additionalProperties: true
@@ -364,6 +373,11 @@ properties:
     saleId:
         description: "search by saleId"
         type: string
+    tracking:
+        type: array
+        description: "track user event such as click button, select time"
+        items:
+            $ref: '#/definitions/Tracking'
 required:
     - basketId
     - orderId
