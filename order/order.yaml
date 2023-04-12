@@ -378,6 +378,10 @@ properties:
         description: "track user event such as click button, select time"
         items:
             $ref: '#/definitions/Tracking'
+    couponLog:
+        type:
+            - string
+            - "null"
 required:
     - basketId
     - orderId
