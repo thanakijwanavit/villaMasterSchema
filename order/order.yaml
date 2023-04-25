@@ -151,6 +151,7 @@ definitions:
                 description: "the type of pre-order if any"
                 type:
                     - string
+                    - "null"
                 enum: [ "PREORDER_RELATIVE", "PREORDER_FIXED"]
             mode:
                 description: "the kind of shipping speed"
@@ -363,6 +364,7 @@ properties:
     orderSource:
         type: 
             - string
+            - "null"
         enum: 
             - "WEB"
             - "LINE"
