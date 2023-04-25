@@ -2,6 +2,7 @@ categoryList:
     - id: 5000000437
       name: Beef
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/beef.png
+      layout: "table"
     - id: 5000000446
       name: Pork
       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/pork.png
