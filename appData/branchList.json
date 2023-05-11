@@ -88,26 +88,26 @@
 		"hub": "1012"
 	},
 	{
-		"name": "K-Village (Sukhumvit 26)",
-		"name_th": "K-Village (สุขุทวิท 26)",
+		"name": "K-Village",
+		"name_th": "K-Village",
 		"distance": "3.0 km",
 		"latlng": [
-			13.720521,
-			100.569057
+			13.7202032,
+			100.56678
 		],
-		"address": "93,95 Soi Sukumvit 26, Sukumvit Rd. Klongtoei,",
+		"address": "K-Village Soi Sukumvit 26, Sukumvit Rd. Klongtoei,",
 		"subDistrict": "-",
 		"district": "-",
-		"address_th": "93, 95 ซอยสุขุมวิท 26 ถนนสุขุมวิท แขวงคลองตัน เขตคลองเตย",
+		"address_th": "K-Village ซอยสุขุมวิท 26 ถนนสุขุมวิท แขวงคลองตัน เขตคลองเตย",
 		"province": "Bangkok",
 		"province_th": "กรุงเทพมหานคร",
 		"postcode": "10110",
 		"phoneNumber": "02-502-7369",
 		"active": false,
 		"location_url": "https://www.google.co.th/maps/place/Villa+Market+-+K+Village/@13.720198,100.5671662,17z/data=!3m1!4b1!4m5!3m4!1s0x30e29f08b35be46d:0xaf429f7404e07d2d!8m2!3d13.720198!4d100.5693549",
-		"code": "-",
-		"online": false,
-		"hub": "-"
+		"code": "1030",
+		"online": true,
+		"hub": "1030"
 	},
 	{
 		"name": "Kaset-Nawamin",
