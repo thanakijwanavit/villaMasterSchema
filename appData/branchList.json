@@ -290,8 +290,8 @@
 		"name_th": "เพลินจิต",
 		"distance": "3.0 km",
 		"latlng": [
-			13.741798,
-			100.552366
+			13.741722,
+			100.551685
 		],
 		"address": "2 Sukumvit Rd. Klong Toei",
 		"subDistrict": "-",
@@ -303,9 +303,9 @@
 		"phoneNumber": "02-502-7355",
 		"active": false,
 		"location_url": "https://www.google.co.th/maps/place/Villa+Market+-+Ploenchit/@13.7414779,100.5492709,17z/data=!3m1!4b1!4m5!3m4!1s0x30e29fbbf83ad793:0x5f49957d33d016e3!8m2!3d13.7414779!4d100.5514596",
-		"code": "-",
-		"online": false,
-		"hub": "-"
+		"code": "1006",
+		"online": true,
+		"hub": "1006"
 	},
 	{
 		"name": "Rama 3",
