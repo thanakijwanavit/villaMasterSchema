@@ -469,19 +469,19 @@
 			13.732509,
 			100.57628
 		],
-		"address": "51/4 Soi Sukumvit 49, Sukumvit Rd., Klongtan Nua",
+		"address": "51, 4 Sukhum Vit 49, Khlong Tan Nuea, Watthana, Bangkok 10110",
 		"subDistrict": "-",
 		"district": "-",
-		"address_th": "51/4 ซอยสุขุมวิท 49 ถนนสุขุมวิท แขวงคลองตันเหนือ",
+		"address_th": "54, 4 สุขุมวิท 49 แขวงคลองตันเหนือ วัฒนา กทม 10110",
 		"province": "Bangkok",
 		"province_th": "กรุงเทพมหานคร",
 		"postcode": "10110",
 		"phoneNumber": "02-502-7352",
 		"active": false,
 		"location_url": "https://www.google.co.th/maps/place/Villa+Market+-+Sukhumvit+49/@13.732509,100.5740913,17z/data=!3m1!4b1!4m5!3m4!1s0x30e29fa9f84c3679:0xa6b57eeb0fb0e0b8!8m2!3d13.732509!4d100.57628",
-		"code": "-",
-		"online": false,
-		"hub": "-"
+		"code": "1005",
+		"online": true,
+		"hub": "1005"
 	},
 	{
 		"name": "Sukhumvit 55 (ThongLor)",
