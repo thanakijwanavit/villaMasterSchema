@@ -457,9 +457,9 @@
 		"phoneNumber": "02-502-7380",
 		"active": false,
 		"location_url": "https://www.google.co.th/maps/place/Villa+Market+Ambrassy/@13.7451179,100.5539986,17z/data=!3m1!4b1!4m5!3m4!1s0x30e29e4db83a6971:0xec214d2303f78e97!8m2!3d13.7451179!4d100.5561873",
-		"code": "-",
-		"online": false,
-		"hub": "-"
+		"code": "1046",
+		"online": true,
+		"hub": "1046"
 	},
 	{
 		"name": "Sukhumvit 49",
