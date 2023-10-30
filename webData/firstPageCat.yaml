@@ -1,17 +1,17 @@
 categoryList:
     - id: 5000000437
       name: Beef
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/beef.png
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/beef.webp
       layout: "table"
     - id: 5000000446
       name: Pork
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/pork.png
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/pork.webp
     - id: 5000000453
       name: Chicken & Duck
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/chicken.png
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/chicken.webp
     - id: 5000000458
       name: Lamb
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/lamb.png  
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/lamb.webp  
 #     - id: 5000000186
 #       name: Butcher Shop
 #       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/butcher.png  
@@ -20,22 +20,22 @@ categoryList:
 #      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/butcher.png
     - id: 5000000169
       name: Seafood
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/seafood.png
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/seafood.webp
 #    - id: null
 #      name: Seafood
 #      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/seafood.png
     - id: null
       name: Delicatessen & Eggs
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/delicatessen.png
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/delicatessen.webp
     - id: null
       name: Frozen Food
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/frozen-food.png 
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/frozen-food.webp 
     - id: null
       name: Dairy
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/dairy.png
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/dairy.webp
     - id: null
       name: Bakery
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/bakery.png
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/bakery.webp
 #     - id: null
 #       name: Fruits & Vegetables
 #       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/fruits.png
@@ -44,52 +44,52 @@ categoryList:
 #       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/fruits.png
     - id: 5000000410
       name: Fruits
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/fruit_new.png
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/fruit_new.webp
     - id: 5000000417
       name: Vegetables
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/veg.png
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/veg.webp
     - id: 5000000424
       name: Only At VILLA
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/onlyatvilla.png  
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/onlyatvilla.webp  
     - id: 9000000002
       name: New Arrival
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/new-arrival.png    
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/new-arrival.webp    
     - id: 9000000003
       name: Special Offer
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/special-offer.png
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/special-offer.webp
     - id: 9000000001
       name: Best Seller
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/best-seller.png        
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/best-seller.webp        
     - id: 5000000220
       name: Healthy
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/health.png  
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/health.webp  
     - id: null
       name: Grocery
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/grocery.png
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/grocery.webp
     - id: null
       name: Confectionery & Snacks
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/confectionery.png
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/confectionery.webp
     - id: null
       name: Drinks
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/drinks.png
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/drinks.webp
     - id: null
       name: Baby & Adult
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/baby.png  
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/baby.webp  
 #     - id: 5000000002
 #       name: Iceland
 #       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/Iceland-01.png
     - id: null
       name: Pet & Household
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/pet.png
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/pet.webp
     - id: null
       name: Health & Beauty
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/beauty.png
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/beauty.webp
     - id: null
       name: Beer Wine & Spirits
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/beer.png
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/beer.webp
     - id: 5000000063
       name: Grab & Go
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/grab-go.png    
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/grab-go.webp    
 #     - id: 5000000007
 #       name: Monoprix
 #       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/monoprix.png
@@ -98,16 +98,16 @@ categoryList:
 #       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/woolworths-01.png
     - id: 5000000038
       name: Market Place
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/partnership-shops.png
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/partnership-shops.webp
     - id: 15597
       name: Gourmet Line
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/gourmet-line.png 
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/gourmet-line.webp 
 #         - id: 5000000333
 #       name: Seasonal
 #       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/hampers_new.png  
     - id: 5000000333
       name: Flowers
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/hampers_new.png
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/hampers_new.webp
 #    - id: 5000000483
 #      name: Bulk Savings
 #      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/valuedpack.png      
@@ -116,12 +116,12 @@ categoryList:
 #      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/summer.png
     - id: 38153
       name: Pre Order
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/pre-order.png
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/pre-order.webp
     - id: null
       name: Buy Again
       externalURL: "https://shop.villamarket.com/profile/historyitems"
       appUrl: "/historyitems"
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/buy-again.png    
+      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/buy-again.webp    
 
 partnershipShopsList:
     # - id: 7000000142
@@ -135,7 +135,7 @@ partnershipShopsList:
     #       name: Lab Pharmacy
     - id: 7000000127
       name: CBD Group
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000127/7000000127-1.jpg
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000127/7000000127-1.webp
       level2:
           id: null
           name: Health & Beauty
@@ -144,7 +144,7 @@ partnershipShopsList:
           name: CBD Group
     - id: 7000000160
       name: Haan
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000160/7000000160-1.jpg
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000160/7000000160-1.webp
       level2:
           id: null
           name: Health & Beauty
@@ -153,7 +153,7 @@ partnershipShopsList:
           name: Haan          
     - id: 7000000126
       name: Amazon
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000126/7000000126-1.jpg
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000126/7000000126-1.webp
       level2:
           id: null
           name: Appliances
@@ -162,7 +162,7 @@ partnershipShopsList:
           name: Amazon
     - id: 7000000128
       name: Stasher
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000128/7000000128-1.jpg
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000128/7000000128-1.webp
       level2:
           id: null
           name: Home & Kitchen
@@ -225,7 +225,7 @@ partnershipShopsList:
     #       name: Le Creuset
     - id: 7000000139
       name: NOW
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000139/7000000139-1.jpg
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000139/7000000139-1.webp
       level2:
           id: null
           name: Health & Beauty
@@ -252,7 +252,7 @@ partnershipShopsList:
     #       name: Riedel
     - id: 5000000102
       name: Smeg
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000102/5000000102-1.jpg
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000102/5000000102-1.webp
       level2:
           id: null
           name: Appliances
@@ -298,7 +298,7 @@ partnershipShopsList:
 #           name: Mason Appetite
     - id: 5000000057
       name: Villa Market Kid's Corner
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000057/5000000057-1.jpg
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000057/5000000057-1.webp
       level2:
           id: null
           name: Kid's Corner
@@ -325,7 +325,7 @@ partnershipShopsList:
 #           name: Royal Canin
     - id: 5000000219
       name: Villa Market Pet's Corner
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000219/5000000219-1.jpg
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000219/5000000219-1.webp
       level2:
           id: null
           name: Pet Food
@@ -343,7 +343,7 @@ partnershipShopsList:
     #       name: Joseph Joseph
     - id: 5000000206
       name: Neoflam
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000206/5000000206-1.jpg
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000206/5000000206-1.webp
       level2:
           id: null
           name: Home & Kitchen
@@ -406,7 +406,7 @@ partnershipShopsList:
 #           name: Light My Fire
     - id: 5000000040
       name: Beirut Restaurant
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000040/5000000040-1.jpg
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000040/5000000040-1.webp
       level2:
           id: null
           name: Food & Beverages
@@ -424,7 +424,7 @@ partnershipShopsList:
     #       name: Getfresh    
     - id: 7000000120
       name: Cru Caviar
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000120/7000000120-1.jpg
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000120/7000000120-1.webp
       level2:
           id: null
           name: Food & Beverages
@@ -451,7 +451,7 @@ partnershipShopsList:
 #           name: Nadai Unatoto
     - id: 5000000062
       name: Sea's Kombucha
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000062/5000000062-1.jpg
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000062/5000000062-1.webp
       level2:
           id: null
           name: Food & Beverages
@@ -460,7 +460,7 @@ partnershipShopsList:
           name: Sea's Kombucha    
     - id: 5000000042
       name: Sunrise Tacos
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000042/5000000042-1.jpg
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000042/5000000042-1.webp
       level2:
           id: null
           name: Food & Beverages
@@ -469,7 +469,7 @@ partnershipShopsList:
           name: Sunrise Tacos
     - id: 5000000043
       name: The Green Geek
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000043/5000000043-1.jpg
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000043/5000000043-1.webp
       level2:
           id: null
           name: Food & Beverages
@@ -496,7 +496,7 @@ partnershipShopsList:
     #       name: Hug Organic
     - id: 5000000205
       name: Lalil
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000205/5000000205-1.jpg
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000205/5000000205-1.webp
       level2:
           id: null
           name: Health & Beauty
@@ -514,7 +514,7 @@ partnershipShopsList:
     #       name: Berghoff   
     - id: 5000000049
       name: Bodum
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000049/5000000049-1.jpg
+      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000049/5000000049-1.webp
       level2:
           id: null
           name: Home & Kitchen
