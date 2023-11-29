@@ -237,16 +237,23 @@
   tier1: '{''maxDist'':5,''price'':120}'
   tier2: null
 - br_code: 1051
-  eligible_to_shop_at_33: false
+  eligible_to_shop_at_33: true
   latitude:  13.905739146619421
   longitude: 100.45005127789244
   store_name: Chic Republic
   tier1: '{''maxDist'':5,''price'':90}'
   tier2: null
 - br_code: 1052
-  eligible_to_shop_at_33: false
+  eligible_to_shop_at_33: true
   latitude:  13.723429684618386
   longitude: 100.72576358028095
   store_name: LittleWalk LatKrabang
+  tier1: '{''maxDist'':5,''price'':90}'
+  tier2: null
+- br_code: 1053
+  eligible_to_shop_at_33: true
+  latitude:  13.752051517024789
+  longitude: 100.68596632944383
+  store_name: LittleWalk Krungthep Kritha
   tier1: '{''maxDist'':5,''price'':90}'
   tier2: null
