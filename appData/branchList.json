@@ -499,7 +499,7 @@
 		"province_th": " กรุงเทพมหานคร",
 		"postcode": "10110",
 		"phoneNumber": "02-502-7356",
-		"active": true,
+		"active": false,
 		"location_url": "https://www.google.co.th/maps/place/Villa+Market/@13.73457,100.5798123,17z/data=!3m1!4b1!4m5!3m4!1s0x30e29e5252a2d435:0xa6061cdd49cd5c90!8m2!3d13.73457!4d100.582001",
 		"code": "1011",
 		"online": true,
