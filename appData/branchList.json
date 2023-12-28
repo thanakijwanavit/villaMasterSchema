@@ -484,26 +484,26 @@
 		"hub": "1005"
 	},
 	{
-		"name": "Sukhumvit 55 (ThongLor)",
-		"name_th": "สุขุมวิท 55 (ทองหล่อ)",
+		"name": "ThongLor",
+		"name_th": "ทองหล่อ",
 		"distance": "3.0 km",
 		"latlng": [
-			13.73457,
-			100.582001
+			13.734545696950603,
+			100.5818295132731
 		],
-		"address": "J-Avenue 323 Soi Sukumvit 55 (Thong Lo ), Klongtan Nua",
-		"subDistrict": "-",
-		"district": "-",
-		"address_th": "J-Avenue 323 ซอยสุขุมวิท 55 (ทองหล่อ) แขวงคลองตันเหนือ เขตวัฒนา",
+		"address": "J323 Thong Lo",
+		"subDistrict": "Khlong Tan Nuea",
+		"district": "Watthana",
+		"address_th": "323 ทองหล่อ แขวงคลองตันเหนือ เขตวัฒนา",
 		"province": "Bangkok",
 		"province_th": " กรุงเทพมหานคร",
 		"postcode": "10110",
 		"phoneNumber": "02-502-7356",
-		"active": false,
+		"active": true,
 		"location_url": "https://www.google.co.th/maps/place/Villa+Market/@13.73457,100.5798123,17z/data=!3m1!4b1!4m5!3m4!1s0x30e29e5252a2d435:0xa6061cdd49cd5c90!8m2!3d13.73457!4d100.582001",
-		"code": "-",
-		"online": false,
-		"hub": "-"
+		"code": "1011",
+		"online": true,
+		"hub": "1011"
 	},
 	{
 		"name": "The Circle",
