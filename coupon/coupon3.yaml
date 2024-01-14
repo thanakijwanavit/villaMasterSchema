@@ -1,0 +1,157 @@
+$schema: http://json-schema.org/draft-07/schema#
+title: Coupon
+type: object
+properties:
+  couponCodes:
+    type: array
+    items:
+      type: string
+  couponId:
+    type: integer
+  type_:
+    type: string
+    enum: [BOGO, TWO4, DISC, FREESHIP, SPECIFICSKU]
+  bogo:
+    type: object
+    nullable: true
+    properties:
+      buy:
+        type: object
+        properties:
+          products:
+            type: array
+            items:
+              type: integer
+          quantity:
+            type: integer
+      get:
+        type: object
+        properties:
+          products:
+            type: array
+            items:
+              type: integer
+          quantity:
+            type: integer
+  two4:
+    type: object
+    nullable: true
+    properties:
+      products:
+        type: array
+        items:
+          type: integer
+      price:
+        type: number
+      quantity:
+        type: integer
+  disc:
+    type: object
+    nullable: true
+    properties:
+      products:
+        type: array
+        items:
+          type: integer
+      exclude:
+        type: array
+        items:
+          type: integer
+      cash:
+        type: number
+        nullable: true
+      percentage:
+        type: number
+        nullable: true
+  freeShip:
+    type: object
+    properties:
+      discountType:
+        type: string
+        enum: [FULL, PARTIAL]
+      shippingDiscount:
+        type: number
+        nullable: true
+  specificDiscount:
+    type: object
+    nullable: true
+    properties:
+      skus:
+        type: array
+        items:
+          type: integer
+      minimumValue:
+        type: number
+      cash:
+        type: number
+        nullable: true
+      percentage:
+        type: number
+        nullable: true
+  conditions:
+    type: object
+    nullable: true
+    properties:
+      noCombine:
+        type: array
+        items:
+          type: string
+          enum: [BOGO, TWO4, DISC, FREESHIP, SPECIFICSKU]
+      cartTotal:
+        type: number
+      endDate:
+        type: number
+      firstTimerOnly:
+        type: boolean
+      isActive:
+        type: boolean
+      isSingleUseCode:
+        type: boolean
+      startDate:
+        type: number
+      usesPerCustomer:
+        type: integer
+        nullable: true
+      eligibleCustomers:
+        type: array
+        items:
+          type: string
+      eligibleBranches:
+        type: array
+        items:
+          type: string
+      excludeControlProducts:
+        type: boolean
+      appOnly:
+        type: boolean
+      webOnly:
+        type: boolean
+      groupMinimum:
+        type: array
+        items:
+          type: object
+          properties:
+            productList:
+              type: array
+              items:
+                type: integer
+            minimum:
+              type: number
+      totalUseLimit:
+        type: integer
+  currentCouponCode:
+    type: string
+    nullable: true
+  currentOwner:
+    type: string
+    nullable: true
+  description:
+    type: string
+  isPromotion:
+    type: boolean
+required:
+  - couponCodes
+  - couponId
+  - type_
+  - description
+  - isPromotion
