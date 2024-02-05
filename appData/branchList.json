@@ -66,28 +66,6 @@
 		"hub": "-"
 	},
 	{
-		"name": "Grand Canal",
-		"name_th": "แกรนด์ คาแนล",
-		"distance": "3.0 km",
-		"latlng": [
-			13.881267,
-			100.550592
-		],
-		"address": "20/492 Moo 9, Pracha Chuen Rd, Pakret",
-		"subDistrict": "-",
-		"district": "Pak Kret",
-		"address_th": "20/429 หมู่ที่ 9 ถนนประชาชื่น อำเภอปากเกร็ด",
-		"province": "Nonthaburi",
-		"province_th": "นนทบุรี",
-		"postcode": "11120",
-		"phoneNumber": "02-502-7357",
-		"active": false,
-		"location_url": "https://www.google.com/maps/place/Talat+Phlu,+Thon+Buri,+Bangkok+10600/@13.7146207,100.476517,229m/data=!3m1!1e3!4m5!3m4!1s0x30e2985d2e50261d:0x40100b25de28b50!8m2!3d13.7184591!4d100.4747843",
-		"code": "1012",
-		"online": true,
-		"hub": "1012"
-	},
-	{
 		"name": "K-Village (Sukhumvit 26)",
 		"name_th": "K-Village (สุขุทวิท 26)",
 		"distance": "3.0 km",
