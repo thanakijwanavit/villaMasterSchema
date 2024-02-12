@@ -1,17 +1,17 @@
 categoryList:
     - id: 5000000437
       name: Beef
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/beef.webp
+      logoUrl: https://shop.villamarket.com/public/image/category/beef.webp
       layout: "table"
     - id: 5000000446
       name: Pork
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/pork.webp
+      logoUrl: https://shop.villamarket.com/public/image/category/pork.webp
     - id: 5000000453
       name: Chicken & Duck
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/chicken.webp
+      logoUrl: https://shop.villamarket.com/public/image/category/chicken.webp
     - id: 5000000458
       name: Lamb
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/lamb.webp  
+      logoUrl: https://shop.villamarket.com/public/image/category/lamb.webp  
 #     - id: 5000000186
 #       name: Butcher Shop
 #       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/butcher.png  
@@ -20,22 +20,22 @@ categoryList:
 #      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/butcher.png
     - id: 5000000169
       name: Seafood
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/seafood.webp
+      logoUrl: https://shop.villamarket.com/public/image/category/seafood.webp
 #    - id: null
 #      name: Seafood
 #      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/seafood.png
     - id: null
       name: Delicatessen & Eggs
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/delicatessen.webp
+      logoUrl: https://shop.villamarket.com/public/image/category/delicatessen.webp
     - id: null
       name: Frozen Food
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/frozen-food.webp 
+      logoUrl: https://shop.villamarket.com/public/image/category/frozen-food.webp 
     - id: null
       name: Dairy
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/dairy.webp
+      logoUrl: https://shop.villamarket.com/public/image/category/dairy.webp
     - id: null
       name: Bakery
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/bakery.webp
+      logoUrl: https://shop.villamarket.com/public/image/category/bakery.webp
 #     - id: null
 #       name: Fruits & Vegetables
 #       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/fruits.png
@@ -44,52 +44,52 @@ categoryList:
 #       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/fruits.png
     - id: 5000000410
       name: Fruits
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/fruit_new.webp
+      logoUrl: https://shop.villamarket.com/public/image/category/fruit_new.webp
     - id: 5000000417
       name: Vegetables
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/veg.webp
+      logoUrl: https://shop.villamarket.com/public/image/category/veg.webp
     - id: 5000000424
       name: Only At VILLA
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/onlyatvilla.webp  
+      logoUrl: https://shop.villamarket.com/public/image/category/onlyatvilla.webp  
     - id: 9000000002
       name: New Arrival
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/new-arrival.webp    
+      logoUrl: https://shop.villamarket.com/public/image/category/new-arrival.webp    
     - id: 9000000003
       name: Special Offer
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/special-offer.webp
+      logoUrl: https://shop.villamarket.com/public/image/category/special-offer.webp
     - id: 9000000001
       name: Best Seller
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/best-seller.webp        
+      logoUrl: https://shop.villamarket.com/public/image/category/best-seller.webp        
     - id: 5000000220
       name: Healthy
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/health.webp  
+      logoUrl: https://shop.villamarket.com/public/image/category/health.webp  
     - id: null
       name: Grocery
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/grocery.webp
+      logoUrl: https://shop.villamarket.com/public/image/category/grocery.webp
     - id: null
       name: Confectionery & Snacks
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/confectionery.webp
+      logoUrl: https://shop.villamarket.com/public/image/category/confectionery.webp
     - id: null
       name: Drinks
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/drinks.webp
+      logoUrl: https://shop.villamarket.com/public/image/category/drinks.webp
     - id: null
       name: Baby & Adult
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/baby.webp  
+      logoUrl: https://shop.villamarket.com/public/image/category/baby.webp  
 #     - id: 5000000002
 #       name: Iceland
 #       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/Iceland-01.png
     - id: null
       name: Pet & Household
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/pet.webp
+      logoUrl: https://shop.villamarket.com/public/image/category/pet.webp
     - id: null
       name: Health & Beauty
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/beauty.webp
+      logoUrl: https://shop.villamarket.com/public/image/category/beauty.webp
     - id: null
       name: Beer Wine & Spirits
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/beer.webp
+      logoUrl: https://shop.villamarket.com/public/image/category/beer.webp
     - id: 5000000063
       name: Grab & Go
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/grab-go.webp    
+      logoUrl: https://shop.villamarket.com/public/image/category/grab-go.webp    
 #     - id: 5000000007
 #       name: Monoprix
 #       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/monoprix.png
@@ -98,16 +98,16 @@ categoryList:
 #       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/woolworths-01.png
     - id: 5000000038
       name: Market Place
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/partnership-shops.webp
+      logoUrl: https://shop.villamarket.com/public/image/category/partnership-shops.webp
     - id: 15597
       name: Gourmet Line
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/gourmet-line.webp 
+      logoUrl: https://shop.villamarket.com/public/image/category/gourmet-line.webp 
 #         - id: 5000000333
 #       name: Seasonal
-#       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/hampers_new.png  
+#       logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/hampers_new.png   
     - id: 5000000333
       name: Flowers
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/hampers_new.webp
+      logoUrl: https://shop.villamarket.com/public/image/category/hampers_new.webp
 #    - id: 5000000483
 #      name: Bulk Savings
 #      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/valuedpack.png      
@@ -116,17 +116,17 @@ categoryList:
 #      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/summer.png
     - id: 38153
       name: Pre Order
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/pre-order.webp
+      logoUrl: https://shop.villamarket.com/public/image/category/pre-order.webp
     - id: null
       name: Buy Again
       externalURL: "https://shop.villamarket.com/profile/historyitems"
       appUrl: "/historyitems"
-      logoUrl: https://web-image-storage.s3-ap-southeast-1.amazonaws.com/category/buy-again.webp    
+      logoUrl: https://shop.villamarket.com/public/image/category/buy-again.webp    
 
 partnershipShopsList:
     # - id: 7000000142
     #   name: Lab Pharmacy
-    #   logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000142/7000000142-1.jpg
+    #   logoUrl: https://shop.villamarket.com/api/group/image/7000000142/7000000142-1.jpg
     #   level2:
     #       id: null
     #       name: Health & Beauty
@@ -135,7 +135,7 @@ partnershipShopsList:
     #       name: Lab Pharmacy
     - id: 7000000127
       name: CBD Group
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000127/7000000127-1.webp
+      logoUrl: https://shop.villamarket.com/api/group/image/7000000127/7000000127-1.webp
       level2:
           id: null
           name: Health & Beauty
@@ -144,7 +144,7 @@ partnershipShopsList:
           name: CBD Group
     - id: 7000000160
       name: Haan
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000160/7000000160-1.webp
+      logoUrl: https://shop.villamarket.com/api/group/image/7000000160/7000000160-1.webp
       level2:
           id: null
           name: Health & Beauty
@@ -153,7 +153,7 @@ partnershipShopsList:
           name: Haan          
     - id: 7000000126
       name: Amazon
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000126/7000000126-1.webp
+      logoUrl: https://shop.villamarket.com/api/group/image/7000000126/7000000126-1.webp
       level2:
           id: null
           name: Appliances
@@ -162,7 +162,7 @@ partnershipShopsList:
           name: Amazon
     - id: 7000000128
       name: Stasher
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000128/7000000128-1.webp
+      logoUrl: https://shop.villamarket.com/api/group/image/7000000128/7000000128-1.webp
       level2:
           id: null
           name: Home & Kitchen
@@ -171,7 +171,7 @@ partnershipShopsList:
           name: Stasher
     # - id: 7000000150
     #   name: Sonite
-    #   logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000150/7000000150-1.jpg
+    #   logoUrl: https://shop.villamarket.com/api/group/image/7000000150/7000000150-1.jpg
     #   level2:
     #       id: null
     #       name: Home & Kitchen
@@ -180,7 +180,7 @@ partnershipShopsList:
     #       name: Sonite
     # - id: 7000000158
     #   name: Shun Classic
-    #   logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000158/7000000158-1.jpg
+    #   logoUrl: https://shop.villamarket.com/api/group/image/7000000158/7000000158-1.jpg
     #   level2:
     #       id: null
     #       name: Home & Kitchen
@@ -189,7 +189,7 @@ partnershipShopsList:
     #       name: Shun Classic
     # - id: 7000000159
     #   name: Baggu
-    #   logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000159/7000000159-1.jpg
+    #   logoUrl: https://shop.villamarket.com/api/group/image/7000000159/7000000159-1.jpg
     #   level2:
     #       id: null
     #       name: Home & Kitchen
@@ -198,7 +198,7 @@ partnershipShopsList:
     #       name: Baggu            
     # - id: 7000000121
     #   name: Brew Flavor
-    #   logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000121/7000000121-1.jpg
+    #   logoUrl: https://shop.villamarket.com/api/group/image/7000000121/7000000121-1.jpg
     #   level2:
     #       id: null
     #       name: Food & Beverages
@@ -207,7 +207,7 @@ partnershipShopsList:
     #       name: Brew Flavor
     # - id: 7000000124
     #   name: Pauldy
-    #   logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000124/7000000124-1.jpg
+    #   logoUrl: https://shop.villamarket.com/api/group/image/7000000124/7000000124-1.jpg
     #   level2:
     #       id: null
     #       name: Food & Beverages
@@ -216,7 +216,7 @@ partnershipShopsList:
     #       name: Pauldy     
     # - id: 5000000051
     #   name: Le Creuset
-    #   logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000051/5000000051-1.jpg
+    #   logoUrl: https://shop.villamarket.com/api/group/image/5000000051/5000000051-1.jpg
     #   level2:
     #       id: null
     #       name: Home & Kitchen
@@ -225,7 +225,7 @@ partnershipShopsList:
     #       name: Le Creuset
     - id: 7000000139
       name: NOW
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000139/7000000139-1.webp
+      logoUrl: https://shop.villamarket.com/api/group/image/7000000139/7000000139-1.webp
       level2:
           id: null
           name: Health & Beauty
@@ -234,7 +234,7 @@ partnershipShopsList:
           name: NOW          
 #     - id: 5000000052
 #       name: Mark Thomas
-#       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000052/5000000052-1.jpg
+#       logoUrl: https://shop.villamarket.com/api/group/image/5000000052/5000000052-1.jpg
 #       level2:
 #           id: null
 #           name: Home & Kitchen Applicances
@@ -243,7 +243,7 @@ partnershipShopsList:
 #           name: Mark Thomas      
     # - id: 5000000053
     #   name: Riedel
-    #   logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000053/5000000053-1.jpg
+    #   logoUrl: https://shop.villamarket.com/api/group/image/5000000053/5000000053-1.jpg
     #   level2:
     #       id: null
     #       name: Home & Kitchen
@@ -252,7 +252,7 @@ partnershipShopsList:
     #       name: Riedel
     - id: 5000000102
       name: Smeg
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000102/5000000102-1.webp
+      logoUrl: https://shop.villamarket.com/api/group/image/5000000102/5000000102-1.webp
       level2:
           id: null
           name: Appliances
@@ -261,7 +261,7 @@ partnershipShopsList:
           name: Smeg
 #     - id: 5000000218
 #       name: Room Concept
-#       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000218/5000000218-1.jpg
+#       logoUrl: https://shop.villamarket.com/api/group/image/5000000218/5000000218-1.jpg
 #       level2:
 #           id: null
 #           name: Home & Kitchen Applicances
@@ -270,7 +270,7 @@ partnershipShopsList:
 #           name: Room Concept
 #     - id: 5000000054
 #       name: Zalto
-#       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000054/5000000054-1.jpg
+#       logoUrl: https://shop.villamarket.com/api/group/image/5000000054/5000000054-1.jpg
 #       level2:
 #           id: null
 #           name: Home & Kitchen Applicances
@@ -279,7 +279,7 @@ partnershipShopsList:
 #           name: Zalto
     # - id: 5000000055
     #   name: Zwilling
-    #   logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000055/5000000055-1.jpg
+    #   logoUrl: https://shop.villamarket.com/api/group/image/5000000055/5000000055-1.jpg
     #   level2:
     #       id: null
     #       name: Home & Kitchen
@@ -289,7 +289,7 @@ partnershipShopsList:
 #     REMOVED FROM PARTNERSHIP SHOPS          
 #     - id: 219932
 #       name: Mason Appetite
-#       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/219932/219932-1.jpg
+#       logoUrl: https://shop.villamarket.com/api/group/image/219932/219932-1.jpg
 #       level2:
 #           id: null
 #           name: Home & Kitchen Applicances
@@ -298,7 +298,7 @@ partnershipShopsList:
 #           name: Mason Appetite
     - id: 5000000057
       name: Villa Market Kid's Corner
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000057/5000000057-1.webp
+      logoUrl: https://shop.villamarket.com/api/group/image/5000000057/5000000057-1.webp
       level2:
           id: null
           name: Kid's Corner
@@ -307,7 +307,7 @@ partnershipShopsList:
           name: Villa Market Kid's Corner
     # - id: 5000000059
     #   name: Dogster
-    #   logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000059/5000000059-1.jpg
+    #   logoUrl: https://shop.villamarket.com/api/group/image/5000000059/5000000059-1.jpg
     #   level2:
     #       id: null
     #       name: Pet Food
@@ -316,7 +316,7 @@ partnershipShopsList:
     #       name: Dogster
 #     - id: 5000000060
 #       name: Royal Canin
-#       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000060/5000000060-1.jpg
+#       logoUrl: https://shop.villamarket.com/api/group/image/5000000060/5000000060-1.jpg
 #       level2:
 #           id: null
 #           name: Pet Food
@@ -325,7 +325,7 @@ partnershipShopsList:
 #           name: Royal Canin
     - id: 5000000219
       name: Villa Market Pet's Corner
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000219/5000000219-1.webp
+      logoUrl: https://shop.villamarket.com/api/group/image/5000000219/5000000219-1.webp
       level2:
           id: null
           name: Pet Food
@@ -334,7 +334,7 @@ partnershipShopsList:
           name: Villa Market Pet's Corner
     # - id: 5000000050
     #   name: Joseph Joseph
-    #   logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000050/5000000050-1.jpg
+    #   logoUrl: https://shop.villamarket.com/api/group/image/5000000050/5000000050-1.jpg
     #   level2:
     #       id: null
     #       name: Home & Kitchen
@@ -343,7 +343,7 @@ partnershipShopsList:
     #       name: Joseph Joseph
     - id: 5000000206
       name: Neoflam
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000206/5000000206-1.webp
+      logoUrl: https://shop.villamarket.com/api/group/image/5000000206/5000000206-1.webp
       level2:
           id: null
           name: Home & Kitchen
@@ -352,7 +352,7 @@ partnershipShopsList:
           name: Neoflam           
 #     - id: 7000000055
 #       name: Yeti
-#       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000055/7000000055-1.jpg
+#       logoUrl: https://shop.villamarket.com/api/group/image/7000000055/7000000055-1.jpg
 #       level2:
 #           id: null
 #           name: Garden & Outdoors
@@ -361,7 +361,7 @@ partnershipShopsList:
 #           name: Yeti
 #     - id: 7000000054
 #       name: Stanley
-#       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000054/7000000054-1.jpg
+#       logoUrl: https://shop.villamarket.com/api/group/image/7000000054/7000000054-1.jpg
 #       level2:
 #           id: null
 #           name: Garden & Outdoors
@@ -370,7 +370,7 @@ partnershipShopsList:
 #           name: Stanley
 #     - id: 7000000058
 #       name: LifeStraw
-#       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000058/7000000058-1.jpg
+#       logoUrl: https://shop.villamarket.com/api/group/image/7000000058/7000000058-1.jpg
 #       level2:
 #           id: null
 #           name: Garden & Outdoors
@@ -379,7 +379,7 @@ partnershipShopsList:
 #           name: LifeStraw
 #     - id: 7000000056
 #       name: UCO Gear
-#       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000056/7000000056-1.jpg
+#       logoUrl: https://shop.villamarket.com/api/group/image/7000000056/7000000056-1.jpg
 #       level2:
 #           id: null
 #           name: Garden & Outdoors
@@ -388,7 +388,7 @@ partnershipShopsList:
 #           name: UCO Gear
 #     - id: 7000000059
 #       name: Gosili
-#       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000059/7000000059-1.jpg
+#       logoUrl: https://shop.villamarket.com/api/group/image/7000000059/7000000059-1.jpg
 #       level2:
 #           id: null
 #           name: Garden & Outdoors
@@ -397,7 +397,7 @@ partnershipShopsList:
 #           name: Gosili
 #     - id: 7000000057
 #       name: Light My Fire
-#       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000057/7000000057-1.jpg
+#       logoUrl: https://shop.villamarket.com/api/group/image/7000000057/7000000057-1.jpg
 #       level2:
 #           id: null
 #           name: Garden & Outdoors
@@ -406,7 +406,7 @@ partnershipShopsList:
 #           name: Light My Fire
     - id: 5000000040
       name: Beirut Restaurant
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000040/5000000040-1.webp
+      logoUrl: https://shop.villamarket.com/api/group/image/5000000040/5000000040-1.webp
       level2:
           id: null
           name: Food & Beverages
@@ -415,7 +415,7 @@ partnershipShopsList:
           name: Beirut Restaurant
     # - id: 5000000061
     #   name: Getfresh
-    #   logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000061/5000000061-1.jpg
+    #   logoUrl: https://shop.villamarket.com/api/group/image/5000000061/5000000061-1.jpg
     #   level2:
     #       id: null
     #       name: Food & Beverages
@@ -424,7 +424,7 @@ partnershipShopsList:
     #       name: Getfresh    
     - id: 7000000120
       name: Cru Caviar
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/7000000120/7000000120-1.webp
+      logoUrl: https://shop.villamarket.com/api/group/image/7000000120/7000000120-1.webp
       level2:
           id: null
           name: Food & Beverages
@@ -433,7 +433,7 @@ partnershipShopsList:
           name: Cru Caviar   
     # - id: 5000000041
     #   name: Gram Pancakes
-    #   logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000041/5000000041-1.jpg
+    #   logoUrl: https://shop.villamarket.com/api/group/image/5000000041/5000000041-1.jpg
     #   level2:
     #       id: null
     #       name: Food & Beverages
@@ -442,7 +442,7 @@ partnershipShopsList:
     #       name: Gram Pancakes 
 #     - id: 5000000044
 #       name: Nadai Unatoto
-#       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000044/5000000044-1.jpg
+#       logoUrl: https://shop.villamarket.com/api/group/image/5000000044/5000000044-1.jpg
 #       level2:
 #           id: null
 #           name: Food & Beverages
@@ -451,7 +451,7 @@ partnershipShopsList:
 #           name: Nadai Unatoto
     - id: 5000000062
       name: Sea's Kombucha
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000062/5000000062-1.webp
+      logoUrl: https://shop.villamarket.com/api/group/image/5000000062/5000000062-1.webp
       level2:
           id: null
           name: Food & Beverages
@@ -460,7 +460,7 @@ partnershipShopsList:
           name: Sea's Kombucha    
     - id: 5000000042
       name: Sunrise Tacos
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000042/5000000042-1.webp
+      logoUrl: https://shop.villamarket.com/api/group/image/5000000042/5000000042-1.webp
       level2:
           id: null
           name: Food & Beverages
@@ -469,7 +469,7 @@ partnershipShopsList:
           name: Sunrise Tacos
     - id: 5000000043
       name: The Green Geek
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000043/5000000043-1.webp
+      logoUrl: https://shop.villamarket.com/api/group/image/5000000043/5000000043-1.webp
       level2:
           id: null
           name: Food & Beverages
@@ -478,7 +478,7 @@ partnershipShopsList:
           name: The Green Geek
 #     - id: 5000000045
 #       name: Yih Sahp Luhk
-#       logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000045/5000000045-1.jpg
+#       logoUrl: https://shop.villamarket.com/api/group/image/5000000045/5000000045-1.jpg
 #       level2:
 #           id: null
 #           name: Food & Beverages
@@ -487,7 +487,7 @@ partnershipShopsList:
 #           name: Yih Sahp Luhk
     # - id: 5000000047
     #   name: Hug Organic
-    #   logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000047/5000000047-1.jpg
+    #   logoUrl: https://shop.villamarket.com/api/group/image/5000000047/5000000047-1.jpg
     #   level2:
     #       id: null
     #       name: Health & Beauty
@@ -496,7 +496,7 @@ partnershipShopsList:
     #       name: Hug Organic
     - id: 5000000205
       name: Lalil
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000205/5000000205-1.webp
+      logoUrl: https://shop.villamarket.com/api/group/image/5000000205/5000000205-1.webp
       level2:
           id: null
           name: Health & Beauty
@@ -505,7 +505,7 @@ partnershipShopsList:
           name: Lalil        
     # - id: 5000000204
     #   name: Berghoff
-    #   logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000204/5000000204-1.jpg
+    #   logoUrl: https://shop.villamarket.com/api/group/image/5000000204/5000000204-1.jpg
     #   level2:
     #       id: null
     #       name: Home & Kitchen
@@ -514,7 +514,7 @@ partnershipShopsList:
     #       name: Berghoff   
     - id: 5000000049
       name: Bodum
-      logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000049/5000000049-1.webp
+      logoUrl: https://shop.villamarket.com/api/group/image/5000000049/5000000049-1.webp
       level2:
           id: null
           name: Home & Kitchen
@@ -523,7 +523,7 @@ partnershipShopsList:
           name: Bodum
     # - id: 5000000203
     #   name: Grassl Glass
-    #   logoUrl: https://group2-image-bucket-dev.s3-ap-southeast-1.amazonaws.com/5000000203/5000000203-1.jpg
+    #   logoUrl: https://shop.villamarket.com/api/group/image/5000000203/5000000203-1.jpg
     #   level2:
     #       id: null
     #       name: Home & Kitchen
