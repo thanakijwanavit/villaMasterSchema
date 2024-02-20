@@ -1,11 +1,34 @@
+# first 9:00-10:00, last 21:00-22:00 
 1000:
   opening: 9
-  closing: 22
+  closing: 23
   slotSize: 50
-1047:
-  opening: 9
+
+# first 8:00-9:00, last 19:00-20:00 
+1003:
+  opening: 8
+  closing: 21
+  slotSize: 20
+1039:
+  opening: 8
+  closing: 21
+  slotSize: 20
+
+# first 8:00-9:00, last 20:00-21:00 
+1014:
+  opening: 8
   closing: 22
   slotSize: 20
+1006:
+  opening: 8
+  closing: 22
+  slotSize: 20
+1011:
+  opening: 8
+  closing: 22
+  slotSize: 20
+
+# first 9:00-10:00, last 20:00-21:00
 1015:
   opening: 9
   closing: 22
@@ -15,10 +38,6 @@
   closing: 22
   slotSize: 20
 1016:
-  opening: 9
-  closing: 22
-  slotSize: 20
-1040:
   opening: 9
   closing: 22
   slotSize: 20
@@ -34,14 +53,42 @@
   opening: 9
   closing: 22
   slotSize: 20
-1022:
+1034:
   opening: 9
   closing: 22
   slotSize: 20
+1036:
+  opening: 9
+  closing: 22
+  slotSize: 20
+1044:
+  opening: 9
+  closing: 22
+  slotSize: 20
+1005:
+  opening: 9
+  closing: 22
+  slotSize: 20
+1030:
+  opening: 9
+  closing: 22
+  slotSize: 20
+1046:
+  opening: 9
+  closing: 22
+  slotSize: 20
+1050:
+  opening: 9
+  closing: 22
+  slotSize: 20
+  
+# first 10:00-11:00, last 19:00-20:00
 1023:
-  opening: 10
+  opening: 9
   closing: 21
   slotSize: 20
+
+# first 9:00-10:00, last 19:00-20:00
 0: #default
   opening: 9
   closing: 21
