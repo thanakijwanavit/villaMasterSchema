@@ -77,14 +77,10 @@
   opening: 9
   closing: 22
   slotSize: 20
-1050:
-  opening: 9
-  closing: 22
-  slotSize: 20
   
 # first 10:00-11:00, last 19:00-20:00
 1023:
-  opening: 9
+  opening: 10
   closing: 21
   slotSize: 20
 
