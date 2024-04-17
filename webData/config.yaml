@@ -33,9 +33,9 @@ paymentMethods:
   - id: "Wechat"
     name: "Wechat"
     img: ["wechat-pay.svg"]
-  - id: "Other"
-    name: "Other"
-    img: ["alipay_logo.jpg"]
-#  - id: "Alipay"
-#    name: "Alipay"
+#  - id: "Other"
+#    name: "Other"
 #    img: ["alipay_logo.jpg"]
+  - id: "Alipay"
+    name: "Alipay"
+    img: ["alipay_logo.jpg"]
