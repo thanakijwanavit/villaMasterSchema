@@ -257,3 +257,12 @@
   store_name: LittleWalk Krungthep Kritha
   tier1: '{''maxDist'':5,''price'':90}'
   tier2: null
+- br_code: 3000
+  eligible_to_shop_at_33: false
+  latitude: 13.73204799
+  longitude: 100.56762289
+  store_name: Clickzy 1000
+  tier1: '{''maxDist'':10,''price'':90}'
+  tier2: '{''maxDist'':15,''price'':150}'
+
+  
