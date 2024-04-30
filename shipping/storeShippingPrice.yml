@@ -196,8 +196,8 @@
   tier2: null
 - br_code: 1017
   eligible_to_shop_at_33: true
-  latitude: 13.896411355765428
-  longitude: 100.55789412031938
+  latitude: 13.894996453953317
+  longitude: 100.5579568632526
   store_name: Chaeng Watthana
   tier1: '{''maxDist'':2,''price'':90}'
   tier2: null
