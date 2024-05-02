@@ -48,8 +48,8 @@
 		"name_th": "แจ้งวัฒนะ",
 		"distance": "3.0 km",
 		"latlng": [
-			13.894702,
-			100.558189
+			13.894996453953317,
+			100.5579568632526
 		],
 		"address": "104/34 Moo 1, Chaengwattana  Rd., Laksi",
 		"subDistrict": "-",
@@ -60,10 +60,10 @@
 		"postcode": "10210",
 		"phoneNumber": "02-502-7361",
 		"active": false,
-		"location_url": "https://www.google.co.th/maps/place/Villa+Market+-+Chaengwattana/@13.8950009,100.55579,17z/data=!3m1!4b1!4m5!3m4!1s0x30e283160c22da9b:0xc5e09cae954634a3!8m2!3d13.8950009!4d100.5579787",
-		"code": "-",
-		"online": false,
-		"hub": "-"
+		"location_url": "https://maps.app.goo.gl/o3M5GQTF23R9P3td9",
+		"code": "1017",
+		"online": true,
+		"hub": "1017"
 	},
 	{
 		"name": "K-Village",
