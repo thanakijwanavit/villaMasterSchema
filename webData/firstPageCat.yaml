@@ -142,15 +142,15 @@ partnershipShopsList:
       level3:
           id: null
           name: CBD Group
-    - id: 7000000160
-      name: Haan
-      logoUrl: https://shop.villamarket.com/api/group/image/7000000160/7000000160-1.webp
-      level2:
-          id: null
-          name: Health & Beauty
-      level3:
-          id: null
-          name: Haan          
+    # - id: 7000000160
+    #   name: Haan
+    #   logoUrl: https://shop.villamarket.com/api/group/image/7000000160/7000000160-1.webp
+    #   level2:
+    #       id: null
+    #       name: Health & Beauty
+    #   level3:
+    #       id: null
+    #       name: Haan          
     - id: 7000000126
       name: Amazon
       logoUrl: https://shop.villamarket.com/api/group/image/7000000126/7000000126-1.webp
@@ -449,15 +449,15 @@ partnershipShopsList:
 #       level3:
 #           id: null
 #           name: Nadai Unatoto
-    - id: 5000000062
-      name: Sea's Kombucha
-      logoUrl: https://shop.villamarket.com/api/group/image/5000000062/5000000062-1.webp
-      level2:
-          id: null
-          name: Food & Beverages
-      level3:
-          id: null
-          name: Sea's Kombucha    
+    # - id: 5000000062
+    #   name: Sea's Kombucha
+    #   logoUrl: https://shop.villamarket.com/api/group/image/5000000062/5000000062-1.webp
+    #   level2:
+    #       id: null
+    #       name: Food & Beverages
+    #   level3:
+    #       id: null
+    #       name: Sea's Kombucha    
     - id: 5000000042
       name: Sunrise Tacos
       logoUrl: https://shop.villamarket.com/api/group/image/5000000042/5000000042-1.webp
