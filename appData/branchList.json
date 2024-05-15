@@ -782,25 +782,5 @@
 	        "code": "1053",
 	        "online": true,
 	        "hub": "1053"
-	},
-	{
-    		"name": "Gaysorn Amarin",
-    		"name_th": "เกษรอัมรินทร์",
-    		"distance": "5.0 km",
-    		"latlng": [13.744143789519272, 100.54138396909846],
-    		"address": "496 502 Phloen Chit Rd, Lumphini, Pathum Wan, Bangkok 10330",
-    		"subDistrict": "-",
-    		"district": "-",
-    		"address_th":
-        		"เลขที่ 496-502 อาคารเกษรอัมรินทร์ ถนนเพลินจิต แขวงลุมพินี เขตปทุมวัน กรุงเทพฯ 10330",
-    		"province": "Bangkok",
-    		"province_th": "กรุงเทพมหานคร",
-    		"postcode": "10330",
-    		"phoneNumber": "",
-    		"active": true,
-    		"Location_url":"https://maps.app.goo.gl/CrWLroCM8BapheTB8",
-    		"code": "1054",
-    		"online": true,
-    		"hub": "1054"
-  	}
+	}
 ]
