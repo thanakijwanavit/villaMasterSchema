@@ -39,6 +39,10 @@ definitions:
         type: integer
       slotIndex:
         type: integer
+      branches:
+        type: array
+        items:
+          type: integer
 type: object
 required:
   - groupId
