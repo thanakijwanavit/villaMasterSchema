@@ -854,5 +854,25 @@
 	        "code": "1056",
 	        "online": true,
 	        "hub": "1056"
-	}
+	},
+	{
+	        "name": "Kamala Phuket",
+	        "name_th": "กมลา ภูเก็ต",
+	        "distance": "5.0 km",
+	        "latlng": [7.947008310314778, 98.27946320577146],
+	        "address": "44 Kamala Subdistrict, Kathu District",
+	        "subDistrict": "-",
+	        "district": "-",
+	        "address_th":
+	            "44 Kammala - Patong Rd, ตำบล กมลา อำเภอกะทู้",
+	        "province": "Phuket",
+	        "province_th": "ภูเก็ต",
+	        "postcode": "83120",
+	        "phoneNumber": "025057395",
+	        "active": true,
+	        "location_url":"https://maps.app.goo.gl/xxiyUkyJv6n7dpjs7",
+	        "code": "1057",
+	        "online": true,
+	        "hub": "1057"
+    	}
 ]
