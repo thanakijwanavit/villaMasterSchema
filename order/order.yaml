@@ -200,8 +200,8 @@ definitions:
             expressFee:
                 description: "express fee"
                 type: number
-            deliveryInstruction:
-                description: "delivery instruction"
+            deliveryInstructions:
+                description: "delivery instructions"
                 type: string
                 
     Product:
