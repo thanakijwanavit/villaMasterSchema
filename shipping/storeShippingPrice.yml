@@ -279,14 +279,14 @@
   tier1: '{''maxDist'':5,''price'':90}'
   tier2: null
 - br_code: 1056
-  eligible_to_shop_at_33: true
+  eligible_to_shop_at_33: false
   latitude: 7.988155320235516
   longitude: 98.31035533500489
   store_name: HomePro Cherngtalay
   tier1: '{''maxDist'':5,''price'':120}'
   tier2: null
 - br_code: 1057
-  eligible_to_shop_at_33: true
+  eligible_to_shop_at_33: false
   latitude: 7.948076717549219
   longitude: 98.27946164954
   store_name: Kamala Phuket
