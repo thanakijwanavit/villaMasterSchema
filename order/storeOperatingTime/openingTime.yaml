@@ -2,13 +2,13 @@
 1000:
   opening: 9
   closing: 23
-  slotSize: 50
+  slotSize: 0
 
 # first 8:00-9:00, last 19:00-20:00 
 1003:
   opening: 8
   closing: 21
-  slotSize: 20
+  slotSize: 0
 1039:
   opening: 8
   closing: 21
@@ -18,15 +18,15 @@
 1014:
   opening: 8
   closing: 22
-  slotSize: 20
+  slotSize: 0
 1006:
   opening: 9
   closing: 22
-  slotSize: 20
+  slotSize: 0
 1011:
   opening: 8
   closing: 22
-  slotSize: 20
+  slotSize: 0
 
 # first 9:00-10:00, last 20:00-21:00
 1015:
@@ -44,11 +44,11 @@
 1049:
   opening: 9
   closing: 22
-  slotSize: 20
+  slotSize: 0
 1026:
   opening: 9
   closing: 22
-  slotSize: 20
+  slotSize: 0
 1040:
   opening: 9
   closing: 20
@@ -56,48 +56,48 @@
 1041:
   opening: 9
   closing: 22
-  slotSize: 20
+  slotSize: 0
 1034:
   opening: 9
   closing: 22
-  slotSize: 20
+  slotSize: 0
 1036:
   opening: 9
   closing: 22
-  slotSize: 20
+  slotSize: 0
 1044:
   opening: 9
   closing: 22
-  slotSize: 20
+  slotSize: 0
 1005:
   opening: 9
   closing: 22
-  slotSize: 20
+  slotSize: 0
 1030:
   opening: 9
   closing: 22
-  slotSize: 20
+  slotSize: 0
 1046:
   opening: 9
   closing: 22
-  slotSize: 20
+  slotSize: 0
   
 # first 10:00-11:00, last 19:00-20:00
 1023:
   opening: 10
   closing: 21
-  slotSize: 20
+  slotSize: 0
 1054:
   opening: 10
   closing: 21
-  slotSize: 20
+  slotSize: 0
 1055:
   opening: 9
   closing: 21
-  slotSize: 20
+  slotSize: 0
 
 # first 9:00-10:00, last 19:00-20:00
 0: #default
   opening: 9
   closing: 21
-  slotSize: 20 # how many orders to accept per hour
+  slotSize: 0 # how many orders to accept per hour
