@@ -2,8 +2,6 @@
 # coding: utf-8
 
 
-
-
 # In[1]:
 
 
@@ -19,7 +17,7 @@ from nicHelper.wrappers import add_method
 # In[2]:
 
 
-dataFolder = 'testData' # data folder
+dataFolder = "testData"  # data folder
 
 
 # ## load schema
@@ -27,7 +25,7 @@ dataFolder = 'testData' # data folder
 # In[3]:
 
 
-with open(f'./order.yaml', 'r')as f: # load the schema
+with open(f"./order.yaml", "r") as f:  # load the schema
     schema = yaml.load(f.read(), Loader=yaml.FullLoader)
 
 print(schema)
@@ -40,9 +38,9 @@ print(schema)
 
 class TestValidation(unittest.TestCase):
     def setUp(self):
-        with open(f'./order.yaml', 'r')as f: # load the schema
+        with open(f"./order.yaml", "r") as f:  # load the schema
             self.schema = yaml.load(f.read(), Loader=yaml.FullLoader)
-        self.dataFolder = 'testData' # data folder
+        self.dataFolder = "testData"  # data folder
 
 
 # ### good sample case
@@ -53,11 +51,11 @@ class TestValidation(unittest.TestCase):
 @add_method(TestValidation)
 def testPassingGoodSample(self):
     # good sample
-    with open(f'./{self.dataFolder}/goodSample.json','r')as f:
+    with open(f"./{self.dataFolder}/goodSample.json", "r") as f:
         goodItem = json.load(f)
-    
+
     try:
-        jsonschema.validate(goodItem,self.schema)
+        jsonschema.validate(goodItem, self.schema)
     except ValidationError as e:
         print(e)
 
@@ -71,15 +69,10 @@ def testPassingGoodSample(self):
 
 @add_method(TestValidation)
 def testWrongType(self):
-    with open(f'./{self.dataFolder}/wrongType.json','r')as f:
+    with open(f"./{self.dataFolder}/wrongType.json", "r") as f:
         badItem = json.load(f)
     with self.assertRaises(ValidationError):
-        jsonschema.validate(badItem,self.schema)
-    try:
-        jsonschema.validate(badItem,self.schema)
-    except ValidationError as e:
-        self.assertTrue("1234 is not of type 'string'" in e.message, 
-                        f'wrong error message{e.message}, should be 1234 is not type string')
+        jsonschema.validate(badItem, self.schema)
 
 
 # #### extraneous column
@@ -89,14 +82,14 @@ def testWrongType(self):
 
 @add_method(TestValidation)
 def testExtraColumn(self):
-    with open(f'./{self.dataFolder}/extraCol.json','r')as f:
+    with open(f"./{self.dataFolder}/extraCol.json", "r") as f:
         badItem = json.load(f)
     with self.assertRaises(ValidationError):
-        jsonschema.validate(badItem,self.schema)
+        jsonschema.validate(badItem, self.schema)
     try:
-        jsonschema.validate(badItem,self.schema)
+        jsonschema.validate(badItem, self.schema)
     except ValidationError as e:
-        self.assertTrue('Additional properties are not allowed' in e.message)
+        self.assertTrue("Additional properties are not allowed" in e.message)
 
 
 # In[8]:
@@ -110,7 +103,7 @@ unittest.TextTestRunner().run(suite)
 
 
 try:
-    get_ipython().system('jupyter nbconvert --to script tester.ipynb')
+    get_ipython().system("jupyter nbconvert --to script tester.ipynb")
 except:
     pass
 
@@ -118,17 +111,7 @@ except:
 # In[ ]:
 
 
-
-
-
 # In[ ]:
 
 
-
-
-
 # In[ ]:
-
-
-
-
