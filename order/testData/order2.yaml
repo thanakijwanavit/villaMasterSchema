@@ -1,0 +1,240 @@
+orderId: "552400004546"
+ownerId: "f10ff450-6518-4b89-975a-528e82c096d7"
+basketId: "f10ff450-6518-4b89-975a-528e82c096d7"
+branchId: "1055"
+couponCodeList: []
+voucherId: []
+specialComment: ""
+requestSubstitute: false
+noPlasticBag: false
+productList:
+  - cprcode: 54407
+    productName: "Lemon Lime Flavour Can"
+    quantity: 2
+    branchId: "1055"
+    discountFromCoupon: 0
+    scheduleId: 0
+    isPreOrder: false
+    usedForCoupon: null
+    remark: null
+    originalPrice: 89.0
+    price: 89.0
+    rowTotal: 178.0
+    settlementPrice: 178.0
+    discountedRowTotal: 178.0
+    isControlledProduct: false
+  - cprcode: 52831
+    productName: "Cola Can"
+    quantity: 2
+    branchId: "1055"
+    discountFromCoupon: 0
+    scheduleId: 0
+    isPreOrder: false
+    usedForCoupon: null
+    remark: null
+    originalPrice: 89.0
+    price: 89.0
+    rowTotal: 178.0
+    settlementPrice: 178.0
+    discountedRowTotal: 178.0
+    isControlledProduct: false
+  - cprcode: 54067
+    productName: "Light Cola Can"
+    quantity: 2
+    branchId: "1055"
+    discountFromCoupon: 0
+    scheduleId: 0
+    isPreOrder: false
+    usedForCoupon: null
+    remark: null
+    originalPrice: 89.0
+    price: 89.0
+    rowTotal: 178.0
+    settlementPrice: 178.0
+    discountedRowTotal: 178.0
+    isControlledProduct: false
+  - cprcode: 148435
+    productName: "Soda Water"
+    quantity: 2
+    branchId: "1055"
+    discountFromCoupon: 0
+    scheduleId: 0
+    isPreOrder: false
+    usedForCoupon: null
+    remark: null
+    originalPrice: 54.0
+    price: 54.0
+    rowTotal: 108.0
+    settlementPrice: 108.0
+    discountedRowTotal: 108.0
+    isControlledProduct: false
+  - cprcode: 195771
+    productName: "Tonic Water"
+    quantity: 2
+    branchId: "1055"
+    discountFromCoupon: 0
+    scheduleId: 0
+    isPreOrder: false
+    usedForCoupon: null
+    remark: null
+    originalPrice: 88.0
+    price: 88.0
+    rowTotal: 176.0
+    settlementPrice: 176.0
+    discountedRowTotal: 176.0
+    isControlledProduct: false
+  - cprcode: 32347
+    productName: "Chocolate"
+    quantity: 3
+    branchId: "1055"
+    discountFromCoupon: 0
+    scheduleId: 0
+    isPreOrder: false
+    usedForCoupon: null
+    remark: null
+    originalPrice: 145.0
+    price: 145.0
+    rowTotal: 435.0
+    settlementPrice: 435.0
+    discountedRowTotal: 435.0
+    isControlledProduct: false
+  - cprcode: 259339
+    productName: "Milk Chocolate Mint"
+    quantity: 2
+    branchId: "1055"
+    discountFromCoupon: 0
+    scheduleId: 0
+    isPreOrder: false
+    usedForCoupon: null
+    remark: null
+    originalPrice: 145.0
+    price: 145.0
+    rowTotal: 290.0
+    settlementPrice: 290.0
+    discountedRowTotal: 290.0
+    isControlledProduct: false
+  - cprcode: 266404
+    productName: "Milk Chocolate Ball"
+    quantity: 2
+    branchId: "1055"
+    discountFromCoupon: 0
+    scheduleId: 0
+    isPreOrder: false
+    usedForCoupon: null
+    remark: null
+    originalPrice: 145.0
+    price: 145.0
+    rowTotal: 290.0
+    settlementPrice: 290.0
+    discountedRowTotal: 290.0
+    isControlledProduct: false
+  - cprcode: 266384
+    productName: "Chocolate Mint Minis Mint Crisp"
+    quantity: 3
+    branchId: "1055"
+    discountFromCoupon: 0
+    scheduleId: 0
+    isPreOrder: false
+    usedForCoupon: null
+    remark: null
+    originalPrice: 109.0
+    price: 109.0
+    rowTotal: 327.0
+    settlementPrice: 327.0
+    discountedRowTotal: 327.0
+    isControlledProduct: false
+  - cprcode: 225143
+    productName: "Celebrations"
+    quantity: 1
+    branchId: "1055"
+    discountFromCoupon: 0
+    scheduleId: 0
+    isPreOrder: false
+    usedForCoupon: null
+    remark: null
+    originalPrice: 605.0
+    price: 605.0
+    rowTotal: 605.0
+    settlementPrice: 605.0
+    discountedRowTotal: 605.0
+    isControlledProduct: false
+shipping:
+  scheduleList:
+    - booking_hour: 15
+      dateTime: "2024-11-23T08:00:00.000Z"
+      date_slot: "20241123"
+      deliveryFee: 90.0
+      mode: "REGULAR"
+      pickingStatus: "pending"
+      scheduleId: 0
+      expressFee: 0
+  shippingFirstName: "Martin"
+  shippingLastName: "Powell"
+  shippingAddress: "12c The Infinity Condominium, 98 Naradhiwas Rajanagarindra Rd, Silom, Bangkok"
+  shippingSubDistrict: "Khwaeng Si Lom"
+  shippingDistrict: "Khet Bang Rak"
+  shippingProvince: "Bangkok"
+  shippingPostcode: "10500"
+  shippingLat: 13.723066193434056
+  shippingLon: 100.52921298891306
+  shippingPhone: "+66982243981"
+  shippingType: "DELIVERY"
+  shippingEmail: ""
+  shippingDate: 0
+  nationwideMode: null
+  shippingPrice: 90.0
+  shippingMode: "REGULAR"
+  weight: 21.499999999999996
+subTotal: 2765.0
+grandTotal: 2855.0
+cartDiscount: 0
+shippingDiscount: 0
+bogoDiscount: 0.0
+voucherDiscount: 0
+deliveryFee: 90.0
+totalDiscount: 0.0
+expressShippingCost: 0
+orderSource: "APP"
+appInfo:
+  os: "android UP1A.231005.007.S908EXXSAEXF8"
+  version: "1.0.732; Build 732"
+  device: "samsung"
+  model: "SM-S908E"
+analytics: '{"purchase_map_code":"a20f83ec-ed93-464d-b9f6-f89b4d6c76d8","inventory_last_modified":"Sat, 23 Nov 2024 05:45:25 GMT","client_side_products":[{"cprcode":54407,"stock":194},{"cprcode":52831,"stock":389},{"cprcode":54067,"stock":173},{"cprcode":148435,"stock":483},{"cprcode":195771,"stock":294},{"cprcode":32347,"stock":-1},{"cprcode":259339,"stock":8},{"cprcode":266404,"stock":5},{"cprcode":266384,"stock":3},{"cprcode":225143,"stock":6}]}'
+basketName: "noBasketName"
+orderDate: 1732294800
+noPlasticBags: false
+cartDiscountInfo: []
+isFreeShipping: false
+totalExcludeControlledProducts: 2855.0
+validVouchers: []
+invalidVouchers: []
+productWeights:
+  - 3.9
+  - 3.9
+  - 3.9
+  - 3.9
+  - 3.96
+  - 0.44999999999999996
+  - 0.3
+  - 0.3
+  - 0.24
+  - 0.65
+totalWeight: 21.499999999999996
+couponLog: "552400004546"
+payment:
+  subTotal: 2765.0
+  grandTotal: 2855.0
+  paymentMethod: "Other"
+  totalPaid: 0
+  expressFeeAmount: 0
+  gbpReferenceNo: "gbp87781215649377"
+  shippingAmount: 90.0
+  paymentId: "552400004546"
+  discountAmount: 0
+  isPaid: false
+  timestamp: 1732338599.571771
+  paymentDate: 1732294800
+  status: "PENDING"
+  paymentLog: []
+  remark: ""
