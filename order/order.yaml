@@ -1,6 +1,6 @@
 ---
 $schema: http://json-schema.org/schema#
-# additionalProperties: false
+additionalProperties: false
 definitions:
   BillingInfo:
     type: object

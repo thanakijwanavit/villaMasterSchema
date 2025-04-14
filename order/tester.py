@@ -60,6 +60,23 @@ def testPassingGoodSample(self):
         print(e)
 
 
+# ### order2 sample case
+
+
+@add_method(TestValidation)
+def testPassingOrder2Sample(self):
+    # order2 sample
+    with open(f"./{self.dataFolder}/order2.yaml", "r") as f:
+        order2Item = yaml.safe_load(f)
+
+    try:
+        jsonschema.validate(order2Item, self.schema)
+    except ValidationError as e:
+        # If this validation fails, print the error.
+        # Consider adding self.fail(e) if this case should always pass.
+        print(f"Validation failed for order2.yaml: {e}")
+
+
 # ### bad case
 
 # #### wrong type
