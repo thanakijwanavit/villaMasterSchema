@@ -37,12 +37,26 @@ definitions:
                 description: "checkbox on checkout page"
                 type: boolean
                 default: false
+    KbankPayment:
+        type: object
+        additionalProperties: false
+        description: |
+            "k bank payment object"
+        properties:
+            cardtoken:
+                type: string
+            status:
+                type: string
+            objectId:
+                type: string
     Payment:
         type: object
         additionalProperties: false
         description: |
             "object which should be provided by the payment app"
         properties:
+            kbankPayment:
+                $ref: '#/definitions/KbankPayment'
             gbpReferenceNo:
                 type: string
             paymentDate:
