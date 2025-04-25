@@ -175,6 +175,8 @@ definitions:
                     - "inter-express-fresh-15kg"
                     - "inter-express-fresh-20kg"
                     - ""
+                    - "other"
+                    - "none"
             dateTime:
                 description: "ISO 8601 date and time string format YYYY-MM-DDThh:mm:ss.sssZ. compatible with AWSDateTime"
                 type: string
