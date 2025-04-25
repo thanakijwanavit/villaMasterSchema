@@ -89,7 +89,7 @@ definitions:
                 type: 
                     - string
                     - "null"
-#                 enum: ["Credit/Debit Card", "ThaiQR", "UnionPay", "WeChat", "AliPay", "Amex", "Wallet", "Other", "unknown",  null]
+#                 enum: ["Credit/Debit Card", "ThaiQR", "UnionPay", "WeChat", "AliPay", "Amex", "Wallet", "Other", null]
             timestamp:
                 description: "unix timestamp, for display to customer page and filter"
                 type:
@@ -151,7 +151,6 @@ definitions:
                 description: "the type of pre-order if any"
                 type:
                     - string
-                    - "null"
                 enum: [ "PREORDER_RELATIVE", "PREORDER_FIXED"]
             mode:
                 description: "the kind of shipping speed"
@@ -200,9 +199,6 @@ definitions:
             expressFee:
                 description: "express fee"
                 type: number
-            deliveryInstructions:
-                description: "delivery instructions"
-                type: string
                 
     Product:
         properties:
@@ -253,16 +249,7 @@ definitions:
             - cprcode
         type: object
         additionalProperties: true
-    Tracking:
-        type: object
-        additionalProperties: true
-        properties:
-            event:
-                type: string
-            timestamp:
-                type: 
-                    - string
-                    - number
+        
     Picking:
         type: object
         additionalProperties: true
@@ -311,6 +298,9 @@ definitions:
                 type: string
             device:
                 description: "device name or brand"
+                type: string
+            model:
+                description: "device model"
                 type: string
 properties:
     basketName:
@@ -367,7 +357,6 @@ properties:
     orderSource:
         type: 
             - string
-            - "null"
         enum: 
             - "WEB"
             - "LINE"
@@ -378,15 +367,6 @@ properties:
     saleId:
         description: "search by saleId"
         type: string
-    tracking:
-        type: array
-        description: "track user event such as click button, select time"
-        items:
-            $ref: '#/definitions/Tracking'
-    couponLog:
-        type:
-            - string
-            - "null"
 required:
     - basketId
     - orderId
