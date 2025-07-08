@@ -250,6 +250,14 @@ definitions:
             discountedRowTotal:
                 description: "row total after application of the coupon discount"
                 type: number
+            replacement:
+                description: "allows replacement"
+                type: boolean
+            replacementItems:
+                description: "cprcodes of alternatives if this one is out of stock"
+                type: array
+                items:
+                    type: number
         required:
             - quantity
             - cprcode
