@@ -12,9 +12,9 @@ ignoreGroupList:
   - id: 123456789
 
 paymentMethods:
-  - id: "Vplus Wallet V2"
-    name: "Vplus Wallet"
-    img: ["wallet-logo.png"]
+#  - id: "Vplus Wallet V2"
+#    name: "Vplus Wallet"
+#    img: ["wallet-logo.png"]
 #   - id: "Credit/Debit Card"
 #     name: "Credit/Debit Card"
 #     img: ["visa.svg", "master-card.svg", "jcb.svg"]
