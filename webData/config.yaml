@@ -30,7 +30,10 @@ paymentMethods:
 #   - id: "Vplus Wallet"
 #     name: "Vplus Wallet"
 #     img: ["wallet-logo.svg"]
-  - id: "Thai QR"
+#  - id: "Thai QR"
+#    name: "Thai QR"
+#    img: ["thai_qr.png"]
+  - id: "Thai QR KBANK"
     name: "Thai QR"
     img: ["thai_qr.png"]
   - id: "Wechat"
