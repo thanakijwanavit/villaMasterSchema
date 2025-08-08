@@ -20,16 +20,22 @@ paymentMethods:
 #    img: ["visa.svg", "master-card.svg", "jcb.svg"]
   - id: "Credit/Debit Card V2"
     name: "Credit/Debit Card"
-    img: ["visa.svg", "master-card.svg", "jcb.svg", "amex.svg", "union.svg"]
+    img: ["amex.svg"]
+  - id: "Credit/Debit Card KBANK(PROD)"
+    name: "Credit/Debit Card"
+    img: ["visa.svg", "master-card.svg", "jcb.svg", "union.svg"]
+  - id: "Thai QR KBANK"
+    name: "Thai QR"
+    img: ["thai_qr.png"]
 #  - id: "Amex"
 #    name: "Amex"
 #    img: ["amex.svg"]
 #  - id: "Vplus Wallet"
 #    name: "Vplus Wallet"
 #    img: ["wallet-logo.svg"]
-  - id: "Thai QR"
-    name: "Thai QR"
-    img: ["thai_qr.png"]
+# - id: "Thai QR"
+#   name: "Thai QR"
+#   img: ["thai_qr.png"]
 #  - id: "Other"
 #    name: "Other"
 #    img: ["alipay_logo.jpg", "wechat-pay.svg", "union.svg"]
