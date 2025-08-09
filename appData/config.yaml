@@ -18,9 +18,6 @@ paymentMethods:
 #  - id: "Credit/Debit Card"
 #    name: "Credit/Debit Card"
 #    img: ["visa.svg", "master-card.svg", "jcb.svg"]
-  - id: "Credit/Debit Card V2"
-    name: "Credit/Debit Card"
-    img: ["amex.svg"]
   - id: "Credit/Debit Card KBANK(PROD)"
     name: "Credit/Debit Card"
     img: ["visa.svg", "master-card.svg", "jcb.svg", "union.svg"]
@@ -45,3 +42,6 @@ paymentMethods:
   - id: "Alipay"
     name: "Alipay"
     img: ["alipay_logo.jpg"]
+  - id: "Credit/Debit Card V2"
+    name: "Credit/Debit Card"
+    img: ["amex.svg"]
