@@ -292,4 +292,10 @@
   store_name: Kamala Phuket
   tier1: '{''maxDist'':5,''price'':120}'
   tier2: null
-  
+- br_code: 1059
+  eligible_to_shop_at_33: false
+  latitude: 13.692053765661074
+  longitude: 100.52713124019922
+  store_name: KingSquare
+  tier1: '{''maxDist'':5,''price'':90}'
+  tier2: null
