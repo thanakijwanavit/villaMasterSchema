@@ -874,5 +874,24 @@
 	        "code": "1057",
 	        "online": true,
 	        "hub": "1057"
-    	}
+    	},
+	{
+		    "name": "Kingsquare",
+		    "name_th": "คิงสแควร์",
+		    "distance": "5.0 km",
+		    "latlng": [13.692053765661074, 100.52713124019922],
+		    "address": "551 Soi Talat Sathonthip, Bang Phong Phang Subdistrict, Yannawa District, Bangkok 10120",
+		    "subDistrict": "-",
+		    "district": "-",
+		    "address_th": "551 ซอย ตลาดศธรทิพย์ แขวงบางโพงพาง เขตยานนาวา กรุงเทพมหานคร 10120",
+		    "province": "Bangkok",
+		    "province_th": "กรุงเทพมหานคร",
+		    "postcode": "10120",
+		    "phoneNumber": "",
+		    "active": true,
+		    "location_url": "https://maps.app.goo.gl/MWgG8g4GU1EQWiU17",
+		    "code": "1059",
+		    "online": true,
+		    "hub": "1059"
+  	}
 ]
