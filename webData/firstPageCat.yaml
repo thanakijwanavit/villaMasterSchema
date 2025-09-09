@@ -84,9 +84,9 @@ categoryList:
     - id: null
       name: Health & Beauty
       logoUrl: https://shop.villamarket.com/public/image/category/beauty.webp
-    - id: null
-      name: Beer Wine & Spirits
-      logoUrl: https://shop.villamarket.com/public/image/category/beer.webp
+#    - id: null
+#      name: Beer Wine & Spirits
+#      logoUrl: https://shop.villamarket.com/public/image/category/beer.webp
     - id: 5000000063
       name: Grab & Go
       logoUrl: https://shop.villamarket.com/public/image/category/grab-go.webp    
