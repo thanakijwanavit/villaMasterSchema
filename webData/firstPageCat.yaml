@@ -160,15 +160,15 @@ partnershipShopsList:
     #   level3:
     #       id: null
     #       name: Amazon
-    - id: 7000000128
-      name: Stasher
-      logoUrl: https://shop.villamarket.com/api/group/image/7000000128/7000000128-1.webp
-      level2:
-          id: null
-          name: Home & Kitchen
-      level3:
-          id: null
-          name: Stasher
+    # - id: 7000000128
+    #   name: Stasher
+    #   logoUrl: https://shop.villamarket.com/api/group/image/7000000128/7000000128-1.webp
+    #   level2:
+    #       id: null
+    #       name: Home & Kitchen
+    #   level3:
+    #       id: null
+    #       name: Stasher
     # - id: 7000000150
     #   name: Sonite
     #   logoUrl: https://shop.villamarket.com/api/group/image/7000000150/7000000150-1.jpg
@@ -467,15 +467,15 @@ partnershipShopsList:
       level3:
           id: null
           name: Sunrise Tacos
-    - id: 5000000043
-      name: The Green Geek
-      logoUrl: https://shop.villamarket.com/api/group/image/5000000043/5000000043-1.webp
-      level2:
-          id: null
-          name: Food & Beverages
-      level3:
-          id: null
-          name: The Green Geek
+    # - id: 5000000043
+    #   name: The Green Geek
+    #   logoUrl: https://shop.villamarket.com/api/group/image/5000000043/5000000043-1.webp
+    #   level2:
+    #       id: null
+    #       name: Food & Beverages
+    #   level3:
+    #       id: null
+    #       name: The Green Geek
 #     - id: 5000000045
 #       name: Yih Sahp Luhk
 #       logoUrl: https://shop.villamarket.com/api/group/image/5000000045/5000000045-1.jpg
