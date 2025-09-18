@@ -893,5 +893,24 @@
 		    "code": "1059",
 		    "online": true,
 		    "hub": "1059"
+  	},
+	{
+		    "name": "Little Walk Rattanathibet",
+		    "name_th": "ลิตเติ้ลวอล์ค รัตนาธิเบศร์",
+		    "distance": "5.0 km",
+		    "latlng": [13.865245997435057, 100.49461419839213],
+		    "address": "371 Rattanathibet Road, Bang Krasor, Mueang Nonthaburi District, Nonthaburi 11000",
+		    "subDistrict": "-",
+		    "district": "-",
+		    "address_th": "371 ถนน รัตนาธิเบศร์ บางกระสอ อำเภอเมืองนนทบุรี นนทบุรี 11000",
+		    "province": "Nonthaburi",
+		    "province_th": "นนทบุรี",
+		    "postcode": "11000",
+		    "phoneNumber": "",
+		    "active": true,
+		    "location_url": "https://maps.app.goo.gl/aqs5R7XGVhx2YrXA7",
+		    "code": "1058",
+		    "online": true,
+		    "hub": "1058"
   	}
 ]
