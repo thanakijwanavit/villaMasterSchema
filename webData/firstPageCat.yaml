@@ -133,15 +133,15 @@ partnershipShopsList:
     #   level3:
     #       id: null
     #       name: Lab Pharmacy
-    - id: 7000000127
-      name: CBD Group
-      logoUrl: https://shop.villamarket.com/api/group/image/7000000127/7000000127-1.webp
-      level2:
-          id: null
-          name: Health & Beauty
-      level3:
-          id: null
-          name: CBD Group
+    # - id: 7000000127
+    #   name: CBD Group
+    #   logoUrl: https://shop.villamarket.com/api/group/image/7000000127/7000000127-1.webp
+    #   level2:
+    #       id: null
+    #       name: Health & Beauty
+    #   level3:
+    #       id: null
+    #       name: CBD Group
     # - id: 7000000160
     #   name: Haan
     #   logoUrl: https://shop.villamarket.com/api/group/image/7000000160/7000000160-1.webp
