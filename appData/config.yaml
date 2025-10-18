@@ -42,6 +42,6 @@ paymentMethods:
   - id: "Alipay"
     name: "Alipay"
     img: ["alipay_logo.jpg"]
-  - id: "Credit/Debit Card V2"
-    name: "Credit/Debit Card"
+  - id: "AmexV2"
+    name: "AMEX"
     img: ["amex.svg"]
