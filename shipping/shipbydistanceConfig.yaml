@@ -1,0 +1,11 @@
+default:
+  cost_per_km: 15.0          # x THB per km
+  max_cost_cap: 150.0        # y THB maximum cost
+  max_distance_km: 15.0      # z km - beyond this, not eligible
+  branch_data_url: "https://schema.villamarket.com/villaMasterSchema/9c26f1e319a342669622d69c00ba50af70256fbf/appData/branchList.json"
+per_branch:
+  - br_code: 1000
+    cost_per_km: 15.0          # x THB per km
+    max_cost_cap: 150.0        # y THB maximum cost
+    max_distance_km: 25.0      # z km - beyond this, not eligible
+    branch_data_url: "https://schema.villamarket.com/villaMasterSchema/9c26f1e319a342669622d69c00ba50af70256fbf/appData/branchList.json"
