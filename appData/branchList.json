@@ -462,28 +462,6 @@
 		"hub": "1005"
 	},
 	{
-		"name": "ThongLor",
-		"name_th": "ทองหล่อ",
-		"distance": "3.0 km",
-		"latlng": [
-			13.734545696950603,
-			100.5818295132731
-		],
-		"address": "323 Thong Lo",
-		"subDistrict": "Khlong Tan Nuea",
-		"district": "Watthana",
-		"address_th": "323 ทองหล่อ แขวงคลองตันเหนือ เขตวัฒนา",
-		"province": "Bangkok",
-		"province_th": " กรุงเทพมหานคร",
-		"postcode": "10110",
-		"phoneNumber": "02-502-7356",
-		"active": false,
-		"location_url": "https://www.google.co.th/maps/place/Villa+Market/@13.73457,100.5798123,17z/data=!3m1!4b1!4m5!3m4!1s0x30e29e5252a2d435:0xa6061cdd49cd5c90!8m2!3d13.73457!4d100.582001",
-		"code": "1011",
-		"online": true,
-		"hub": "1011"
-	},
-	{
 		"name": "The Circle",
 		"name_th": "เดอะเซอร์เคิล",
 		"distance": "3.0 km",
