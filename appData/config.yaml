@@ -42,9 +42,9 @@ paymentMethods:
   - id: "Alipay"
     name: "Alipay"
     img: ["alipay_logo.jpg"]
-  - id: "AmexMastercard"
-    name: "AMEX"
-    img: ["amex.svg"]
-  # - id: "AmexV2"
+  # - id: "AmexMastercard"
   #   name: "AMEX"
   #   img: ["amex.svg"]
+  - id: "AmexV2"
+    name: "AMEX"
+    img: ["amex.svg"]
