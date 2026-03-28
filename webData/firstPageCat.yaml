@@ -535,3 +535,10 @@ youTube:
     - id: 6000000000
       name: Spinach
       videoID: NR0yLXqBXqM
+
+carouselCategoryList:
+    - name: Festive Ideas for a Season to Remember!
+    - name: New Arrival
+    - name: Special Offer
+    - name: Best Seller
+    - name: Pre Order
