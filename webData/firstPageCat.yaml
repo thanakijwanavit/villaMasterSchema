@@ -332,6 +332,16 @@ partnershipShopsList:
       level3:
           id: null
           name: Villa Market Pet's Corner
+    - id: 7000000233
+      name: Yuvicorn
+      logoUrl: https://shop.villamarket.com/api/group/image/7000000233/7000000233-1.webp
+      level2:
+          id: null
+          name: Pet Food
+      level3:
+          id: null
+          name: Yuvicorn
+          
     # - id: 5000000050
     #   name: Joseph Joseph
     #   logoUrl: https://shop.villamarket.com/api/group/image/5000000050/5000000050-1.jpg
@@ -349,7 +359,16 @@ partnershipShopsList:
           name: Home & Kitchen
       level3:
           id: null
-          name: Neoflam           
+          name: Neoflam
+    - id: 7000000232
+      name: Haco
+      logoUrl: https://shop.villamarket.com/api/group/image/7000000232/7000000232-1.webp
+      level2:
+          id: null
+          name: Home & Kitchen
+      level3:
+          id: null
+          name: Haco             
 #     - id: 7000000055
 #       name: Yeti
 #       logoUrl: https://shop.villamarket.com/api/group/image/7000000055/7000000055-1.jpg
