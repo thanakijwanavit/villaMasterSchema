@@ -369,6 +369,15 @@ partnershipShopsList:
       level3:
           id: null
           name: Haco             
+    - id: 7000000234
+      name: Peace Oriental Teahouse
+      logoUrl: https://shop.villamarket.com/api/group/image/7000000234/7000000234-1.webp
+      level2:
+          id: null
+          name: Food & Beverages
+      level3:
+          id: null
+          name: Peace Oriental Teahouse              
 #     - id: 7000000055
 #       name: Yeti
 #       logoUrl: https://shop.villamarket.com/api/group/image/7000000055/7000000055-1.jpg
