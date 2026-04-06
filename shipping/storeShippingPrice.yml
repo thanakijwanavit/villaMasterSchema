@@ -185,7 +185,7 @@
   latitude: 13.725461449803067
   longitude: 100.53068922630122
   store_name: Silom
-  tier1: '{''maxDist'':2,''price'':90}'
+  tier1: '{''maxDist'':3,''price'':30}'
   tier2: null
 - br_code: 1011
   eligible_to_shop_at_33: true
