@@ -413,9 +413,9 @@
 		"phoneNumber": "02-502-7354",
 		"active": false,
 		"location_url": "https://www.google.co.th/maps/place/Villa+Market+Silom/@13.7414779,100.5492709,17z/data=!4m5!3m4!1s0x30e298d1f29e3887:0x7a723bc8da096619!8m2!3d13.724599!4d100.530886",
-		"code": "-",
-		"online": false,
-		"hub": "-"
+		"code": "1007",
+		"online": true,
+		"hub": "1007"
 	},
 	{
 		"name": "Sukhumvit 11",
