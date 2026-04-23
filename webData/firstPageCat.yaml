@@ -359,7 +359,7 @@ partnershipShopsList:
           name: Kitchenware
       level3:
           id: null
-          name: Fika Neoflam
+          name: Neoflam
     - id: 7000000232
       name: Haco
       logoUrl: https://shop.villamarket.com/api/group/image/7000000232/7000000232-1.webp
