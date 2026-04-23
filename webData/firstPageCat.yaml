@@ -255,7 +255,7 @@ partnershipShopsList:
       logoUrl: https://shop.villamarket.com/api/group/image/5000000102/5000000102-1.webp
       level2:
           id: null
-          name: Appliances
+          name: Kitchen Appliances
       level3:
           id: null
           name: Smeg
@@ -328,7 +328,7 @@ partnershipShopsList:
       logoUrl: https://shop.villamarket.com/api/group/image/5000000219/5000000219-1.webp
       level2:
           id: null
-          name: Pet Food
+          name: Pets
       level3:
           id: null
           name: Villa Market Pet's Corner
@@ -337,7 +337,7 @@ partnershipShopsList:
       logoUrl: https://shop.villamarket.com/api/group/image/7000000233/7000000233-1.webp
       level2:
           id: null
-          name: Pet Food
+          name: Pets
       level3:
           id: null
           name: Yuvicorn
@@ -356,16 +356,16 @@ partnershipShopsList:
       logoUrl: https://shop.villamarket.com/api/group/image/5000000206/5000000206-1.webp
       level2:
           id: null
-          name: Home & Kitchen
+          name: Kitchenware
       level3:
           id: null
-          name: Neoflam
+          name: Fika Neoflam
     - id: 7000000232
       name: Haco
       logoUrl: https://shop.villamarket.com/api/group/image/7000000232/7000000232-1.webp
       level2:
           id: null
-          name: Home & Kitchen
+          name: Everyday Gadgets & Power
       level3:
           id: null
           name: Haco             
@@ -545,7 +545,7 @@ partnershipShopsList:
       logoUrl: https://shop.villamarket.com/api/group/image/5000000049/5000000049-1.webp
       level2:
           id: null
-          name: Home & Kitchen
+          name: Wine Essentials
       level3:
           id: null
           name: Bodum
@@ -561,5 +561,5 @@ partnershipShopsList:
 
 youTube:
     - id: 6000000000
-      name: Spinach
-      videoID: NR0yLXqBXqM
+      name: Shoponline
+      videoID: 87Y8yEd8Two
