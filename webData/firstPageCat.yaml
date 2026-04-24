@@ -124,133 +124,7 @@ categoryList:
       logoUrl: https://shop.villamarket.com/public/image/category/buy-again.webp    
 
 partnershipShopsList:
-    # - id: 7000000142
-    #   name: Lab Pharmacy
-    #   logoUrl: https://shop.villamarket.com/api/group/image/7000000142/7000000142-1.jpg
-    #   level2:
-    #       id: null
-    #       name: Health & Beauty
-    #   level3:
-    #       id: null
-    #       name: Lab Pharmacy
-    # - id: 7000000127
-    #   name: CBD Group
-    #   logoUrl: https://shop.villamarket.com/api/group/image/7000000127/7000000127-1.webp
-    #   level2:
-    #       id: null
-    #       name: Health & Beauty
-    #   level3:
-    #       id: null
-    #       name: CBD Group
-    # - id: 7000000160
-    #   name: Haan
-    #   logoUrl: https://shop.villamarket.com/api/group/image/7000000160/7000000160-1.webp
-    #   level2:
-    #       id: null
-    #       name: Health & Beauty
-    #   level3:
-    #       id: null
-    #       name: Haan          
-    # - id: 7000000126
-    #   name: Amazon
-    #   logoUrl: https://shop.villamarket.com/api/group/image/7000000126/7000000126-1.webp
-    #   level2:
-    #       id: null
-    #       name: Appliances
-    #   level3:
-    #       id: null
-    #       name: Amazon
-    # - id: 7000000128
-    #   name: Stasher
-    #   logoUrl: https://shop.villamarket.com/api/group/image/7000000128/7000000128-1.webp
-    #   level2:
-    #       id: null
-    #       name: Home & Kitchen
-    #   level3:
-    #       id: null
-    #       name: Stasher
-    # - id: 7000000150
-    #   name: Sonite
-    #   logoUrl: https://shop.villamarket.com/api/group/image/7000000150/7000000150-1.jpg
-    #   level2:
-    #       id: null
-    #       name: Home & Kitchen
-    #   level3:
-    #       id: null
-    #       name: Sonite
-    # - id: 7000000158
-    #   name: Shun Classic
-    #   logoUrl: https://shop.villamarket.com/api/group/image/7000000158/7000000158-1.jpg
-    #   level2:
-    #       id: null
-    #       name: Home & Kitchen
-    #   level3:
-    #       id: null
-    #       name: Shun Classic
-    # - id: 7000000159
-    #   name: Baggu
-    #   logoUrl: https://shop.villamarket.com/api/group/image/7000000159/7000000159-1.jpg
-    #   level2:
-    #       id: null
-    #       name: Home & Kitchen
-    #   level3:
-    #       id: null
-    #       name: Baggu            
-    # - id: 7000000121
-    #   name: Brew Flavor
-    #   logoUrl: https://shop.villamarket.com/api/group/image/7000000121/7000000121-1.jpg
-    #   level2:
-    #       id: null
-    #       name: Food & Beverages
-    #   level3:
-    #       id: null
-    #       name: Brew Flavor
-    # - id: 7000000124
-    #   name: Pauldy
-    #   logoUrl: https://shop.villamarket.com/api/group/image/7000000124/7000000124-1.jpg
-    #   level2:
-    #       id: null
-    #       name: Food & Beverages
-    #   level3:
-    #       id: null
-    #       name: Pauldy     
-    # - id: 5000000051
-    #   name: Le Creuset
-    #   logoUrl: https://shop.villamarket.com/api/group/image/5000000051/5000000051-1.jpg
-    #   level2:
-    #       id: null
-    #       name: Home & Kitchen
-    #   level3:
-    #       id: null
-    #       name: Le Creuset
-    # - id: 7000000139
-    #   name: NOW
-    #   logoUrl: https://shop.villamarket.com/api/group/image/7000000139/7000000139-1.webp
-    #   level2:
-    #       id: null
-    #       name: Health & Beauty
-    #   level3:
-    #       id: null
-    #       name: NOW          
-#     - id: 5000000052
-#       name: Mark Thomas
-#       logoUrl: https://shop.villamarket.com/api/group/image/5000000052/5000000052-1.jpg
-#       level2:
-#           id: null
-#           name: Home & Kitchen Applicances
-#       level3:
-#           id: null
-#           name: Mark Thomas      
-    # - id: 5000000053
-    #   name: Riedel
-    #   logoUrl: https://shop.villamarket.com/api/group/image/5000000053/5000000053-1.jpg
-    #   level2:
-    #       id: null
-    #       name: Home & Kitchen
-    #   level3:
-    #       id: null
-    #       name: Riedel
-    - id: 5000000102
+    - id: 7000000244
       name: Smeg
       logoUrl: https://shop.villamarket.com/api/group/image/5000000102/5000000102-1.webp
       level2:
@@ -259,43 +133,6 @@ partnershipShopsList:
       level3:
           id: null
           name: Smeg
-#     - id: 5000000218
-#       name: Room Concept
-#       logoUrl: https://shop.villamarket.com/api/group/image/5000000218/5000000218-1.jpg
-#       level2:
-#           id: null
-#           name: Home & Kitchen Applicances
-#       level3:
-#           id: null
-#           name: Room Concept
-#     - id: 5000000054
-#       name: Zalto
-#       logoUrl: https://shop.villamarket.com/api/group/image/5000000054/5000000054-1.jpg
-#       level2:
-#           id: null
-#           name: Home & Kitchen Applicances
-#       level3:
-#           id: null
-#           name: Zalto
-    # - id: 5000000055
-    #   name: Zwilling
-    #   logoUrl: https://shop.villamarket.com/api/group/image/5000000055/5000000055-1.jpg
-    #   level2:
-    #       id: null
-    #       name: Home & Kitchen
-    #   level3:
-    #       id: null
-    #       name: Zwilling      
-#     REMOVED FROM PARTNERSHIP SHOPS          
-#     - id: 219932
-#       name: Mason Appetite
-#       logoUrl: https://shop.villamarket.com/api/group/image/219932/219932-1.jpg
-#       level2:
-#           id: null
-#           name: Home & Kitchen Applicances
-#       level3:
-#           id: null
-#           name: Mason Appetite
     - id: 5000000057
       name: Villa Market Kid's Corner
       logoUrl: https://shop.villamarket.com/api/group/image/5000000057/5000000057-1.webp
@@ -305,25 +142,7 @@ partnershipShopsList:
       level3:
           id: null
           name: Villa Market Kid's Corner
-    # - id: 5000000059
-    #   name: Dogster
-    #   logoUrl: https://shop.villamarket.com/api/group/image/5000000059/5000000059-1.jpg
-    #   level2:
-    #       id: null
-    #       name: Pet Food
-    #   level3:
-    #       id: null
-    #       name: Dogster
-#     - id: 5000000060
-#       name: Royal Canin
-#       logoUrl: https://shop.villamarket.com/api/group/image/5000000060/5000000060-1.jpg
-#       level2:
-#           id: null
-#           name: Pet Food
-#       level3:
-#           id: null
-#           name: Royal Canin
-    - id: 5000000219
+    - id: 7000000252
       name: Villa Market Pet's Corner
       logoUrl: https://shop.villamarket.com/api/group/image/5000000219/5000000219-1.webp
       level2:
@@ -341,17 +160,7 @@ partnershipShopsList:
       level3:
           id: null
           name: Yuvicorn
-          
-    # - id: 5000000050
-    #   name: Joseph Joseph
-    #   logoUrl: https://shop.villamarket.com/api/group/image/5000000050/5000000050-1.jpg
-    #   level2:
-    #       id: null
-    #       name: Home & Kitchen
-    #   level3:
-    #       id: null
-    #       name: Joseph Joseph
-    - id: 5000000206
+    - id: 7000000251
       name: Neoflam
       logoUrl: https://shop.villamarket.com/api/group/image/5000000206/5000000206-1.webp
       level2:
@@ -360,7 +169,7 @@ partnershipShopsList:
       level3:
           id: null
           name: Neoflam
-    - id: 7000000232
+    - id: 7000000245
       name: Haco
       logoUrl: https://shop.villamarket.com/api/group/image/7000000232/7000000232-1.webp
       level2:
@@ -378,60 +187,6 @@ partnershipShopsList:
       level3:
           id: null
           name: Peace Oriental Teahouse              
-#     - id: 7000000055
-#       name: Yeti
-#       logoUrl: https://shop.villamarket.com/api/group/image/7000000055/7000000055-1.jpg
-#       level2:
-#           id: null
-#           name: Garden & Outdoors
-#       level3:
-#           id: null
-#           name: Yeti
-#     - id: 7000000054
-#       name: Stanley
-#       logoUrl: https://shop.villamarket.com/api/group/image/7000000054/7000000054-1.jpg
-#       level2:
-#           id: null
-#           name: Garden & Outdoors
-#       level3:
-#           id: null
-#           name: Stanley
-#     - id: 7000000058
-#       name: LifeStraw
-#       logoUrl: https://shop.villamarket.com/api/group/image/7000000058/7000000058-1.jpg
-#       level2:
-#           id: null
-#           name: Garden & Outdoors
-#       level3:
-#           id: null
-#           name: LifeStraw
-#     - id: 7000000056
-#       name: UCO Gear
-#       logoUrl: https://shop.villamarket.com/api/group/image/7000000056/7000000056-1.jpg
-#       level2:
-#           id: null
-#           name: Garden & Outdoors
-#       level3:
-#           id: null
-#           name: UCO Gear
-#     - id: 7000000059
-#       name: Gosili
-#       logoUrl: https://shop.villamarket.com/api/group/image/7000000059/7000000059-1.jpg
-#       level2:
-#           id: null
-#           name: Garden & Outdoors
-#       level3:
-#           id: null
-#           name: Gosili
-#     - id: 7000000057
-#       name: Light My Fire
-#       logoUrl: https://shop.villamarket.com/api/group/image/7000000057/7000000057-1.jpg
-#       level2:
-#           id: null
-#           name: Garden & Outdoors
-#       level3:
-#           id: null
-#           name: Light My Fire
     - id: 5000000040
       name: Beirut Restaurant
       logoUrl: https://shop.villamarket.com/api/group/image/5000000040/5000000040-1.webp
@@ -441,15 +196,6 @@ partnershipShopsList:
       level3:
           id: null
           name: Beirut Restaurant
-    # - id: 5000000061
-    #   name: Getfresh
-    #   logoUrl: https://shop.villamarket.com/api/group/image/5000000061/5000000061-1.jpg
-    #   level2:
-    #       id: null
-    #       name: Food & Beverages
-    #   level3:
-    #       id: null
-    #       name: Getfresh    
     - id: 7000000120
       name: Cru Caviar
       logoUrl: https://shop.villamarket.com/api/group/image/7000000120/7000000120-1.webp
@@ -459,33 +205,6 @@ partnershipShopsList:
       level3:
           id: null
           name: Cru Caviar   
-    # - id: 5000000041
-    #   name: Gram Pancakes
-    #   logoUrl: https://shop.villamarket.com/api/group/image/5000000041/5000000041-1.jpg
-    #   level2:
-    #       id: null
-    #       name: Food & Beverages
-    #   level3:
-    #       id: null
-    #       name: Gram Pancakes 
-#     - id: 5000000044
-#       name: Nadai Unatoto
-#       logoUrl: https://shop.villamarket.com/api/group/image/5000000044/5000000044-1.jpg
-#       level2:
-#           id: null
-#           name: Food & Beverages
-#       level3:
-#           id: null
-#           name: Nadai Unatoto
-    # - id: 5000000062
-    #   name: Sea's Kombucha
-    #   logoUrl: https://shop.villamarket.com/api/group/image/5000000062/5000000062-1.webp
-    #   level2:
-    #       id: null
-    #       name: Food & Beverages
-    #   level3:
-    #       id: null
-    #       name: Sea's Kombucha    
     - id: 5000000042
       name: Sunrise Tacos
       logoUrl: https://shop.villamarket.com/api/group/image/5000000042/5000000042-1.webp
@@ -495,52 +214,7 @@ partnershipShopsList:
       level3:
           id: null
           name: Sunrise Tacos
-    # - id: 5000000043
-    #   name: The Green Geek
-    #   logoUrl: https://shop.villamarket.com/api/group/image/5000000043/5000000043-1.webp
-    #   level2:
-    #       id: null
-    #       name: Food & Beverages
-    #   level3:
-    #       id: null
-    #       name: The Green Geek
-#     - id: 5000000045
-#       name: Yih Sahp Luhk
-#       logoUrl: https://shop.villamarket.com/api/group/image/5000000045/5000000045-1.jpg
-#       level2:
-#           id: null
-#           name: Food & Beverages
-#       level3:
-#           id: null
-#           name: Yih Sahp Luhk
-    # - id: 5000000047
-    #   name: Hug Organic
-    #   logoUrl: https://shop.villamarket.com/api/group/image/5000000047/5000000047-1.jpg
-    #   level2:
-    #       id: null
-    #       name: Health & Beauty
-    #   level3:
-    #       id: null
-    #       name: Hug Organic
-    # - id: 5000000205
-    #   name: Lalil
-    #   logoUrl: https://shop.villamarket.com/api/group/image/5000000205/5000000205-1.webp
-    #   level2:
-    #       id: null
-    #       name: Health & Beauty
-    #   level3:
-    #       id: null
-    #       name: Lalil        
-    # - id: 5000000204
-    #   name: Berghoff
-    #   logoUrl: https://shop.villamarket.com/api/group/image/5000000204/5000000204-1.jpg
-    #   level2:
-    #       id: null
-    #       name: Home & Kitchen
-    #   level3:
-    #       id: null
-    #       name: Berghoff   
-    - id: 5000000049
+    - id: 7000000248
       name: Bodum
       logoUrl: https://shop.villamarket.com/api/group/image/5000000049/5000000049-1.webp
       level2:
@@ -548,16 +222,7 @@ partnershipShopsList:
           name: Wine Essentials
       level3:
           id: null
-          name: Bodum
-    # - id: 5000000203
-    #   name: Grassl Glass
-    #   logoUrl: https://shop.villamarket.com/api/group/image/5000000203/5000000203-1.jpg
-    #   level2:
-    #       id: null
-    #       name: Home & Kitchen
-    #   level3:
-    #       id: null
-    #       name: Grassl Glass      
+          name: Bodum   
 
 youTube:
     - id: 6000000000
