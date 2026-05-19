@@ -152,7 +152,7 @@ definitions:
                 type:
                     - string
                     - "null"
-                enum: [ "PREORDER_RELATIVE", "PREORDER_FIXED"]
+                enum: ["PREORDER_RELATIVE", "PREORDER_FIXED", "MARKET_RELATIVE", "MARKET_FIXED"]
             mode:
                 description: "the kind of shipping speed"
                 type: 
