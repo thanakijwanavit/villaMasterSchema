@@ -177,7 +177,16 @@ partnershipShopsList:
           name: Everyday Gadgets & Power
       level3:
           id: null
-          name: Haco             
+          name: Haco
+    - id: 7000000254
+      name: Meyer
+      logoUrl: https://shop.villamarket.com/api/group/image/7000000254/7000000254-1.webp
+      level2:
+          id: null
+          name: Kitchenware
+      level3:
+          id: null
+          name: Meyer
     - id: 7000000234
       name: Peace Oriental Teahouse
       logoUrl: https://shop.villamarket.com/api/group/image/7000000234/7000000234-1.webp
