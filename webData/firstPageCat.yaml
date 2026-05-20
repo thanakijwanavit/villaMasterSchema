@@ -160,6 +160,15 @@ partnershipShopsList:
       level3:
           id: null
           name: Yuvicorn
+    - id: 7000000253
+      name: Prynwan
+      logoUrl: https://shop.villamarket.com/api/group/image/7000000253/7000000253-1.webp
+      level2:
+          id: null
+          name: Pets
+      level3:
+          id: null
+          name: Prynwan      
     - id: 7000000251
       name: Neoflam
       logoUrl: https://shop.villamarket.com/api/group/image/5000000206/5000000206-1.webp
