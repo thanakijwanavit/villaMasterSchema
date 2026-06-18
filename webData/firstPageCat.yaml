@@ -196,6 +196,15 @@ partnershipShopsList:
       level3:
           id: null
           name: Meyer
+    - id: 7000000243
+      name: Bwell
+      logoUrl: https://shop.villamarket.com/api/group/image/7000000243/7000000243-1.webp
+      level2:
+          id: null
+          name: Home Appliances
+      level3:
+          id: null
+          name: Bwell
     - id: 7000000234
       name: Peace Oriental Teahouse
       logoUrl: https://shop.villamarket.com/api/group/image/7000000234/7000000234-1.webp
