@@ -205,6 +205,15 @@ partnershipShopsList:
       level3:
           id: null
           name: Bwell
+    - id: 7000000255
+      name: Sengoku Aladdin
+      logoUrl: https://shop.villamarket.com/api/group/image/7000000255/7000000255-1.webp
+      level2:
+          id: null
+          name: Kitchen Appliances
+      level3:
+          id: null
+          name: Sengoku Aladdin
     - id: 7000000234
       name: Peace Oriental Teahouse
       logoUrl: https://shop.villamarket.com/api/group/image/7000000234/7000000234-1.webp
