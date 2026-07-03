@@ -214,6 +214,15 @@ partnershipShopsList:
       level3:
           id: null
           name: Sengoku Aladdin
+    - id: 7000000242
+      name: Crystal Balloon
+      logoUrl: https://shop.villamarket.com/api/group/image/7000000242/7000000242-1.webp
+      level2:
+          id: null
+          name: Party & Celebrations
+      level3:
+          id: null
+          name: Crystal Balloon
     - id: 7000000234
       name: Peace Oriental Teahouse
       logoUrl: https://shop.villamarket.com/api/group/image/7000000234/7000000234-1.webp
