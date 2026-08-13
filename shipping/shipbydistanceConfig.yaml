@@ -1,9 +1,274 @@
+# Delivery pricing for deliveryDistanceCalculator (POST /shipping-cost).
+#
+# Rates are the Feb-2025 Villa Market model sheet ('proposal rate' tab): stepped
+# bands by straight-line km, in three regional variants. Bands are inclusive of
+# max_km, and the first band covering the distance wins.
+#
+# Keys (a per_branch entry inherits any key it omits from `default`):
+#   tiers            banded rate card; first band whose max_km >= distance wins
+#   min_cost         floor applied after the band, before the cap
+#   max_cost_cap     hard ceiling; also what the API reports as max_cost_cap
+#   max_distance_km  beyond this the branch is not eligible at all
+#   cost_per_km      legacy THB/km line, used only if `tiers` is missing/unusable
+#
+# max_cost_cap is set per branch to the band its own radius reaches, so the cap
+# never clips the rate card. Editing this file is live in ~5 minutes
+# (CloudFront + 300s Lambda cache).
+
+rate_cards:   # anchors only - the service reads `default` and `per_branch`
+  bangkok: &bangkok   # Bangkok
+    - { max_km: 2,  price: 65 }       # 0 < km <= 2
+    - { max_km: 3,  price: 75 }       # 2 < km <= 3
+    - { max_km: 5,  price: 85 }       # 3 < km <= 5
+    - { max_km: 7,  price: 90 }       # 5 < km <= 7
+    - { max_km: 10,  price: 115 }     # 7 < km <= 10
+    - { max_km: 12,  price: 125 }     # 10 < km <= 12
+    - { max_km: 15,  price: 135 }     # 12 < km <= 15
+    - { max_km: 16,  price: 150 }     # 15 < km <= 16
+    - { max_km: 20,  price: 180 }     # 16 < km <= 20
+    - { max_km: 25,  price: 220 }     # 20 < km <= 25
+    - { max_km: 27,  price: 250 }     # 25 < km <= 27
+    - { max_km: 30,  price: 280 }     # 27 < km <= 30
+
+  upcountry_resort: &upcountry_resort   # Hua-Hin / Pattaya / Udon
+    - { max_km: 2,  price: 55 }       # 0 < km <= 2
+    - { max_km: 5,  price: 75 }       # 2 < km <= 5
+    - { max_km: 7,  price: 85 }       # 5 < km <= 7
+    - { max_km: 10,  price: 100 }     # 7 < km <= 10
+    - { max_km: 12,  price: 120 }     # 10 < km <= 12
+    - { max_km: 15,  price: 140 }     # 12 < km <= 15
+    - { max_km: 18,  price: 160 }     # 15 < km <= 18
+    - { max_km: 20,  price: 180 }     # 18 < km <= 20
+    - { max_km: 22,  price: 200 }     # 20 < km <= 22
+    - { max_km: 24,  price: 220 }     # 22 < km <= 24
+    - { max_km: 27,  price: 240 }     # 24 < km <= 27
+    - { max_km: 30,  price: 260 }     # 27 < km <= 30
+
+  phuket: &phuket   # Phuket
+    - { max_km: 2,  price: 65 }       # 0 < km <= 2
+    - { max_km: 3,  price: 75 }       # 2 < km <= 3
+    - { max_km: 5,  price: 85 }       # 3 < km <= 5
+    - { max_km: 7,  price: 100 }      # 5 < km <= 7
+    - { max_km: 10,  price: 120 }     # 7 < km <= 10
+    - { max_km: 12,  price: 135 }     # 10 < km <= 12
+    - { max_km: 15,  price: 150 }     # 12 < km <= 15
+    - { max_km: 17,  price: 170 }     # 15 < km <= 17
+    - { max_km: 20,  price: 200 }     # 17 < km <= 20
+    - { max_km: 22,  price: 220 }     # 20 < km <= 22
+    - { max_km: 25,  price: 250 }     # 22 < km <= 25
+    - { max_km: 27,  price: 270 }     # 25 < km <= 27
+    - { max_km: 30,  price: 300 }     # 27 < km <= 30
+
 default:
-  cost_per_km: 15.0          # x THB per km
-  max_cost_cap: 150.0        # y THB maximum cost
-  max_distance_km: 15.0      # z km - beyond this, not eligible
+  tiers: *bangkok
+  min_cost: 65
+  max_cost_cap: 180
+  max_distance_km: 20
+  cost_per_km: 15.0
+
 per_branch:
-  - br_code: 1000
-    cost_per_km: 15.0          # x THB per km
-    max_cost_cap: 150.0        # y THB maximum cost
-    max_distance_km: 25.0      # z km - beyond this, not eligible
+  - br_code: 1000       # Sukhumvit 33 - Bangkok
+    tiers: *bangkok
+    min_cost: 65
+    max_cost_cap: 220
+    max_distance_km: 25
+  - br_code: 1003       # Nichada - Bangkok
+    tiers: *bangkok
+    min_cost: 65
+    max_cost_cap: 180
+    max_distance_km: 20
+  - br_code: 1005       # Sukhumvit 49 - Bangkok
+    tiers: *bangkok
+    min_cost: 65
+    max_cost_cap: 180
+    max_distance_km: 20
+  - br_code: 1006       # Ploenchit - Bangkok
+    tiers: *bangkok
+    min_cost: 65
+    max_cost_cap: 180
+    max_distance_km: 20
+  - br_code: 1007       # Silom - Bangkok
+    tiers: *bangkok
+    min_cost: 65
+    max_cost_cap: 180
+    max_distance_km: 20
+  - br_code: 1011       # ThongLor - Bangkok
+    tiers: *bangkok
+    min_cost: 65
+    max_cost_cap: 180
+    max_distance_km: 20
+  - br_code: 1014       # Aree - Bangkok
+    tiers: *bangkok
+    min_cost: 65
+    max_cost_cap: 180
+    max_distance_km: 20
+  - br_code: 1015       # Pattaya - Hua-Hin / Pattaya / Udon
+    tiers: *upcountry_resort
+    min_cost: 55
+    max_cost_cap: 180
+    max_distance_km: 20
+  - br_code: 1016       # Hua Hin - Hua-Hin / Pattaya / Udon
+    tiers: *upcountry_resort
+    min_cost: 55
+    max_cost_cap: 180
+    max_distance_km: 20
+  - br_code: 1017       # Chaengwatthana - Bangkok
+    tiers: *bangkok
+    min_cost: 65
+    max_cost_cap: 180
+    max_distance_km: 20
+  - br_code: 1019       # Ratchayothin - Bangkok
+    tiers: *bangkok
+    min_cost: 65
+    max_cost_cap: 180
+    max_distance_km: 20
+  - br_code: 1020       # Ratchapreuk - Bangkok
+    tiers: *bangkok
+    min_cost: 65
+    max_cost_cap: 180
+    max_distance_km: 20
+  - br_code: 1021       # Chalong (Phuket) - Phuket
+    tiers: *phuket
+    min_cost: 65
+    max_cost_cap: 200
+    max_distance_km: 20
+  - br_code: 1022       # Kaset-Nawamin - Bangkok
+    tiers: *bangkok
+    min_cost: 65
+    max_cost_cap: 180
+    max_distance_km: 20
+  - br_code: 1023       # Paradise Park - Bangkok
+    tiers: *bangkok
+    min_cost: 65
+    max_cost_cap: 180
+    max_distance_km: 20
+  - br_code: 1024       # Sammakorn - Bangkok
+    tiers: *bangkok
+    min_cost: 65
+    max_cost_cap: 180
+    max_distance_km: 20
+  - br_code: 1026       # Sena Fest - Bangkok
+    tiers: *bangkok
+    min_cost: 65
+    max_cost_cap: 180
+    max_distance_km: 20
+  - br_code: 1030       # K-Village - Bangkok
+    tiers: *bangkok
+    min_cost: 65
+    max_cost_cap: 180
+    max_distance_km: 20
+  - br_code: 1032       # Laguna (Phuket) - Phuket
+    tiers: *phuket
+    min_cost: 65
+    max_cost_cap: 200
+    max_distance_km: 20
+  - br_code: 1034       # Paseo Lat Krabang - Bangkok
+    tiers: *bangkok
+    min_cost: 65
+    max_cost_cap: 180
+    max_distance_km: 20
+  - br_code: 1036       # Rama 3 - Bangkok
+    tiers: *bangkok
+    min_cost: 65
+    max_cost_cap: 180
+    max_distance_km: 20
+  - br_code: 1038       # Paseo Kanchanapisek - Bangkok
+    tiers: *bangkok
+    min_cost: 65
+    max_cost_cap: 180
+    max_distance_km: 20
+  - br_code: 1039       # Boat Lagoon (Phuket) - Phuket
+    tiers: *phuket
+    min_cost: 65
+    max_cost_cap: 200
+    max_distance_km: 20
+  - br_code: 1040       # Index Hua Hin - Hua-Hin / Pattaya / Udon
+    tiers: *upcountry_resort
+    min_cost: 55
+    max_cost_cap: 180
+    max_distance_km: 20
+  - br_code: 1041       # The Circle - Bangkok
+    tiers: *bangkok
+    min_cost: 65
+    max_cost_cap: 180
+    max_distance_km: 20
+  - br_code: 1042       # UD Town Udon - Hua-Hin / Pattaya / Udon
+    tiers: *upcountry_resort
+    min_cost: 55
+    max_cost_cap: 180
+    max_distance_km: 20
+  - br_code: 1044       # Bangna Littlewalk - Bangkok
+    tiers: *bangkok
+    min_cost: 65
+    max_cost_cap: 180
+    max_distance_km: 20
+  - br_code: 1046       # Sukhumvit 11 - Bangkok
+    tiers: *bangkok
+    min_cost: 65
+    max_cost_cap: 180
+    max_distance_km: 20
+  - br_code: 1047       # Lasalle - Bangkok
+    tiers: *bangkok
+    min_cost: 65
+    max_cost_cap: 180
+    max_distance_km: 20
+  - br_code: 1048       # Littlewalk Pattaya - Hua-Hin / Pattaya / Udon
+    tiers: *upcountry_resort
+    min_cost: 55
+    max_cost_cap: 180
+    max_distance_km: 20
+  - br_code: 1049       # Langsuan - Bangkok
+    tiers: *bangkok
+    min_cost: 65
+    max_cost_cap: 180
+    max_distance_km: 20
+  - br_code: 1050       # Bukis Phuket - Phuket
+    tiers: *phuket
+    min_cost: 65
+    max_cost_cap: 200
+    max_distance_km: 20
+  - br_code: 1051       # Chic Republic - Bangkok
+    tiers: *bangkok
+    min_cost: 65
+    max_cost_cap: 180
+    max_distance_km: 20
+  - br_code: 1052       # Littlewalk Lat-Krabang - Bangkok
+    tiers: *bangkok
+    min_cost: 65
+    max_cost_cap: 180
+    max_distance_km: 20
+  - br_code: 1053       # Krungthep Kritha Littlewalk - Bangkok
+    tiers: *bangkok
+    min_cost: 65
+    max_cost_cap: 180
+    max_distance_km: 20
+  - br_code: 1054       # Gaysorn Amarin - Bangkok
+    tiers: *bangkok
+    min_cost: 65
+    max_cost_cap: 180
+    max_distance_km: 20
+  - br_code: 1055       # Nanglinchee - Bangkok
+    tiers: *bangkok
+    min_cost: 65
+    max_cost_cap: 180
+    max_distance_km: 20
+  - br_code: 1056       # HomePro Cherngtalay - Phuket
+    tiers: *phuket
+    min_cost: 65
+    max_cost_cap: 200
+    max_distance_km: 20
+  - br_code: 1057       # Kamala Phuket - Phuket
+    tiers: *phuket
+    min_cost: 65
+    max_cost_cap: 200
+    max_distance_km: 20
+  - br_code: 1058       # Little Walk Rattanathibet - Bangkok
+    tiers: *bangkok
+    min_cost: 65
+    max_cost_cap: 180
+    max_distance_km: 20
+  - br_code: 1059       # Kingsquare - Bangkok
+    tiers: *bangkok
+    min_cost: 65
+    max_cost_cap: 180
+    max_distance_km: 20
