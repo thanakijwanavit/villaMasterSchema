@@ -23,6 +23,35 @@
 #
 # Editing this file is live in ~5 minutes (CloudFront + 300s Lambda cache).
 
+# How distance is measured. `driving` prices on real road distance from the Amazon
+# Location route calculator named by the Lambda's ROUTE_CALCULATOR_NAME (Grab road
+# network - the Southeast Asia specialist). `haversine` is the old straight-line
+# behaviour; removing this block entirely also gives haversine.
+#
+# EVERY max_distance_km IN THIS FILE IS ROAD KM (nic, 2026-08-20). There is no such
+# thing as a map radius here any more. A branch 14 km away in a straight line can be
+# 19 km by road and is correctly outside a 15 km radius - the coverage that shrinks
+# against the old haversine behaviour is the correction, not a regression. Measured
+# over Rong's 37 test coordinates, 17 of the 35 previously in-range cases move out.
+#
+# Grab road distance runs a median 1.37x the straight line over those same 37
+# branch->customer routes, so haversine had been charging for about three quarters of
+# the journey the fee is meant to cover.
+#
+# road_factor is used ONLY if routing is unreachable, and is calibrated to the router
+# itself in the delivery direction, not to hand-measured distances.
+#
+# buffer_km is Rong's deviation margin (2026-08-19). Grab and Lalamove both pad a
+# routed distance by 0.2-0.4 km before charging, because the van does not drive the
+# exact polyline the router returned. It is added to the PRICE only - eligibility
+# still runs on the measured road distance, so the buffer cannot shrink a radius.
+#
+# Revert by setting mode back to haversine - live in ~5 minutes, no deploy.
+distance:
+  mode: driving
+  road_factor: 1.37
+  buffer_km: 0.25
+
 rate_cards:   # anchors only - the service reads `default` and `per_branch`
   bangkok: &bangkok   # Bangkok
     - { max_km: 2,  price: 65 }       # 0 < km <= 2
