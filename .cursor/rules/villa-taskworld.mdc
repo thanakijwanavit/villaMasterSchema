@@ -1,0 +1,14 @@
+---
+description: Update Taskworld boards for this Villa system
+alwaysApply: true
+---
+
+# Villa Taskworld — create and update project tasks
+
+When finishing Villa Market engineering work, **update Taskworld** as well as this vault.
+
+- Boards live in workspace **villamarket** (see [[taskworld]] / https://knowledge.villamarket.ai/systems/taskworld).
+- Procedure: https://knowledge.villamarket.ai/runbooks/sync-taskworld-tasks (create/complete tasks on Features · Fixes · Platform · Docs · To Do).
+- Credentials: AWS Secrets Manager secret **`taskworld-api`** (`ap-southeast-1`, profile `villaai` or `default`) — materialise `~/.taskworld` or set `TASKWORLD_LOAD_AWS_SECRET=1`. Never commit or paste passwords/API keys.
+- Bridge repo: `~/stacks/taskworld-task-management` (`villa-market/taskworld-task-management`). Map: `config/project-map.yaml`. Hub: **Taskworld & Villa Market** → **Now / Next / Later** (sequence) and **Systems** (index). Core team admins on every Nic board: Nic, Sopit, Mickey, Aung.
+- Work is not complete until the matching system board reflects what shipped or what remains open.
