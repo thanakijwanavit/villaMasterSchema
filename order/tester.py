@@ -75,11 +75,13 @@ def testWrongType(self):
         badItem = json.load(f)
     with self.assertRaises(ValidationError):
         jsonschema.validate(badItem,self.schema)
-    try:
-        jsonschema.validate(badItem,self.schema)
-    except ValidationError as e:
-        self.assertTrue("1234 is not of type 'string'" in e.message, 
-                        f'wrong error message{e.message}, should be 1234 is not type string')
+    # wrongType.json also lacks some required shipping fields; since
+    # jsonschema 4.22, validate() raises one of those errors first,
+    # so look for the orderId type error among all the errors
+    validator = jsonschema.validators.validator_for(self.schema)(self.schema)
+    messages = [e.message for e in validator.iter_errors(badItem)]
+    self.assertIn("1234 is not of type 'string'", messages,
+                  f'wrong error messages {messages}, should include 1234 is not type string')
 
 
 # #### extraneous column
