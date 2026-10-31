@@ -99,6 +99,30 @@ def testExtraColumn(self):
         self.assertTrue('Additional properties are not allowed' in e.message)
 
 
+# ### order source
+
+# In[ ]:
+
+
+@add_method(TestValidation)
+def testNullOrderSource(self):
+    # orderSource is typed string or null, so null must validate like the
+    # listed sources do, and any other value must still be rejected
+    with open(f'./{self.dataFolder}/goodSample.json','r')as f:
+        item = json.load(f)
+    for source in [None, 'WEB', 'LINE', 'SALETOOL', 'APP']:
+        item['orderSource'] = source
+        try:
+            jsonschema.validate(item,self.schema)
+        except ValidationError as e:
+            self.fail(f'orderSource {source!r} should be valid: {e.message}')
+    item['orderSource'] = 'NOT_A_SOURCE'
+    with self.assertRaises(ValidationError) as cm:
+        jsonschema.validate(item,self.schema)
+    self.assertEqual(list(cm.exception.path), ['orderSource'],
+                     f'wrong error for an unknown orderSource: {cm.exception.message}')
+
+
 # In[8]:
 
 
