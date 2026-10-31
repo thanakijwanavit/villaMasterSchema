@@ -375,6 +375,7 @@ properties:
             - "LINE"
             - "SALETOOL"
             - "APP"
+            - null
     appInfo:
         $ref: '#/definitions/AppInfo'
     saleId:
