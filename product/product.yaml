@@ -169,18 +169,17 @@ definitions:
       related_products:
         type: array
         items:
-            type: int  
-        required:
-        - iprcode
-        - cprcode
-        type: object
+            type: integer
       shipping_type:
         type: string
         enum:
         - 'DRY'
         - 'FRESH'
         - 'MIX'
-        
+    required:
+    - iprcode
+    - cprcode
+    type: object
 description: 'ValueUpdate(items: List[__main__.Product])'
 properties:
   items:
