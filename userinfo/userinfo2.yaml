@@ -160,9 +160,9 @@ properties:
             cards:
                 type: array
                 items:
-                    type: Card
+                    $ref: '#/definitions/Card'
             defaultCard: 
-                type: Card
+                $ref: '#/definitions/Card'
   
     
 required:
