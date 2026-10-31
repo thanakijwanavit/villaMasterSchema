@@ -1,4 +1,4 @@
-$schema: http://json-schema.org/schema#
+$schema: http://json-schema.org/draft-07/schema#
 # example
 #{
 #    "basketId": "647fdaab-f07c-43f5-aab0-5e33f820821f",
