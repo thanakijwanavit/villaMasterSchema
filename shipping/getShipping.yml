@@ -11,8 +11,8 @@ properties:
         type: integer
     required:
     - lat
-    - long
+    - lon
     type: object
 required:
 - queryStringParameters
-type: objec
+type: object
