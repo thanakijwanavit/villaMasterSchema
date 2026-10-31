@@ -59,7 +59,7 @@ def testPassingGoodSample(self):
     try:
         jsonschema.validate(goodItem,self.schema)
     except ValidationError as e:
-        print(e)
+        self.fail(f'goodSample.json should be valid: {e.message}')
 
 
 # ### bad case
@@ -103,7 +103,9 @@ def testExtraColumn(self):
 
 
 suite = unittest.defaultTestLoader.loadTestsFromTestCase(TestValidation)
-unittest.TextTestRunner().run(suite)
+result = unittest.TextTestRunner().run(suite)
+if not result.wasSuccessful():
+    raise SystemExit(1) # a failed test must fail the CI step
 
 
 # In[9]:
