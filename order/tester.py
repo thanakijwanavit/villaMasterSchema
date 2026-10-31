@@ -89,14 +89,15 @@ def testWrongType(self):
 
 @add_method(TestValidation)
 def testExtraColumn(self):
+    # extra top-level keys are allowed: order.yaml keeps
+    # "additionalProperties: false" commented out on purpose,
+    # so extraCol.json (goodSample.json plus one unknown key) must validate
     with open(f'./{self.dataFolder}/extraCol.json','r')as f:
-        badItem = json.load(f)
-    with self.assertRaises(ValidationError):
-        jsonschema.validate(badItem,self.schema)
+        extraItem = json.load(f)
     try:
-        jsonschema.validate(badItem,self.schema)
+        jsonschema.validate(extraItem,self.schema)
     except ValidationError as e:
-        self.assertTrue('Additional properties are not allowed' in e.message)
+        self.fail(f'extraCol.json should be valid, extra top-level keys are allowed: {e.message}')
 
 
 # In[8]:
