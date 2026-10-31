@@ -43,11 +43,6 @@
 "memberChildrenLessThan": 0,
 "MemberChildrenGreaterThan":2,
 "VplusNo" : "A30010",
-"VplusMobile" : "0816276222",
-"card2c2pToken":[
-                {"maskedCardNumber":"43913XXXXXXX2043",
-                 "encryptedToken":"1234567890"
-                }
-                ]
+"VplusMobile" : "0816276222"
 }
 
