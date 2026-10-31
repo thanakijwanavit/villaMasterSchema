@@ -44,6 +44,5 @@ properties:
                 type: number
 required:
     - basketId
-    - orderId
     - ownerId
 type: object
