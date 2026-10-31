@@ -39,7 +39,7 @@ paths:
         content:
           'application/json':
             schema:
-              $ref: '#ingest.yaml/Ingest'
+              $ref: 'ingest.yaml#/Ingest'
       summary: Server example operation
       description: >-
         ingest the data which is uploaded to s3 
