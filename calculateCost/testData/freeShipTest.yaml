@@ -21,12 +21,12 @@ shipping:
     pickingStatus: pending
   shippingAddress: ' Thanon Chaeng Watthana'
   shippingDistrict: "\u0E2D.\u0E1B\u0E32\u0E01\u0E40\u0E01\u0E23\u0E47\u0E14"
-  shippingEmail: inta495@gmail.com
-  shippingFirstName: tor
-  shippingLastName: intanon
+  shippingEmail: user@example.com
+  shippingFirstName: Test
+  shippingLastName: User
   shippingLat: 13.908912
   shippingLon: 100.5024447
-  shippingPhone: '+66823327227'
+  shippingPhone: '+66000000000'
   shippingPostcode: '11120'
   shippingProvince: "\u0E08.\u0E19\u0E19\u0E17\u0E1A\u0E38\u0E23\u0E35"
   shippingType: DELIVERY

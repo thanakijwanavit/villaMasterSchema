@@ -26,11 +26,11 @@ shipping:
     scheduleId: 0
   shippingAddress: 595 Sukhumvit Rd
   shippingDistrict: Vadhana
-  shippingFirstName: tor
-  shippingLastName: intanon
+  shippingFirstName: Test
+  shippingLastName: User
   shippingLat: 13.73204799
   shippingLon: 100.56762289
-  shippingPhone: 061-002-0199
+  shippingPhone: 060-000-0000
   shippingPostcode: '10140'
   shippingProvince: Bangkok
   shippingType: DELIVERY

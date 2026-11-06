@@ -27,12 +27,12 @@
     "couponCode": "TEST001",
     "shipping": {
         "shippingType": "DELIVERY",
-        "shippingAddress": "tor intanon \\n168 \\nnon \\ninta495@gmail.com \\n ",
+        "shippingAddress": "Test User \\n168 \\nnon \\user@example.com \\n ",
         "deliveryFee": 95,
         "shippingPostcode": "10330",
         "shippingLat": 1.05,
         "shippingLon": 1.06,
-        "shippingPhone": "555-555-5555",
+        "shippingPhone": "000-000-0000",
         "scheduleList": [
             {
                 "isExpress": false,

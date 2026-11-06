@@ -8,7 +8,7 @@
     "queryStringParameters": {},
     "requestContext": null,
     "headers": {
-        "User": "{\"email\":\"nicxxx1@gmail.com\",\"cognito:username\":\"1234\"}"
+        "User": "{\"email\":\"user@example.com\",\"cognito:username\":\"1234\"}"
     },
     "statusCode": 200,
     "isBase64Encoded": false
