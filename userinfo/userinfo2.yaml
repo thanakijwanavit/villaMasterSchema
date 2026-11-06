@@ -39,7 +39,7 @@ properties:
         description: username or firstname
     phone_number:
         type: string
-        description: phone number include country code ex. +6612345678
+        description: phone number include country code ex. +6000000000
     family_name:
         type: 
           - string
