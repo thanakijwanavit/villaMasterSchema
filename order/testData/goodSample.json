@@ -27,9 +27,9 @@
     "couponCode": "TEST001",
     "shipping": {
         "shippingType": "DELIVERY",
-        "shippingAddress": "Test User \\n168 \\nnon \\user@example.com \\n ",
+        "shippingAddress": "Test User \\n1/1 \\nExample Road \\user@example.com \\n ",
         "deliveryFee": 95,
-        "shippingPostcode": "10330",
+        "shippingPostcode": "10000",
         "shippingLat": 1.05,
         "shippingLon": 1.06,
         "shippingPhone": "000-000-0000",

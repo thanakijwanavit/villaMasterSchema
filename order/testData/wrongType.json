@@ -27,7 +27,7 @@
     "couponCode": "TEST001",
     "shipping": {
         "shippingType": "DELIVERY",
-        "shippingAddress": "Test User \\n168 \\nnon \\user@example.com \\n ",
+        "shippingAddress": "Test User \\n1/1 \\nExample Road \\user@example.com \\n ",
         "deliveryFee": 95,
         "schedule": {
             "isExpress": false,

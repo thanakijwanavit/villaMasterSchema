@@ -17,8 +17,8 @@
                    "countryId": "TH",
                    "Street" : "1/1 Example Building, Sample Road, Sample Subdistrict",
                    "telePhone": "‭00000000",
-                   "postCode": "10250",
-                   "city": "สวนหลวง",
+                   "postCode": "10000",
+                   "city": "Sample Subdistrict",
                    "firstName": "Test",
                    "lastName": "User",
                    "defaultBilling": true
@@ -30,8 +30,8 @@
                    "countryDd": "TH",
                    "street": "1/1 Example Building, Sample Road, Sample Subdistrict",
                    "telePhone": "‭00000000",
-                   "postCode": "10250",
-                   "city": "สวนหลวง",
+                   "postCode": "10000",
+                   "city": "Sample Subdistrict",
                    "firstName": "Test",
                    "lastName": "User",
                    "defaultShipping": true
