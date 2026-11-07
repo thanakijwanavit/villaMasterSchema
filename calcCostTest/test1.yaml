@@ -18,11 +18,11 @@ shipping:
   shippingPostcode: '10110'
   shippingLat: 13.7325069
   shippingLon: 100.4931185
-  shippingFirstName: Pin Pin
-  shippingLastName: Tea
+  shippingFirstName: Test
+  shippingLastName: User
   shippingAddress: 595 Sukhumvit Rd
   shippingSubDistrict: ''
   shippingProvince: Bangkok
-  shippingPhone: "+66851883884"
-  shippingEmail: pinnareet@gmail.com
+  shippingPhone: "+66000000000"
+  shippingEmail: user@example.com
   shippingDate: 0

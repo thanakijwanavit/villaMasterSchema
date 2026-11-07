@@ -13,13 +13,13 @@ shipping:
     mode: NATIONWIDE
     pickingStatus: pending
   shippingAddress: ''
-  shippingDistrict: Khet Thon Buri
-  shippingEmail: tor@avilon.co
-  shippingFirstName: tor
-  shippingLastName: intanon
+  shippingDistrict: Sample District
+  shippingEmail: user@example.com
+  shippingFirstName: Test
+  shippingLastName: User
   shippingLat: 13.7325069
   shippingLon: 100.4931185
-  shippingPhone: 0823327227
+  shippingPhone: 0800000000
   shippingPostcode: '10600'
   shippingProvince: Krung Thep Maha Nakhon
   shippingType: DELIVERY

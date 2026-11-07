@@ -1,10 +1,10 @@
 $schema: http://json-schema.org/schema#
 # example
 #{
-#    "basketId": "647fdaab-f07c-43f5-aab0-5e33f820821f",
+#    "basketId": "00000000-0000-4000-8000-000000000000",
 #    "creationTime": 1625035961.717266,
-#    "basketName": "647fdaab-f07c-43f5-aab0-5e33f820821f",
-#    "ownerId": "647fdaab-f07c-43f5-aab0-5e33f820821f",
+#    "basketName": "00000000-0000-4000-8000-000000000000",
+#    "ownerId": "00000000-0000-4000-8000-000000000000",
 #    "productList": [
 #        {
 #            "sku": 247098,

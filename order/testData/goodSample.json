@@ -1,7 +1,7 @@
 {
     "orderId": "w8JmXv7rC3GgHlee",
-    "ownerId": "146149e4-0c7f-4978-aab7-652d78aef48d",
-    "basketId": "146149e4-0c7f-4978-aab7-652d78aef48d",
+    "ownerId": "00000000-0000-4000-8000-000000000000",
+    "basketId": "00000000-0000-4000-8000-000000000000",
     "isPaid": false,
     "productList": [
         {
@@ -27,12 +27,12 @@
     "couponCode": "TEST001",
     "shipping": {
         "shippingType": "DELIVERY",
-        "shippingAddress": "tor intanon \\n168 \\nnon \\ninta495@gmail.com \\n ",
+        "shippingAddress": "Test User \\n1/1 \\nExample Road \\user@example.com \\n ",
         "deliveryFee": 95,
-        "shippingPostcode": "10330",
+        "shippingPostcode": "10000",
         "shippingLat": 1.05,
         "shippingLon": 1.06,
-        "shippingPhone": "555-555-5555",
+        "shippingPhone": "000-000-0000",
         "scheduleList": [
             {
                 "isExpress": false,
