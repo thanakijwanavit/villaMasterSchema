@@ -59,7 +59,7 @@ def testPassingGoodSample(self):
     try:
         jsonschema.validate(goodItem,self.schema)
     except ValidationError as e:
-        print(e)
+        self.fail(f'goodSample.json should be valid: {e.message}')
 
 
 # ### bad case
@@ -75,11 +75,13 @@ def testWrongType(self):
         badItem = json.load(f)
     with self.assertRaises(ValidationError):
         jsonschema.validate(badItem,self.schema)
-    try:
-        jsonschema.validate(badItem,self.schema)
-    except ValidationError as e:
-        self.assertTrue("1234 is not of type 'string'" in e.message, 
-                        f'wrong error message{e.message}, should be 1234 is not type string')
+    # wrongType.json also lacks some required shipping fields; since
+    # jsonschema 4.22, validate() raises one of those errors first,
+    # so look for the orderId type error among all the errors
+    validator = jsonschema.validators.validator_for(self.schema)(self.schema)
+    messages = [e.message for e in validator.iter_errors(badItem)]
+    self.assertIn("1234 is not of type 'string'", messages,
+                  f'wrong error messages {messages}, should include 1234 is not type string')
 
 
 # #### extraneous column
@@ -89,21 +91,24 @@ def testWrongType(self):
 
 @add_method(TestValidation)
 def testExtraColumn(self):
+    # extra top-level keys are allowed: order.yaml keeps
+    # "additionalProperties: false" commented out on purpose,
+    # so extraCol.json (goodSample.json plus one unknown key) must validate
     with open(f'./{self.dataFolder}/extraCol.json','r')as f:
-        badItem = json.load(f)
-    with self.assertRaises(ValidationError):
-        jsonschema.validate(badItem,self.schema)
+        extraItem = json.load(f)
     try:
-        jsonschema.validate(badItem,self.schema)
+        jsonschema.validate(extraItem,self.schema)
     except ValidationError as e:
-        self.assertTrue('Additional properties are not allowed' in e.message)
+        self.fail(f'extraCol.json should be valid, extra top-level keys are allowed: {e.message}')
 
 
 # In[8]:
 
 
 suite = unittest.defaultTestLoader.loadTestsFromTestCase(TestValidation)
-unittest.TextTestRunner().run(suite)
+result = unittest.TextTestRunner().run(suite)
+if not result.wasSuccessful():
+    raise SystemExit(1) # a failed test must fail the CI step
 
 
 # In[9]:
