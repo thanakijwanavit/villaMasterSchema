@@ -308,8 +308,8 @@
   tier2: null
 - br_code: 1060
   eligible_to_shop_at_33: false
-  latitude: 12.59948
-  longitude: 99.95025
+  latitude: 12.606551921688189
+  longitude: 99.95019374739786
   store_name: Index Hua Hin (New)
   tier1: '{''maxDist'':5,''price'':80}'
   tier2: '{''maxDist'':15,''price'':120}'
