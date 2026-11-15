@@ -567,9 +567,9 @@
 		"phoneNumber": "02-502-7376",
 		"active": false,
 		"location_url": "https://www.google.co.th/maps/place/Villa+Market+-+Index+Hua+Hin/@12.5818245,99.9374518,14z/data=!4m8!1m2!2m1!1sVilla+Market+-+huahin!3m4!1s0x30fdaa6120ef7bbb:0x4e24ad935bb61f86!8m2!3d12.599327!4d99.95093",
-		"code": "1040",
-		"online": true,
-		"hub": "1040"
+		"code": "-",
+		"online": false,
+		"hub": "-"
 	},
 	{
 		"name": "Pattaya",
